@@ -3,3 +3,4 @@ favorite_artists.json
 __pycache__/
 *.pyc
 .venv/
+.env
