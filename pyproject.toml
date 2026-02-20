@@ -1,0 +1,13 @@
+[project]
+name = "concert-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "tidalapi>=0.7",
+    "anthropic>=0.40",
+    "python-dotenv>=1.0",
+    "tavily-python>=0.3",
+    "requests>=2.31",
+]

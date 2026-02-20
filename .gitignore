@@ -1,0 +1,5 @@
+tidal_session.json
+favorite_artists.json
+__pycache__/
+*.pyc
+.venv/
