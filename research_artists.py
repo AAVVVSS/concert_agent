@@ -19,6 +19,7 @@ import anthropic
 import requests
 from dotenv import load_dotenv
 from tavily import TavilyClient
+from tqdm import tqdm
 
 ARTISTS_FILE = "favorite_artists.json"
 CONCERTS_FILE = "upcoming_concerts.json"
@@ -242,14 +243,14 @@ def main():
         to_research = []
         for key, entry in artists.items():
             if entry.get("permanently_inactive"):
-                print(f"  Skipping {entry['name']} (permanently inactive)")
+                tqdm.write(f"  Skipping {entry['name']} (permanently inactive)")
                 continue
             checked = entry.get("active_checked_at")
             if checked:
                 try:
                     checked_dt = datetime.fromisoformat(checked)
                     if checked_dt > cutoff:
-                        print(f"  Skipping {entry['name']} (checked {checked[:10]})")
+                        tqdm.write(f"  Skipping {entry['name']} (checked {checked[:10]})")
                         continue
                 except ValueError:
                     pass
@@ -267,12 +268,12 @@ def main():
     concerts = [c for c in concerts if c.get("artist_id") not in researched_ids]
 
     now = datetime.now(timezone.utc).isoformat()
-    total = len(to_research)
 
-    for i, key in enumerate(to_research, 1):
+    pbar = tqdm(to_research, desc="Researching artists", unit="artist")
+    for key in pbar:
         entry = artists[key]
         name = entry["name"]
-        print(f"[{i}/{total}] Researching: {name} ...", flush=True)
+        pbar.set_postfix_str(name)
 
         result = research_artist(name, entry.get("bio"), ai, tavily)
 
@@ -290,7 +291,7 @@ def main():
                 try:
                     concert_date = datetime.strptime(date_str, "%Y-%m-%d").date()
                     if concert_date < today:
-                        print(f"         ⚠ Skipping past concert: {name} on {date_str}")
+                        tqdm.write(f"  ⚠ Skipping past concert: {name} on {date_str}")
                         continue
                 except ValueError:
                     pass
@@ -312,13 +313,13 @@ def main():
         else:
             status = "UNKNOWN"
         concert_count = len(result.get("concerts", []))
-        print(f"         → {status} | {result.get('reason', '')[:80]} | {concert_count} concert(s) found")
+        tqdm.write(f"  {name}: {status} | {result.get('reason', '')[:80]} | {concert_count} concert(s)")
 
     save_json(ARTISTS_FILE, artists)
-    print(f"\nSaved updated artist data to {ARTISTS_FILE}")
+    tqdm.write(f"\nSaved updated artist data to {ARTISTS_FILE}")
 
     save_json(CONCERTS_FILE, concerts)
-    print(f"Saved {len(concerts)} total concert entries to {CONCERTS_FILE}")
+    tqdm.write(f"Saved {len(concerts)} total concert entries to {CONCERTS_FILE}")
 
 
 if __name__ == "__main__":
