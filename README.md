@@ -28,8 +28,19 @@ ANTHROPIC_API_KEY=sk-ant-...
 TAVILY_API_KEY=tvly-...
 ```
 
-- **Anthropic key**: [console.anthropic.com](https://console.anthropic.com)
-- **Tavily key**: [app.tavily.com](https://app.tavily.com) — free tier gives 1,000 searches/month
+- **Anthropic key**: [console.anthropic.com](https://console.anthropic.com) — only needed when not using `--local`
+- **Tavily key**: [app.tavily.com](https://app.tavily.com) — free tier gives 1,000 searches/month (always required)
+
+### 2b. (Optional) Set up Ollama for local inference
+
+Install [Ollama](https://ollama.com) and pull the models:
+
+```bash
+ollama pull qwen3:32b   # main agent (reasoning + tool use)
+ollama pull qwen3:8b    # page parser (lightweight HTML extraction)
+```
+
+Ollama must be running (`ollama serve`) before using `--local` or the page parser.
 
 ### 3. Tidal login
 
@@ -53,11 +64,14 @@ Fetches your full list of favorite artists (all pages) and their bios from Tidal
 python research_artists.py
 ```
 
-For each artist not yet checked (or not checked in the last 30 days), a Claude agent:
+For each artist not yet checked (or not checked in the last 30 days), an LLM agent:
 1. Reads the stored bio
 2. Looks up the artist on MusicBrainz if the bio is ambiguous
 3. Does a targeted web search if needed
-4. Determines active status and searches for Zürich-area concerts
+4. Optionally fetches full web pages for detailed concert extraction (page parser)
+5. Determines active status and searches for Zürich-area concerts
+
+By default this uses Claude Sonnet via the Anthropic API. Use `--local` to run entirely on your machine via Ollama.
 
 Results are saved back to `favorite_artists.json` (status fields) and to `upcoming_concerts.json` (concert events).
 
@@ -137,13 +151,33 @@ python research_artists.py --limit 10
 
 Processes the first 10 artists not yet checked. Good for testing before a full run.
 
+### Run with local inference (Ollama)
+
+```bash
+python research_artists.py --local --names "Radiohead"
+```
+
+Uses Ollama instead of the Anthropic API for the main agent. Requires Ollama running with the model pulled. You can customize models:
+
+```bash
+python research_artists.py --local --main-model qwen3:235b --parser-model qwen3:14b
+```
+
+### Disable the page parser
+
+```bash
+python research_artists.py --no-page-parser
+```
+
+Skips the page parser tool (which fetches full web pages via a small local model). Useful if Ollama isn't installed or you want fewer tool calls.
+
 ### Full run
 
 ```bash
 python research_artists.py
 ```
 
-Processes all unchecked / stale artists. With 640 artists, expect a first full run to take a while (one Claude + web search call per active artist).
+Processes all unchecked / stale artists. With 640 artists, expect a first full run to take a while (one LLM + web search call per active artist). Local mode will be slower per-artist but free.
 
 ---
 
