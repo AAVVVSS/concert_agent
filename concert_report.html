@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Concerts</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: #e0e0e0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    header {
+      background: #1a1a2e;
+      border-bottom: 2px solid #7c4dff;
+      padding: 24px 32px;
+    }
+    header h1 {
+      margin: 0 0 4px;
+      font-size: 2em;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+    header .meta {
+      color: #888;
+      font-size: 0.85em;
+    }
+    .container {
+      max-width: 820px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+    .card {
+      background: #1e1e1e;
+      border: 1px solid #2a2a2a;
+      border-radius: 10px;
+      padding: 20px 22px;
+      margin-bottom: 16px;
+      transition: border-color 0.15s;
+    }
+    .card:hover {
+      border-color: #7c4dff;
+    }
+    .card.tbd {
+      opacity: 0.75;
+      border-style: dashed;
+    }
+    .card-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 4px;
+    }
+    .artist {
+      font-size: 1.2em;
+      font-weight: 700;
+      color: #fff;
+    }
+    .date-badge {
+      background: #7c4dff22;
+      border: 1px solid #7c4dff66;
+      color: #b39dff;
+      border-radius: 6px;
+      padding: 2px 10px;
+      font-size: 0.82em;
+      white-space: nowrap;
+    }
+    .venue {
+      color: #aaa;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+    .bio {
+      color: #c0c0c0;
+      font-size: 0.88em;
+      margin: 0 0 14px;
+    }
+    .bio.no-bio {
+      color: #555;
+      font-style: italic;
+    }
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 0.82em;
+      font-weight: 500;
+      text-decoration: none;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    .btn:hover { opacity: 0.8; }
+    .btn-src {
+      background: #2a2a3e;
+      border: 1px solid #444;
+      color: #ccc;
+    }
+    .btn-cal {
+      background: #7c4dff22;
+      border: 1px solid #7c4dff66;
+      color: #b39dff;
+    }
+    .separator {
+      text-align: center;
+      margin: 28px 0 20px;
+      position: relative;
+    }
+    .separator::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: #333;
+    }
+    .separator span {
+      position: relative;
+      background: #111;
+      padding: 0 14px;
+      color: #666;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    footer {
+      text-align: center;
+      color: #444;
+      font-size: 0.8em;
+      padding: 32px 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎵 Upcoming Concerts</h1>
+    <div class="meta">Generated February 21, 2026 at 10:52 AM &nbsp;·&nbsp; 88 concerts</div>
+  </header>
+  <div class="container">
+    
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Stephen Malkmus & The Jicks</span>
+            <span class="date-badge">Feb 2026</span>
+          </div>
+          <div class="venue">Salzhaus, Winterthur</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.dominomusic.com/live/artist/stephen-malkmus" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3575091-2026-02%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260201%0D%0ADTEND%3BVALUE%3DDATE%3A20260202%0D%0ASUMMARY%3AStephen%20Malkmus%20%26%20The%20Jicks%20at%20Salzhaus%0D%0ALOCATION%3ASalzhaus%2C%20Winterthur%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.dominomusic.com%2Flive%2Fartist%2Fstephen-malkmus%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Stephen_Malkmus___The_Jicks.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Tom Misch</span>
+            <span class="date-badge">Sat, Feb 21, 2026</span>
+          </div>
+          <div class="venue">Palace (Nordklang Festival), St. Gallen</div>
+          <p class="bio">With his easy blend of singer/songwriter soul, rare groove, and '90s new jack swing, London's Tom Misch has garnered global attention and chart success. Following a series of buzzed-about EPs and viral tracks, Misch broke through with his 2018…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/artists/8341698-tom-misch" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A5806445-2026-02-21%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260221%0D%0ADTEND%3BVALUE%3DDATE%3A20260222%0D%0ASUMMARY%3ATom%20Misch%20at%20Palace%20%28Nordklang%20Festival%29%0D%0ALOCATION%3APalace%20%28Nordklang%20Festival%29%2C%20St.%20Gallen%2C%20Switzerland%0D%0ADESCRIPTION%3AWith%20his%20easy%20blend%20of%20singer%2Fsongwriter%20soul%2C%20rare%20groove%2C%20and%20%2790s%20new%20jack%20swing%2C%20London%27s%20Tom%20Misch%20has%20garnered%20global%20attention%20and%20chart%20success.%20Following%20a%20series%20of%20buzzed-about%20EPs%20and%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fartists%2F8341698-tom-misch%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Tom_Misch.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Widowspeak</span>
+            <span class="date-badge">Sun, Feb 22, 2026</span>
+          </div>
+          <div class="venue">Kaufleuten, Zürich</div>
+          <p class="bio">As Widowspeak, Molly Hamilton and Robert Earl Thomas combine hazy dream pop, country twang, and indie pop jangle into music that's understated yet filled with moods that linger. The group's sound was at its foggiest on 2011's Widowspeak, where…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/popular/widowspeak-band-tour-dates-2026/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3909697-2026-02-22%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260222%0D%0ADTEND%3BVALUE%3DDATE%3A20260223%0D%0ASUMMARY%3AWidowspeak%20at%20Kaufleuten%0D%0ALOCATION%3AKaufleuten%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AAs%20Widowspeak%2C%20Molly%20Hamilton%20and%20Robert%20Earl%20Thomas%20combine%20hazy%20dream%20pop%2C%20country%20twang%2C%20and%20indie%20pop%20jangle%20into%20music%20that%27s%20understated%20yet%20filled%20with%20moods%20that%20linger.%20The%20group%27s%20sound%20was%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fpopular%2Fwidowspeak-band-tour-dates-2026%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Widowspeak.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Veronica Fusaro</span>
+            <span class="date-badge">Thu, Feb 26, 2026</span>
+          </div>
+          <div class="venue">Casinotheater Winterthur, Winterthur</div>
+          <p class="bio">Veronica Fusaro: The singer-songwriter with a powerful voice and distinctive sound.  Born to a Swiss mother and an Italian father, she brings a unique blend of contrasting influences to her music, creating alternative pop infused with touches of…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.stubhub.com/veronica-fusaro-tickets/category/138283328/winterthur-city/7864" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A8150823-2026-02-26%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260226%0D%0ADTEND%3BVALUE%3DDATE%3A20260227%0D%0ASUMMARY%3AVeronica%20Fusaro%20at%20Casinotheater%20Winterthur%0D%0ALOCATION%3ACasinotheater%20Winterthur%2C%20Winterthur%2C%20Switzerland%0D%0ADESCRIPTION%3AVeronica%20Fusaro%3A%20The%20singer-songwriter%20with%20a%20powerful%20voice%20and%20distinctive%20sound.%20%20Born%20to%20a%20Swiss%20mother%20and%20an%20Italian%20father%2C%20she%20brings%20a%20unique%20blend%20of%20contrasting%20influences%20to%20her%20music%2C%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.stubhub.com%2Fveronica-fusaro-tickets%2Fcategory%2F138283328%2Fwinterthur-city%2F7864%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Veronica_Fusaro.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Dolphin Love</span>
+            <span class="date-badge">Sat, Feb 28, 2026</span>
+          </div>
+          <div class="venue">Kaserne Basel, Basel</div>
+          <p class="bio">peace and love</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DL2SVfDsUMz/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A24449964-2026-02-28%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260228%0D%0ADTEND%3BVALUE%3DDATE%3A20260301%0D%0ASUMMARY%3ADolphin%20Love%20at%20Kaserne%20Basel%0D%0ALOCATION%3AKaserne%20Basel%2C%20Basel%2C%20Switzerland%0D%0ADESCRIPTION%3Apeace%20and%20love%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fp%2FDL2SVfDsUMz%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Dolphin_Love.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Mo Dotti</span>
+            <span class="date-badge">Sun, Mar 1, 2026</span>
+          </div>
+          <div class="venue">Helsinki Klub, Zürich</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DRzWIomCMNQ/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A17130071-2026-03-01%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260301%0D%0ADTEND%3BVALUE%3DDATE%3A20260302%0D%0ASUMMARY%3AMo%20Dotti%20at%20Helsinki%20Klub%0D%0ALOCATION%3AHelsinki%20Klub%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fp%2FDRzWIomCMNQ%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Mo_Dotti.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">bar italia</span>
+            <span class="date-badge">Tue, Mar 3, 2026</span>
+          </div>
+          <div class="venue">Dampfzentrale, Bern</div>
+          <p class="bio">Led by three singer/songwriters who unite their distinct voices and viewpoints in their woozy, moody indie rock, bar italia's music ebbs and flows between post-punk, folk, and shoegaze. Early on, the trio was affiliated with Dean Blunt's World…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.dampfzentrale.ch/en/event/e-bar-italia_03-03-2026/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A21159820-2026-03-03%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260303%0D%0ADTEND%3BVALUE%3DDATE%3A20260304%0D%0ASUMMARY%3Abar%20italia%20at%20Dampfzentrale%0D%0ALOCATION%3ADampfzentrale%2C%20Bern%2C%20Switzerland%0D%0ADESCRIPTION%3ALed%20by%20three%20singer%2Fsongwriters%20who%20unite%20their%20distinct%20voices%20and%20viewpoints%20in%20their%20woozy%2C%20moody%20indie%20rock%2C%20bar%20italia%27s%20music%20ebbs%20and%20flows%20between%20post-punk%2C%20folk%2C%20and%20shoegaze.%20Early%20on%2C%20the%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.dampfzentrale.ch%2Fen%2Fevent%2Fe-bar-italia_03-03-2026%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="bar_italia.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">MARO</span>
+            <span class="date-badge">Tue, Mar 3, 2026</span>
+          </div>
+          <div class="venue">Kaufleuten, Zürich</div>
+          <p class="bio">Having gained attention from the likes of Quincy Jones, Justin Timberlake, Jessie J, Tracy Chapman, Lennon Stella, The Paper Kites, and many other notable names worldwide, Portuguese multi-instrumentalist, vocalist, producer, arranger, and composer,…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://kaufleuten.ch/en/event/maro-konzert/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A17208862-2026-03-03%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260303%0D%0ADTEND%3BVALUE%3DDATE%3A20260304%0D%0ASUMMARY%3AMARO%20at%20Kaufleuten%0D%0ALOCATION%3AKaufleuten%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AHaving%20gained%20attention%20from%20the%20likes%20of%20Quincy%20Jones%2C%20Justin%20Timberlake%2C%20Jessie%20J%2C%20Tracy%20Chapman%2C%20Lennon%20Stella%2C%20The%20Paper%20Kites%2C%20and%20many%20other%20notable%20names%20worldwide%2C%20Portuguese%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fkaufleuten.ch%2Fen%2Fevent%2Fmaro-konzert%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="MARO.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Michael Kiwanuka</span>
+            <span class="date-badge">Wed, Mar 4, 2026</span>
+          </div>
+          <div class="venue">Halle 622, Zürich</div>
+          <p class="bio">Soulful and raw, Londoner Michael Kiwanuka’s critically-acclaimed debut album ‘Home Again’ (April 2012) staked his claim on the list of great British singer-songwriters. As a body of work, Home Again was a genre-defying nod to the heritage names of…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://northerntransmissions.com/michael-kiwanuka-shares-new-single-rebel-soul/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A4348856-2026-03-04%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260304%0D%0ADTEND%3BVALUE%3DDATE%3A20260305%0D%0ASUMMARY%3AMichael%20Kiwanuka%20at%20Halle%20622%0D%0ALOCATION%3AHalle%20622%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ASoulful%20and%20raw%2C%20Londoner%20Michael%20Kiwanuka%E2%80%99s%20critically-acclaimed%20debut%20album%20%E2%80%98Home%20Again%E2%80%99%20%28April%202012%29%20staked%20his%20claim%20on%20the%20list%20of%20great%20British%20singer-songwriters.%20As%20a%20body%20of%20work%2C%20Home%20Again%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fnortherntransmissions.com%2Fmichael-kiwanuka-shares-new-single-rebel-soul%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Michael_Kiwanuka.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Altin Gün</span>
+            <span class="date-badge">Fri, Mar 6, 2026</span>
+          </div>
+          <div class="venue">X-TRA Musikcafe, Zürich</div>
+          <p class="bio">The part Dutch, part Turkish group Altin Gün are dedicated to honoring and updating the psychedelic sounds of Turkey in the late '60s and early '70s. Mixing traditional Turkish folk songs and instruments with fuzz guitars and synths, the sounds…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.goodnews.ch/altin-guen/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A8792178-2026-03-06%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260306%0D%0ADTEND%3BVALUE%3DDATE%3A20260307%0D%0ASUMMARY%3AAltin%20G%C3%BCn%20at%20X-TRA%20Musikcafe%0D%0ALOCATION%3AX-TRA%20Musikcafe%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AThe%20part%20Dutch%2C%20part%20Turkish%20group%20Altin%20G%C3%BCn%20are%20dedicated%20to%20honoring%20and%20updating%20the%20psychedelic%20sounds%20of%20Turkey%20in%20the%20late%20%2760s%20and%20early%20%2770s.%20Mixing%20traditional%20Turkish%20folk%20songs%20and%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.goodnews.ch%2Faltin-guen%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Altin_Gün.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">NO JOY</span>
+            <span class="date-badge">Fri, Mar 6, 2026</span>
+          </div>
+          <div class="venue">ISC, Bern</div>
+          <p class="bio">No Joy is the genre-defiant project of multidimensional artist Jasamine White-Gluz. The group began as a doomily dreamy shoegaze duo near the tail-end of the 2000s but slowly morphed into something far more experimental and uncontainable. The…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/reel/DUoF4nCDL3S/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3835737-2026-03-06%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260306%0D%0ADTEND%3BVALUE%3DDATE%3A20260307%0D%0ASUMMARY%3ANO%20JOY%20at%20ISC%0D%0ALOCATION%3AISC%2C%20Bern%2C%20Switzerland%0D%0ADESCRIPTION%3ANo%20Joy%20is%20the%20genre-defiant%20project%20of%20multidimensional%20artist%20Jasamine%20White-Gluz.%20The%20group%20began%20as%20a%20doomily%20dreamy%20shoegaze%20duo%20near%20the%20tail-end%20of%20the%202000s%20but%20slowly%20morphed%20into%20something%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Freel%2FDUoF4nCDL3S%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="NO_JOY.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Thundercat</span>
+            <span class="date-badge">Fri, Mar 6, 2026</span>
+          </div>
+          <div class="venue">Labor 5, Zürich</div>
+          <p class="bio">Stephen "Thundercat" Bruner traverses progressive jazz and R&B with his nimble, groove-heavy basslines and sweet tenor vocals. He arose during the first decade of the new millennium as the go-to bassist for a multitude of forward-looking artists…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DUGqjVujjJp/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A4068070-2026-03-06%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260306%0D%0ADTEND%3BVALUE%3DDATE%3A20260307%0D%0ASUMMARY%3AThundercat%20at%20Labor%205%0D%0ALOCATION%3ALabor%205%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AStephen%20%22Thundercat%22%20Bruner%20traverses%20progressive%20jazz%20and%20R%26B%20with%20his%20nimble%2C%20groove-heavy%20basslines%20and%20sweet%20tenor%20vocals.%20He%20arose%20during%20the%20first%20decade%20of%20the%20new%20millennium%20as%20the%20go-to%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fp%2FDUGqjVujjJp%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Thundercat.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">NO JOY</span>
+            <span class="date-badge">Sat, Mar 7, 2026</span>
+          </div>
+          <div class="venue">Bogen F, Zürich</div>
+          <p class="bio">No Joy is the genre-defiant project of multidimensional artist Jasamine White-Gluz. The group began as a doomily dreamy shoegaze duo near the tail-end of the 2000s but slowly morphed into something far more experimental and uncontainable. The…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.bogenf.ch/en/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3835737-2026-03-07%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260307%0D%0ADTEND%3BVALUE%3DDATE%3A20260308%0D%0ASUMMARY%3ANO%20JOY%20at%20Bogen%20F%0D%0ALOCATION%3ABogen%20F%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ANo%20Joy%20is%20the%20genre-defiant%20project%20of%20multidimensional%20artist%20Jasamine%20White-Gluz.%20The%20group%20began%20as%20a%20doomily%20dreamy%20shoegaze%20duo%20near%20the%20tail-end%20of%20the%202000s%20but%20slowly%20morphed%20into%20something%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.bogenf.ch%2Fen%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="NO_JOY.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Yin Yin</span>
+            <span class="date-badge">Mon, Mar 9, 2026</span>
+          </div>
+          <div class="venue">Kaufleuten, Zürich</div>
+          <p class="bio">Dutch quartet YĪN YĪN play a cosmic, danceable fusion of funk, disco, psychedelia, and Southeast Asian traditions. Their surf-influenced debut album, The Rabbit That Hunts Tigers, appeared in 2019 and earned the group a considerable following. They…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://kaufleuten.ch/en/event/yin-yin-konzert/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A6158693-2026-03-09%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260309%0D%0ADTEND%3BVALUE%3DDATE%3A20260310%0D%0ASUMMARY%3AYin%20Yin%20at%20Kaufleuten%0D%0ALOCATION%3AKaufleuten%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ADutch%20quartet%20Y%C4%AAN%20Y%C4%AAN%20play%20a%20cosmic%2C%20danceable%20fusion%20of%20funk%2C%20disco%2C%20psychedelia%2C%20and%20Southeast%20Asian%20traditions.%20Their%20surf-influenced%20debut%20album%2C%20The%20Rabbit%20That%20Hunts%20Tigers%2C%20appeared%20in%202019%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fkaufleuten.ch%2Fen%2Fevent%2Fyin-yin-konzert%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Yin_Yin.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Geese</span>
+            <span class="date-badge">Wed, Mar 11, 2026</span>
+          </div>
+          <div class="venue">Plaza Klub (X-TRA), Zürich</div>
+          <p class="bio">Geese are a nervy post-punk outfit from Brooklyn. They made an improbable rise from local high school rockers to internationally supported buzz band in just a few short years on the strength of home-recorded singles that suddenly attracted a slew of…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/concerts/42757734-geese-at-plaza-zurich" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3578350-2026-03-11%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260311%0D%0ADTEND%3BVALUE%3DDATE%3A20260312%0D%0ASUMMARY%3AGeese%20at%20Plaza%20Klub%20%28X-TRA%29%0D%0ALOCATION%3APlaza%20Klub%20%28X-TRA%29%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AGeese%20are%20a%20nervy%20post-punk%20outfit%20from%20Brooklyn.%20They%20made%20an%20improbable%20rise%20from%20local%20high%20school%20rockers%20to%20internationally%20supported%20buzz%20band%20in%20just%20a%20few%20short%20years%20on%20the%20strength%20of%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fconcerts%2F42757734-geese-at-plaza-zurich%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Geese.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Portugal. The Man</span>
+            <span class="date-badge">Sat, Mar 14, 2026</span>
+          </div>
+          <div class="venue">Les Docks, Lausanne</div>
+          <p class="bio">The Alaska-born, Portland-based Portugal. The Man balances their artfully left of center, neo-psychedelic indie rock with hooky dance, R&B, hip-hop, and electronic traditions. Debuting in 2006, they delivered a series of independent albums…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.docks.ch/en/evenement/concerts-en/20260314/portugal-the-man-2/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3923470-2026-03-14%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260314%0D%0ADTEND%3BVALUE%3DDATE%3A20260315%0D%0ASUMMARY%3APortugal.%20The%20Man%20at%20Les%20Docks%0D%0ALOCATION%3ALes%20Docks%2C%20Lausanne%2C%20Switzerland%0D%0ADESCRIPTION%3AThe%20Alaska-born%2C%20Portland-based%20Portugal.%20The%20Man%20balances%20their%20artfully%20left%20of%20center%2C%20neo-psychedelic%20indie%20rock%20with%20hooky%20dance%2C%20R%26B%2C%20hip-hop%2C%20and%20electronic%20traditions.%20Debuting%20in%202006%2C%20they%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.docks.ch%2Fen%2Fevenement%2Fconcerts-en%2F20260314%2Fportugal-the-man-2%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Portugal__The_Man.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Portugal. The Man</span>
+            <span class="date-badge">Sun, Mar 15, 2026</span>
+          </div>
+          <div class="venue">Komplex 457, Zürich</div>
+          <p class="bio">The Alaska-born, Portland-based Portugal. The Man balances their artfully left of center, neo-psychedelic indie rock with hooky dance, R&B, hip-hop, and electronic traditions. Debuting in 2006, they delivered a series of independent albums…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.jambase.com/show/portugal-the-man-komplex-457-20260315" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3923470-2026-03-15%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260315%0D%0ADTEND%3BVALUE%3DDATE%3A20260316%0D%0ASUMMARY%3APortugal.%20The%20Man%20at%20Komplex%20457%0D%0ALOCATION%3AKomplex%20457%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AThe%20Alaska-born%2C%20Portland-based%20Portugal.%20The%20Man%20balances%20their%20artfully%20left%20of%20center%2C%20neo-psychedelic%20indie%20rock%20with%20hooky%20dance%2C%20R%26B%2C%20hip-hop%2C%20and%20electronic%20traditions.%20Debuting%20in%202006%2C%20they%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.jambase.com%2Fshow%2Fportugal-the-man-komplex-457-20260315%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Portugal__The_Man.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">JID</span>
+            <span class="date-badge">Wed, Mar 18, 2026</span>
+          </div>
+          <div class="venue">X-TRA House of Music, Zürich</div>
+          <p class="bio">Atlanta rapper JID is praised for a quickly shifting lyrical style that stands out in a sea of sound-alike rappers. After time spent collaborating with the Spillage Village collective, JID signed a solo deal with J Cole's label and produced a string…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.ticketmaster.com/j-i-d-tickets/artist/2351316" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A7061089-2026-03-18%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260318%0D%0ADTEND%3BVALUE%3DDATE%3A20260319%0D%0ASUMMARY%3AJID%20at%20X-TRA%20House%20of%20Music%0D%0ALOCATION%3AX-TRA%20House%20of%20Music%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AAtlanta%20rapper%20JID%20is%20praised%20for%20a%20quickly%20shifting%20lyrical%20style%20that%20stands%20out%20in%20a%20sea%20of%20sound-alike%20rappers.%20After%20time%20spent%20collaborating%20with%20the%20Spillage%20Village%20collective%2C%20JID%20signed%20a%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.ticketmaster.com%2Fj-i-d-tickets%2Fartist%2F2351316%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="JID.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Filter</span>
+            <span class="date-badge">Thu, Mar 19, 2026</span>
+          </div>
+          <div class="venue">Dynamo, Zürich</div>
+          <p class="bio">American hard rock outfit Filter crushes caustic, head-rattling aggression into a melodic, electronic-leaning industrial package, bridging the worlds of alternative and metal. Emerging as one of the most popular bands in the mid-'90s post-industrial…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://rocknloadmag.com/filter-heads-to-europe-as-30-year-anniversary-tour-rolls-on/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A13972-2026-03-19%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260319%0D%0ADTEND%3BVALUE%3DDATE%3A20260320%0D%0ASUMMARY%3AFilter%20at%20Dynamo%0D%0ALOCATION%3ADynamo%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AAmerican%20hard%20rock%20outfit%20Filter%20crushes%20caustic%2C%20head-rattling%20aggression%20into%20a%20melodic%2C%20electronic-leaning%20industrial%20package%2C%20bridging%20the%20worlds%20of%20alternative%20and%20metal.%20Emerging%20as%20one%20of%20the%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Frocknloadmag.com%2Ffilter-heads-to-europe-as-30-year-anniversary-tour-rolls-on%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Filter.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Fai Baba</span>
+            <span class="date-badge">Sun, Mar 22, 2026</span>
+          </div>
+          <div class="venue">Stall 6, Zürich</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/concerts/42898352-fai-baba-at-stall-6" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3819025-2026-03-22%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260322%0D%0ADTEND%3BVALUE%3DDATE%3A20260323%0D%0ASUMMARY%3AFai%20Baba%20at%20Stall%206%0D%0ALOCATION%3AStall%206%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fconcerts%2F42898352-fai-baba-at-stall-6%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Fai_Baba.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">ROSALÍA</span>
+            <span class="date-badge">Sun, Mar 22, 2026</span>
+          </div>
+          <div class="venue">Hallenstadion, Zürich</div>
+          <p class="bio">Rosalía Vila (aka Rosalía) is a Spanish pop and flamenco singer. Involved in the margins of popular and traditional music since her teens, she also delves into other genres such as hip-hop, soul, and trap. Her voice has been described by no less a…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.livenation.ch/event/rosal%C3%ADa-lux-tour-2026-z%C3%BCrich-tickets-edp1641232" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A4748331-2026-03-22%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260322%0D%0ADTEND%3BVALUE%3DDATE%3A20260323%0D%0ASUMMARY%3AROSAL%C3%8DA%20at%20Hallenstadion%0D%0ALOCATION%3AHallenstadion%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ARosal%C3%ADa%20Vila%20%28aka%20Rosal%C3%ADa%29%20is%20a%20Spanish%20pop%20and%20flamenco%20singer.%20Involved%20in%20the%20margins%20of%20popular%20and%20traditional%20music%20since%20her%20teens%2C%20she%20also%20delves%20into%20other%20genres%20such%20as%20hip-hop%2C%20soul%2C%20and%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.livenation.ch%2Fevent%2Frosal%25C3%25ADa-lux-tour-2026-z%25C3%25BCrich-tickets-edp1641232%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="ROSALÍA.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">The Big Moon</span>
+            <span class="date-badge">Thu, Mar 26, 2026</span>
+          </div>
+          <div class="venue">Gannet, Basel</div>
+          <p class="bio">Led by the self-assured vocals of songwriter Juliette Jackson, London indie rock outfit the Big Moon take their lead from the grunge and Brit-pop groups of the 1990s. After debuting in 2015 with EP The Road, they released their first album, Love in…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DRcHXEsio6G/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A6891143-2026-03-26%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260326%0D%0ADTEND%3BVALUE%3DDATE%3A20260327%0D%0ASUMMARY%3AThe%20Big%20Moon%20at%20Gannet%0D%0ALOCATION%3AGannet%2C%20Basel%2C%20Switzerland%0D%0ADESCRIPTION%3ALed%20by%20the%20self-assured%20vocals%20of%20songwriter%20Juliette%20Jackson%2C%20London%20indie%20rock%20outfit%20the%20Big%20Moon%20take%20their%20lead%20from%20the%20grunge%20and%20Brit-pop%20groups%20of%20the%201990s.%20After%20debuting%20in%202015%20with%20EP%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fp%2FDRcHXEsio6G%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="The_Big_Moon.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">The Big Moon</span>
+            <span class="date-badge">Fri, Mar 27, 2026</span>
+          </div>
+          <div class="venue">Sedel, Emmen (Luzern)</div>
+          <p class="bio">Led by the self-assured vocals of songwriter Juliette Jackson, London indie rock outfit the Big Moon take their lead from the grunge and Brit-pop groups of the 1990s. After debuting in 2015 with EP The Road, they released their first album, Love in…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/reel/DTayctcCKVB/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A6891143-2026-03-27%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260327%0D%0ADTEND%3BVALUE%3DDATE%3A20260328%0D%0ASUMMARY%3AThe%20Big%20Moon%20at%20Sedel%0D%0ALOCATION%3ASedel%2C%20Emmen%20%28Luzern%29%2C%20Switzerland%0D%0ADESCRIPTION%3ALed%20by%20the%20self-assured%20vocals%20of%20songwriter%20Juliette%20Jackson%2C%20London%20indie%20rock%20outfit%20the%20Big%20Moon%20take%20their%20lead%20from%20the%20grunge%20and%20Brit-pop%20groups%20of%20the%201990s.%20After%20debuting%20in%202015%20with%20EP%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Freel%2FDTayctcCKVB%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="The_Big_Moon.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Franz Ferdinand</span>
+            <span class="date-badge">Sat, Mar 28, 2026</span>
+          </div>
+          <div class="venue">The Hall, Dübendorf (Greater Zürich)</div>
+          <p class="bio">With their sharply stylish mix of rock and dance music, Franz Ferdinand have brought a wry sophistication to indie rock while becoming one of the U.K.'s most popular bands. The Glasgow-based group arrived in the wake of the early-2000s rock revival,…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://justbecause.ch/shows/show/franz-ferdinand-the-hall-20260328" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A27439-2026-03-28%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260328%0D%0ADTEND%3BVALUE%3DDATE%3A20260329%0D%0ASUMMARY%3AFranz%20Ferdinand%20at%20The%20Hall%0D%0ALOCATION%3AThe%20Hall%2C%20D%C3%BCbendorf%20%28Greater%20Z%C3%BCrich%29%2C%20Switzerland%0D%0ADESCRIPTION%3AWith%20their%20sharply%20stylish%20mix%20of%20rock%20and%20dance%20music%2C%20Franz%20Ferdinand%20have%20brought%20a%20wry%20sophistication%20to%20indie%20rock%20while%20becoming%20one%20of%20the%20U.K.%27s%20most%20popular%20bands.%20The%20Glasgow-based%20group%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fjustbecause.ch%2Fshows%2Fshow%2Ffranz-ferdinand-the-hall-20260328%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Franz_Ferdinand.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Projekt ET</span>
+            <span class="date-badge">Sat, Mar 28, 2026</span>
+          </div>
+          <div class="venue">Royal, Baden</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://stadtkonzerte.ch/artists/projekt-et" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A18526774-2026-03-28%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260328%0D%0ADTEND%3BVALUE%3DDATE%3A20260329%0D%0ASUMMARY%3AProjekt%20ET%20at%20Royal%0D%0ALOCATION%3ARoyal%2C%20Baden%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fstadtkonzerte.ch%2Fartists%2Fprojekt-et%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Projekt_ET.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Jule X</span>
+            <span class="date-badge">Fri, Apr 3, 2026</span>
+          </div>
+          <div class="venue">Komplex 457, Zürich</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.bandsintown.com/e/107487868" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A16617727-2026-04-03%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260403%0D%0ADTEND%3BVALUE%3DDATE%3A20260404%0D%0ASUMMARY%3AJule%20X%20at%20Komplex%20457%0D%0ALOCATION%3AKomplex%20457%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.bandsintown.com%2Fe%2F107487868%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Jule_X.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">One Sentence. Supervisor</span>
+            <span class="date-badge">Fri, Apr 3, 2026</span>
+          </div>
+          <div class="venue">Kulturhalle Sägegasse, Burgdorf</div>
+          <p class="bio">liebe für lange lieder. under the umbrella.</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.bandsintown.com/e/107842288-one-sentence.-supervisor-at-kulturhalle-sagegasse" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A4370776-2026-04-03%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260403%0D%0ADTEND%3BVALUE%3DDATE%3A20260404%0D%0ASUMMARY%3AOne%20Sentence.%20Supervisor%20at%20Kulturhalle%20S%C3%A4gegasse%0D%0ALOCATION%3AKulturhalle%20S%C3%A4gegasse%2C%20Burgdorf%2C%20Switzerland%0D%0ADESCRIPTION%3Aliebe%20f%C3%BCr%20lange%20lieder.%20under%20the%20umbrella.%0D%0AURL%3Ahttps%3A%2F%2Fwww.bandsintown.com%2Fe%2F107842288-one-sentence.-supervisor-at-kulturhalle-sagegasse%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="One_Sentence__Supervisor.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Projekt ET</span>
+            <span class="date-badge">Fri, Apr 3, 2026</span>
+          </div>
+          <div class="venue">Konzerthaus Schüür, Lucerne</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.bandsintown.com/e/107649798-projekt-et-at-konzerthaus-schuur?came_from=209" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A18526774-2026-04-03%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260403%0D%0ADTEND%3BVALUE%3DDATE%3A20260404%0D%0ASUMMARY%3AProjekt%20ET%20at%20Konzerthaus%20Sch%C3%BC%C3%BCr%0D%0ALOCATION%3AKonzerthaus%20Sch%C3%BC%C3%BCr%2C%20Lucerne%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.bandsintown.com%2Fe%2F107649798-projekt-et-at-konzerthaus-schuur%3Fcame_from%3D209%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Projekt_ET.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Pseudonym Prada</span>
+            <span class="date-badge">Fri, Apr 3, 2026</span>
+          </div>
+          <div class="venue">Komplex 457, Zürich</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.shazam.com/event/03423fbd-8d44-4707-88b9-b481aa0d8661" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A17449109-2026-04-03%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260403%0D%0ADTEND%3BVALUE%3DDATE%3A20260404%0D%0ASUMMARY%3APseudonym%20Prada%20at%20Komplex%20457%0D%0ALOCATION%3AKomplex%20457%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.shazam.com%2Fevent%2F03423fbd-8d44-4707-88b9-b481aa0d8661%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Pseudonym_Prada.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Mnevis</span>
+            <span class="date-badge">Wed, Apr 8, 2026</span>
+          </div>
+          <div class="venue">CERVO Mountain Resort (Zermatt Unplugged Festival), Zermatt</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://cervo.swiss/en/events/mnevis" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A4891573-2026-04-08%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260408%0D%0ADTEND%3BVALUE%3DDATE%3A20260409%0D%0ASUMMARY%3AMnevis%20at%20CERVO%20Mountain%20Resort%20%28Zermatt%20Unplugged%20Festival%29%0D%0ALOCATION%3ACERVO%20Mountain%20Resort%20%28Zermatt%20Unplugged%20Festival%29%2C%20Zermatt%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fcervo.swiss%2Fen%2Fevents%2Fmnevis%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Mnevis.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Maruja</span>
+            <span class="date-badge">Thu, Apr 9, 2026</span>
+          </div>
+          <div class="venue">Bogen F, Zürich</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/concerts/42603604-maruja-at-bogen-f" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A4828104-2026-04-09%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260409%0D%0ADTEND%3BVALUE%3DDATE%3A20260410%0D%0ASUMMARY%3AMaruja%20at%20Bogen%20F%0D%0ALOCATION%3ABogen%20F%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fconcerts%2F42603604-maruja-at-bogen-f%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Maruja.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Mnevis</span>
+            <span class="date-badge">Thu, Apr 9, 2026</span>
+          </div>
+          <div class="venue">Zermatt Unplugged Festival, Zermatt</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/concerts/43028172-mnevis-at-zermatt-unplugged-festival" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A4891573-2026-04-09%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260409%0D%0ADTEND%3BVALUE%3DDATE%3A20260410%0D%0ASUMMARY%3AMnevis%20at%20Zermatt%20Unplugged%20Festival%0D%0ALOCATION%3AZermatt%20Unplugged%20Festival%2C%20Zermatt%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fconcerts%2F43028172-mnevis-at-zermatt-unplugged-festival%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Mnevis.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Mammal Hands</span>
+            <span class="date-badge">Sun, Apr 12, 2026</span>
+          </div>
+          <div class="venue">Kaufleuten Klubsaal, Zürich</div>
+          <p class="bio">Mammal Hands stand at the forefront of a new wave of boundary-defying UK artists, blending jazz, contemporary classical, electronica, folk, and minimalism into a sound that is unmistakably their own. In 2025, the trio signed with legendary German…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://kaufleuten.ch/en/event/mammal-hands-konzert/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A5899631-2026-04-12%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260412%0D%0ADTEND%3BVALUE%3DDATE%3A20260413%0D%0ASUMMARY%3AMammal%20Hands%20at%20Kaufleuten%20Klubsaal%0D%0ALOCATION%3AKaufleuten%20Klubsaal%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AMammal%20Hands%20stand%20at%20the%20forefront%20of%20a%20new%20wave%20of%20boundary-defying%20UK%20artists%2C%20blending%20jazz%2C%20contemporary%20classical%2C%20electronica%2C%20folk%2C%20and%20minimalism%20into%20a%20sound%20that%20is%20unmistakably%20their%20own.%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fkaufleuten.ch%2Fen%2Fevent%2Fmammal-hands-konzert%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Mammal_Hands.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">toe</span>
+            <span class="date-badge">Sun, Apr 12, 2026</span>
+          </div>
+          <div class="venue">Post Squat, Zürich</div>
+          <p class="bio">Japanese group toe are a primarily instrumental rock quartet from Tokyo consisting of guitarists Mino Takaaki and Yamazaki Hirokazu, drummer Kashikura Takashi, and bassist Yamane Satoshi. Often categorized as post-rock or math rock, their…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DRzDwUdE6Tm/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A4064719-2026-04-12%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260412%0D%0ADTEND%3BVALUE%3DDATE%3A20260413%0D%0ASUMMARY%3Atoe%20at%20Post%20Squat%0D%0ALOCATION%3APost%20Squat%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AJapanese%20group%20toe%20are%20a%20primarily%20instrumental%20rock%20quartet%20from%20Tokyo%20consisting%20of%20guitarists%20Mino%20Takaaki%20and%20Yamazaki%20Hirokazu%2C%20drummer%20Kashikura%20Takashi%2C%20and%20bassist%20Yamane%20Satoshi.%20Often%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fp%2FDRzDwUdE6Tm%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="toe.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Flying Lotus</span>
+            <span class="date-badge">Mon, Apr 13, 2026</span>
+          </div>
+          <div class="venue">X-Tra, Zürich</div>
+          <p class="bio">Whether in solitude or supported by a cast of musicians, Flying Lotus distills a uniquely crisp, spasmodic, and heady sound with elements of hip-hop, experimental electronic music, and avant-garde jazz. Regarded upon his 2006 arrival as a promising…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://ra.co/events/647710" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3531724-2026-04-13%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260413%0D%0ADTEND%3BVALUE%3DDATE%3A20260414%0D%0ASUMMARY%3AFlying%20Lotus%20at%20X-Tra%0D%0ALOCATION%3AX-Tra%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AWhether%20in%20solitude%20or%20supported%20by%20a%20cast%20of%20musicians%2C%20Flying%20Lotus%20distills%20a%20uniquely%20crisp%2C%20spasmodic%2C%20and%20heady%20sound%20with%20elements%20of%20hip-hop%2C%20experimental%20electronic%20music%2C%20and%20avant-garde%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fra.co%2Fevents%2F647710%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Flying_Lotus.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Tame Impala</span>
+            <span class="date-badge">Tue, Apr 14, 2026</span>
+          </div>
+          <div class="venue">Hallenstadion, Zürich</div>
+          <p class="bio">As Tame Impala have evolved from psychedelic explorers into more eclectic terrain, Kevin Parker has become one of music's most influential artists. The multi-instrumentalist, songwriter, producer, mixer, and engineer debuted with 2010's…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/concerts/42823274-tame-impala-at-hallenstadion" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3736815-2026-04-14%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260414%0D%0ADTEND%3BVALUE%3DDATE%3A20260415%0D%0ASUMMARY%3ATame%20Impala%20at%20Hallenstadion%0D%0ALOCATION%3AHallenstadion%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AAs%20Tame%20Impala%20have%20evolved%20from%20psychedelic%20explorers%20into%20more%20eclectic%20terrain%2C%20Kevin%20Parker%20has%20become%20one%20of%20music%27s%20most%20influential%20artists.%20The%20multi-instrumentalist%2C%20songwriter%2C%20producer%2C%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fconcerts%2F42823274-tame-impala-at-hallenstadion%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Tame_Impala.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Kavinsky</span>
+            <span class="date-badge">Sat, Apr 25, 2026</span>
+          </div>
+          <div class="venue">Place Centrale (E.N.D Session - Afterski géant), Verbier</div>
+          <p class="bio">The alter ego of French DJ Vincent Belorgey, Kavinsky's blend of influences such as French house, 16-bit video games, and especially '80s synth soundtracks helped give rise to the synthwave movement -- the title of his 2013 full-length, OutRun, is…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://ra.co/events/2363601" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A65043-2026-04-25%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260425%0D%0ADTEND%3BVALUE%3DDATE%3A20260426%0D%0ASUMMARY%3AKavinsky%20at%20Place%20Centrale%20%28E.N.D%20Session%20-%20Afterski%20g%C3%A9ant%29%0D%0ALOCATION%3APlace%20Centrale%20%28E.N.D%20Session%20-%20Afterski%20g%C3%A9ant%29%2C%20Verbier%2C%20Switzerland%0D%0ADESCRIPTION%3AThe%20alter%20ego%20of%20French%20DJ%20Vincent%20Belorgey%2C%20Kavinsky%27s%20blend%20of%20influences%20such%20as%20French%20house%2C%2016-bit%20video%20games%2C%20and%20especially%20%2780s%20synth%20soundtracks%20helped%20give%20rise%20to%20the%20synthwave%20movement%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fra.co%2Fevents%2F2363601%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Kavinsky.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Projekt ET</span>
+            <span class="date-badge">Sat, Apr 25, 2026</span>
+          </div>
+          <div class="venue">Albani, Winterthur</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.albani.ch/de/programm/1121/Projekt-ET.html" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A18526774-2026-04-25%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260425%0D%0ADTEND%3BVALUE%3DDATE%3A20260426%0D%0ASUMMARY%3AProjekt%20ET%20at%20Albani%0D%0ALOCATION%3AAlbani%2C%20Winterthur%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.albani.ch%2Fde%2Fprogramm%2F1121%2FProjekt-ET.html%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Projekt_ET.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Russian Circles</span>
+            <span class="date-badge">Sat, Apr 25, 2026</span>
+          </div>
+          <div class="venue">Valhalla Bar Basel, Basel</div>
+          <p class="bio">Chicago-based instrumental post-rock/metal trio Russian Circles create a complex clamor of sprawling guitars, propulsive drumming, and heavy basslines. First emerging with the promising 2006 debut Enter, the group became one of the leading…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DTlCx68FL3L/?hl=en" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3668549-2026-04-25%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260425%0D%0ADTEND%3BVALUE%3DDATE%3A20260426%0D%0ASUMMARY%3ARussian%20Circles%20at%20Valhalla%20Bar%20Basel%0D%0ALOCATION%3AValhalla%20Bar%20Basel%2C%20Basel%2C%20Switzerland%0D%0ADESCRIPTION%3AChicago-based%20instrumental%20post-rock%2Fmetal%20trio%20Russian%20Circles%20create%20a%20complex%20clamor%20of%20sprawling%20guitars%2C%20propulsive%20drumming%2C%20and%20heavy%20basslines.%20First%20emerging%20with%20the%20promising%202006%20debut%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fp%2FDTlCx68FL3L%2F%3Fhl%3Den%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Russian_Circles.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Yellow Days</span>
+            <span class="date-badge">Sun, Apr 26, 2026</span>
+          </div>
+          <div class="venue">Exil, Zürich</div>
+          <p class="bio">Noted for throaty, yearning vocals that accompany his swimmy indie soul-pop, Yellow Days is the performance alias of British musician George van den Broek. After some early releases during his teenage years, he began to gain traction with 2017's…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/concerts/42913699-yellow-days-at-exil" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A8191121-2026-04-26%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260426%0D%0ADTEND%3BVALUE%3DDATE%3A20260427%0D%0ASUMMARY%3AYellow%20Days%20at%20Exil%0D%0ALOCATION%3AExil%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ANoted%20for%20throaty%2C%20yearning%20vocals%20that%20accompany%20his%20swimmy%20indie%20soul-pop%2C%20Yellow%20Days%20is%20the%20performance%20alias%20of%20British%20musician%20George%20van%20den%20Broek.%20After%20some%20early%20releases%20during%20his%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fconcerts%2F42913699-yellow-days-at-exil%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Yellow_Days.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Grace VanderWaal</span>
+            <span class="date-badge">Mon, Apr 27, 2026</span>
+          </div>
+          <div class="venue">Plaza Klub, Zürich</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.facebook.com/PlazaKlubZurich/posts/newsnatalie-jane-nataliejane-comes-not-aloneopener-kylekelly-usa-kylekellymusic-/1354890113348847/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A8273084-2026-04-27%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260427%0D%0ADTEND%3BVALUE%3DDATE%3A20260428%0D%0ASUMMARY%3AGrace%20VanderWaal%20at%20Plaza%20Klub%0D%0ALOCATION%3APlaza%20Klub%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.facebook.com%2FPlazaKlubZurich%2Fposts%2Fnewsnatalie-jane-nataliejane-comes-not-aloneopener-kylekelly-usa-kylekellymusic-%2F1354890113348847%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Grace_VanderWaal.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Nubya Garcia</span>
+            <span class="date-badge">Sun, May 3, 2026</span>
+          </div>
+          <div class="venue">Kaserne Basel, Basel</div>
+          <p class="bio">London-based saxophonist, composer, and bandleader Nubya Garcia is one of the leading lights of the U.K.'s club culture and jazz scenes. In addition to leading her own bands, she has performed in and recorded with Makaya McCraven's transcontinental…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/concerts/42750181-nubya-garcia-at-kaserne-basel" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A8757140-2026-05-03%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260503%0D%0ADTEND%3BVALUE%3DDATE%3A20260504%0D%0ASUMMARY%3ANubya%20Garcia%20at%20Kaserne%20Basel%0D%0ALOCATION%3AKaserne%20Basel%2C%20Basel%2C%20Switzerland%0D%0ADESCRIPTION%3ALondon-based%20saxophonist%2C%20composer%2C%20and%20bandleader%20Nubya%20Garcia%20is%20one%20of%20the%20leading%20lights%20of%20the%20U.K.%27s%20club%20culture%20and%20jazz%20scenes.%20In%20addition%20to%20leading%20her%20own%20bands%2C%20she%20has%20performed%20in%20and%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fconcerts%2F42750181-nubya-garcia-at-kaserne-basel%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Nubya_Garcia.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">The Neighbourhood</span>
+            <span class="date-badge">Tue, May 5, 2026</span>
+          </div>
+          <div class="venue">THE HALL Zürich, Dübendorf (Zürich)</div>
+          <p class="bio">Recognized for their bummed out beach anthem "Sweater Weather," Southern California's the Neighbourhood blend moody, '90s-style alt-rock and pop with hip-hop and electronic flourishes. It's a blue summer vibe they first introduced on 2012's I'm…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/concerts/42904902-neighbourhood-at-hallenstadion" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3642059-2026-05-05%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260505%0D%0ADTEND%3BVALUE%3DDATE%3A20260506%0D%0ASUMMARY%3AThe%20Neighbourhood%20at%20THE%20HALL%20Z%C3%BCrich%0D%0ALOCATION%3ATHE%20HALL%20Z%C3%BCrich%2C%20D%C3%BCbendorf%20%28Z%C3%BCrich%29%2C%20Switzerland%0D%0ADESCRIPTION%3ARecognized%20for%20their%20bummed%20out%20beach%20anthem%20%22Sweater%20Weather%2C%22%20Southern%20California%27s%20the%20Neighbourhood%20blend%20moody%2C%20%2790s-style%20alt-rock%20and%20pop%20with%20hip-hop%20and%20electronic%20flourishes.%20It%27s%20a%20blue%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fconcerts%2F42904902-neighbourhood-at-hallenstadion%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="The_Neighbourhood.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Tinariwen</span>
+            <span class="date-badge">Fri, May 8, 2026</span>
+          </div>
+          <div class="venue">Der Rolf Böhme Saal, Zürich</div>
+          <p class="bio">Tinariwen are a critically acclaimed Saharan Tuareg group who perform a guitar-centric branch of Malian music known as "Tishoumaren," a percussive, rock-oriented desert blues that often addresses social and political issues. Emerging out of the…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.facebook.com/tinariwenmusic/posts/tinariwen-europe-tour-2026-tickets-on-sale-next-friday-at-11-am-cet-follow-our-c/1343825057110490/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3584091-2026-05-08%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260508%0D%0ADTEND%3BVALUE%3DDATE%3A20260509%0D%0ASUMMARY%3ATinariwen%20at%20Der%20Rolf%20B%C3%B6hme%20Saal%0D%0ALOCATION%3ADer%20Rolf%20B%C3%B6hme%20Saal%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ATinariwen%20are%20a%20critically%20acclaimed%20Saharan%20Tuareg%20group%20who%20perform%20a%20guitar-centric%20branch%20of%20Malian%20music%20known%20as%20%22Tishoumaren%2C%22%20a%20percussive%2C%20rock-oriented%20desert%20blues%20that%20often%20addresses%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.facebook.com%2Ftinariwenmusic%2Fposts%2Ftinariwen-europe-tour-2026-tickets-on-sale-next-friday-at-11-am-cet-follow-our-c%2F1343825057110490%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Tinariwen.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">A$AP Rocky</span>
+            <span class="date-badge">Sat, May 9, 2026</span>
+          </div>
+          <div class="venue">Hallenstadion, Zürich</div>
+          <p class="bio">Influenced by the Southern-style swagger of UGK and the rhymes of his hometown heroes the Diplomats. By the time he had completed his GED, the self-proclaimed hood outcast had already gained comparisons to Wiz Khalifa and was being championed by…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.facebook.com/100094265510805/posts/744164708735706/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A4315444-2026-05-09%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260509%0D%0ADTEND%3BVALUE%3DDATE%3A20260510%0D%0ASUMMARY%3AA%24AP%20Rocky%20at%20Hallenstadion%0D%0ALOCATION%3AHallenstadion%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AInfluenced%20by%20the%20Southern-style%20swagger%20of%20UGK%20and%20the%20rhymes%20of%20his%20hometown%20heroes%20the%20Diplomats.%20By%20the%20time%20he%20had%20completed%20his%20GED%2C%20the%20self-proclaimed%20hood%20outcast%20had%20already%20gained%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.facebook.com%2F100094265510805%2Fposts%2F744164708735706%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="A_AP_Rocky.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Deftones</span>
+            <span class="date-badge">Sat, May 9, 2026</span>
+          </div>
+          <div class="venue">Hallenstadion, Zürich</div>
+          <p class="bio">As one of the progenitors of the '90s nu-metal movement, Deftones embraces their individual influences to create an artistic, alternative metal hybrid that balances beauty and brutality. As one of the first groups to alternate heavy riffs and…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.facebook.com/groups/4246741545571798/posts/4295404984038787/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A15349-2026-05-09%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260509%0D%0ADTEND%3BVALUE%3DDATE%3A20260510%0D%0ASUMMARY%3ADeftones%20at%20Hallenstadion%0D%0ALOCATION%3AHallenstadion%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AAs%20one%20of%20the%20progenitors%20of%20the%20%2790s%20nu-metal%20movement%2C%20Deftones%20embraces%20their%20individual%20influences%20to%20create%20an%20artistic%2C%20alternative%20metal%20hybrid%20that%20balances%20beauty%20and%20brutality.%20As%20one%20of%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.facebook.com%2Fgroups%2F4246741545571798%2Fposts%2F4295404984038787%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Deftones.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Puma Blue</span>
+            <span class="date-badge">Sat, May 9, 2026</span>
+          </div>
+          <div class="venue">Théâtre de l'Octogone, Pully</div>
+          <p class="bio">The stage name of London singer/songwriter Jacob Allen, Puma Blue is known for his languid, deeply atmospheric sound blending indie rock, alternative R&B, downtempo, and '90s trip-hop influences. He first garnered buzz with several EPs before…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.bandsintown.com/e/1036957118-puma-blue-at-theatre-de-l'octogone" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A8725355-2026-05-09%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260509%0D%0ADTEND%3BVALUE%3DDATE%3A20260510%0D%0ASUMMARY%3APuma%20Blue%20at%20Th%C3%A9%C3%A2tre%20de%20l%27Octogone%0D%0ALOCATION%3ATh%C3%A9%C3%A2tre%20de%20l%27Octogone%2C%20Pully%2C%20Switzerland%0D%0ADESCRIPTION%3AThe%20stage%20name%20of%20London%20singer%2Fsongwriter%20Jacob%20Allen%2C%20Puma%20Blue%20is%20known%20for%20his%20languid%2C%20deeply%20atmospheric%20sound%20blending%20indie%20rock%2C%20alternative%20R%26B%2C%20downtempo%2C%20and%20%2790s%20trip-hop%20influences.%20He%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.bandsintown.com%2Fe%2F1036957118-puma-blue-at-theatre-de-l%27octogone%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Puma_Blue.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Silvana Estrada</span>
+            <span class="date-badge">Wed, May 13, 2026</span>
+          </div>
+          <div class="venue">Les Docks, Lausanne</div>
+          <p class="bio">Silvana Estrada is a multi-instrumentalist, singer, and songwriter from Mexico. Her songs often meld North and Latin American musical traditions that intersect the African-influenced son-jarocho heritage of her native Veracruz. She possesses a…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/concerts/43010484-silvana-estrada-at-les-docks" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A9249274-2026-05-13%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260513%0D%0ADTEND%3BVALUE%3DDATE%3A20260514%0D%0ASUMMARY%3ASilvana%20Estrada%20at%20Les%20Docks%0D%0ALOCATION%3ALes%20Docks%2C%20Lausanne%2C%20Switzerland%0D%0ADESCRIPTION%3ASilvana%20Estrada%20is%20a%20multi-instrumentalist%2C%20singer%2C%20and%20songwriter%20from%20Mexico.%20Her%20songs%20often%20meld%20North%20and%20Latin%20American%20musical%20traditions%20that%20intersect%20the%20African-influenced%20son-jarocho%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fconcerts%2F43010484-silvana-estrada-at-les-docks%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Silvana_Estrada.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Altin Gün</span>
+            <span class="date-badge">Thu, May 14, 2026</span>
+          </div>
+          <div class="venue">Südpol Club, Kriens</div>
+          <p class="bio">The part Dutch, part Turkish group Altin Gün are dedicated to honoring and updating the psychedelic sounds of Turkey in the late '60s and early '70s. Mixing traditional Turkish folk songs and instruments with fuzz guitars and synths, the sounds…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.ticketmaster.ch/event/altin-gun-tickets/884782846?language=en-us" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A8792178-2026-05-14%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260514%0D%0ADTEND%3BVALUE%3DDATE%3A20260515%0D%0ASUMMARY%3AAltin%20G%C3%BCn%20at%20S%C3%BCdpol%20Club%0D%0ALOCATION%3AS%C3%BCdpol%20Club%2C%20Kriens%2C%20Switzerland%0D%0ADESCRIPTION%3AThe%20part%20Dutch%2C%20part%20Turkish%20group%20Altin%20G%C3%BCn%20are%20dedicated%20to%20honoring%20and%20updating%20the%20psychedelic%20sounds%20of%20Turkey%20in%20the%20late%20%2760s%20and%20early%20%2770s.%20Mixing%20traditional%20Turkish%20folk%20songs%20and%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.ticketmaster.ch%2Fevent%2Faltin-gun-tickets%2F884782846%3Flanguage%3Den-us%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Altin_Gün.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Princess Nokia</span>
+            <span class="date-badge">Tue, May 19, 2026</span>
+          </div>
+          <div class="venue">Hallenstadion, Zürich</div>
+          <p class="bio">Princess Nokia is her best-known project, but it’s just part of Destiny Frasqueri’s story. She’s been rapping and releasing tracks on YouTube and SoundCloud since high school, originally under the name Wavy Spice, adopting the “Princess Nokia”…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DJXqgjDt1y3/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A7097936-2026-05-19%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260519%0D%0ADTEND%3BVALUE%3DDATE%3A20260520%0D%0ASUMMARY%3APrincess%20Nokia%20at%20Hallenstadion%0D%0ALOCATION%3AHallenstadion%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3APrincess%20Nokia%20is%20her%20best-known%20project%2C%20but%20it%E2%80%99s%20just%20part%20of%20Destiny%20Frasqueri%E2%80%99s%20story.%20She%E2%80%99s%20been%20rapping%20and%20releasing%20tracks%20on%20YouTube%20and%20SoundCloud%20since%20high%20school%2C%20originally%20under%20the%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fp%2FDJXqgjDt1y3%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Princess_Nokia.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Ravyn Lenae</span>
+            <span class="date-badge">Tue, May 19, 2026</span>
+          </div>
+          <div class="venue">Hallenstadion, Zürich</div>
+          <p class="bio">Ravyn Lenae makes dreamy, atmospheric R&B with honey-sweet vocals and psychedelic-tinged production. She arrived during the latter half of the 2010s with a trio of EPs that touched on styles ranging from house to synth-funk, with 2018's Crush and…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.facebook.com/rapdatesofficial/photos/ravyn-lenae-us-festivals-202604062026-es-barcelona-primavera_sound-13082026-dk-c/1495048059290503/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A7262284-2026-05-19%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260519%0D%0ADTEND%3BVALUE%3DDATE%3A20260520%0D%0ASUMMARY%3ARavyn%20Lenae%20at%20Hallenstadion%0D%0ALOCATION%3AHallenstadion%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ARavyn%20Lenae%20makes%20dreamy%2C%20atmospheric%20R%26B%20with%20honey-sweet%20vocals%20and%20psychedelic-tinged%20production.%20She%20arrived%20during%20the%20latter%20half%20of%20the%202010s%20with%20a%20trio%20of%20EPs%20that%20touched%20on%20styles%20ranging%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.facebook.com%2Frapdatesofficial%2Fphotos%2Fravyn-lenae-us-festivals-202604062026-es-barcelona-primavera_sound-13082026-dk-c%2F1495048059290503%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Ravyn_Lenae.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Polyphia</span>
+            <span class="date-badge">Tue, May 26, 2026</span>
+          </div>
+          <div class="venue">Komplex 457, Zürich</div>
+          <p class="bio">Guitar-bending instrumental group Polyphia have distinguished themselves as prog rock mavericks, playing a style that falls somewhere between blisteringly fast metal-god virtuosity and pure pop. They first grabbed attention in 2013 after the track…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.loudersound.com/news/polyphia-announce-uk-and-european-tour-dates" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A5744956-2026-05-26%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260526%0D%0ADTEND%3BVALUE%3DDATE%3A20260527%0D%0ASUMMARY%3APolyphia%20at%20Komplex%20457%0D%0ALOCATION%3AKomplex%20457%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AGuitar-bending%20instrumental%20group%20Polyphia%20have%20distinguished%20themselves%20as%20prog%20rock%20mavericks%2C%20playing%20a%20style%20that%20falls%20somewhere%20between%20blisteringly%20fast%20metal-god%20virtuosity%20and%20pure%20pop.%20They%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.loudersound.com%2Fnews%2Fpolyphia-announce-uk-and-european-tour-dates%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Polyphia.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Unwound</span>
+            <span class="date-badge">Mon, Jun 8, 2026</span>
+          </div>
+          <div class="venue">Fri-Son, Fribourg</div>
+          <p class="bio">Olympia, Washington D.I.Y. punk trio Unwound developed their tumultuous and sublimely noisy sound in the shadows of the burgeoning grunge movement. Annexed to the less mainstream channels of indie releases, low-budget touring, and a circuit of…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DH5f81EivZx/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3574987-2026-06-08%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260608%0D%0ADTEND%3BVALUE%3DDATE%3A20260609%0D%0ASUMMARY%3AUnwound%20at%20Fri-Son%0D%0ALOCATION%3AFri-Son%2C%20Fribourg%2C%20Switzerland%0D%0ADESCRIPTION%3AOlympia%2C%20Washington%20D.I.Y.%20punk%20trio%20Unwound%20developed%20their%20tumultuous%20and%20sublimely%20noisy%20sound%20in%20the%20shadows%20of%20the%20burgeoning%20grunge%20movement.%20Annexed%20to%20the%20less%20mainstream%20channels%20of%20indie%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fp%2FDH5f81EivZx%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Unwound.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">KAYTRANADA</span>
+            <span class="date-badge">Tue, Jun 9, 2026</span>
+          </div>
+          <div class="venue">Hallenstadion, Zürich</div>
+          <p class="bio">Kaytranada is known for a colorful array of sounds that veers from J Dilla-inspired hip-hop beats to distinctly woozy house grooves. The Haitian-Canadian producer emerged during the early 2010s with ear-catching remixes and original tracks. Numerous…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.livenation.ch/en/kaytranada-tickets-adp423716" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A4844164-2026-06-09%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260609%0D%0ADTEND%3BVALUE%3DDATE%3A20260610%0D%0ASUMMARY%3AKAYTRANADA%20at%20Hallenstadion%0D%0ALOCATION%3AHallenstadion%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AKaytranada%20is%20known%20for%20a%20colorful%20array%20of%20sounds%20that%20veers%20from%20J%20Dilla-inspired%20hip-hop%20beats%20to%20distinctly%20woozy%20house%20grooves.%20The%20Haitian-Canadian%20producer%20emerged%20during%20the%20early%202010s%20with%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.livenation.ch%2Fen%2Fkaytranada-tickets-adp423716%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="KAYTRANADA.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Men I Trust</span>
+            <span class="date-badge">Tue, Jun 9, 2026</span>
+          </div>
+          <div class="venue">X-TRA, Zürich</div>
+          <p class="bio">Mixing dreamy atmospheres, wistful extended chords, and funky, low-key dance grooves, Men I Trust is the brainchild of then-Laval University music students Dragos Chiriac and Jessy Caron. The Montreal, Canada D.I.Y. project made its full-length…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/concerts/42909712-men-i-trust-at-xtra" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A5726607-2026-06-09%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260609%0D%0ADTEND%3BVALUE%3DDATE%3A20260610%0D%0ASUMMARY%3AMen%20I%20Trust%20at%20X-TRA%0D%0ALOCATION%3AX-TRA%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AMixing%20dreamy%20atmospheres%2C%20wistful%20extended%20chords%2C%20and%20funky%2C%20low-key%20dance%20grooves%2C%20Men%20I%20Trust%20is%20the%20brainchild%20of%20then-Laval%20University%20music%20students%20Dragos%20Chiriac%20and%20Jessy%20Caron.%20The%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fconcerts%2F42909712-men-i-trust-at-xtra%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Men_I_Trust.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Red Leather</span>
+            <span class="date-badge">Tue, Jun 9, 2026</span>
+          </div>
+          <div class="venue">Komplex Klub (Komplex 457), Zürich</div>
+          <p class="bio">Red Leather sets his passionate, angst-ridden narratives against a distinctive blend of alternative country-rock, pop-rap, and anthemic pop. The gruff-voiced musician made his recording debut in 2022 with the tragic noir tale "THE ONLY TIME IT RAINS…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.ticketcorner.ch/en/event/red-leather-komplex-457-21188878/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A32251676-2026-06-09%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260609%0D%0ADTEND%3BVALUE%3DDATE%3A20260610%0D%0ASUMMARY%3ARed%20Leather%20at%20Komplex%20Klub%20%28Komplex%20457%29%0D%0ALOCATION%3AKomplex%20Klub%20%28Komplex%20457%29%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ARed%20Leather%20sets%20his%20passionate%2C%20angst-ridden%20narratives%20against%20a%20distinctive%20blend%20of%20alternative%20country-rock%2C%20pop-rap%2C%20and%20anthemic%20pop.%20The%20gruff-voiced%20musician%20made%20his%20recording%20debut%20in%202022%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.ticketcorner.ch%2Fen%2Fevent%2Fred-leather-komplex-457-21188878%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Red_Leather.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Moby</span>
+            <span class="date-badge">Thu, Jun 11, 2026</span>
+          </div>
+          <div class="venue">Festi'neuch (Neuchâtel Openair Festival), Neuchâtel</div>
+          <p class="bio">American producer, DJ, and singer/songwriter Moby is one of the most important, successful, and outspoken figures in electronic music, though his work spans a variety of rock and pop styles as well. His crossover success during the 1990s helped…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.myswitzerland.com/en-ie/experiences/events/festineuch/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A9045-2026-06-11%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260611%0D%0ADTEND%3BVALUE%3DDATE%3A20260612%0D%0ASUMMARY%3AMoby%20at%20Festi%27neuch%20%28Neuch%C3%A2tel%20Openair%20Festival%29%0D%0ALOCATION%3AFesti%27neuch%20%28Neuch%C3%A2tel%20Openair%20Festival%29%2C%20Neuch%C3%A2tel%2C%20Switzerland%0D%0ADESCRIPTION%3AAmerican%20producer%2C%20DJ%2C%20and%20singer%2Fsongwriter%20Moby%20is%20one%20of%20the%20most%20important%2C%20successful%2C%20and%20outspoken%20figures%20in%20electronic%20music%2C%20though%20his%20work%20spans%20a%20variety%20of%20rock%20and%20pop%20styles%20as%20well.%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.myswitzerland.com%2Fen-ie%2Fexperiences%2Fevents%2Ffestineuch%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Moby.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Lil Bruzy</span>
+            <span class="date-badge">Fri, Jun 12, 2026</span>
+          </div>
+          <div class="venue">Sportplatz Rolli, Seuzach</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://eventfrog.ch/en/p/concert/hip-hop-rap/konzert-julex-lil-bruzy-7407123393428899773.html" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A15842677-2026-06-12%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260612%0D%0ADTEND%3BVALUE%3DDATE%3A20260613%0D%0ASUMMARY%3ALil%20Bruzy%20at%20Sportplatz%20Rolli%0D%0ALOCATION%3ASportplatz%20Rolli%2C%20Seuzach%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Feventfrog.ch%2Fen%2Fp%2Fconcert%2Fhip-hop-rap%2Fkonzert-julex-lil-bruzy-7407123393428899773.html%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Lil_Bruzy.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Tricky</span>
+            <span class="date-badge">Sun, Jun 14, 2026</span>
+          </div>
+          <div class="venue">Kaufleuten, Zürich</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://kaufleuten.ch/en/event/tricky-konzert/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A17108759-2026-06-14%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260614%0D%0ADTEND%3BVALUE%3DDATE%3A20260615%0D%0ASUMMARY%3ATricky%20at%20Kaufleuten%0D%0ALOCATION%3AKaufleuten%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fkaufleuten.ch%2Fen%2Fevent%2Ftricky-konzert%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Tricky.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">YONAKA</span>
+            <span class="date-badge">Sun, Jun 14, 2026</span>
+          </div>
+          <div class="venue">Exil, Zürich</div>
+          <p class="bio">English quartet Yonaka combines heavy riffs, melodic hooks, and on-stage punk furor like the wild spawn of forebears such as Yeah Yeah Yeahs and PVRIS. Fronted by the fiery Theresa Jarvis, the group debuted in the 2010s with their debut EP Heavy,…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.livenation.ch/en/event/yonaka-tour-2026-z%C3%BCrich-tickets-edp1642337" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A7598676-2026-06-14%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260614%0D%0ADTEND%3BVALUE%3DDATE%3A20260615%0D%0ASUMMARY%3AYONAKA%20at%20Exil%0D%0ALOCATION%3AExil%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AEnglish%20quartet%20Yonaka%20combines%20heavy%20riffs%2C%20melodic%20hooks%2C%20and%20on-stage%20punk%20furor%20like%20the%20wild%20spawn%20of%20forebears%20such%20as%20Yeah%20Yeah%20Yeahs%20and%20PVRIS.%20Fronted%20by%20the%20fiery%20Theresa%20Jarvis%2C%20the%20group%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.livenation.ch%2Fen%2Fevent%2Fyonaka-tour-2026-z%25C3%25BCrich-tickets-edp1642337%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="YONAKA.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Tricky</span>
+            <span class="date-badge">Tue, Jun 16, 2026</span>
+          </div>
+          <div class="venue">Bierhübeli, Bern</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://gigs.guide/event/AvrU0OgW1K/tricky-bern-16-jun-2026" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A17108759-2026-06-16%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260616%0D%0ADTEND%3BVALUE%3DDATE%3A20260617%0D%0ASUMMARY%3ATricky%20at%20Bierh%C3%BCbeli%0D%0ALOCATION%3ABierh%C3%BCbeli%2C%20Bern%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fgigs.guide%2Fevent%2FAvrU0OgW1K%2Ftricky-bern-16-jun-2026%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Tricky.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">A Perfect Circle</span>
+            <span class="date-badge">Thu, Jun 18, 2026</span>
+          </div>
+          <div class="venue">Halle 622, Zürich</div>
+          <p class="bio">Formed in the late '90s by Tool vocalist Maynard James Keenan and that band's former guitar tech Billy Howerdel, American rock supergroup A Perfect Circle fuses alt-metal and art rock, focusing on lighter, melodic sounds and a theatrical, ambient…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://detour.songkick.com/concerts/43058306-a-perfect-circle-at-halle-622" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A11241-2026-06-18%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260618%0D%0ADTEND%3BVALUE%3DDATE%3A20260619%0D%0ASUMMARY%3AA%20Perfect%20Circle%20at%20Halle%20622%0D%0ALOCATION%3AHalle%20622%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AFormed%20in%20the%20late%20%2790s%20by%20Tool%20vocalist%20Maynard%20James%20Keenan%20and%20that%20band%27s%20former%20guitar%20tech%20Billy%20Howerdel%2C%20American%20rock%20supergroup%20A%20Perfect%20Circle%20fuses%20alt-metal%20and%20art%20rock%2C%20focusing%20on%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fdetour.songkick.com%2Fconcerts%2F43058306-a-perfect-circle-at-halle-622%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="A_Perfect_Circle.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Anderson .Paak</span>
+            <span class="date-badge">Sun, Jun 21, 2026</span>
+          </div>
+          <div class="venue">TBD, Zürich</div>
+          <p class="bio">Since first tooling around in his bedroom in the musical hotbed of Oxnard, California, Anderson .Paak has been steadily shaping a career that’s now on the verge of something huge. After releasing an album in 2012 as Breeze Lovejoy and debuting under…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/popular/anderson-.paak's-tour-dates-2026/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A5866385-2026-06-21%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260621%0D%0ADTEND%3BVALUE%3DDATE%3A20260622%0D%0ASUMMARY%3AAnderson%20.Paak%20at%20TBD%0D%0ALOCATION%3ATBD%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ASince%20first%20tooling%20around%20in%20his%20bedroom%20in%20the%20musical%20hotbed%20of%20Oxnard%2C%20California%2C%20Anderson%20.Paak%20has%20been%20steadily%20shaping%20a%20career%20that%E2%80%99s%20now%20on%20the%20verge%20of%20something%20huge.%20After%20releasing%20an%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fpopular%2Fanderson-.paak%27s-tour-dates-2026%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Anderson__Paak.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">CHVRCHES</span>
+            <span class="date-badge">Sun, Jun 21, 2026</span>
+          </div>
+          <div class="venue">TBD, Zürich</div>
+          <p class="bio">Crafting songs with big synths and bigger melodies, Chvrches combine their indie roots with their love of chart-friendly pop. The mix of Lauren Mayberry’s crystalline, emotive vocals and the sweeping synths of Iain Cook and Martin Doherty on 2013's…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/popular/chvrches-live-tour-dates/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A4764745-2026-06-21%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260621%0D%0ADTEND%3BVALUE%3DDATE%3A20260622%0D%0ASUMMARY%3ACHVRCHES%20at%20TBD%0D%0ALOCATION%3ATBD%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ACrafting%20songs%20with%20big%20synths%20and%20bigger%20melodies%2C%20Chvrches%20combine%20their%20indie%20roots%20with%20their%20love%20of%20chart-friendly%20pop.%20The%20mix%20of%20Lauren%20Mayberry%E2%80%99s%20crystalline%2C%20emotive%20vocals%20and%20the%20sweeping%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fpopular%2Fchvrches-live-tour-dates%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="CHVRCHES.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Tom Misch</span>
+            <span class="date-badge">Sun, Jun 21, 2026</span>
+          </div>
+          <div class="venue">TBD, Zürich</div>
+          <p class="bio">With his easy blend of singer/songwriter soul, rare groove, and '90s new jack swing, London's Tom Misch has garnered global attention and chart success. Following a series of buzzed-about EPs and viral tracks, Misch broke through with his 2018…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/artists/8341698-tom-misch" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A5806445-2026-06-21%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260621%0D%0ADTEND%3BVALUE%3DDATE%3A20260622%0D%0ASUMMARY%3ATom%20Misch%20at%20TBD%0D%0ALOCATION%3ATBD%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AWith%20his%20easy%20blend%20of%20singer%2Fsongwriter%20soul%2C%20rare%20groove%2C%20and%20%2790s%20new%20jack%20swing%2C%20London%27s%20Tom%20Misch%20has%20garnered%20global%20attention%20and%20chart%20success.%20Following%20a%20series%20of%20buzzed-about%20EPs%20and%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fartists%2F8341698-tom-misch%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Tom_Misch.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Wisp</span>
+            <span class="date-badge">Thu, Jun 25, 2026</span>
+          </div>
+          <div class="venue">Bad Bonn, Düdingen</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DPjdfGfkYsE/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A43450342-2026-06-25%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260625%0D%0ADTEND%3BVALUE%3DDATE%3A20260626%0D%0ASUMMARY%3AWisp%20at%20Bad%20Bonn%0D%0ALOCATION%3ABad%20Bonn%2C%20D%C3%BCdingen%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fp%2FDPjdfGfkYsE%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Wisp.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Jule X</span>
+            <span class="date-badge">Fri, Jun 26, 2026</span>
+          </div>
+          <div class="venue">OpenAir St. Gallen (Festivalgelände Sittertobel), St. Gallen</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.jambase.com/band/jule-x" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A16617727-2026-06-26%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260626%0D%0ADTEND%3BVALUE%3DDATE%3A20260627%0D%0ASUMMARY%3AJule%20X%20at%20OpenAir%20St.%20Gallen%20%28Festivalgel%C3%A4nde%20Sittertobel%29%0D%0ALOCATION%3AOpenAir%20St.%20Gallen%20%28Festivalgel%C3%A4nde%20Sittertobel%29%2C%20St.%20Gallen%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.jambase.com%2Fband%2Fjule-x%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Jule_X.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Wet Leg</span>
+            <span class="date-badge">Fri, Jun 26, 2026</span>
+          </div>
+          <div class="venue">OpenAir St. Gallen (Sittertobel), St. Gallen</div>
+          <p class="bio">Led by the Isle of Wight's Rhian Teasdale and Hester Chambers, Wet Leg bring a refreshing sense of fun and candor to post-punk. On singles such as 2021's Mean Girls-quoting viral hit "Chaise Longue," they turned the style's deadpan irony on its…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://concertful.com/tour/wet-leg/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A25399116-2026-06-26%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260626%0D%0ADTEND%3BVALUE%3DDATE%3A20260627%0D%0ASUMMARY%3AWet%20Leg%20at%20OpenAir%20St.%20Gallen%20%28Sittertobel%29%0D%0ALOCATION%3AOpenAir%20St.%20Gallen%20%28Sittertobel%29%2C%20St.%20Gallen%2C%20Switzerland%0D%0ADESCRIPTION%3ALed%20by%20the%20Isle%20of%20Wight%27s%20Rhian%20Teasdale%20and%20Hester%20Chambers%2C%20Wet%20Leg%20bring%20a%20refreshing%20sense%20of%20fun%20and%20candor%20to%20post-punk.%20On%20singles%20such%20as%202021%27s%20Mean%20Girls-quoting%20viral%20hit%20%22Chaise%20Longue%2C%22%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fconcertful.com%2Ftour%2Fwet-leg%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Wet_Leg.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Garbage</span>
+            <span class="date-badge">Sun, Jun 28, 2026</span>
+          </div>
+          <div class="venue">Volkshaus Zürich, Zürich</div>
+          <p class="bio">American alternative mainstays Garbage merge edgy rock with electronic, beat-driven production, cementing a sound that have made them a distinct force since their early '90s debut. Headed by iconic frontwoman Shirley Manson, the quartet built upon…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.jambase.com/show/garbage-volkshaus-20260628" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A15542-2026-06-28%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260628%0D%0ADTEND%3BVALUE%3DDATE%3A20260629%0D%0ASUMMARY%3AGarbage%20at%20Volkshaus%20Z%C3%BCrich%0D%0ALOCATION%3AVolkshaus%20Z%C3%BCrich%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AAmerican%20alternative%20mainstays%20Garbage%20merge%20edgy%20rock%20with%20electronic%2C%20beat-driven%20production%2C%20cementing%20a%20sound%20that%20have%20made%20them%20a%20distinct%20force%20since%20their%20early%20%2790s%20debut.%20Headed%20by%20iconic%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.jambase.com%2Fshow%2Fgarbage-volkshaus-20260628%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Garbage.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Linkin Park</span>
+            <span class="date-badge">Tue, Jun 30, 2026</span>
+          </div>
+          <div class="venue">Stadion Letzigrund, Zürich</div>
+          <p class="bio">Rooted at the crossroads of aggressive metal and beat-driven hip-hop, Linkin Park became one of the most successful acts of the early 21st century by incorporating elements from across genres, injecting hardcore rap, raucous punk, atmospheric…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.livenation.ch/event/linkin-park-from-zero-world-tour-z%C3%BCrich-tickets-edp1609222" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A14123-2026-06-30%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260630%0D%0ADTEND%3BVALUE%3DDATE%3A20260701%0D%0ASUMMARY%3ALinkin%20Park%20at%20Stadion%20Letzigrund%0D%0ALOCATION%3AStadion%20Letzigrund%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ARooted%20at%20the%20crossroads%20of%20aggressive%20metal%20and%20beat-driven%20hip-hop%2C%20Linkin%20Park%20became%20one%20of%20the%20most%20successful%20acts%20of%20the%20early%2021st%20century%20by%20incorporating%20elements%20from%20across%20genres%2C%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.livenation.ch%2Fevent%2Flinkin-park-from-zero-world-tour-z%25C3%25BCrich-tickets-edp1609222%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Linkin_Park.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Phantogram</span>
+            <span class="date-badge">Tue, Jun 30, 2026</span>
+          </div>
+          <div class="venue">Stadion Letzigrund, Zürich</div>
+          <p class="bio">The deeply emotional electronic pop of Phantogram revolves around Sarah Barthel's powerful vocals, which tower over their insistent, hip-hop-inspired left-field pop sound built on booming beats, washes of synths, and the occasional jagged guitar…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.livenation.com/artist/K8vZ917GpL0/phantogram-events" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3614038-2026-06-30%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260630%0D%0ADTEND%3BVALUE%3DDATE%3A20260701%0D%0ASUMMARY%3APhantogram%20at%20Stadion%20Letzigrund%0D%0ALOCATION%3AStadion%20Letzigrund%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AThe%20deeply%20emotional%20electronic%20pop%20of%20Phantogram%20revolves%20around%20Sarah%20Barthel%27s%20powerful%20vocals%2C%20which%20tower%20over%20their%20insistent%2C%20hip-hop-inspired%20left-field%20pop%20sound%20built%20on%20booming%20beats%2C%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.livenation.com%2Fartist%2FK8vZ917GpL0%2Fphantogram-events%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Phantogram.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Beirut</span>
+            <span class="date-badge">Fri, Jul 10, 2026</span>
+          </div>
+          <div class="venue">The Hall Dübendorf, Dübendorf (Greater Zürich)</div>
+          <p class="bio">Eclectic indie rock and pop collective Beirut have combined styles ranging from the pre-rock vocal era and Eastern European Romani music to plaintive and whimsical indie folk with lo-fi psychedelic experimentations. The brainchild of American…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.thehall.ch/en/events/beirut" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3555856-2026-07-10%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260710%0D%0ADTEND%3BVALUE%3DDATE%3A20260711%0D%0ASUMMARY%3ABeirut%20at%20The%20Hall%20D%C3%BCbendorf%0D%0ALOCATION%3AThe%20Hall%20D%C3%BCbendorf%2C%20D%C3%BCbendorf%20%28Greater%20Z%C3%BCrich%29%2C%20Switzerland%0D%0ADESCRIPTION%3AEclectic%20indie%20rock%20and%20pop%20collective%20Beirut%20have%20combined%20styles%20ranging%20from%20the%20pre-rock%20vocal%20era%20and%20Eastern%20European%20Romani%20music%20to%20plaintive%20and%20whimsical%20indie%20folk%20with%20lo-fi%20psychedelic%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.thehall.ch%2Fen%2Fevents%2Fbeirut%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Beirut.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Kevin Morby</span>
+            <span class="date-badge">Tue, Jul 14, 2026</span>
+          </div>
+          <div class="venue">Rote Fabrik Aktionshalle, Zürich</div>
+          <p class="bio">Singer/songwriter Kevin Morby broke out of the shadows into a fruitful solo career, penning songs that meld Dylanesque lyrical mystique with rootsy production. Along with contemporaries like Angel Olsen and Kurt Vile, he represents a wave of sharp,…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.songkick.com/concerts/43046692-kevin-morby-at-rote-fabrik-aktionshalle" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A5188920-2026-07-14%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260714%0D%0ADTEND%3BVALUE%3DDATE%3A20260715%0D%0ASUMMARY%3AKevin%20Morby%20at%20Rote%20Fabrik%20Aktionshalle%0D%0ALOCATION%3ARote%20Fabrik%20Aktionshalle%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ASinger%2Fsongwriter%20Kevin%20Morby%20broke%20out%20of%20the%20shadows%20into%20a%20fruitful%20solo%20career%2C%20penning%20songs%20that%20meld%20Dylanesque%20lyrical%20mystique%20with%20rootsy%20production.%20Along%20with%20contemporaries%20like%20Angel%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.songkick.com%2Fconcerts%2F43046692-kevin-morby-at-rote-fabrik-aktionshalle%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Kevin_Morby.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Wolfmother</span>
+            <span class="date-badge">Mon, Aug 24, 2026</span>
+          </div>
+          <div class="venue">Mühle Hunziken, Rubigen (Bern area)</div>
+          <p class="bio">Pledging allegiance to thick, throttling fuzz guitars, primal psychedelia, and thundering rhythms, the 21st century rock revivalists Wolfmother split the difference between the classic sludge of Black Sabbath and the retro-garage rock of the White…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://detour.songkick.com/concerts/43046693-wolfmother-at-muhle-hunziken" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A19379-2026-08-24%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260824%0D%0ADTEND%3BVALUE%3DDATE%3A20260825%0D%0ASUMMARY%3AWolfmother%20at%20M%C3%BChle%20Hunziken%0D%0ALOCATION%3AM%C3%BChle%20Hunziken%2C%20Rubigen%20%28Bern%20area%29%2C%20Switzerland%0D%0ADESCRIPTION%3APledging%20allegiance%20to%20thick%2C%20throttling%20fuzz%20guitars%2C%20primal%20psychedelia%2C%20and%20thundering%20rhythms%2C%20the%2021st%20century%20rock%20revivalists%20Wolfmother%20split%20the%20difference%20between%20the%20classic%20sludge%20of%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fdetour.songkick.com%2Fconcerts%2F43046693-wolfmother-at-muhle-hunziken%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Wolfmother.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Lightspeed Champion</span>
+            <span class="date-badge">Tue, Aug 25, 2026</span>
+          </div>
+          <div class="venue">Komplex 457, Zürich</div>
+          <p class="bio">After the experimental rock group Test Icicles disbanded in 2006, Devonté Hynes launched Lightspeed Champion as his own folk-driven project. The new venture allowed him to focus on his love for pop melodies, a fondness that began with Hynes'…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.livenation.com/event/intl_1651110/blood-orange-tour-2026" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3520731-2026-08-25%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260825%0D%0ADTEND%3BVALUE%3DDATE%3A20260826%0D%0ASUMMARY%3ALightspeed%20Champion%20at%20Komplex%20457%0D%0ALOCATION%3AKomplex%20457%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AAfter%20the%20experimental%20rock%20group%20Test%20Icicles%20disbanded%20in%202006%2C%20Devont%C3%A9%20Hynes%20launched%20Lightspeed%20Champion%20as%20his%20own%20folk-driven%20project.%20The%20new%20venture%20allowed%20him%20to%20focus%20on%20his%20love%20for%20pop%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.livenation.com%2Fevent%2Fintl_1651110%2Fblood-orange-tour-2026%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Lightspeed_Champion.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Loco Escrito</span>
+            <span class="date-badge">Tue, Aug 25, 2026</span>
+          </div>
+          <div class="venue">Mühle Hunziken, Rubigen (near Bern)</div>
+          <p class="bio">Loco Escrito is the stage name of Nicolas Herzig, a Swiss-Colombian musician whose work ranges from tough Spanish-language hip-hop to smooth, romantic reggaeton-pop. A co-founder of Swiss rap crew LDDC who achieved chart success during the early…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.bandsintown.com/e/1036983377-loco-escrito-at-muhle-hunziken?came_from=252&utm_medium=web&utm_source=venue_page&utm_campaign=event" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A4971631-2026-08-25%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260825%0D%0ADTEND%3BVALUE%3DDATE%3A20260826%0D%0ASUMMARY%3ALoco%20Escrito%20at%20M%C3%BChle%20Hunziken%0D%0ALOCATION%3AM%C3%BChle%20Hunziken%2C%20Rubigen%20%28near%20Bern%29%2C%20Switzerland%0D%0ADESCRIPTION%3ALoco%20Escrito%20is%20the%20stage%20name%20of%20Nicolas%20Herzig%2C%20a%20Swiss-Colombian%20musician%20whose%20work%20ranges%20from%20tough%20Spanish-language%20hip-hop%20to%20smooth%2C%20romantic%20reggaeton-pop.%20A%20co-founder%20of%20Swiss%20rap%20crew%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.bandsintown.com%2Fe%2F1036983377-loco-escrito-at-muhle-hunziken%3Fcame_from%3D252%26utm_medium%3Dweb%26utm_source%3Dvenue_page%26utm_campaign%3Devent%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Loco_Escrito.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Wolfmother</span>
+            <span class="date-badge">Tue, Aug 25, 2026</span>
+          </div>
+          <div class="venue">Kulturfabrik Kofmehl, Solothurn</div>
+          <p class="bio">Pledging allegiance to thick, throttling fuzz guitars, primal psychedelia, and thundering rhythms, the 21st century rock revivalists Wolfmother split the difference between the classic sludge of Black Sabbath and the retro-garage rock of the White…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.ticketcorner.ch/en/event/wolfmother-kulturfabrik-kofmehl-21322143/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A19379-2026-08-25%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260825%0D%0ADTEND%3BVALUE%3DDATE%3A20260826%0D%0ASUMMARY%3AWolfmother%20at%20Kulturfabrik%20Kofmehl%0D%0ALOCATION%3AKulturfabrik%20Kofmehl%2C%20Solothurn%2C%20Switzerland%0D%0ADESCRIPTION%3APledging%20allegiance%20to%20thick%2C%20throttling%20fuzz%20guitars%2C%20primal%20psychedelia%2C%20and%20thundering%20rhythms%2C%20the%2021st%20century%20rock%20revivalists%20Wolfmother%20split%20the%20difference%20between%20the%20classic%20sludge%20of%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.ticketcorner.ch%2Fen%2Fevent%2Fwolfmother-kulturfabrik-kofmehl-21322143%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Wolfmother.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Wolfmother</span>
+            <span class="date-badge">Wed, Aug 26, 2026</span>
+          </div>
+          <div class="venue">Les Docks, Lausanne</div>
+          <p class="bio">Pledging allegiance to thick, throttling fuzz guitars, primal psychedelia, and thundering rhythms, the 21st century rock revivalists Wolfmother split the difference between the classic sludge of Black Sabbath and the retro-garage rock of the White…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://detour.songkick.com/concerts/43047764-wolfmother-at-les-docks" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A19379-2026-08-26%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260826%0D%0ADTEND%3BVALUE%3DDATE%3A20260827%0D%0ASUMMARY%3AWolfmother%20at%20Les%20Docks%0D%0ALOCATION%3ALes%20Docks%2C%20Lausanne%2C%20Switzerland%0D%0ADESCRIPTION%3APledging%20allegiance%20to%20thick%2C%20throttling%20fuzz%20guitars%2C%20primal%20psychedelia%2C%20and%20thundering%20rhythms%2C%20the%2021st%20century%20rock%20revivalists%20Wolfmother%20split%20the%20difference%20between%20the%20classic%20sludge%20of%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fdetour.songkick.com%2Fconcerts%2F43047764-wolfmother-at-les-docks%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Wolfmother.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Baby Keem</span>
+            <span class="date-badge">Sun, Sep 6, 2026</span>
+          </div>
+          <div class="venue">Halle 622, Zürich</div>
+          <p class="bio">Rapper/producer/songwriter Baby Keem has contributed to projects by some of rap's finest while also working on his own stylistically shifting music. On mixtapes like 2019's Die for My Bitch, he explored melodic rap, trap rhythms, old-school beats,…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.ticketmaster.com/baby-keem-tickets/artist/2688844" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A10108270-2026-09-06%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260906%0D%0ADTEND%3BVALUE%3DDATE%3A20260907%0D%0ASUMMARY%3ABaby%20Keem%20at%20Halle%20622%0D%0ALOCATION%3AHalle%20622%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3ARapper%2Fproducer%2Fsongwriter%20Baby%20Keem%20has%20contributed%20to%20projects%20by%20some%20of%20rap%27s%20finest%20while%20also%20working%20on%20his%20own%20stylistically%20shifting%20music.%20On%20mixtapes%20like%202019%27s%20Die%20for%20My%20Bitch%2C%20he%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.ticketmaster.com%2Fbaby-keem-tickets%2Fartist%2F2688844%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Baby_Keem.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Projekt ET</span>
+            <span class="date-badge">Thu, Sep 17, 2026</span>
+          </div>
+          <div class="venue">EXIL, Zürich</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.bandsintown.com/e/1037725362-projekt-et-at-exil?came_from=209" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A18526774-2026-09-17%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260917%0D%0ADTEND%3BVALUE%3DDATE%3A20260918%0D%0ASUMMARY%3AProjekt%20ET%20at%20EXIL%0D%0ALOCATION%3AEXIL%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.bandsintown.com%2Fe%2F1037725362-projekt-et-at-exil%3Fcame_from%3D209%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Projekt_ET.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">CRIMER</span>
+            <span class="date-badge">Sun, Sep 27, 2026</span>
+          </div>
+          <div class="venue">Kaufleuten Klub, Zürich</div>
+          <p class="bio">When the light hits the rusting disco ball and green laser hearts float through the smoke-filled club air, CRIMER's distinct style of dancing begins to hypnotise and entrance. With his warm, unforgettable voice, he casts a spell on audiences,…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://kaufleuten.ch/en/event/crimer/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A8523033-2026-09-27%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20260927%0D%0ADTEND%3BVALUE%3DDATE%3A20260928%0D%0ASUMMARY%3ACRIMER%20at%20Kaufleuten%20Klub%0D%0ALOCATION%3AKaufleuten%20Klub%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AWhen%20the%20light%20hits%20the%20rusting%20disco%20ball%20and%20green%20laser%20hearts%20float%20through%20the%20smoke-filled%20club%20air%2C%20CRIMER%27s%20distinct%20style%20of%20dancing%20begins%20to%20hypnotise%20and%20entrance.%20With%20his%20warm%2C%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fkaufleuten.ch%2Fen%2Fevent%2Fcrimer%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="CRIMER.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Blonde Redhead</span>
+            <span class="date-badge">Tue, Oct 20, 2026</span>
+          </div>
+          <div class="venue">Plaza, Zürich</div>
+          <p class="bio">A constantly evolving group, Blonde Redhead's artfully noisy rock and mysterious, bittersweet pop are united by a darkly romantic outlook that verges on cinematic. Despite the no wave leanings and pedal stomping of their early singles and 1995…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DU0SiDnjNUJ/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A3537908-2026-10-20%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20261020%0D%0ADTEND%3BVALUE%3DDATE%3A20261021%0D%0ASUMMARY%3ABlonde%20Redhead%20at%20Plaza%0D%0ALOCATION%3APlaza%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AA%20constantly%20evolving%20group%2C%20Blonde%20Redhead%27s%20artfully%20noisy%20rock%20and%20mysterious%2C%20bittersweet%20pop%20are%20united%20by%20a%20darkly%20romantic%20outlook%20that%20verges%20on%20cinematic.%20Despite%20the%20no%20wave%20leanings%20and%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fp%2FDU0SiDnjNUJ%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Blonde_Redhead.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Foxwarren</span>
+            <span class="date-badge">Sun, Oct 25, 2026</span>
+          </div>
+          <div class="venue">X-TRA Musikcafe, Zürich</div>
+          <p class="bio">Much like their bandleader Andy Shauf's solo material, Foxwarren's gentle, folk- and psychedelia-shaded indie rock dwells in reflection and daydreams. After playing together on and off for ten years, the band's eponymous debut saw release in 2018.…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DL2bf7MR6PZ/" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A10490331-2026-10-25%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20261025%0D%0ADTEND%3BVALUE%3DDATE%3A20261026%0D%0ASUMMARY%3AFoxwarren%20at%20X-TRA%20Musikcafe%0D%0ALOCATION%3AX-TRA%20Musikcafe%2C%20Z%C3%BCrich%2C%20Switzerland%0D%0ADESCRIPTION%3AMuch%20like%20their%20bandleader%20Andy%20Shauf%27s%20solo%20material%2C%20Foxwarren%27s%20gentle%2C%20folk-%20and%20psychedelia-shaded%20indie%20rock%20dwells%20in%20reflection%20and%20daydreams.%20After%20playing%20together%20on%20and%20off%20for%20ten%20years%2C%E2%80%A6%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fp%2FDL2bf7MR6PZ%2F%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Foxwarren.ics">📅 Add to Calendar</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="artist">Molchat Doma</span>
+            <span class="date-badge">Sun, Oct 25, 2026</span>
+          </div>
+          <div class="venue">TBD, Aarau</div>
+          <p class="bio no-bio">No bio available</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DLA3doRyXP3/?hl=en" target="_blank" rel="noopener">🔗 Source</a>
+            <a class="btn btn-cal" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-%2F%2FConcertAgent%2F%2FEN%0D%0ABEGIN%3AVEVENT%0D%0AUID%3A16737673-2026-10-25%40concert-agent%0D%0ADTSTART%3BVALUE%3DDATE%3A20261025%0D%0ADTEND%3BVALUE%3DDATE%3A20261026%0D%0ASUMMARY%3AMolchat%20Doma%20at%20TBD%0D%0ALOCATION%3ATBD%2C%20Aarau%2C%20Switzerland%0D%0ADESCRIPTION%3A%0D%0AURL%3Ahttps%3A%2F%2Fwww.instagram.com%2Fp%2FDLA3doRyXP3%2F%3Fhl%3Den%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="Molchat_Doma.ics">📅 Add to Calendar</a>
+          </div>
+        </div><div class="separator"><span>Date Unknown</span></div>
+        <div class="card  tbd">
+          <div class="card-header">
+            <span class="artist">Dolphin Love</span>
+            <span class="date-badge">Date TBD</span>
+          </div>
+          <div class="venue">TBD, Winterthur</div>
+          <p class="bio">peace and love</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.instagram.com/p/DL2SVfDsUMz/" target="_blank" rel="noopener">🔗 Source</a>
+            
+          </div>
+        </div>
+        <div class="card  tbd">
+          <div class="card-header">
+            <span class="artist">Mannequin Pussy</span>
+            <span class="date-badge">Date TBD</span>
+          </div>
+          <div class="venue">Dachstock, Bern</div>
+          <p class="bio">Mannequin Pussy’s music feels like a resilient and galvanizing shout that demands to be heard. Across four albums, the Philadelphia rock band that consists of Colins “Bear” Regisford (bass, vocals), Kaleen Reading (drums, percussion), Maxine Steen…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.epitaph.com/tours?view_by=year&artist=411&when=2026" target="_blank" rel="noopener">🔗 Source</a>
+            
+          </div>
+        </div>
+        <div class="card  tbd">
+          <div class="card-header">
+            <span class="artist">TEKE::TEKE</span>
+            <span class="date-badge">Date TBD</span>
+          </div>
+          <div class="venue">Winterthurer Musikfestwochen (August 5–16, 2026), Winterthur</div>
+          <p class="bio">A Canadian ensemble with a striking internationalist take on pop, Teke::Teke have fashioned a dynamic fusion of East and West in their music. They initially came together through a shared fascination with Japanese eleki music, guitar-based rock…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://www.openairguide.net/festivals/schweiz/winterthurer-musikfestwochen/teke-teke" target="_blank" rel="noopener">🔗 Source</a>
+            
+          </div>
+        </div>
+        <div class="card  tbd">
+          <div class="card-header">
+            <span class="artist">Yet No Yokai</span>
+            <span class="date-badge">Date TBD</span>
+          </div>
+          <div class="venue">B-Sides Festival (Sonnenberg), Kriens (near Lucerne)</div>
+          <p class="bio">New Album «Endlich Senden» out April 10, 2026<br /><br />Dark as thunder in a post-apocalyptic wasteland, ethereal as a golden sunrise, hypnotizing beats - Lucerne psychedelic rock trio Yet No Yokai paint a variety of pictures and take listeners on…</p>
+          <div class="actions">
+            <a class="btn btn-src" href="https://stadtkonzerte.ch/festivals/b-sides-festival-1238ea04-ec48-4aaa-86f3-bb6cfea16aae" target="_blank" rel="noopener">🔗 Source</a>
+            
+          </div>
+        </div>
+  </div>
+  <footer>Generated by concert_agent</footer>
+</body>
+</html>
