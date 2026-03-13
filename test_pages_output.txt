@@ -1,0 +1,120 @@
+======================================================================
+PHASE 1: Fetch + HTML extraction (no LLM needed)
+======================================================================
+
+--- A Perfect Circle (Songkick) ---
+    URL: https://detour.songkick.com/concerts/43058306-a-perfect-circle-at-halle-622
+    HTML size: 75,322 chars
+    Extracted text: 5,459 chars
+    ✓ Found 1 JSON-LD block(s)
+    Relevant lines (112 found):
+      > [STRUCTURED DATA]
+      > [{"@context":"http://schema.org","@type":"MusicEvent","name":"A Perfect Circle @ Halle 622","url":"https://www.songkick.
+      > A Perfect Circle Zürich Tickets, Halle 622, 18 Jun 2026 – Songkick
+      > Zürich concerts
+      > Zürich concerts
+
+--- Altın Gün (Ticketmaster CH) ---
+    URL: https://www.ticketmaster.ch/event/altin-gun-tickets/884782846?language=en-us
+    ✗ Fetch failed: 401 Client Error: Unauthorized for url: https://www.ticketmaster.ch/event/altin-gun-tickets/884782846?language=en-us
+
+--- bar italia (Dampfzentrale (venue site)) ---
+    URL: https://www.dampfzentrale.ch/en/event/e-bar-italia_03-03-2026/
+    HTML size: 60,729 chars
+    Extracted text: 1,939 chars
+    Relevant lines (19 found):
+      > bar italia Support: Wet Kiss / golfjugo (DJ) | Dampfzentrale Bern
+      > bar italia
+      > Tickets
+      > Further ticket information (U18, cultural GA, wheelchair spaces)
+      > bar italia
+
+--- Beirut (The Hall (venue site)) ---
+    URL: https://www.thehall.ch/en/events/beirut
+    HTML size: 144,478 chars
+    Extracted text: 4,456 chars
+    ✓ Found 2 JSON-LD block(s)
+    Relevant lines (58 found):
+      > In Concert
+      > 17. März 2026
+      > Avatar - The Last Airbender In Concert
+      > 18. März 2026
+      > 21. März 2026
+
+--- Blonde Redhead (Instagram) ---
+    URL: https://www.instagram.com/p/DU0SiDnjNUJ/
+    ⊘ Skipped: unsupported domain (JS-only / auth required)
+
+--- Polyphia (Songkick artist page) ---
+    URL: https://www.songkick.com/artists/5765489-polyphia
+    ✗ Fetch failed: 410 Client Error: Gone for url: https://www.songkick.com/artists/5765489-polyphia
+
+── Fetch summary: 3/6 URLs fetchable ──
+   Could not fetch: Altın Gün, Polyphia
+   Thin content / unsupported: Blonde Redhead
+
+======================================================================
+PHASE 2: Tavily extract fallback
+======================================================================
+
+--- Altın Gün (Ticketmaster CH) ---
+    URL: https://www.ticketmaster.ch/event/altin-gun-tickets/884782846?language=en-us
+    Trying Tavily extract...
+    ✗ Tavily extract also failed or returned no content
+
+--- Polyphia (Songkick artist page) ---
+    URL: https://www.songkick.com/artists/5765489-polyphia
+    Trying Tavily extract...
+    ✗ Tavily extract also failed or returned no content
+
+--- Blonde Redhead (Instagram) ---
+    URL: https://www.instagram.com/p/DU0SiDnjNUJ/
+    ⊘ Skipped: unsupported domain (Tavily unlikely to help)
+
+======================================================================
+PHASE 3: Ollama extraction with Tavily fallback (all URLs)
+======================================================================
+
+--- A Perfect Circle (Songkick) ---
+    Sending to qwen3:8b (with Tavily fallback)...
+    Model response (355 chars):
+      **Concert Summary:**  
+      - **Date:** June 18, 2026  
+      - **Venue:** Halle 622 (Zürich, Switzerland)  
+      - **Ticket URL:** [ticketcorner.ch](https://www.ticketcorner.ch) (as per page text; Songkick link provided in structured data but ticket sale directed to ticketcorner.ch)  
+      
+      No other relevant events in Switzerland (or specified cities) for 2026+ were found.
+
+--- Altın Gün (Ticketmaster CH) ---
+    Sending to qwen3:8b (with Tavily fallback)...
+    Model response (281 chars):
+      Failed to fetch https://www.ticketmaster.ch/event/altin-gun-tickets/884782846?language=en-us: 401 Client Error: Unauthorized for url: https://www.ticketmaster.ch/event/altin-gun-tickets/884782846?language=en-us HINT: Ticketmaster CH blocks scraping. Use the search snippet instead.
+
+--- bar italia (Dampfzentrale (venue site)) ---
+    Sending to qwen3:8b (with Tavily fallback)...
+    Model response (426 chars):
+      **Concert Summary:**  
+      - **Event:** bar italia (with Wet Kiss / golfjugo (DJ))  
+      - **Date:** 3 March 2026  
+      - **Venue:** Dampfzentrale Bern  
+      - **City:** Bern, Switzerland  
+      - **Ticket Info:** Link provided in the text (URL not explicitly listed in the excerpt).  
+      
+      **Note:** This is bar italia’s only announced Swiss concert in 2026. No other events in Switzerland (Zürich, Winterthur, Lucerne, Basel, or Bern) are mentioned.
+
+--- Beirut (The Hall (venue site)) ---
+    Sending to qwen3:8b (with Tavily fallback)...
+    Model response (40 chars):
+      No relevant concerts found on this page.
+
+--- Blonde Redhead (Instagram) ---
+    Sending to qwen3:8b (with Tavily fallback)...
+    Model response (132 chars):
+      Skipped https://www.instagram.com/p/DU0SiDnjNUJ/: this domain requires JavaScript rendering or authentication and cannot be scraped.
+
+--- Polyphia (Songkick artist page) ---
+    Sending to qwen3:8b (with Tavily fallback)...
+    Model response (239 chars):
+      Failed to fetch https://www.songkick.com/artists/5765489-polyphia: 410 Client Error: Gone for url: https://www.songkick.com/artists/5765489-polyphia HINT: songkick.com/artists/* pages return 410. Try detour.songkick.com/concerts/* instead.
+
+── Done ──

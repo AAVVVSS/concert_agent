@@ -22,11 +22,14 @@ from tavily import TavilyClient
 from research_artists import (
     OLLAMA_BASE_URL,
     DEFAULT_PARSER_MODEL,
+    UNSUPPORTED_DOMAINS,
     AgentConfig,
     check_ollama,
     fetch_page,
     html_to_text,
+    load_or_seed_venues,
     parse_concert_page,
+    _is_unsupported_domain,
     _tavily_extract,
 )
 
@@ -74,6 +77,7 @@ def test_fetch_and_extract():
     print("=" * 70)
 
     fetchable = []
+    thin_content = []  # fetched OK but very little text extracted
 
     for case in TEST_CASES:
         artist = case["artist"]
@@ -82,15 +86,26 @@ def test_fetch_and_extract():
         print(f"\n--- {artist} ({source}) ---")
         print(f"    URL: {url}")
 
+        if _is_unsupported_domain(url):
+            print("    ⊘ Skipped: unsupported domain (JS-only / auth required)")
+            thin_content.append(case)
+            continue
+
         try:
             html = fetch_page(url)
             text = html_to_text(html)
             print(f"    HTML size: {len(html):,} chars")
             print(f"    Extracted text: {len(text):,} chars")
 
+            # Check for JSON-LD structured data
+            if "[STRUCTURED DATA]" in text:
+                ld_count = text.count("[STRUCTURED DATA]")
+                print(f"    ✓ Found {ld_count} JSON-LD block(s)")
+
             if len(text.strip()) < 50:
                 print(f"    ⚠ Very little text extracted — JS-heavy or blocked page")
                 print(f"    Preview: {text[:200]!r}")
+                thin_content.append(case)
             else:
                 # Show a snippet around any date-like or venue-like content
                 lines = text.split("\n")
@@ -110,7 +125,7 @@ def test_fetch_and_extract():
         except Exception as e:
             print(f"    ✗ Fetch failed: {e}")
 
-    return fetchable
+    return fetchable, thin_content
 
 
 def get_tavily_client() -> TavilyClient | None:
@@ -121,8 +136,8 @@ def get_tavily_client() -> TavilyClient | None:
     return None
 
 
-def test_tavily_fallback(unfetchable: list):
-    """Test Tavily extract fallback on URLs that failed direct fetch."""
+def test_tavily_fallback(unfetchable: list, thin_content: list):
+    """Test Tavily extract fallback on URLs that failed direct fetch or had thin content."""
     print("\n" + "=" * 70)
     print("PHASE 2: Tavily extract fallback")
     print("=" * 70)
@@ -132,13 +147,26 @@ def test_tavily_fallback(unfetchable: list):
         print("\n  ⊘ TAVILY_API_KEY not set. Skipping Tavily fallback tests.")
         return
 
-    for case in unfetchable:
+    # Combine hard failures and thin-content pages (deduplicated)
+    seen_urls = set()
+    candidates = []
+    for case in unfetchable + thin_content:
+        if case["url"] not in seen_urls:
+            seen_urls.add(case["url"])
+            candidates.append(case)
+
+    for case in candidates:
         artist = case["artist"]
         url = case["url"]
         source = case["source"]
         print(f"\n--- {artist} ({source}) ---")
         print(f"    URL: {url}")
-        print(f"    Trying Tavily extract...")
+
+        if _is_unsupported_domain(url):
+            print("    ⊘ Skipped: unsupported domain (Tavily unlikely to help)")
+            continue
+
+        print("    Trying Tavily extract...")
 
         text = _tavily_extract(url, tavily)
         if text and len(text.strip()) >= 50:
@@ -154,7 +182,7 @@ def test_tavily_fallback(unfetchable: list):
             else:
                 print(f"    First 300 chars: {text[:300]!r}")
         else:
-            print(f"    ✗ Tavily extract also failed or returned no content")
+            print("    ✗ Tavily extract also failed or returned no content")
 
 
 def test_ollama_extraction(tavily: TavilyClient | None):
@@ -168,6 +196,9 @@ def test_ollama_extraction(tavily: TavilyClient | None):
         print(f"\n  ⊘ Ollama not running or {DEFAULT_PARSER_MODEL} not pulled. Skipping phase 3.")
         print(f"    To enable: ollama serve && ollama pull {DEFAULT_PARSER_MODEL}")
         return
+
+    venues = load_or_seed_venues()
+    print(f"    Venue map: {len(venues)} venues loaded")
 
     config = AgentConfig(
         mode="ollama",
@@ -183,21 +214,23 @@ def test_ollama_extraction(tavily: TavilyClient | None):
         print(f"\n--- {artist} ({source}) ---")
         print(f"    Sending to {DEFAULT_PARSER_MODEL} (with Tavily fallback)...")
 
-        result = parse_concert_page(url, artist, config, tavily)
+        result = parse_concert_page(url, artist, config, tavily, venues=venues)
         print(f"    Model response ({len(result)} chars):")
         for line in result.strip().split("\n"):
             print(f"      {line}")
 
 
 if __name__ == "__main__":
-    fetchable = test_fetch_and_extract()
+    fetchable, thin_content = test_fetch_and_extract()
 
     print(f"\n── Fetch summary: {len(fetchable)}/{len(TEST_CASES)} URLs fetchable ──")
-    unfetchable = [c for c in TEST_CASES if c not in fetchable]
+    unfetchable = [c for c in TEST_CASES if c not in fetchable and c not in thin_content]
     if unfetchable:
         print(f"   Could not fetch: {', '.join(c['artist'] for c in unfetchable)}")
+    if thin_content:
+        print(f"   Thin content / unsupported: {', '.join(c['artist'] for c in thin_content)}")
 
-    test_tavily_fallback(unfetchable)
+    test_tavily_fallback(unfetchable, thin_content)
 
     tavily = get_tavily_client()
     test_ollama_extraction(tavily)

@@ -1,0 +1,1608 @@
+[
+  {
+    "artist_id": 4315444,
+    "artist_name": "A$AP Rocky",
+    "date": "2026-05-09",
+    "venue": "Hallenstadion",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.facebook.com/100094265510805/posts/744164708735706/",
+    "searched_at": "2026-02-20T21:34:51.174327+00:00",
+    "verification": {
+      "status": "date_changed",
+      "confidence": "high",
+      "changes": {
+        "new_date": "2026-09-26"
+      },
+      "notes": "Evidence from Live Nation GSA confirms A$AP Rocky's Don't Be Dumb World Tour at Hallenstadion in Z\u00fcrich, but the date is September 26, 2026, not May 9, 2026 as stored.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:04:58.996458+00:00"
+    }
+  },
+  {
+    "artist_id": 8792178,
+    "artist_name": "Altin G\u00fcn",
+    "date": "2026-03-06",
+    "venue": "X-TRA Musikcafe",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.goodnews.ch/altin-guen/",
+    "searched_at": "2026-02-20T21:54:43.760612+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-03-06 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:04:58.996853+00:00"
+    }
+  },
+  {
+    "artist_id": 8792178,
+    "artist_name": "Altin G\u00fcn",
+    "date": "2026-05-14",
+    "venue": "S\u00fcdpol Club",
+    "city": "Kriens",
+    "country": "Switzerland",
+    "url": "https://www.ticketmaster.ch/event/altin-gun-tickets/884782846?language=en-us",
+    "searched_at": "2026-02-20T21:54:43.760612+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Multiple sources confirm Altin G\u00fcn performing at S\u00fcdpol Club in Kriens on May 14, 2026, matching the stored record; minor venue name variations (S\u00fcdpol Buvette, S\u00fcdpol | Musik Tanz Theater) across sources are likely the same venue complex.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:05:02.703593+00:00"
+    }
+  },
+  {
+    "artist_id": 5866385,
+    "artist_name": "Anderson .Paak",
+    "date": "2026-06-21",
+    "venue": "TBD",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/popular/anderson-.paak's-tour-dates-2026/",
+    "searched_at": "2026-02-20T21:54:43.760612+00:00",
+    "verification": {
+      "status": "details_changed",
+      "confidence": "high",
+      "changes": {
+        "new_date": "2026-07-17",
+        "new_venue": "Komplex 457"
+      },
+      "notes": "Evidence from Ticketmaster CH confirms Anderson .Paak is playing in Zurich but at Komplex 457 on July 17, not the stored date of June 21 and TBD venue.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:05:06.347530+00:00"
+    }
+  },
+  {
+    "artist_id": 11241,
+    "artist_name": "A Perfect Circle",
+    "date": "2026-06-18",
+    "venue": "Halle 622",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://detour.songkick.com/concerts/43058306-a-perfect-circle-at-halle-622",
+    "searched_at": "2026-02-20T21:54:43.760612+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms A Perfect Circle performing at Halle 622 in Z\u00fcrich, Switzerland on June 18, 2026, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:05:09.152772+00:00"
+    }
+  },
+  {
+    "artist_id": 10108270,
+    "artist_name": "Baby Keem",
+    "date": "2026-09-06",
+    "venue": "Halle 622",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.ticketmaster.com/baby-keem-tickets/artist/2688844",
+    "searched_at": "2026-02-20T21:54:43.760612+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence lists multiple Baby Keem Ca$ino Tour dates across US cities (Raleigh, Charlotte, Nashville, Atlanta, Orlando) but contains no mention of a Z\u00fcrich, Switzerland concert at Halle 622 on 2026-09-06.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:05:14.599293+00:00"
+    }
+  },
+  {
+    "artist_id": 21159820,
+    "artist_name": "bar italia",
+    "date": "2026-03-03",
+    "venue": "Dampfzentrale",
+    "city": "Bern",
+    "country": "Switzerland",
+    "url": "https://www.dampfzentrale.ch/en/event/e-bar-italia_03-03-2026/",
+    "searched_at": "2026-02-20T21:54:43.760612+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-03-03 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:05:14.600383+00:00"
+    }
+  },
+  {
+    "artist_id": 3555856,
+    "artist_name": "Beirut",
+    "date": "2026-07-10",
+    "venue": "The Hall D\u00fcbendorf",
+    "city": "D\u00fcbendorf (Greater Z\u00fcrich)",
+    "country": "Switzerland",
+    "url": "https://www.thehall.ch/en/events/beirut",
+    "searched_at": "2026-02-20T21:54:43.760612+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence text explicitly lists Beirut on 10. Juli 2026 at The Hall D\u00fcbendorf, matching the stored concert record exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:05:17.913957+00:00"
+    }
+  },
+  {
+    "artist_id": 3537908,
+    "artist_name": "Blonde Redhead",
+    "date": "2026-10-20",
+    "venue": "Plaza",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DU0SiDnjNUJ/",
+    "searched_at": "2026-02-20T21:54:43.760612+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "low",
+      "changes": {},
+      "notes": "The evidence mentions Blonde Redhead touring but references only a Knockdown Center (Queens) show with no mention of a Z\u00fcrich/Plaza concert on 2026-10-20, so the stored record cannot be confirmed.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:05:22.831463+00:00"
+    }
+  },
+  {
+    "artist_id": 4764745,
+    "artist_name": "CHVRCHES",
+    "date": "2026-06-21",
+    "venue": "TBD",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/popular/chvrches-live-tour-dates/",
+    "searched_at": "2026-02-20T21:54:43.760612+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "low",
+      "changes": {},
+      "notes": "Evidence mentions CHVRCHES touring but references only a London Royal Albert Hall concert with no mention of a Z\u00fcrich date, and the source URL in the stored record appears to be an invalid Instagram path rather than a credible ticketing source.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:05:27.995727+00:00"
+    }
+  },
+  {
+    "artist_id": 8523033,
+    "artist_name": "CRIMER",
+    "date": "2026-09-27",
+    "venue": "Kaufleuten Klub",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://kaufleuten.ch/en/event/crimer/",
+    "searched_at": "2026-02-20T21:54:43.760612+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms CRIMER performing at Kaufleuten Klub in Z\u00fcrich on September 27, 2026, matching all stored record fields.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:05:31.122853+00:00"
+    }
+  },
+  {
+    "artist_id": 15349,
+    "artist_name": "Deftones",
+    "date": "2026-05-09",
+    "venue": "Hallenstadion",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.facebook.com/groups/4246741545571798/posts/4295404984038787/",
+    "searched_at": "2026-02-20T22:34:13.795942+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Deftones does not appear in the Hallenstadion Z\u00fcrich event listings, and the Ticketmaster/Live Nation evidence shows no Z\u00fcrich or Hallenstadion date for Deftones in 2026.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:05:36.141935+00:00"
+    }
+  },
+  {
+    "artist_id": 24449964,
+    "artist_name": "Dolphin Love",
+    "date": "2026-02-28",
+    "venue": "Kaserne Basel",
+    "city": "Basel",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DL2SVfDsUMz/",
+    "searched_at": "2026-02-20T22:34:13.795942+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-02-28 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:05:36.143104+00:00"
+    }
+  },
+  {
+    "artist_id": 24449964,
+    "artist_name": "Dolphin Love",
+    "date": "TBD",
+    "venue": "TBD",
+    "city": "Winterthur",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DL2SVfDsUMz/",
+    "searched_at": "2026-02-20T22:34:13.795942+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "low",
+      "changes": {},
+      "notes": "Evidence confirms Dolphin Love has a 2026 tour but only mentions five concerts in Germany with no reference to a Winterthur, Switzerland show or the specific Instagram source URL.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:05:40.750201+00:00"
+    }
+  },
+  {
+    "artist_id": 3819025,
+    "artist_name": "Fai Baba",
+    "date": "2026-03-22",
+    "venue": "Stall 6",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/concerts/42898352-fai-baba-at-stall-6",
+    "searched_at": "2026-02-20T22:34:13.795942+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Fai Baba performing at Stall 6 in Z\u00fcrich, Switzerland on 22 March 2026, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:05:43.831444+00:00"
+    }
+  },
+  {
+    "artist_id": 13972,
+    "artist_name": "Filter",
+    "date": "2026-03-19",
+    "venue": "Dynamo",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://rocknloadmag.com/filter-heads-to-europe-as-30-year-anniversary-tour-rolls-on/",
+    "searched_at": "2026-02-20T22:34:13.795942+00:00",
+    "verification": {
+      "status": "date_changed",
+      "confidence": "high",
+      "changes": {
+        "new_date": "2024-03-19"
+      },
+      "notes": "The evidence confirms Filter at Dynamo in Z\u00fcrich on March 19, but the tour is listed as 'EU/UK Tour dates March 2024' not 2026 as stored in the record.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:05:48.018520+00:00"
+    }
+  },
+  {
+    "artist_id": 3531724,
+    "artist_name": "Flying Lotus",
+    "date": "2026-04-13",
+    "venue": "X-Tra",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://ra.co/events/647710",
+    "searched_at": "2026-02-20T22:34:13.795942+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "low",
+      "changes": {},
+      "notes": "The evidence does not directly confirm Flying Lotus at X-Tra on 2026-04-13; the Instagram snippet vaguely references a Switzerland/Zurich date of Jun 21 which conflicts with the stored date, but the source is unreliable and no venue-specific confirmation is found.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:05:53.343457+00:00"
+    }
+  },
+  {
+    "artist_id": 10490331,
+    "artist_name": "Foxwarren",
+    "date": "2026-10-25",
+    "venue": "X-TRA Musikcafe",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DL2bf7MR6PZ/",
+    "searched_at": "2026-02-20T22:34:13.795942+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence contains no mention of Foxwarren performing at X-TRA Musikcafe or anywhere else; only Warren Zeiders and general venue listings appear in the results.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:05:57.784063+00:00"
+    }
+  },
+  {
+    "artist_id": 27439,
+    "artist_name": "Franz Ferdinand",
+    "date": "2026-03-28",
+    "venue": "The Hall",
+    "city": "D\u00fcbendorf (Greater Z\u00fcrich)",
+    "country": "Switzerland",
+    "url": "https://justbecause.ch/shows/show/franz-ferdinand-the-hall-20260328",
+    "searched_at": "2026-02-20T22:34:13.795942+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Franz Ferdinand performing at The Hall in D\u00fcbendorf (Greater Z\u00fcrich), Switzerland on 2026-03-28, with matching source URL and EventScheduled status.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:00.671808+00:00"
+    }
+  },
+  {
+    "artist_id": 15542,
+    "artist_name": "Garbage",
+    "date": "2026-06-28",
+    "venue": "Volkshaus Z\u00fcrich",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.jambase.com/show/garbage-volkshaus-20260628",
+    "searched_at": "2026-02-20T22:34:13.795942+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The MusicEvent structured data explicitly confirms Garbage performing at Volkshaus in Z\u00fcrich, Switzerland on June 28, 2026, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:05.733492+00:00"
+    }
+  },
+  {
+    "artist_id": 3578350,
+    "artist_name": "Geese",
+    "date": "2026-03-11",
+    "venue": "Plaza Klub (X-TRA)",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/concerts/42757734-geese-at-plaza-zurich",
+    "searched_at": "2026-02-20T22:34:13.795942+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-03-11 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:06:05.734376+00:00"
+    }
+  },
+  {
+    "artist_id": 8273084,
+    "artist_name": "Grace VanderWaal",
+    "date": "2026-04-27",
+    "venue": "Plaza Klub",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.facebook.com/PlazaKlubZurich/posts/newsnatalie-jane-nataliejane-comes-not-aloneopener-kylekelly-usa-kylekellymusic-/1354890113348847/",
+    "searched_at": "2026-02-20T22:34:13.795942+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Evidence from Facebook and Instagram confirms Grace VanderWaal as support act at Plaza Z\u00fcrich on 27.04.2026, matching the stored record.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:06:10.238276+00:00"
+    }
+  },
+  {
+    "artist_id": 7061089,
+    "artist_name": "JID",
+    "date": "2026-03-18",
+    "venue": "X-TRA House of Music",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.ticketmaster.com/j-i-d-tickets/artist/2351316",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence confirms J.I.D is the correct artist and references the Ticketmaster artist page, but contains no mention of a concert at X-TRA House of Music in Z\u00fcrich on 2026-03-18; all listed events are at different venues and cities.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:15.493325+00:00"
+    }
+  },
+  {
+    "artist_id": 16617727,
+    "artist_name": "Jule X",
+    "date": "2026-04-03",
+    "venue": "Komplex 457",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.bandsintown.com/e/107487868",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Jule X performing at Komplex (Hohlstrasse 45, Zurich, Switzerland) on April 3, 2026, matching the stored record's artist, date, venue, city, and country; the venue name difference ('Komplex 457' vs 'Komplex') appears to be a minor naming variation for the same venue at that address.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:19.044073+00:00"
+    }
+  },
+  {
+    "artist_id": 16617727,
+    "artist_name": "Jule X",
+    "date": "2026-06-26",
+    "venue": "OpenAir St. Gallen (Festivalgel\u00e4nde Sittertobel)",
+    "city": "St. Gallen",
+    "country": "Switzerland",
+    "url": "https://www.jambase.com/band/jule-x",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "medium",
+      "changes": {},
+      "notes": "Jule X is confirmed as a performer at OpenAir St. Gallen (Jun 25-28, 2026) in St. Gallen, Switzerland, but the evidence only lists the festival's overall date range with no specific per-artist date of 2026-06-26, and the venue name in the record ('Festivalgel\u00e4nde Sittertobel') cannot be confirmed from the evidence which lists the address as 'Adlerbergstrasse 15'.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:24.471947+00:00"
+    }
+  },
+  {
+    "artist_id": 65043,
+    "artist_name": "Kavinsky",
+    "date": "2026-04-25",
+    "venue": "Place Centrale (E.N.D Session - Afterski g\u00e9ant)",
+    "city": "Verbier",
+    "country": "Switzerland",
+    "url": "https://ra.co/events/2363601",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "venue_changed",
+      "confidence": "high",
+      "changes": {
+        "new_venue": "Place de l'Ermitage"
+      },
+      "notes": "Two sources including the original RA URL now list the venue as 'Place de l'Ermitage' rather than 'Place Centrale', while the date, city, and artist remain consistent.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:06:29.493822+00:00"
+    }
+  },
+  {
+    "artist_id": 4844164,
+    "artist_name": "KAYTRANADA",
+    "date": "2026-06-09",
+    "venue": "Hallenstadion",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.livenation.ch/en/kaytranada-tickets-adp423716",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms KAYTRANADA performing at Hallenstadion in Z\u00fcrich on June 9, 2026, matching all stored record details.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:32.663579+00:00"
+    }
+  },
+  {
+    "artist_id": 5188920,
+    "artist_name": "Kevin Morby",
+    "date": "2026-07-14",
+    "venue": "Rote Fabrik Aktionshalle",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/concerts/43046692-kevin-morby-at-rote-fabrik-aktionshalle",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Kevin Morby performing at Rote Fabrik Aktionshalle in Z\u00fcrich, Switzerland on 2026-07-14, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:35.751540+00:00"
+    }
+  },
+  {
+    "artist_id": 3520731,
+    "artist_name": "Lightspeed Champion",
+    "date": "2026-08-25",
+    "venue": "Komplex 457",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.livenation.com/event/intl_1651110/blood-orange-tour-2026",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "details_changed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The event at the correct date, venue, and city is confirmed, but the performing artist is Blood Orange, not Lightspeed Champion as stored in the record.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:39.744696+00:00"
+    }
+  },
+  {
+    "artist_id": 15842677,
+    "artist_name": "Lil Bruzy",
+    "date": "2026-06-12",
+    "venue": "Sportplatz Rolli",
+    "city": "Seuzach",
+    "country": "Switzerland",
+    "url": "https://eventfrog.ch/en/p/concert/hip-hop-rap/konzert-julex-lil-bruzy-7407123393428899773.html",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence confirms Lil Bruzy performing at Sportplatz Rolli in Seuzach, Switzerland on 2026-06-12, matching all stored record fields; the source URL differs only by 'concert' vs 'concerts' in the path.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:43.247865+00:00"
+    }
+  },
+  {
+    "artist_id": 14123,
+    "artist_name": "Linkin Park",
+    "date": "2026-06-30",
+    "venue": "Stadion Letzigrund",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.livenation.ch/event/linkin-park-from-zero-world-tour-z%C3%BCrich-tickets-edp1609222",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Linkin Park performing at Stadion Letzigrund in Z\u00fcrich on 30 June 2026 as part of the From Zero World Tour.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:45.975057+00:00"
+    }
+  },
+  {
+    "artist_id": 4971631,
+    "artist_name": "Loco Escrito",
+    "date": "2026-08-25",
+    "venue": "M\u00fchle Hunziken",
+    "city": "Rubigen (near Bern)",
+    "country": "Switzerland",
+    "url": "https://www.bandsintown.com/e/1036983377-loco-escrito-at-muhle-hunziken?came_from=252&utm_medium=web&utm_source=venue_page&utm_campaign=event",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Loco Escrito performing at M\u00fchle Hunziken in Rubigen, Switzerland on 2026-08-25, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:49.357051+00:00"
+    }
+  },
+  {
+    "artist_id": 5899631,
+    "artist_name": "Mammal Hands",
+    "date": "2026-04-12",
+    "venue": "Kaufleuten Klubsaal",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://kaufleuten.ch/en/event/mammal-hands-konzert/",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Mammal Hands performing on April 12, 2026 at Kaufleuten in Z\u00fcrich, Switzerland, matching all stored record fields.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:52.530771+00:00"
+    }
+  },
+  {
+    "artist_id": 5950405,
+    "artist_name": "Mannequin Pussy",
+    "date": "TBD",
+    "venue": "Dachstock",
+    "city": "Bern",
+    "country": "Switzerland",
+    "url": "https://www.epitaph.com/tours?view_by=year&artist=411&when=2026",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence page is filtered to show Mamalarky tours, not Mannequin Pussy, and contains no concert listing for Mannequin Pussy at Dachstock in Bern, Switzerland.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:06:56.665587+00:00"
+    }
+  },
+  {
+    "artist_id": 17208862,
+    "artist_name": "MARO",
+    "date": "2026-03-03",
+    "venue": "Kaufleuten",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://kaufleuten.ch/en/event/maro-konzert/",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-03-03 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:06:56.666585+00:00"
+    }
+  },
+  {
+    "artist_id": 4828104,
+    "artist_name": "Maruja",
+    "date": "2026-04-09",
+    "venue": "Bogen F",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/concerts/42603604-maruja-at-bogen-f",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence explicitly confirms Maruja performing at Bogen F in Z\u00fcrich, Switzerland on April 9, 2026, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:01.519873+00:00"
+    }
+  },
+  {
+    "artist_id": 5726607,
+    "artist_name": "Men I Trust",
+    "date": "2026-06-09",
+    "venue": "X-TRA",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/concerts/42909712-men-i-trust-at-xtra",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence explicitly confirms Men I Trust performing at X-TRA in Z\u00fcrich, Switzerland on June 09, 2026, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:04.480847+00:00"
+    }
+  },
+  {
+    "artist_id": 4348856,
+    "artist_name": "Michael Kiwanuka",
+    "date": "2026-03-04",
+    "venue": "Halle 622",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://northerntransmissions.com/michael-kiwanuka-shares-new-single-rebel-soul/",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-03-04 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:07:04.481888+00:00"
+    }
+  },
+  {
+    "artist_id": 4891573,
+    "artist_name": "Mnevis",
+    "date": "2026-04-08",
+    "venue": "CERVO Mountain Resort (Zermatt Unplugged Festival)",
+    "city": "Zermatt",
+    "country": "Switzerland",
+    "url": "https://cervo.swiss/en/events/mnevis",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence explicitly confirms Mnevis performing on 08.04.2026 at CERVO Mountain Resort as part of the Zermatt Unplugged Festival in Zermatt, Switzerland.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:07.584154+00:00"
+    }
+  },
+  {
+    "artist_id": 4891573,
+    "artist_name": "Mnevis",
+    "date": "2026-04-09",
+    "venue": "Zermatt Unplugged Festival",
+    "city": "Zermatt",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/concerts/43028172-mnevis-at-zermatt-unplugged-festival",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The structured data and page content both confirm Mnevis performing at Zermatt Unplugged Festival in Zermatt, Switzerland on 2026-04-09, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:10.817177+00:00"
+    }
+  },
+  {
+    "artist_id": 9045,
+    "artist_name": "Moby",
+    "date": "2026-06-11",
+    "venue": "Festi'neuch (Neuch\u00e2tel Openair Festival)",
+    "city": "Neuch\u00e2tel",
+    "country": "Switzerland",
+    "url": "https://www.myswitzerland.com/en-ie/experiences/events/festineuch/",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "low",
+      "changes": {},
+      "notes": "Evidence confirms Festi'neuch 2026 exists in Neuch\u00e2tel, Switzerland, and Moby has 2026 tour dates, but no source explicitly links Moby to a performance at Festi'neuch on 2026-06-11.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:07:15.210683+00:00"
+    }
+  },
+  {
+    "artist_id": 17130071,
+    "artist_name": "Mo Dotti",
+    "date": "2026-03-01",
+    "venue": "Helsinki Klub",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DRzWIomCMNQ/",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-03-01 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:07:15.211475+00:00"
+    }
+  },
+  {
+    "artist_id": 16737673,
+    "artist_name": "Molchat Doma",
+    "date": "2026-10-25",
+    "venue": "TBD",
+    "city": "Aarau",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DLA3doRyXP3/?hl=en",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "low",
+      "changes": {},
+      "notes": "The evidence only shows Molchat Doma tour dates in May 2026 (Brussels and Madrid) with no mention of an October 25, 2026 concert in Aarau, Switzerland.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:07:20.279618+00:00"
+    }
+  },
+  {
+    "artist_id": 3835737,
+    "artist_name": "NO JOY",
+    "date": "2026-03-06",
+    "venue": "ISC",
+    "city": "Bern",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/reel/DUoF4nCDL3S/",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-03-06 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:07:20.280570+00:00"
+    }
+  },
+  {
+    "artist_id": 3835737,
+    "artist_name": "NO JOY",
+    "date": "2026-03-07",
+    "venue": "Bogen F",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.bogenf.ch/en/",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-03-07 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:07:20.280817+00:00"
+    }
+  },
+  {
+    "artist_id": 8757140,
+    "artist_name": "Nubya Garcia",
+    "date": "2026-05-03",
+    "venue": "Kaserne Basel",
+    "city": "Basel",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/concerts/42750181-nubya-garcia-at-kaserne-basel",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence explicitly confirms Nubya Garcia performing at Kaserne Basel in Basel, Switzerland on Sunday 03 May 2026, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:23.863742+00:00"
+    }
+  },
+  {
+    "artist_id": 4370776,
+    "artist_name": "One Sentence. Supervisor",
+    "date": "2026-04-03",
+    "venue": "Kulturhalle S\u00e4gegasse",
+    "city": "Burgdorf",
+    "country": "Switzerland",
+    "url": "https://www.bandsintown.com/e/107842288-one-sentence.-supervisor-at-kulturhalle-sagegasse",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The structured data and page content explicitly confirm One Sentence. Supervisor performing at Kulturhalle S\u00e4gegasse in Burgdorf, Switzerland on 2026-04-03, matching all stored record fields.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:27.447365+00:00"
+    }
+  },
+  {
+    "artist_id": 3614038,
+    "artist_name": "Phantogram",
+    "date": "2026-06-30",
+    "venue": "Stadion Letzigrund",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.livenation.com/artist/K8vZ917GpL0/phantogram-events",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence contains multiple Phantogram events in Europe during this period but none matching the stored record of a 2026-06-30 concert at Stadion Letzigrund in Z\u00fcrich, Switzerland.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:32.567663+00:00"
+    }
+  },
+  {
+    "artist_id": 5744956,
+    "artist_name": "Polyphia",
+    "date": "2026-05-26",
+    "venue": "Komplex 457",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.loudersound.com/news/polyphia-announce-uk-and-european-tour-dates",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The source article confirms Polyphia announced a UK and European tour, but the evidence text contains no specific concert details (dates, venues, or cities), so the stored record for Z\u00fcrich on 2026-05-26 at Komplex 457 cannot be verified.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:36.592355+00:00"
+    }
+  },
+  {
+    "artist_id": 3923470,
+    "artist_name": "Portugal. The Man",
+    "date": "2026-03-14",
+    "venue": "Les Docks",
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "url": "https://www.docks.ch/en/evenement/concerts-en/20260314/portugal-the-man-2/",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "date_changed",
+      "confidence": "high",
+      "changes": {
+        "new_date": "2026-11-17"
+      },
+      "notes": "The Portugal. The Man show originally scheduled for March 14, 2026 has been explicitly postponed to November 17, 2026 at the same venue (Les Docks, Lausanne).",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:40.044770+00:00"
+    }
+  },
+  {
+    "artist_id": 3923470,
+    "artist_name": "Portugal. The Man",
+    "date": "2026-03-15",
+    "venue": "Komplex 457",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.jambase.com/show/portugal-the-man-komplex-457-20260315",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "date_changed",
+      "confidence": "high",
+      "changes": {
+        "new_date": "2026-11-27"
+      },
+      "notes": "The event has been rescheduled from 2026-03-15 (listed as previousStartDate) to 2026-11-27, as explicitly indicated by eventStatus 'EventRescheduled' in the structured data; venue and city remain Komplex 457 in Z\u00fcrich.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:46.400104+00:00"
+    }
+  },
+  {
+    "artist_id": 7097936,
+    "artist_name": "Princess Nokia",
+    "date": "2026-05-19",
+    "venue": "Hallenstadion",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DJXqgjDt1y3/",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Princess Nokia is not mentioned in any of the three evidence sources listing Hallenstadion Z\u00fcrich events for 2026-2027.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:07:51.102011+00:00"
+    }
+  },
+  {
+    "artist_id": 18526774,
+    "artist_name": "Projekt ET",
+    "date": "2026-03-28",
+    "venue": "Royal",
+    "city": "Baden",
+    "country": "Switzerland",
+    "url": "https://stadtkonzerte.ch/artists/projekt-et",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence explicitly confirms Projekt ET performing at Royal, Baden on Sa 28. M\u00e4rz 2026, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:54.075987+00:00"
+    }
+  },
+  {
+    "artist_id": 18526774,
+    "artist_name": "Projekt ET",
+    "date": "2026-04-03",
+    "venue": "Konzerthaus Sch\u00fc\u00fcr",
+    "city": "Lucerne",
+    "country": "Switzerland",
+    "url": "https://www.bandsintown.com/e/107649798-projekt-et-at-konzerthaus-schuur?came_from=209",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence explicitly confirms Projekt ET performing at Konzerthaus Sch\u00fc\u00fcr in Lucerne, Switzerland on 2026-04-03, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:57.046823+00:00"
+    }
+  },
+  {
+    "artist_id": 18526774,
+    "artist_name": "Projekt ET",
+    "date": "2026-04-25",
+    "venue": "Albani",
+    "city": "Winterthur",
+    "country": "Switzerland",
+    "url": "https://www.albani.ch/de/programm/1121/Projekt-ET.html",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The structured data explicitly confirms Projekt ET (CH) at Albani Winterthur, Switzerland on 2026-04-25, with EventScheduled status and matching URL pattern.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:07:59.774278+00:00"
+    }
+  },
+  {
+    "artist_id": 18526774,
+    "artist_name": "Projekt ET",
+    "date": "2026-09-17",
+    "venue": "EXIL",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.bandsintown.com/e/1037725362-projekt-et-at-exil?came_from=209",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence explicitly confirms Projekt ET performing at EXIL in Zurich, Switzerland on 2026-09-17, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:08:02.486150+00:00"
+    }
+  },
+  {
+    "artist_id": 17449109,
+    "artist_name": "Pseudonym Prada",
+    "date": "2026-04-03",
+    "venue": "Komplex 457",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.shazam.com/event/03423fbd-8d44-4707-88b9-b481aa0d8661",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "high",
+      "changes": {},
+      "notes": "No evidence mentions Pseudonym Prada at Komplex 457; the April 3, 2026 slot at that venue references a 'Jule X' concert, not Pseudonym Prada.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:08:06.703921+00:00"
+    }
+  },
+  {
+    "artist_id": 8725355,
+    "artist_name": "Puma Blue",
+    "date": "2026-05-09",
+    "venue": "Th\u00e9\u00e2tre de l'Octogone",
+    "city": "Pully",
+    "country": "Switzerland",
+    "url": "https://www.bandsintown.com/e/1036957118-puma-blue-at-theatre-de-l'octogone",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Puma Blue performing at Th\u00e9\u00e2tre de l'Octogone in Pully, Switzerland on May 9, 2026, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:08:09.842913+00:00"
+    }
+  },
+  {
+    "artist_id": 7262284,
+    "artist_name": "Ravyn Lenae",
+    "date": "2026-05-19",
+    "venue": "Hallenstadion",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.facebook.com/rapdatesofficial/photos/ravyn-lenae-us-festivals-202604062026-es-barcelona-primavera_sound-13082026-dk-c/1495048059290503/",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "low",
+      "changes": {},
+      "notes": "The evidence sources (Ticketmaster, JamBase, Songkick) confirm Ravyn Lenae has 2026 tour dates but contain no specific mention of a May 19, 2026 concert at Hallenstadion in Z\u00fcrich, Switzerland.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:08:14.228530+00:00"
+    }
+  },
+  {
+    "artist_id": 32251676,
+    "artist_name": "Red Leather",
+    "date": "2026-06-09",
+    "venue": "Komplex Klub (Komplex 457)",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.ticketcorner.ch/en/event/red-leather-komplex-457-21188878/",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "date_changed",
+      "confidence": "medium",
+      "changes": {
+        "new_date": "2026-10-23"
+      },
+      "notes": "The Ticketcorner source confirms June 9, 2026, but the Komplex 457 Facebook post advertises a Red Leather show on Friday, October 23, 2026, suggesting the date may have changed or a second show was added.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:09:05.754493+00:00"
+    }
+  },
+  {
+    "artist_id": 4748331,
+    "artist_name": "ROSAL\u00cdA",
+    "date": "2026-03-22",
+    "venue": "Hallenstadion",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.livenation.ch/event/rosal%C3%ADa-lux-tour-2026-z%C3%BCrich-tickets-edp1641232",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Evidence directly confirms ROSAL\u00cdA performing at Hallenstadion in Z\u00fcrich on 22 M\u00e4rz 2026 (Sunday, March 22, 2026), matching all stored record details.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:09:09.105658+00:00"
+    }
+  },
+  {
+    "artist_id": 3668549,
+    "artist_name": "Russian Circles",
+    "date": "2026-04-25",
+    "venue": "Valhalla Bar Basel",
+    "city": "Basel",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DTlCx68FL3L/?hl=en",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "low",
+      "changes": {},
+      "notes": "The Russian Circles shows page lists May 2026 dates but no April 25 date or Basel/Valhalla Bar venue, and no other evidence source confirms this specific concert.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:09:13.740050+00:00"
+    }
+  },
+  {
+    "artist_id": 9249274,
+    "artist_name": "Silvana Estrada",
+    "date": "2026-05-13",
+    "venue": "Les Docks",
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/concerts/43010484-silvana-estrada-at-les-docks",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence explicitly confirms Silvana Estrada performing at Les Docks in Lausanne, Switzerland on Wednesday 13 May 2026, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:09:16.814224+00:00"
+    }
+  },
+  {
+    "artist_id": 3575091,
+    "artist_name": "Stephen Malkmus & The Jicks",
+    "date": "2026-02",
+    "venue": "Salzhaus",
+    "city": "Winterthur",
+    "country": "Switzerland",
+    "url": "https://www.dominomusic.com/live/artist/stephen-malkmus",
+    "searched_at": "2026-02-20T23:54:05.037582+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-02 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:09:16.815635+00:00"
+    }
+  },
+  {
+    "artist_id": 3736815,
+    "artist_name": "Tame Impala",
+    "date": "2026-04-14",
+    "venue": "Hallenstadion",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/concerts/42823274-tame-impala-at-hallenstadion",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Tame Impala performing at Hallenstadion in Z\u00fcrich, Switzerland on Tuesday 14 April 2026, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:09:19.269221+00:00"
+    }
+  },
+  {
+    "artist_id": 9770131,
+    "artist_name": "TEKE::TEKE",
+    "date": "TBD",
+    "venue": "Winterthurer Musikfestwochen (August 5\u201316, 2026)",
+    "city": "Winterthur",
+    "country": "Switzerland",
+    "url": "https://www.openairguide.net/festivals/schweiz/winterthurer-musikfestwochen/teke-teke",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "medium",
+      "changes": {},
+      "notes": "The evidence page is a band archive showing TEKE::TEKE's past appearances at Winterthurer Musikfestwochen (only 2022 listed), with no indication they are confirmed for the 2026 edition; the festival dates (Aug 5\u201316, 2026) match the stored record but TEKE::TEKE does not appear on the current lineup.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:09:23.057710+00:00"
+    }
+  },
+  {
+    "artist_id": 6891143,
+    "artist_name": "The Big Moon",
+    "date": "2026-03-26",
+    "venue": "Gannet",
+    "city": "Basel",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DRcHXEsio6G/",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "low",
+      "changes": {},
+      "notes": "The evidence references The Big Moon tour pages but contains no specific mention of a concert at Gannet in Basel on 2026-03-26, making it impossible to confirm or deny the stored record.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:09:28.097027+00:00"
+    }
+  },
+  {
+    "artist_id": 6891143,
+    "artist_name": "The Big Moon",
+    "date": "2026-03-27",
+    "venue": "Sedel",
+    "city": "Emmen (Luzern)",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/reel/DTayctcCKVB/",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "low",
+      "changes": {},
+      "notes": "The evidence confirms The Big Moon has 2026 tour dates listed on multiple platforms but contains no specific mention of a March 27, 2026 concert at Sedel in Emmen (Luzern), Switzerland.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:09:33.503211+00:00"
+    }
+  },
+  {
+    "artist_id": 3642059,
+    "artist_name": "The Neighbourhood",
+    "date": "2026-05-05",
+    "venue": "THE HALL Z\u00fcrich",
+    "city": "D\u00fcbendorf (Z\u00fcrich)",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/concerts/42904902-neighbourhood-at-hallenstadion",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "details_changed",
+      "confidence": "high",
+      "changes": {
+        "new_venue": "Hallenstadion",
+        "new_city": "Z\u00fcrich"
+      },
+      "notes": "The concert is confirmed for the same artist, date (2026-05-05), and city (Z\u00fcrich, Switzerland), but the venue is Hallenstadion rather than THE HALL Z\u00fcrich, and the city locality is Z\u00fcrich rather than D\u00fcbendorf.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:09:37.452420+00:00"
+    }
+  },
+  {
+    "artist_id": 4068070,
+    "artist_name": "Thundercat",
+    "date": "2026-03-06",
+    "venue": "Labor 5",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DUGqjVujjJp/",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-03-06 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:09:37.453402+00:00"
+    }
+  },
+  {
+    "artist_id": 3584091,
+    "artist_name": "Tinariwen",
+    "date": "2026-05-08",
+    "venue": "Der Rolf B\u00f6hme Saal",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.facebook.com/tinariwenmusic/posts/tinariwen-europe-tour-2026-tickets-on-sale-next-friday-at-11-am-cet-follow-our-c/1343825057110490/",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "low",
+      "changes": {},
+      "notes": "The source URL matches the stored record but the evidence text only shows partial tour dates (Porto on April 13) and does not mention the May 8 Z\u00fcrich show at Der Rolf B\u00f6hme Saal, so the specific concert cannot be confirmed or refuted.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:09:42.069013+00:00"
+    }
+  },
+  {
+    "artist_id": 4064719,
+    "artist_name": "toe",
+    "date": "2026-04-12",
+    "venue": "Post Squat",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DRzDwUdE6Tm/",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence confirms a concert at Post Squat in Z\u00fcrich on 2026-04-12, but the performing artist is DON'T TRY (with support from Time To Eat The Dog), not toe as stored in the record.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:09:46.318768+00:00"
+    }
+  },
+  {
+    "artist_id": 5806445,
+    "artist_name": "Tom Misch",
+    "date": "2026-02-21",
+    "venue": "Palace (Nordklang Festival)",
+    "city": "St. Gallen",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/artists/8341698-tom-misch",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-02-21 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:09:46.319723+00:00"
+    }
+  },
+  {
+    "artist_id": 5806445,
+    "artist_name": "Tom Misch",
+    "date": "2026-06-21",
+    "venue": "TBD",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/artists/8341698-tom-misch",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "medium",
+      "changes": {},
+      "notes": "Instagram source confirms Tom Misch is scheduled in Zurich/Switzerland on June 21, 2026, consistent with the stored record, though venue remains TBD and the source is informal.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:09:51.014069+00:00"
+    }
+  },
+  {
+    "artist_id": 17108759,
+    "artist_name": "Tricky",
+    "date": "2026-06-14",
+    "venue": "Kaufleuten",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://kaufleuten.ch/en/event/tricky-konzert/",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Tricky performing at Kaufleuten in Z\u00fcrich, Switzerland on June 14, 2026, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:09:54.290592+00:00"
+    }
+  },
+  {
+    "artist_id": 17108759,
+    "artist_name": "Tricky",
+    "date": "2026-06-16",
+    "venue": "Bierh\u00fcbeli",
+    "city": "Bern",
+    "country": "Switzerland",
+    "url": "https://gigs.guide/event/AvrU0OgW1K/tricky-bern-16-jun-2026",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Tricky performing at Bierh\u00fcbeli in Bern, Switzerland on 2026-06-16, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:09:56.749157+00:00"
+    }
+  },
+  {
+    "artist_id": 3574987,
+    "artist_name": "Unwound",
+    "date": "2026-06-08",
+    "venue": "Fri-Son",
+    "city": "Fribourg",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DH5f81EivZx/",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "low",
+      "changes": {},
+      "notes": "The evidence confirms Fri-Son exists as a venue in Fribourg, Switzerland with 2026 concerts, but none of the sources explicitly mention Unwound performing there on 2026-06-08.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:10:01.274042+00:00"
+    }
+  },
+  {
+    "artist_id": 8150823,
+    "artist_name": "Veronica Fusaro",
+    "date": "2026-02-26",
+    "venue": "Casinotheater Winterthur",
+    "city": "Winterthur",
+    "country": "Switzerland",
+    "url": "https://www.stubhub.com/veronica-fusaro-tickets/category/138283328/winterthur-city/7864",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-02-26 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:10:01.275263+00:00"
+    }
+  },
+  {
+    "artist_id": 25399116,
+    "artist_name": "Wet Leg",
+    "date": "2026-06-26",
+    "venue": "OpenAir St. Gallen (Sittertobel)",
+    "city": "St. Gallen",
+    "country": "Switzerland",
+    "url": "https://concertful.com/tour/wet-leg/",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Multiple sources confirm Wet Leg performing on June 26, 2026 at Sittertobel (OpenAir St. Gallen) in St. Gallen, Switzerland, matching all stored record details.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:10:05.861640+00:00"
+    }
+  },
+  {
+    "artist_id": 3909697,
+    "artist_name": "Widowspeak",
+    "date": "2026-02-22",
+    "venue": "Kaufleuten",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/popular/widowspeak-band-tour-dates-2026/",
+    "searched_at": "2026-02-21T08:49:08.819910+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-02-22 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:10:05.862598+00:00"
+    }
+  },
+  {
+    "artist_id": 43450342,
+    "artist_name": "Wisp",
+    "date": "2026-06-25",
+    "venue": "Bad Bonn",
+    "city": "D\u00fcdingen",
+    "country": "Switzerland",
+    "url": "https://www.instagram.com/p/DPjdfGfkYsE/",
+    "searched_at": "2026-02-21T09:22:33.191701+00:00",
+    "verification": {
+      "status": "unverified",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence confirms Bad Bonn exists in D\u00fcdingen, Switzerland, but contains no mention of Wisp performing there on 2026-06-25.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:10:10.126459+00:00"
+    }
+  },
+  {
+    "artist_id": 19379,
+    "artist_name": "Wolfmother",
+    "date": "2026-08-24",
+    "venue": "M\u00fchle Hunziken",
+    "city": "Rubigen (Bern area)",
+    "country": "Switzerland",
+    "url": "https://detour.songkick.com/concerts/43046693-wolfmother-at-muhle-hunziken",
+    "searched_at": "2026-02-21T09:22:33.191701+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Wolfmother performing at M\u00fchle Hunziken in Rubigen, Switzerland on 24 August 2026, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:10:14.508630+00:00"
+    }
+  },
+  {
+    "artist_id": 19379,
+    "artist_name": "Wolfmother",
+    "date": "2026-08-25",
+    "venue": "Kulturfabrik Kofmehl",
+    "city": "Solothurn",
+    "country": "Switzerland",
+    "url": "https://www.ticketcorner.ch/en/event/wolfmother-kulturfabrik-kofmehl-21322143/",
+    "searched_at": "2026-02-21T09:22:33.191701+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Multiple sources including the original Ticketcorner URL confirm Wolfmother at Kulturfabrik Kofmehl in Solothurn, Switzerland on 25.08.2026 at 20:00.",
+      "method": "web_search",
+      "verified_at": "2026-03-13T10:11:05.358041+00:00"
+    }
+  },
+  {
+    "artist_id": 19379,
+    "artist_name": "Wolfmother",
+    "date": "2026-08-26",
+    "venue": "Les Docks",
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "url": "https://detour.songkick.com/concerts/43047764-wolfmother-at-les-docks",
+    "searched_at": "2026-02-21T09:22:33.191701+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms Wolfmother performing at Les Docks in Lausanne, Switzerland on 2026-08-26, matching all stored record fields exactly.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:11:08.224097+00:00"
+    }
+  },
+  {
+    "artist_id": 8191121,
+    "artist_name": "Yellow Days",
+    "date": "2026-04-26",
+    "venue": "Exil",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.songkick.com/concerts/42913699-yellow-days-at-exil",
+    "searched_at": "2026-02-21T09:22:33.191701+00:00",
+    "verification": {
+      "status": "date_changed",
+      "confidence": "high",
+      "changes": {
+        "new_date": "2026-04-25"
+      },
+      "notes": "The evidence consistently shows the concert date as April 25, 2026 (not April 26, 2026 as stored), with the same artist, venue, and city confirmed.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:11:13.446011+00:00"
+    }
+  },
+  {
+    "artist_id": 10711459,
+    "artist_name": "Yet No Yokai",
+    "date": "TBD",
+    "venue": "B-Sides Festival (Sonnenberg)",
+    "city": "Kriens (near Lucerne)",
+    "country": "Switzerland",
+    "url": "https://stadtkonzerte.ch/festivals/b-sides-festival-1238ea04-ec48-4aaa-86f3-bb6cfea16aae",
+    "searched_at": "2026-02-21T09:22:33.191701+00:00",
+    "verification": {
+      "status": "date_changed",
+      "confidence": "high",
+      "changes": {
+        "new_date": "2023-06-17"
+      },
+      "notes": "Yet No Yokai is confirmed in the Saturday (17.06.2023) lineup of B-Sides Festival, but the stored record has date as TBD whereas the evidence shows the festival ran 15\u201317 June 2023 with the artist performing on Saturday the 17th.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:11:17.210683+00:00"
+    }
+  },
+  {
+    "artist_id": 6158693,
+    "artist_name": "Yin Yin",
+    "date": "2026-03-09",
+    "venue": "Kaufleuten",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://kaufleuten.ch/en/event/yin-yin-konzert/",
+    "searched_at": "2026-02-21T09:22:33.191701+00:00",
+    "verification": {
+      "status": "past",
+      "confidence": "high",
+      "changes": {},
+      "notes": "Concert date 2026-03-09 is in the past",
+      "method": "date_check",
+      "verified_at": "2026-03-13T10:11:17.211729+00:00"
+    }
+  },
+  {
+    "artist_id": 7598676,
+    "artist_name": "YONAKA",
+    "date": "2026-06-14",
+    "venue": "Exil",
+    "city": "Z\u00fcrich",
+    "country": "Switzerland",
+    "url": "https://www.livenation.ch/en/event/yonaka-tour-2026-z%C3%BCrich-tickets-edp1642337",
+    "searched_at": "2026-02-21T09:22:33.191701+00:00",
+    "verification": {
+      "status": "confirmed",
+      "confidence": "high",
+      "changes": {},
+      "notes": "The evidence directly confirms YONAKA performing at Exil in Z\u00fcrich on Sunday, 14 Jun 2026, matching all stored record details.",
+      "method": "source_refetch",
+      "verified_at": "2026-03-13T10:11:20.408968+00:00"
+    }
+  }
+]

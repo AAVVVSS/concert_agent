@@ -1,0 +1,4672 @@
+{
+  "run_timestamp": "2026-03-13T10:11:20.415184+00:00",
+  "input_file": "upcoming_concerts.json",
+  "total_concerts": 88,
+  "limit": null,
+  "no_search": false,
+  "skip_past": false,
+  "summary": {
+    "status_counts": {
+      "date_changed": 7,
+      "past": 15,
+      "confirmed": 37,
+      "details_changed": 3,
+      "unverified": 25,
+      "venue_changed": 1
+    },
+    "tier1_domain_stats": {
+      "detour.songkick.com": {
+        "success": 3,
+        "fail": 0
+      },
+      "www.ticketmaster.com": {
+        "success": 2,
+        "fail": 0
+      },
+      "www.thehall.ch": {
+        "success": 1,
+        "fail": 0
+      },
+      "kaufleuten.ch": {
+        "success": 3,
+        "fail": 0
+      },
+      "www.songkick.com": {
+        "success": 10,
+        "fail": 0
+      },
+      "rocknloadmag.com": {
+        "success": 1,
+        "fail": 0
+      },
+      "ra.co": {
+        "success": 0,
+        "fail": 2
+      },
+      "justbecause.ch": {
+        "success": 1,
+        "fail": 0
+      },
+      "www.jambase.com": {
+        "success": 3,
+        "fail": 0
+      },
+      "www.bandsintown.com": {
+        "success": 6,
+        "fail": 0
+      },
+      "www.livenation.ch": {
+        "success": 4,
+        "fail": 0
+      },
+      "www.livenation.com": {
+        "success": 2,
+        "fail": 0
+      },
+      "eventfrog.ch": {
+        "success": 1,
+        "fail": 0
+      },
+      "www.epitaph.com": {
+        "success": 1,
+        "fail": 0
+      },
+      "cervo.swiss": {
+        "success": 1,
+        "fail": 0
+      },
+      "www.myswitzerland.com": {
+        "success": 0,
+        "fail": 1
+      },
+      "www.loudersound.com": {
+        "success": 1,
+        "fail": 0
+      },
+      "www.docks.ch": {
+        "success": 1,
+        "fail": 0
+      },
+      "stadtkonzerte.ch": {
+        "success": 2,
+        "fail": 0
+      },
+      "www.albani.ch": {
+        "success": 1,
+        "fail": 0
+      },
+      "www.ticketcorner.ch": {
+        "success": 0,
+        "fail": 2
+      },
+      "www.openairguide.net": {
+        "success": 1,
+        "fail": 0
+      },
+      "gigs.guide": {
+        "success": 1,
+        "fail": 0
+      },
+      "concertful.com": {
+        "success": 0,
+        "fail": 1
+      }
+    },
+    "tier2_reasons": {
+      "url_unfetchable": 21,
+      "tier1_failed": 6
+    },
+    "total_tavily_calls": 27,
+    "total_input_tokens": 119897,
+    "total_output_tokens": 6554,
+    "estimated_cost_usd": 0.458,
+    "avg_tier1_ms": 2413,
+    "avg_tier2_ms": 888,
+    "avg_llm_ms": 2873,
+    "failing_domains": [
+      "ra.co",
+      "www.ticketcorner.ch"
+    ]
+  },
+  "entries": [
+    {
+      "artist_name": "A$AP Rocky",
+      "concert_index": 0,
+      "timestamp": "2026-03-13T10:04:53.970616+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.facebook.com/100094265510805/posts/744164708735706/",
+        "domain": "www.facebook.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"A$AP Rocky\" concert \"Hallenstadion\" 2026-05 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 1573,
+        "error_message": null,
+        "duration_ms": 536
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 1573,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 929,
+        "output_tokens": 104,
+        "raw_response": "{\"status\": \"date_changed\", \"confidence\": \"high\", \"new_date\": \"2026-09-26\", \"new_venue\": null, \"new_city\": null, \"notes\": \"Evidence from Live Nation GSA confirms A$AP Rocky's Don't Be Dumb World Tour at Hallenstadion in Z\u00fcrich, but the date is September 26, 2026, not May 9, 2026 as stored.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3482
+      },
+      "result": {
+        "status": "date_changed",
+        "confidence": "high",
+        "changes": {
+          "new_date": "2026-09-26"
+        },
+        "notes": "Evidence from Live Nation GSA confirms A$AP Rocky's Don't Be Dumb World Tour at Hallenstadion in Z\u00fcrich, but the date is September 26, 2026, not May 9, 2026 as stored."
+      }
+    },
+    {
+      "artist_name": "Altin G\u00fcn",
+      "concert_index": 1,
+      "timestamp": "2026-03-13T10:04:58.996808+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.goodnews.ch/altin-guen/",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-03-06 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:04:58.996853+00:00"
+      }
+    },
+    {
+      "artist_name": "Altin G\u00fcn",
+      "concert_index": 2,
+      "timestamp": "2026-03-13T10:04:58.996978+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.ticketmaster.ch/event/altin-gun-tickets/884782846?language=en-us",
+        "domain": "www.ticketmaster.ch",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Altin G\u00fcn\" concert \"S\u00fcdpol Club\" 2026-05 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 838,
+        "error_message": null,
+        "duration_ms": 241
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 838,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 770,
+        "output_tokens": 110,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"Multiple sources confirm Altin G\u00fcn performing at S\u00fcdpol Club in Kriens on May 14, 2026, matching the stored record; minor venue name variations (S\u00fcdpol Buvette, S\u00fcdpol | Musik Tanz Theater) across sources are likely the same venue complex.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2459
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Multiple sources confirm Altin G\u00fcn performing at S\u00fcdpol Club in Kriens on May 14, 2026, matching the stored record; minor venue name variations (S\u00fcdpol Buvette, S\u00fcdpol | Musik Tanz Theater) across sources are likely the same venue complex."
+      }
+    },
+    {
+      "artist_name": "Anderson .Paak",
+      "concert_index": 3,
+      "timestamp": "2026-03-13T10:05:02.704469+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/popular/anderson-.paak's-tour-dates-2026/",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Anderson .Paak\" concert  2026-06 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 809,
+        "error_message": null,
+        "duration_ms": 105
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 809,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 622,
+        "output_tokens": 101,
+        "raw_response": "{\"status\": \"details_changed\", \"confidence\": \"high\", \"new_date\": \"2026-07-17\", \"new_venue\": \"Komplex 457\", \"new_city\": null, \"notes\": \"Evidence from Ticketmaster CH confirms Anderson .Paak is playing in Zurich but at Komplex 457 on July 17, not the stored date of June 21 and TBD venue.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2537
+      },
+      "result": {
+        "status": "details_changed",
+        "confidence": "high",
+        "changes": {
+          "new_date": "2026-07-17",
+          "new_venue": "Komplex 457"
+        },
+        "notes": "Evidence from Ticketmaster CH confirms Anderson .Paak is playing in Zurich but at Komplex 457 on July 17, not the stored date of June 21 and TBD venue."
+      }
+    },
+    {
+      "artist_name": "A Perfect Circle",
+      "concert_index": 4,
+      "timestamp": "2026-03-13T10:05:06.348412+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://detour.songkick.com/concerts/43058306-a-perfect-circle-at-halle-622",
+        "domain": "detour.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 75374,
+        "extracted_text_size": 5459,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 187
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 5459,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2137,
+        "output_tokens": 78,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms A Perfect Circle performing at Halle 622 in Z\u00fcrich, Switzerland on June 18, 2026, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2616
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms A Perfect Circle performing at Halle 622 in Z\u00fcrich, Switzerland on June 18, 2026, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Baby Keem",
+      "concert_index": 5,
+      "timestamp": "2026-03-13T10:05:09.153265+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.ticketmaster.com/baby-keem-tickets/artist/2688844",
+        "domain": "www.ticketmaster.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 712263,
+        "extracted_text_size": 24000,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent",
+          "BreadcrumbList",
+          "MusicGroup"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 1597
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 24000,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 3356,
+        "output_tokens": 102,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence lists multiple Baby Keem Ca$ino Tour dates across US cities (Raleigh, Charlotte, Nashville, Atlanta, Orlando) but contains no mention of a Z\u00fcrich, Switzerland concert at Halle 622 on 2026-09-06.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3847
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence lists multiple Baby Keem Ca$ino Tour dates across US cities (Raleigh, Charlotte, Nashville, Atlanta, Orlando) but contains no mention of a Z\u00fcrich, Switzerland concert at Halle 622 on 2026-09-06."
+      }
+    },
+    {
+      "artist_name": "bar italia",
+      "concert_index": 6,
+      "timestamp": "2026-03-13T10:05:14.600259+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.dampfzentrale.ch/en/event/e-bar-italia_03-03-2026/",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-03-03 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:05:14.600383+00:00"
+      }
+    },
+    {
+      "artist_name": "Beirut",
+      "concert_index": 7,
+      "timestamp": "2026-03-13T10:05:14.600668+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.thehall.ch/en/events/beirut",
+        "domain": "www.thehall.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 158446,
+        "extracted_text_size": 4456,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "Organization",
+          "BreadcrumbList"
+        ],
+        "error_message": null,
+        "redirect_chain": [
+          {
+            "status": 301,
+            "url": "https://www.thehall.ch/en/events/beirut"
+          }
+        ],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 287
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 4456,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2171,
+        "output_tokens": 74,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence text explicitly lists Beirut on 10. Juli 2026 at The Hall D\u00fcbendorf, matching the stored concert record exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3025
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence text explicitly lists Beirut on 10. Juli 2026 at The Hall D\u00fcbendorf, matching the stored concert record exactly."
+      }
+    },
+    {
+      "artist_name": "Blonde Redhead",
+      "concert_index": 8,
+      "timestamp": "2026-03-13T10:05:17.914858+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DU0SiDnjNUJ/",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Blonde Redhead\" concert \"Plaza\" 2026-10 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 800,
+        "error_message": null,
+        "duration_ms": 878
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 800,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 617,
+        "output_tokens": 92,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"low\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence mentions Blonde Redhead touring but references only a Knockdown Center (Queens) show with no mention of a Z\u00fcrich/Plaza concert on 2026-10-20, so the stored record cannot be confirmed.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3032
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "low",
+        "changes": {},
+        "notes": "The evidence mentions Blonde Redhead touring but references only a Knockdown Center (Queens) show with no mention of a Z\u00fcrich/Plaza concert on 2026-10-20, so the stored record cannot be confirmed."
+      }
+    },
+    {
+      "artist_name": "CHVRCHES",
+      "concert_index": 9,
+      "timestamp": "2026-03-13T10:05:22.832340+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/popular/chvrches-live-tour-dates/",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"CHVRCHES\" concert  2026-06 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 754,
+        "error_message": null,
+        "duration_ms": 913
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 754,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 610,
+        "output_tokens": 93,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"low\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"Evidence mentions CHVRCHES touring but references only a London Royal Albert Hall concert with no mention of a Z\u00fcrich date, and the source URL in the stored record appears to be an invalid Instagram path rather than a credible ticketing source.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3227
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "low",
+        "changes": {},
+        "notes": "Evidence mentions CHVRCHES touring but references only a London Royal Albert Hall concert with no mention of a Z\u00fcrich date, and the source URL in the stored record appears to be an invalid Instagram path rather than a credible ticketing source."
+      }
+    },
+    {
+      "artist_name": "CRIMER",
+      "concert_index": 10,
+      "timestamp": "2026-03-13T10:05:27.996487+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://kaufleuten.ch/en/event/crimer/",
+        "domain": "kaufleuten.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 147616,
+        "extracted_text_size": 10105,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "Event"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 509
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 10105,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 3106,
+        "output_tokens": 75,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms CRIMER performing at Kaufleuten Klub in Z\u00fcrich on September 27, 2026, matching all stored record fields.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2616
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms CRIMER performing at Kaufleuten Klub in Z\u00fcrich on September 27, 2026, matching all stored record fields."
+      }
+    },
+    {
+      "artist_name": "Deftones",
+      "concert_index": 11,
+      "timestamp": "2026-03-13T10:05:31.123657+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.facebook.com/groups/4246741545571798/posts/4295404984038787/",
+        "domain": "www.facebook.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Deftones\" concert \"Hallenstadion\" 2026-05 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 2576,
+        "error_message": null,
+        "duration_ms": 1123
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 2576,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1266,
+        "output_tokens": 95,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"Deftones does not appear in the Hallenstadion Z\u00fcrich event listings, and the Ticketmaster/Live Nation evidence shows no Z\u00fcrich or Hallenstadion date for Deftones in 2026.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2889
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Deftones does not appear in the Hallenstadion Z\u00fcrich event listings, and the Ticketmaster/Live Nation evidence shows no Z\u00fcrich or Hallenstadion date for Deftones in 2026."
+      }
+    },
+    {
+      "artist_name": "Dolphin Love",
+      "concert_index": 12,
+      "timestamp": "2026-03-13T10:05:36.142988+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DL2SVfDsUMz/",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-02-28 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:05:36.143104+00:00"
+      }
+    },
+    {
+      "artist_name": "Dolphin Love",
+      "concert_index": 13,
+      "timestamp": "2026-03-13T10:05:36.143432+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DL2SVfDsUMz/",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Dolphin Love\" concert  2026 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 887,
+        "error_message": null,
+        "duration_ms": 1018
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 887,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 704,
+        "output_tokens": 82,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"low\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"Evidence confirms Dolphin Love has a 2026 tour but only mentions five concerts in Germany with no reference to a Winterthur, Switzerland show or the specific Instagram source URL.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2585
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "low",
+        "changes": {},
+        "notes": "Evidence confirms Dolphin Love has a 2026 tour but only mentions five concerts in Germany with no reference to a Winterthur, Switzerland show or the specific Instagram source URL."
+      }
+    },
+    {
+      "artist_name": "Fai Baba",
+      "concert_index": 14,
+      "timestamp": "2026-03-13T10:05:40.751146+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.songkick.com/concerts/42898352-fai-baba-at-stall-6",
+        "domain": "www.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 81415,
+        "extracted_text_size": 4569,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 628
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 4569,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2056,
+        "output_tokens": 81,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Fai Baba performing at Stall 6 in Z\u00fcrich, Switzerland on 22 March 2026, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2451
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Fai Baba performing at Stall 6 in Z\u00fcrich, Switzerland on 22 March 2026, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Filter",
+      "concert_index": 15,
+      "timestamp": "2026-03-13T10:05:43.832395+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://rocknloadmag.com/filter-heads-to-europe-as-30-year-anniversary-tour-rolls-on/",
+        "domain": "rocknloadmag.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 131627,
+        "extracted_text_size": 5631,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "WebPage"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "hcdn"
+        },
+        "duration_ms": 1314
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 5631,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2115,
+        "output_tokens": 95,
+        "raw_response": "{\"status\": \"date_changed\", \"confidence\": \"high\", \"new_date\": \"2024-03-19\", \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence confirms Filter at Dynamo in Z\u00fcrich on March 19, but the tour is listed as 'EU/UK Tour dates March 2024' not 2026 as stored in the record.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2871
+      },
+      "result": {
+        "status": "date_changed",
+        "confidence": "high",
+        "changes": {
+          "new_date": "2024-03-19"
+        },
+        "notes": "The evidence confirms Filter at Dynamo in Z\u00fcrich on March 19, but the tour is listed as 'EU/UK Tour dates March 2024' not 2026 as stored in the record."
+      }
+    },
+    {
+      "artist_name": "Flying Lotus",
+      "concert_index": 16,
+      "timestamp": "2026-03-13T10:05:48.019085+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://ra.co/events/647710",
+        "domain": "ra.co",
+        "fetch_status": "http_error",
+        "http_status_code": 403,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "HTTPError: 403 Client Error: Forbidden for url: https://ra.co/events/647710",
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html;charset=utf-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 102
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "tier1_failed",
+        "query_used": "\"Flying Lotus\" concert \"X-Tra\" 2026-04 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 894,
+        "error_message": null,
+        "duration_ms": 859
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 894,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 647,
+        "output_tokens": 108,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"low\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence does not directly confirm Flying Lotus at X-Tra on 2026-04-13; the Instagram snippet vaguely references a Switzerland/Zurich date of Jun 21 which conflicts with the stored date, but the source is unreliable and no venue-specific confirmation is found.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3361
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "low",
+        "changes": {},
+        "notes": "The evidence does not directly confirm Flying Lotus at X-Tra on 2026-04-13; the Instagram snippet vaguely references a Switzerland/Zurich date of Jun 21 which conflicts with the stored date, but the source is unreliable and no venue-specific confirmation is found."
+      }
+    },
+    {
+      "artist_name": "Foxwarren",
+      "concert_index": 17,
+      "timestamp": "2026-03-13T10:05:53.344133+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DL2bf7MR6PZ/",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Foxwarren\" concert \"X-TRA Musikcafe\" 2026-10 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 779,
+        "error_message": null,
+        "duration_ms": 1036
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 779,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 654,
+        "output_tokens": 81,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence contains no mention of Foxwarren performing at X-TRA Musikcafe or anywhere else; only Warren Zeiders and general venue listings appear in the results.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2400
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence contains no mention of Foxwarren performing at X-TRA Musikcafe or anywhere else; only Warren Zeiders and general venue listings appear in the results."
+      }
+    },
+    {
+      "artist_name": "Franz Ferdinand",
+      "concert_index": 18,
+      "timestamp": "2026-03-13T10:05:57.785316+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://justbecause.ch/shows/show/franz-ferdinand-the-hall-20260328",
+        "domain": "justbecause.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 35169,
+        "extracted_text_size": 5901,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent",
+          "WebSite",
+          "Organization"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 215
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 5901,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2314,
+        "output_tokens": 83,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Franz Ferdinand performing at The Hall in D\u00fcbendorf (Greater Z\u00fcrich), Switzerland on 2026-03-28, with matching source URL and EventScheduled status.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2670
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Franz Ferdinand performing at The Hall in D\u00fcbendorf (Greater Z\u00fcrich), Switzerland on 2026-03-28, with matching source URL and EventScheduled status."
+      }
+    },
+    {
+      "artist_name": "Garbage",
+      "concert_index": 19,
+      "timestamp": "2026-03-13T10:06:00.672697+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.jambase.com/show/garbage-volkshaus-20260628",
+        "domain": "www.jambase.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 239778,
+        "extracted_text_size": 12570,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent",
+          "Article"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 2319
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 12570,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 3051,
+        "output_tokens": 78,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The MusicEvent structured data explicitly confirms Garbage performing at Volkshaus in Z\u00fcrich, Switzerland on June 28, 2026, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2741
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The MusicEvent structured data explicitly confirms Garbage performing at Volkshaus in Z\u00fcrich, Switzerland on June 28, 2026, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Geese",
+      "concert_index": 20,
+      "timestamp": "2026-03-13T10:06:05.734271+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.songkick.com/concerts/42757734-geese-at-plaza-zurich",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-03-11 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:06:05.734376+00:00"
+      }
+    },
+    {
+      "artist_name": "Grace VanderWaal",
+      "concert_index": 21,
+      "timestamp": "2026-03-13T10:06:05.734578+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.facebook.com/PlazaKlubZurich/posts/newsnatalie-jane-nataliejane-comes-not-aloneopener-kylekelly-usa-kylekellymusic-/1354890113348847/",
+        "domain": "www.facebook.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Grace VanderWaal\" concert \"Plaza Klub\" 2026-04 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 1678,
+        "error_message": null,
+        "duration_ms": 1123
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 1678,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 995,
+        "output_tokens": 75,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"Evidence from Facebook and Instagram confirms Grace VanderWaal as support act at Plaza Z\u00fcrich on 27.04.2026, matching the stored record.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2378
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Evidence from Facebook and Instagram confirms Grace VanderWaal as support act at Plaza Z\u00fcrich on 27.04.2026, matching the stored record."
+      }
+    },
+    {
+      "artist_name": "JID",
+      "concert_index": 22,
+      "timestamp": "2026-03-13T10:06:10.239101+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.ticketmaster.com/j-i-d-tickets/artist/2351316",
+        "domain": "www.ticketmaster.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 655850,
+        "extracted_text_size": 24000,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "BreadcrumbList",
+          "MusicEvent",
+          "MusicGroup"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 1893
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 24000,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 3047,
+        "output_tokens": 103,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence confirms J.I.D is the correct artist and references the Ticketmaster artist page, but contains no mention of a concert at X-TRA House of Music in Z\u00fcrich on 2026-03-18; all listed events are at different venues and cities.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3360
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence confirms J.I.D is the correct artist and references the Ticketmaster artist page, but contains no mention of a concert at X-TRA House of Music in Z\u00fcrich on 2026-03-18; all listed events are at different venues and cities."
+      }
+    },
+    {
+      "artist_name": "Jule X",
+      "concert_index": 23,
+      "timestamp": "2026-03-13T10:06:15.493776+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.bandsintown.com/e/107487868",
+        "domain": "www.bandsintown.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 179557,
+        "extracted_text_size": 3705,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicGroup",
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 427
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 3705,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1822,
+        "output_tokens": 127,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Jule X performing at Komplex (Hohlstrasse 45, Zurich, Switzerland) on April 3, 2026, matching the stored record's artist, date, venue, city, and country; the venue name difference ('Komplex 457' vs 'Komplex') appears to be a minor naming variation for the same venue at that address.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3122
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Jule X performing at Komplex (Hohlstrasse 45, Zurich, Switzerland) on April 3, 2026, matching the stored record's artist, date, venue, city, and country; the venue name difference ('Komplex 457' vs 'Komplex') appears to be a minor naming variation for the same venue at that address."
+      }
+    },
+    {
+      "artist_name": "Jule X",
+      "concert_index": 24,
+      "timestamp": "2026-03-13T10:06:19.044962+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.jambase.com/band/jule-x",
+        "domain": "www.jambase.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 218691,
+        "extracted_text_size": 24000,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicGroup",
+          "Festival"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 1202
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 24000,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2841,
+        "output_tokens": 149,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"medium\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"Jule X is confirmed as a performer at OpenAir St. Gallen (Jun 25-28, 2026) in St. Gallen, Switzerland, but the evidence only lists the festival's overall date range with no specific per-artist date of 2026-06-26, and the venue name in the record ('Festivalgel\u00e4nde Sittertobel') cannot be confirmed from the evidence which lists the address as 'Adlerbergstrasse 15'.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 4224
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "medium",
+        "changes": {},
+        "notes": "Jule X is confirmed as a performer at OpenAir St. Gallen (Jun 25-28, 2026) in St. Gallen, Switzerland, but the evidence only lists the festival's overall date range with no specific per-artist date of 2026-06-26, and the venue name in the record ('Festivalgel\u00e4nde Sittertobel') cannot be confirmed from the evidence which lists the address as 'Adlerbergstrasse 15'."
+      }
+    },
+    {
+      "artist_name": "Kavinsky",
+      "concert_index": 25,
+      "timestamp": "2026-03-13T10:06:24.472943+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://ra.co/events/2363601",
+        "domain": "ra.co",
+        "fetch_status": "http_error",
+        "http_status_code": 403,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "HTTPError: 403 Client Error: Forbidden for url: https://ra.co/events/2363601",
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html;charset=utf-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 43
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "tier1_failed",
+        "query_used": "\"Kavinsky\" concert \"Place Centrale (E.N.D Session - Afterski g\u00e9ant)\" 2026-04 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 850,
+        "error_message": null,
+        "duration_ms": 938
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 850,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 678,
+        "output_tokens": 92,
+        "raw_response": "{\"status\": \"venue_changed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": \"Place de l'Ermitage\", \"new_city\": null, \"notes\": \"Two sources including the original RA URL now list the venue as 'Place de l'Ermitage' rather than 'Place Centrale', while the date, city, and artist remain consistent.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3033
+      },
+      "result": {
+        "status": "venue_changed",
+        "confidence": "high",
+        "changes": {
+          "new_venue": "Place de l'Ermitage"
+        },
+        "notes": "Two sources including the original RA URL now list the venue as 'Place de l'Ermitage' rather than 'Place Centrale', while the date, city, and artist remain consistent."
+      }
+    },
+    {
+      "artist_name": "KAYTRANADA",
+      "concert_index": 26,
+      "timestamp": "2026-03-13T10:06:29.494684+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.livenation.ch/en/kaytranada-tickets-adp423716",
+        "domain": "www.livenation.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 221821,
+        "extracted_text_size": 274,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 651
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 274,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 494,
+        "output_tokens": 76,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms KAYTRANADA performing at Hallenstadion in Z\u00fcrich on June 9, 2026, matching all stored record details.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2517
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms KAYTRANADA performing at Hallenstadion in Z\u00fcrich on June 9, 2026, matching all stored record details."
+      }
+    },
+    {
+      "artist_name": "Kevin Morby",
+      "concert_index": 27,
+      "timestamp": "2026-03-13T10:06:32.664797+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.songkick.com/concerts/43046692-kevin-morby-at-rote-fabrik-aktionshalle",
+        "domain": "www.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 77166,
+        "extracted_text_size": 4564,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 556
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 4564,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2006,
+        "output_tokens": 84,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Kevin Morby performing at Rote Fabrik Aktionshalle in Z\u00fcrich, Switzerland on 2026-07-14, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2529
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Kevin Morby performing at Rote Fabrik Aktionshalle in Z\u00fcrich, Switzerland on 2026-07-14, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Lightspeed Champion",
+      "concert_index": 28,
+      "timestamp": "2026-03-13T10:06:35.752398+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.livenation.com/event/intl_1651110/blood-orange-tour-2026",
+        "domain": "www.livenation.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 286340,
+        "extracted_text_size": 1148,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 1387
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 1148,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 820,
+        "output_tokens": 77,
+        "raw_response": "{\"status\": \"details_changed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The event at the correct date, venue, and city is confirmed, but the performing artist is Blood Orange, not Lightspeed Champion as stored in the record.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2604
+      },
+      "result": {
+        "status": "details_changed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The event at the correct date, venue, and city is confirmed, but the performing artist is Blood Orange, not Lightspeed Champion as stored in the record."
+      }
+    },
+    {
+      "artist_name": "Lil Bruzy",
+      "concert_index": 29,
+      "timestamp": "2026-03-13T10:06:39.745286+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://eventfrog.ch/en/p/concert/hip-hop-rap/konzert-julex-lil-bruzy-7407123393428899773.html",
+        "domain": "eventfrog.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 245850,
+        "extracted_text_size": 4991,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "Event",
+          "ImageObject"
+        ],
+        "error_message": null,
+        "redirect_chain": [
+          {
+            "status": 301,
+            "url": "https://eventfrog.ch/en/p/concert/hip-hop-rap/konzert-julex-lil-bruzy-7407123393428899773.html"
+          }
+        ],
+        "response_headers": {
+          "content-type": "text/html;charset=UTF-8",
+          "server": "nginx"
+        },
+        "duration_ms": 314
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 4991,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2170,
+        "output_tokens": 100,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence confirms Lil Bruzy performing at Sportplatz Rolli in Seuzach, Switzerland on 2026-06-12, matching all stored record fields; the source URL differs only by 'concert' vs 'concerts' in the path.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3187
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence confirms Lil Bruzy performing at Sportplatz Rolli in Seuzach, Switzerland on 2026-06-12, matching all stored record fields; the source URL differs only by 'concert' vs 'concerts' in the path."
+      }
+    },
+    {
+      "artist_name": "Linkin Park",
+      "concert_index": 30,
+      "timestamp": "2026-03-13T10:06:43.248597+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.livenation.ch/event/linkin-park-from-zero-world-tour-z%C3%BCrich-tickets-edp1609222",
+        "domain": "www.livenation.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 209092,
+        "extracted_text_size": 356,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 584
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 356,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 537,
+        "output_tokens": 80,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Linkin Park performing at Stadion Letzigrund in Z\u00fcrich on 30 June 2026 as part of the From Zero World Tour.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2141
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Linkin Park performing at Stadion Letzigrund in Z\u00fcrich on 30 June 2026 as part of the From Zero World Tour."
+      }
+    },
+    {
+      "artist_name": "Loco Escrito",
+      "concert_index": 31,
+      "timestamp": "2026-03-13T10:06:45.975462+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.bandsintown.com/e/1036983377-loco-escrito-at-muhle-hunziken?came_from=252&utm_medium=web&utm_source=venue_page&utm_campaign=event",
+        "domain": "www.bandsintown.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 184810,
+        "extracted_text_size": 5202,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicGroup",
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 960
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 5202,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2037,
+        "output_tokens": 83,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Loco Escrito performing at M\u00fchle Hunziken in Rubigen, Switzerland on 2026-08-25, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2420
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Loco Escrito performing at M\u00fchle Hunziken in Rubigen, Switzerland on 2026-08-25, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Mammal Hands",
+      "concert_index": 32,
+      "timestamp": "2026-03-13T10:06:49.357940+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://kaufleuten.ch/en/event/mammal-hands-konzert/",
+        "domain": "kaufleuten.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 147950,
+        "extracted_text_size": 10645,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "Event"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 560
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 10645,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 3050,
+        "output_tokens": 78,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Mammal Hands performing on April 12, 2026 at Kaufleuten in Z\u00fcrich, Switzerland, matching all stored record fields.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2611
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Mammal Hands performing on April 12, 2026 at Kaufleuten in Z\u00fcrich, Switzerland, matching all stored record fields."
+      }
+    },
+    {
+      "artist_name": "Mannequin Pussy",
+      "concert_index": 33,
+      "timestamp": "2026-03-13T10:06:52.531547+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.epitaph.com/tours?view_by=year&artist=411&when=2026",
+        "domain": "www.epitaph.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 51608,
+        "extracted_text_size": 5969,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "WebSite"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "Heroku"
+        },
+        "duration_ms": 1095
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 5969,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2391,
+        "output_tokens": 88,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence page is filtered to show Mamalarky tours, not Mannequin Pussy, and contains no concert listing for Mannequin Pussy at Dachstock in Bern, Switzerland.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3038
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence page is filtered to show Mamalarky tours, not Mannequin Pussy, and contains no concert listing for Mannequin Pussy at Dachstock in Bern, Switzerland."
+      }
+    },
+    {
+      "artist_name": "MARO",
+      "concert_index": 34,
+      "timestamp": "2026-03-13T10:06:56.666435+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://kaufleuten.ch/en/event/maro-konzert/",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-03-03 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:06:56.666585+00:00"
+      }
+    },
+    {
+      "artist_name": "Maruja",
+      "concert_index": 35,
+      "timestamp": "2026-03-13T10:06:56.666961+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.songkick.com/concerts/42603604-maruja-at-bogen-f",
+        "domain": "www.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 70880,
+        "extracted_text_size": 3593,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 606
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 3593,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1657,
+        "output_tokens": 76,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence explicitly confirms Maruja performing at Bogen F in Z\u00fcrich, Switzerland on April 9, 2026, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 4246
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence explicitly confirms Maruja performing at Bogen F in Z\u00fcrich, Switzerland on April 9, 2026, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Men I Trust",
+      "concert_index": 36,
+      "timestamp": "2026-03-13T10:07:01.520699+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.songkick.com/concerts/42909712-men-i-trust-at-xtra",
+        "domain": "www.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 77038,
+        "extracted_text_size": 3926,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 579
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 3926,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1710,
+        "output_tokens": 76,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence explicitly confirms Men I Trust performing at X-TRA in Z\u00fcrich, Switzerland on June 09, 2026, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2379
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence explicitly confirms Men I Trust performing at X-TRA in Z\u00fcrich, Switzerland on June 09, 2026, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Michael Kiwanuka",
+      "concert_index": 37,
+      "timestamp": "2026-03-13T10:07:04.481752+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://northerntransmissions.com/michael-kiwanuka-shares-new-single-rebel-soul/",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-03-04 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:07:04.481888+00:00"
+      }
+    },
+    {
+      "artist_name": "Mnevis",
+      "concert_index": 38,
+      "timestamp": "2026-03-13T10:07:04.482169+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://cervo.swiss/en/events/mnevis",
+        "domain": "cervo.swiss",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 51648,
+        "extracted_text_size": 619,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": ""
+        },
+        "duration_ms": 476
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 619,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 556,
+        "output_tokens": 86,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence explicitly confirms Mnevis performing on 08.04.2026 at CERVO Mountain Resort as part of the Zermatt Unplugged Festival in Zermatt, Switzerland.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2625
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence explicitly confirms Mnevis performing on 08.04.2026 at CERVO Mountain Resort as part of the Zermatt Unplugged Festival in Zermatt, Switzerland."
+      }
+    },
+    {
+      "artist_name": "Mnevis",
+      "concert_index": 39,
+      "timestamp": "2026-03-13T10:07:07.585007+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.songkick.com/concerts/43028172-mnevis-at-zermatt-unplugged-festival",
+        "domain": "www.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 63692,
+        "extracted_text_size": 3570,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 521
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 3570,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1617,
+        "output_tokens": 87,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The structured data and page content both confirm Mnevis performing at Zermatt Unplugged Festival in Zermatt, Switzerland on 2026-04-09, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2710
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The structured data and page content both confirm Mnevis performing at Zermatt Unplugged Festival in Zermatt, Switzerland on 2026-04-09, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Moby",
+      "concert_index": 40,
+      "timestamp": "2026-03-13T10:07:10.817620+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.myswitzerland.com/en-ie/experiences/events/festineuch/",
+        "domain": "www.myswitzerland.com",
+        "fetch_status": "http_error",
+        "http_status_code": 406,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "HTTPError: 406 Client Error: Not Acceptable for url: https://www.myswitzerland.com/en-ie/experiences/events/festineuch/",
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "",
+          "server": ""
+        },
+        "duration_ms": 131
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "tier1_failed",
+        "query_used": "\"Moby\" concert \"Festi'neuch (Neuch\u00e2tel Openair Festival)\" 2026-06 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 853,
+        "error_message": null,
+        "duration_ms": 885
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 853,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 678,
+        "output_tokens": 104,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"low\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"Evidence confirms Festi'neuch 2026 exists in Neuch\u00e2tel, Switzerland, and Moby has 2026 tour dates, but no source explicitly links Moby to a performance at Festi'neuch on 2026-06-11.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2373
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "low",
+        "changes": {},
+        "notes": "Evidence confirms Festi'neuch 2026 exists in Neuch\u00e2tel, Switzerland, and Moby has 2026 tour dates, but no source explicitly links Moby to a performance at Festi'neuch on 2026-06-11."
+      }
+    },
+    {
+      "artist_name": "Mo Dotti",
+      "concert_index": 41,
+      "timestamp": "2026-03-13T10:07:15.211360+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DRzWIomCMNQ/",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-03-01 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:07:15.211475+00:00"
+      }
+    },
+    {
+      "artist_name": "Molchat Doma",
+      "concert_index": 42,
+      "timestamp": "2026-03-13T10:07:15.211694+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DLA3doRyXP3/?hl=en",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Molchat Doma\" concert  2026-10 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 732,
+        "error_message": null,
+        "duration_ms": 1383
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 732,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 657,
+        "output_tokens": 89,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"low\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence only shows Molchat Doma tour dates in May 2026 (Brussels and Madrid) with no mention of an October 25, 2026 concert in Aarau, Switzerland.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2679
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "low",
+        "changes": {},
+        "notes": "The evidence only shows Molchat Doma tour dates in May 2026 (Brussels and Madrid) with no mention of an October 25, 2026 concert in Aarau, Switzerland."
+      }
+    },
+    {
+      "artist_name": "NO JOY",
+      "concert_index": 43,
+      "timestamp": "2026-03-13T10:07:20.280452+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/reel/DUoF4nCDL3S/",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-03-06 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:07:20.280570+00:00"
+      }
+    },
+    {
+      "artist_name": "NO JOY",
+      "concert_index": 44,
+      "timestamp": "2026-03-13T10:07:20.280782+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.bogenf.ch/en/",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-03-07 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:07:20.280817+00:00"
+      }
+    },
+    {
+      "artist_name": "Nubya Garcia",
+      "concert_index": 45,
+      "timestamp": "2026-03-13T10:07:20.280999+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.songkick.com/concerts/42750181-nubya-garcia-at-kaserne-basel",
+        "domain": "www.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 72988,
+        "extracted_text_size": 3940,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 557
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 3940,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1700,
+        "output_tokens": 77,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence explicitly confirms Nubya Garcia performing at Kaserne Basel in Basel, Switzerland on Sunday 03 May 2026, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3024
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence explicitly confirms Nubya Garcia performing at Kaserne Basel in Basel, Switzerland on Sunday 03 May 2026, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "One Sentence. Supervisor",
+      "concert_index": 46,
+      "timestamp": "2026-03-13T10:07:23.864582+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.bandsintown.com/e/107842288-one-sentence.-supervisor-at-kulturhalle-sagegasse",
+        "domain": "www.bandsintown.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 190344,
+        "extracted_text_size": 3509,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicGroup",
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 221
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 3509,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1677,
+        "output_tokens": 88,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The structured data and page content explicitly confirm One Sentence. Supervisor performing at Kulturhalle S\u00e4gegasse in Burgdorf, Switzerland on 2026-04-03, matching all stored record fields.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3361
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The structured data and page content explicitly confirm One Sentence. Supervisor performing at Kulturhalle S\u00e4gegasse in Burgdorf, Switzerland on 2026-04-03, matching all stored record fields."
+      }
+    },
+    {
+      "artist_name": "Phantogram",
+      "concert_index": 47,
+      "timestamp": "2026-03-13T10:07:27.448217+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.livenation.com/artist/K8vZ917GpL0/phantogram-events",
+        "domain": "www.livenation.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 521611,
+        "extracted_text_size": 24000,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 1841
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 24000,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 3319,
+        "output_tokens": 88,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence contains multiple Phantogram events in Europe during this period but none matching the stored record of a 2026-06-30 concert at Stadion Letzigrund in Z\u00fcrich, Switzerland.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3277
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence contains multiple Phantogram events in Europe during this period but none matching the stored record of a 2026-06-30 concert at Stadion Letzigrund in Z\u00fcrich, Switzerland."
+      }
+    },
+    {
+      "artist_name": "Polyphia",
+      "concert_index": 48,
+      "timestamp": "2026-03-13T10:07:32.568572+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.loudersound.com/news/polyphia-announce-uk-and-european-tour-dates",
+        "domain": "www.loudersound.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 947044,
+        "extracted_text_size": 14851,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "NewsArticle",
+          "BreadcrumbList"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 222
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 14851,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 3314,
+        "output_tokens": 103,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The source article confirms Polyphia announced a UK and European tour, but the evidence text contains no specific concert details (dates, venues, or cities), so the stored record for Z\u00fcrich on 2026-05-26 at Komplex 457 cannot be verified.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3801
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The source article confirms Polyphia announced a UK and European tour, but the evidence text contains no specific concert details (dates, venues, or cities), so the stored record for Z\u00fcrich on 2026-05-26 at Komplex 457 cannot be verified."
+      }
+    },
+    {
+      "artist_name": "Portugal. The Man",
+      "concert_index": 49,
+      "timestamp": "2026-03-13T10:07:36.593270+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.docks.ch/en/evenement/concerts-en/20260314/portugal-the-man-2/",
+        "domain": "www.docks.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 75569,
+        "extracted_text_size": 3583,
+        "json_ld_found": true,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [
+          {
+            "status": 301,
+            "url": "https://www.docks.ch/en/evenement/concerts-en/20260314/portugal-the-man-2/"
+          }
+        ],
+        "response_headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "Apache"
+        },
+        "duration_ms": 925
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 3583,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1608,
+        "output_tokens": 94,
+        "raw_response": "{\"status\": \"date_changed\", \"confidence\": \"high\", \"new_date\": \"2026-11-17\", \"new_venue\": null, \"new_city\": null, \"notes\": \"The Portugal. The Man show originally scheduled for March 14, 2026 has been explicitly postponed to November 17, 2026 at the same venue (Les Docks, Lausanne).\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2525
+      },
+      "result": {
+        "status": "date_changed",
+        "confidence": "high",
+        "changes": {
+          "new_date": "2026-11-17"
+        },
+        "notes": "The Portugal. The Man show originally scheduled for March 14, 2026 has been explicitly postponed to November 17, 2026 at the same venue (Les Docks, Lausanne)."
+      }
+    },
+    {
+      "artist_name": "Portugal. The Man",
+      "concert_index": 50,
+      "timestamp": "2026-03-13T10:07:40.045708+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.jambase.com/show/portugal-the-man-komplex-457-20260315",
+        "domain": "www.jambase.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 241920,
+        "extracted_text_size": 13815,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent",
+          "Article"
+        ],
+        "error_message": null,
+        "redirect_chain": [
+          {
+            "status": 301,
+            "url": "https://www.jambase.com/show/portugal-the-man-komplex-457-20260315"
+          }
+        ],
+        "response_headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 2952
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 13815,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 3134,
+        "output_tokens": 116,
+        "raw_response": "{\"status\": \"date_changed\", \"confidence\": \"high\", \"new_date\": \"2026-11-27\", \"new_venue\": null, \"new_city\": null, \"notes\": \"The event has been rescheduled from 2026-03-15 (listed as previousStartDate) to 2026-11-27, as explicitly indicated by eventStatus 'EventRescheduled' in the structured data; venue and city remain Komplex 457 in Z\u00fcrich.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3401
+      },
+      "result": {
+        "status": "date_changed",
+        "confidence": "high",
+        "changes": {
+          "new_date": "2026-11-27"
+        },
+        "notes": "The event has been rescheduled from 2026-03-15 (listed as previousStartDate) to 2026-11-27, as explicitly indicated by eventStatus 'EventRescheduled' in the structured data; venue and city remain Komplex 457 in Z\u00fcrich."
+      }
+    },
+    {
+      "artist_name": "Princess Nokia",
+      "concert_index": 51,
+      "timestamp": "2026-03-13T10:07:46.400808+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DJXqgjDt1y3/",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Princess Nokia\" concert \"Hallenstadion\" 2026-05 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 3544,
+        "error_message": null,
+        "duration_ms": 917
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 3544,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1770,
+        "output_tokens": 73,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"Princess Nokia is not mentioned in any of the three evidence sources listing Hallenstadion Z\u00fcrich events for 2026-2027.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2782
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Princess Nokia is not mentioned in any of the three evidence sources listing Hallenstadion Z\u00fcrich events for 2026-2027."
+      }
+    },
+    {
+      "artist_name": "Projekt ET",
+      "concert_index": 52,
+      "timestamp": "2026-03-13T10:07:51.102922+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://stadtkonzerte.ch/artists/projekt-et",
+        "domain": "stadtkonzerte.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 74527,
+        "extracted_text_size": 1623,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "Heroku"
+        },
+        "duration_ms": 550
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 1623,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1166,
+        "output_tokens": 70,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence explicitly confirms Projekt ET performing at Royal, Baden on Sa 28. M\u00e4rz 2026, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2422
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence explicitly confirms Projekt ET performing at Royal, Baden on Sa 28. M\u00e4rz 2026, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Projekt ET",
+      "concert_index": 53,
+      "timestamp": "2026-03-13T10:07:54.076818+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.bandsintown.com/e/107649798-projekt-et-at-konzerthaus-schuur?came_from=209",
+        "domain": "www.bandsintown.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 184309,
+        "extracted_text_size": 6027,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicGroup",
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 452
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 6027,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2701,
+        "output_tokens": 80,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence explicitly confirms Projekt ET performing at Konzerthaus Sch\u00fc\u00fcr in Lucerne, Switzerland on 2026-04-03, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2517
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence explicitly confirms Projekt ET performing at Konzerthaus Sch\u00fc\u00fcr in Lucerne, Switzerland on 2026-04-03, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Projekt ET",
+      "concert_index": 54,
+      "timestamp": "2026-03-13T10:07:57.047683+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.albani.ch/de/programm/1121/Projekt-ET.html",
+        "domain": "www.albani.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 336565,
+        "extracted_text_size": 24000,
+        "json_ld_found": true,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "Apache"
+        },
+        "duration_ms": 366
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 24000,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 3480,
+        "output_tokens": 81,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The structured data explicitly confirms Projekt ET (CH) at Albani Winterthur, Switzerland on 2026-04-25, with EventScheduled status and matching URL pattern.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2359
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The structured data explicitly confirms Projekt ET (CH) at Albani Winterthur, Switzerland on 2026-04-25, with EventScheduled status and matching URL pattern."
+      }
+    },
+    {
+      "artist_name": "Projekt ET",
+      "concert_index": 55,
+      "timestamp": "2026-03-13T10:07:59.774845+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.bandsintown.com/e/1037725362-projekt-et-at-exil?came_from=209",
+        "domain": "www.bandsintown.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 174505,
+        "extracted_text_size": 5811,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicGroup",
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 383
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 5811,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2592,
+        "output_tokens": 75,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence explicitly confirms Projekt ET performing at EXIL in Zurich, Switzerland on 2026-09-17, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2327
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence explicitly confirms Projekt ET performing at EXIL in Zurich, Switzerland on 2026-09-17, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Pseudonym Prada",
+      "concert_index": 56,
+      "timestamp": "2026-03-13T10:08:02.486914+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.shazam.com/event/03423fbd-8d44-4707-88b9-b481aa0d8661",
+        "domain": "www.shazam.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Pseudonym Prada\" concert \"Komplex 457\" 2026-04 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 782,
+        "error_message": null,
+        "duration_ms": 825
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 782,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 694,
+        "output_tokens": 91,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"No evidence mentions Pseudonym Prada at Komplex 457; the April 3, 2026 slot at that venue references a 'Jule X' concert, not Pseudonym Prada.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2390
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "high",
+        "changes": {},
+        "notes": "No evidence mentions Pseudonym Prada at Komplex 457; the April 3, 2026 slot at that venue references a 'Jule X' concert, not Pseudonym Prada."
+      }
+    },
+    {
+      "artist_name": "Puma Blue",
+      "concert_index": 57,
+      "timestamp": "2026-03-13T10:08:06.705063+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.bandsintown.com/e/1036957118-puma-blue-at-theatre-de-l'octogone",
+        "domain": "www.bandsintown.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 170648,
+        "extracted_text_size": 6663,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicGroup",
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 407
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 6663,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2346,
+        "output_tokens": 84,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Puma Blue performing at Th\u00e9\u00e2tre de l'Octogone in Pully, Switzerland on May 9, 2026, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2729
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Puma Blue performing at Th\u00e9\u00e2tre de l'Octogone in Pully, Switzerland on May 9, 2026, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Ravyn Lenae",
+      "concert_index": 58,
+      "timestamp": "2026-03-13T10:08:09.843933+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.facebook.com/rapdatesofficial/photos/ravyn-lenae-us-festivals-202604062026-es-barcelona-primavera_sound-13082026-dk-c/1495048059290503/",
+        "domain": "www.facebook.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Ravyn Lenae\" concert \"Hallenstadion\" 2026-05 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 723,
+        "error_message": null,
+        "duration_ms": 917
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 723,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 663,
+        "output_tokens": 104,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"low\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence sources (Ticketmaster, JamBase, Songkick) confirm Ravyn Lenae has 2026 tour dates but contain no specific mention of a May 19, 2026 concert at Hallenstadion in Z\u00fcrich, Switzerland.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2464
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "low",
+        "changes": {},
+        "notes": "The evidence sources (Ticketmaster, JamBase, Songkick) confirm Ravyn Lenae has 2026 tour dates but contain no specific mention of a May 19, 2026 concert at Hallenstadion in Z\u00fcrich, Switzerland."
+      }
+    },
+    {
+      "artist_name": "Red Leather",
+      "concert_index": 59,
+      "timestamp": "2026-03-13T10:08:14.229262+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.ticketcorner.ch/en/event/red-leather-komplex-457-21188878/",
+        "domain": "www.ticketcorner.ch",
+        "fetch_status": "connection_error",
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "ConnectionError: HTTPSConnectionPool(host='www.ticketcorner.ch', port=443): Max retries exceeded with url: /en/event/red-leather-komplex-457-21188878/ (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='www.ticketcorner.ch', port=443): Read timed out. (read timeout=15)\"))",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": 46268
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "tier1_failed",
+        "query_used": "\"Red Leather\" concert \"Komplex Klub (Komplex 457)\" 2026-06 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 1761,
+        "error_message": null,
+        "duration_ms": 1077
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 1761,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1023,
+        "output_tokens": 107,
+        "raw_response": "{\"status\": \"date_changed\", \"confidence\": \"medium\", \"new_date\": \"2026-10-23\", \"new_venue\": null, \"new_city\": null, \"notes\": \"The Ticketcorner source confirms June 9, 2026, but the Komplex 457 Facebook post advertises a Red Leather show on Friday, October 23, 2026, suggesting the date may have changed or a second show was added.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3173
+      },
+      "result": {
+        "status": "date_changed",
+        "confidence": "medium",
+        "changes": {
+          "new_date": "2026-10-23"
+        },
+        "notes": "The Ticketcorner source confirms June 9, 2026, but the Komplex 457 Facebook post advertises a Red Leather show on Friday, October 23, 2026, suggesting the date may have changed or a second show was added."
+      }
+    },
+    {
+      "artist_name": "ROSAL\u00cdA",
+      "concert_index": 60,
+      "timestamp": "2026-03-13T10:09:05.755574+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.livenation.ch/event/rosal%C3%ADa-lux-tour-2026-z%C3%BCrich-tickets-edp1641232",
+        "domain": "www.livenation.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 194198,
+        "extracted_text_size": 270,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 730
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 270,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 527,
+        "output_tokens": 85,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"Evidence directly confirms ROSAL\u00cdA performing at Hallenstadion in Z\u00fcrich on 22 M\u00e4rz 2026 (Sunday, March 22, 2026), matching all stored record details.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2619
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Evidence directly confirms ROSAL\u00cdA performing at Hallenstadion in Z\u00fcrich on 22 M\u00e4rz 2026 (Sunday, March 22, 2026), matching all stored record details."
+      }
+    },
+    {
+      "artist_name": "Russian Circles",
+      "concert_index": 61,
+      "timestamp": "2026-03-13T10:09:09.106513+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DTlCx68FL3L/?hl=en",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Russian Circles\" concert \"Valhalla Bar Basel\" 2026-04 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 2649,
+        "error_message": null,
+        "duration_ms": 796
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 2649,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1389,
+        "output_tokens": 83,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"low\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The Russian Circles shows page lists May 2026 dates but no April 25 date or Basel/Valhalla Bar venue, and no other evidence source confirms this specific concert.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2831
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "low",
+        "changes": {},
+        "notes": "The Russian Circles shows page lists May 2026 dates but no April 25 date or Basel/Valhalla Bar venue, and no other evidence source confirms this specific concert."
+      }
+    },
+    {
+      "artist_name": "Silvana Estrada",
+      "concert_index": 62,
+      "timestamp": "2026-03-13T10:09:13.740938+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.songkick.com/concerts/43010484-silvana-estrada-at-les-docks",
+        "domain": "www.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 73053,
+        "extracted_text_size": 3989,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 91
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 3989,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1770,
+        "output_tokens": 80,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence explicitly confirms Silvana Estrada performing at Les Docks in Lausanne, Switzerland on Wednesday 13 May 2026, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2981
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence explicitly confirms Silvana Estrada performing at Les Docks in Lausanne, Switzerland on Wednesday 13 May 2026, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Stephen Malkmus & The Jicks",
+      "concert_index": 63,
+      "timestamp": "2026-03-13T10:09:16.815248+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.dominomusic.com/live/artist/stephen-malkmus",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-02 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:09:16.815635+00:00"
+      }
+    },
+    {
+      "artist_name": "Tame Impala",
+      "concert_index": 64,
+      "timestamp": "2026-03-13T10:09:16.815889+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.songkick.com/concerts/42823274-tame-impala-at-hallenstadion",
+        "domain": "www.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 80189,
+        "extracted_text_size": 6803,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 91
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 6803,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2432,
+        "output_tokens": 81,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Tame Impala performing at Hallenstadion in Z\u00fcrich, Switzerland on Tuesday 14 April 2026, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2361
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Tame Impala performing at Hallenstadion in Z\u00fcrich, Switzerland on Tuesday 14 April 2026, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "TEKE::TEKE",
+      "concert_index": 65,
+      "timestamp": "2026-03-13T10:09:19.270051+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.openairguide.net/festivals/schweiz/winterthurer-musikfestwochen/teke-teke",
+        "domain": "www.openairguide.net",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 87590,
+        "extracted_text_size": 2670,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "Apache"
+        },
+        "duration_ms": 265
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 2670,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1591,
+        "output_tokens": 128,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"medium\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence page is a band archive showing TEKE::TEKE's past appearances at Winterthurer Musikfestwochen (only 2022 listed), with no indication they are confirmed for the 2026 edition; the festival dates (Aug 5\u201316, 2026) match the stored record but TEKE::TEKE does not appear on the current lineup.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3522
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "medium",
+        "changes": {},
+        "notes": "The evidence page is a band archive showing TEKE::TEKE's past appearances at Winterthurer Musikfestwochen (only 2022 listed), with no indication they are confirmed for the 2026 edition; the festival dates (Aug 5\u201316, 2026) match the stored record but TEKE::TEKE does not appear on the current lineup."
+      }
+    },
+    {
+      "artist_name": "The Big Moon",
+      "concert_index": 66,
+      "timestamp": "2026-03-13T10:09:23.058584+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DRcHXEsio6G/",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"The Big Moon\" concert \"Gannet\" 2026-03 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 2089,
+        "error_message": null,
+        "duration_ms": 917
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 2089,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1170,
+        "output_tokens": 85,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"low\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence references The Big Moon tour pages but contains no specific mention of a concert at Gannet in Basel on 2026-03-26, making it impossible to confirm or deny the stored record.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3115
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "low",
+        "changes": {},
+        "notes": "The evidence references The Big Moon tour pages but contains no specific mention of a concert at Gannet in Basel on 2026-03-26, making it impossible to confirm or deny the stored record."
+      }
+    },
+    {
+      "artist_name": "The Big Moon",
+      "concert_index": 67,
+      "timestamp": "2026-03-13T10:09:28.097491+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/reel/DTayctcCKVB/",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"The Big Moon\" concert \"Sedel\" 2026-03 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 2876,
+        "error_message": null,
+        "duration_ms": 1152
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 2876,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1455,
+        "output_tokens": 92,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"low\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence confirms The Big Moon has 2026 tour dates listed on multiple platforms but contains no specific mention of a March 27, 2026 concert at Sedel in Emmen (Luzern), Switzerland.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3247
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "low",
+        "changes": {},
+        "notes": "The evidence confirms The Big Moon has 2026 tour dates listed on multiple platforms but contains no specific mention of a March 27, 2026 concert at Sedel in Emmen (Luzern), Switzerland."
+      }
+    },
+    {
+      "artist_name": "The Neighbourhood",
+      "concert_index": 68,
+      "timestamp": "2026-03-13T10:09:33.503866+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.songkick.com/concerts/42904902-neighbourhood-at-hallenstadion",
+        "domain": "www.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 80828,
+        "extracted_text_size": 7077,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 562
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 7077,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2468,
+        "output_tokens": 112,
+        "raw_response": "{\"status\": \"details_changed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": \"Hallenstadion\", \"new_city\": \"Z\u00fcrich\", \"notes\": \"The concert is confirmed for the same artist, date (2026-05-05), and city (Z\u00fcrich, Switzerland), but the venue is Hallenstadion rather than THE HALL Z\u00fcrich, and the city locality is Z\u00fcrich rather than D\u00fcbendorf.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3385
+      },
+      "result": {
+        "status": "details_changed",
+        "confidence": "high",
+        "changes": {
+          "new_venue": "Hallenstadion",
+          "new_city": "Z\u00fcrich"
+        },
+        "notes": "The concert is confirmed for the same artist, date (2026-05-05), and city (Z\u00fcrich, Switzerland), but the venue is Hallenstadion rather than THE HALL Z\u00fcrich, and the city locality is Z\u00fcrich rather than D\u00fcbendorf."
+      }
+    },
+    {
+      "artist_name": "Thundercat",
+      "concert_index": 69,
+      "timestamp": "2026-03-13T10:09:37.453284+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DUGqjVujjJp/",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-03-06 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:09:37.453402+00:00"
+      }
+    },
+    {
+      "artist_name": "Tinariwen",
+      "concert_index": 70,
+      "timestamp": "2026-03-13T10:09:37.453623+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.facebook.com/tinariwenmusic/posts/tinariwen-europe-tour-2026-tickets-on-sale-next-friday-at-11-am-cet-follow-our-c/1343825057110490/",
+        "domain": "www.facebook.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Tinariwen\" concert \"Der Rolf B\u00f6hme Saal\" 2026-05 Switzerland",
+        "num_results": 2,
+        "snippet_total_chars": 701,
+        "error_message": null,
+        "duration_ms": 961
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 701,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 690,
+        "output_tokens": 103,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"low\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The source URL matches the stored record but the evidence text only shows partial tour dates (Porto on April 13) and does not mention the May 8 Z\u00fcrich show at Der Rolf B\u00f6hme Saal, so the specific concert cannot be confirmed or refuted.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2648
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "low",
+        "changes": {},
+        "notes": "The source URL matches the stored record but the evidence text only shows partial tour dates (Porto on April 13) and does not mention the May 8 Z\u00fcrich show at Der Rolf B\u00f6hme Saal, so the specific concert cannot be confirmed or refuted."
+      }
+    },
+    {
+      "artist_name": "toe",
+      "concert_index": 71,
+      "timestamp": "2026-03-13T10:09:42.070046+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DRzDwUdE6Tm/",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"toe\" concert \"Post Squat\" 2026-04 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 788,
+        "error_message": null,
+        "duration_ms": 991
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 788,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 701,
+        "output_tokens": 97,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence confirms a concert at Post Squat in Z\u00fcrich on 2026-04-12, but the performing artist is DON'T TRY (with support from Time To Eat The Dog), not toe as stored in the record.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2251
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence confirms a concert at Post Squat in Z\u00fcrich on 2026-04-12, but the performing artist is DON'T TRY (with support from Time To Eat The Dog), not toe as stored in the record."
+      }
+    },
+    {
+      "artist_name": "Tom Misch",
+      "concert_index": 72,
+      "timestamp": "2026-03-13T10:09:46.319618+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.songkick.com/artists/8341698-tom-misch",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-02-21 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:09:46.319723+00:00"
+      }
+    },
+    {
+      "artist_name": "Tom Misch",
+      "concert_index": 73,
+      "timestamp": "2026-03-13T10:09:46.319960+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.songkick.com/artists/8341698-tom-misch",
+        "domain": "www.songkick.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Tom Misch\" concert  2026-06 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 1542,
+        "error_message": null,
+        "duration_ms": 900
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 1542,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 822,
+        "output_tokens": 83,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"medium\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"Instagram source confirms Tom Misch is scheduled in Zurich/Switzerland on June 21, 2026, consistent with the stored record, though venue remains TBD and the source is informal.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2788
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "medium",
+        "changes": {},
+        "notes": "Instagram source confirms Tom Misch is scheduled in Zurich/Switzerland on June 21, 2026, consistent with the stored record, though venue remains TBD and the source is informal."
+      }
+    },
+    {
+      "artist_name": "Tricky",
+      "concert_index": 74,
+      "timestamp": "2026-03-13T10:09:51.014766+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://kaufleuten.ch/en/event/tricky-konzert/",
+        "domain": "kaufleuten.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 143646,
+        "extracted_text_size": 9074,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "Event"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 457
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 9074,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 3127,
+        "output_tokens": 76,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Tricky performing at Kaufleuten in Z\u00fcrich, Switzerland on June 14, 2026, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2818
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Tricky performing at Kaufleuten in Z\u00fcrich, Switzerland on June 14, 2026, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Tricky",
+      "concert_index": 75,
+      "timestamp": "2026-03-13T10:09:54.291448+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://gigs.guide/event/AvrU0OgW1K/tricky-bern-16-jun-2026",
+        "domain": "gigs.guide",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 71134,
+        "extracted_text_size": 3880,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent",
+          "WebSite",
+          "Organization",
+          "Person"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 210
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 3880,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1673,
+        "output_tokens": 77,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Tricky performing at Bierh\u00fcbeli in Bern, Switzerland on 2026-06-16, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2246
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Tricky performing at Bierh\u00fcbeli in Bern, Switzerland on 2026-06-16, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Unwound",
+      "concert_index": 76,
+      "timestamp": "2026-03-13T10:09:56.750010+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DH5f81EivZx/",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Unwound\" concert \"Fri-Son\" 2026-06 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 787,
+        "error_message": null,
+        "duration_ms": 815
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 787,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 623,
+        "output_tokens": 89,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"low\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence confirms Fri-Son exists as a venue in Fribourg, Switzerland with 2026 concerts, but none of the sources explicitly mention Unwound performing there on 2026-06-08.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2708
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "low",
+        "changes": {},
+        "notes": "The evidence confirms Fri-Son exists as a venue in Fribourg, Switzerland with 2026 concerts, but none of the sources explicitly mention Unwound performing there on 2026-06-08."
+      }
+    },
+    {
+      "artist_name": "Veronica Fusaro",
+      "concert_index": 77,
+      "timestamp": "2026-03-13T10:10:01.275218+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.stubhub.com/veronica-fusaro-tickets/category/138283328/winterthur-city/7864",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-02-26 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:10:01.275263+00:00"
+      }
+    },
+    {
+      "artist_name": "Wet Leg",
+      "concert_index": 78,
+      "timestamp": "2026-03-13T10:10:01.275394+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://concertful.com/tour/wet-leg/",
+        "domain": "concertful.com",
+        "fetch_status": "http_error",
+        "http_status_code": 403,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "HTTPError: 403 Client Error: Forbidden for url: https://concertful.com/tour/wet-leg/",
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "cloudflare"
+        },
+        "duration_ms": 197
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "tier1_failed",
+        "query_used": "\"Wet Leg\" concert \"OpenAir St. Gallen (Sittertobel)\" 2026-06 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 1635,
+        "error_message": null,
+        "duration_ms": 816
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 1635,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 938,
+        "output_tokens": 89,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"Multiple sources confirm Wet Leg performing on June 26, 2026 at Sittertobel (OpenAir St. Gallen) in St. Gallen, Switzerland, matching all stored record details.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2570
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Multiple sources confirm Wet Leg performing on June 26, 2026 at Sittertobel (OpenAir St. Gallen) in St. Gallen, Switzerland, matching all stored record details."
+      }
+    },
+    {
+      "artist_name": "Widowspeak",
+      "concert_index": 79,
+      "timestamp": "2026-03-13T10:10:05.862473+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/popular/widowspeak-band-tour-dates-2026/",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-02-22 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:10:05.862598+00:00"
+      }
+    },
+    {
+      "artist_name": "Wisp",
+      "concert_index": 80,
+      "timestamp": "2026-03-13T10:10:05.862833+00:00",
+      "url_classification": "unfetchable",
+      "tier1": {
+        "attempted": false,
+        "url": "https://www.instagram.com/p/DPjdfGfkYsE/",
+        "domain": "www.instagram.com",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "URL classified as unfetchable",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "url_unfetchable",
+        "query_used": "\"Wisp\" concert \"Bad Bonn\" 2026-06 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 810,
+        "error_message": null,
+        "duration_ms": 1041
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 810,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 676,
+        "output_tokens": 78,
+        "raw_response": "{\"status\": \"unverified\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence confirms Bad Bonn exists in D\u00fcdingen, Switzerland, but contains no mention of Wisp performing there on 2026-06-25.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2219
+      },
+      "result": {
+        "status": "unverified",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence confirms Bad Bonn exists in D\u00fcdingen, Switzerland, but contains no mention of Wisp performing there on 2026-06-25."
+      }
+    },
+    {
+      "artist_name": "Wolfmother",
+      "concert_index": 81,
+      "timestamp": "2026-03-13T10:10:10.127360+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://detour.songkick.com/concerts/43046693-wolfmother-at-muhle-hunziken",
+        "domain": "detour.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 80345,
+        "extracted_text_size": 8417,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 729
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 8417,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2769,
+        "output_tokens": 80,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Wolfmother performing at M\u00fchle Hunziken in Rubigen, Switzerland on 24 August 2026, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3651
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Wolfmother performing at M\u00fchle Hunziken in Rubigen, Switzerland on 24 August 2026, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Wolfmother",
+      "concert_index": 82,
+      "timestamp": "2026-03-13T10:10:14.509426+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.ticketcorner.ch/en/event/wolfmother-kulturfabrik-kofmehl-21322143/",
+        "domain": "www.ticketcorner.ch",
+        "fetch_status": "connection_error",
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": "ConnectionError: HTTPSConnectionPool(host='www.ticketcorner.ch', port=443): Max retries exceeded with url: /en/event/wolfmother-kulturfabrik-kofmehl-21322143/ (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='www.ticketcorner.ch', port=443): Read timed out. (read timeout=15)\"))",
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": 46136
+      },
+      "tier2": {
+        "attempted": true,
+        "reason_triggered": "tier1_failed",
+        "query_used": "\"Wolfmother\" concert \"Kulturfabrik Kofmehl\" 2026-08 Switzerland",
+        "num_results": 3,
+        "snippet_total_chars": 814,
+        "error_message": null,
+        "duration_ms": 822
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "web_search",
+        "evidence_chars": 814,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 731,
+        "output_tokens": 90,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"Multiple sources including the original Ticketcorner URL confirm Wolfmother at Kulturfabrik Kofmehl in Solothurn, Switzerland on 25.08.2026 at 20:00.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2884
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Multiple sources including the original Ticketcorner URL confirm Wolfmother at Kulturfabrik Kofmehl in Solothurn, Switzerland on 25.08.2026 at 20:00."
+      }
+    },
+    {
+      "artist_name": "Wolfmother",
+      "concert_index": 83,
+      "timestamp": "2026-03-13T10:11:05.358822+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://detour.songkick.com/concerts/43047764-wolfmother-at-les-docks",
+        "domain": "detour.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 80923,
+        "extracted_text_size": 8345,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 142
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 8345,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 2712,
+        "output_tokens": 76,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms Wolfmother performing at Les Docks in Lausanne, Switzerland on 2026-08-26, matching all stored record fields exactly.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2722
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms Wolfmother performing at Les Docks in Lausanne, Switzerland on 2026-08-26, matching all stored record fields exactly."
+      }
+    },
+    {
+      "artist_name": "Yellow Days",
+      "concert_index": 84,
+      "timestamp": "2026-03-13T10:11:08.224954+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.songkick.com/concerts/42913699-yellow-days-at-exil",
+        "domain": "www.songkick.com",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 73995,
+        "extracted_text_size": 4090,
+        "json_ld_found": true,
+        "json_ld_types": [
+          "MusicEvent"
+        ],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 587
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 4090,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1772,
+        "output_tokens": 89,
+        "raw_response": "{\"status\": \"date_changed\", \"confidence\": \"high\", \"new_date\": \"2026-04-25\", \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence consistently shows the concert date as April 25, 2026 (not April 26, 2026 as stored), with the same artist, venue, and city confirmed.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 4633
+      },
+      "result": {
+        "status": "date_changed",
+        "confidence": "high",
+        "changes": {
+          "new_date": "2026-04-25"
+        },
+        "notes": "The evidence consistently shows the concert date as April 25, 2026 (not April 26, 2026 as stored), with the same artist, venue, and city confirmed."
+      }
+    },
+    {
+      "artist_name": "Yet No Yokai",
+      "concert_index": 85,
+      "timestamp": "2026-03-13T10:11:13.446790+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://stadtkonzerte.ch/festivals/b-sides-festival-1238ea04-ec48-4aaa-86f3-bb6cfea16aae",
+        "domain": "stadtkonzerte.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 50690,
+        "extracted_text_size": 1833,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": "Heroku"
+        },
+        "duration_ms": 378
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 1833,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 1241,
+        "output_tokens": 113,
+        "raw_response": "{\"status\": \"date_changed\", \"confidence\": \"high\", \"new_date\": \"2023-06-17\", \"new_venue\": null, \"new_city\": null, \"notes\": \"Yet No Yokai is confirmed in the Saturday (17.06.2023) lineup of B-Sides Festival, but the stored record has date as TBD whereas the evidence shows the festival ran 15\u201317 June 2023 with the artist performing on Saturday the 17th.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 3385
+      },
+      "result": {
+        "status": "date_changed",
+        "confidence": "high",
+        "changes": {
+          "new_date": "2023-06-17"
+        },
+        "notes": "Yet No Yokai is confirmed in the Saturday (17.06.2023) lineup of B-Sides Festival, but the stored record has date as TBD whereas the evidence shows the festival ran 15\u201317 June 2023 with the artist performing on Saturday the 17th."
+      }
+    },
+    {
+      "artist_name": "Yin Yin",
+      "concert_index": 86,
+      "timestamp": "2026-03-13T10:11:17.211603+00:00",
+      "url_classification": null,
+      "tier1": {
+        "attempted": false,
+        "url": "https://kaufleuten.ch/en/event/yin-yin-konzert/",
+        "domain": "",
+        "fetch_status": null,
+        "http_status_code": null,
+        "html_size_bytes": null,
+        "extracted_text_size": null,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {},
+        "duration_ms": null
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": false,
+        "evidence_source": null,
+        "evidence_chars": null,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": null,
+        "output_tokens": null,
+        "raw_response": null,
+        "parse_success": false,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "result": {
+        "status": "past",
+        "confidence": "high",
+        "changes": {},
+        "notes": "Concert date 2026-03-09 is in the past",
+        "method": "date_check",
+        "verified_at": "2026-03-13T10:11:17.211729+00:00"
+      }
+    },
+    {
+      "artist_name": "YONAKA",
+      "concert_index": 87,
+      "timestamp": "2026-03-13T10:11:17.211961+00:00",
+      "url_classification": "fetchable",
+      "tier1": {
+        "attempted": true,
+        "url": "https://www.livenation.ch/en/event/yonaka-tour-2026-z%C3%BCrich-tickets-edp1642337",
+        "domain": "www.livenation.ch",
+        "fetch_status": "success",
+        "http_status_code": 200,
+        "html_size_bytes": 198706,
+        "extracted_text_size": 321,
+        "json_ld_found": false,
+        "json_ld_types": [],
+        "error_message": null,
+        "redirect_chain": [],
+        "response_headers": {
+          "content-type": "text/html; charset=utf-8",
+          "server": ""
+        },
+        "duration_ms": 622
+      },
+      "tier2": {
+        "attempted": false,
+        "reason_triggered": null,
+        "query_used": null,
+        "num_results": null,
+        "snippet_total_chars": null,
+        "error_message": null,
+        "duration_ms": null
+      },
+      "llm_comparison": {
+        "attempted": true,
+        "evidence_source": "source_refetch",
+        "evidence_chars": 321,
+        "model": "claude-sonnet-4-6",
+        "input_tokens": 545,
+        "output_tokens": 75,
+        "raw_response": "{\"status\": \"confirmed\", \"confidence\": \"high\", \"new_date\": null, \"new_venue\": null, \"new_city\": null, \"notes\": \"The evidence directly confirms YONAKA performing at Exil in Z\u00fcrich on Sunday, 14 Jun 2026, matching all stored record details.\"}",
+        "parse_success": true,
+        "error_message": null,
+        "duration_ms": 2574
+      },
+      "result": {
+        "status": "confirmed",
+        "confidence": "high",
+        "changes": {},
+        "notes": "The evidence directly confirms YONAKA performing at Exil in Z\u00fcrich on Sunday, 14 Jun 2026, matching all stored record details."
+      }
+    }
+  ]
+}
