@@ -79,6 +79,12 @@ _UNFETCHABLE_DOMAINS = UNSUPPORTED_DOMAINS | {
 # Songkick artist pages return 410, but concert pages on detour.songkick.com work.
 _SONGKICK_ARTIST_PATTERN = re.compile(r"songkick\.com/artists/")
 
+# Domains whose Tavily snippets should be discarded as unreliable evidence.
+# instagram.com/popular/ pages are SEO-spam aggregators with fabricated tour data.
+_UNRELIABLE_EVIDENCE_PATTERNS = [
+    re.compile(r"instagram\.com/popular/"),
+]
+
 # Known Swiss festivals — venue keywords that indicate a festival concert.
 # Maps lowercase keyword → festival name for detection.
 _FESTIVAL_KEYWORDS = {
@@ -344,10 +350,11 @@ def try_venue_calendar(concert: dict, venues: dict) -> dict:
 def _build_search_queries(concert: dict) -> list[str]:
     """Build a prioritized list of search queries for a concert.
 
-    Returns up to 3 queries, tried in order until results are found:
-      1. Artist + city + year on ticketing sites
-      2. Artist + venue + date (original generic query)
-      3. Artist + city only (broad fallback for niche artists)
+    Returns up to 4 queries, tried in order until results are found:
+      1. Artist + venue site (highest signal, if venue URL known)
+      2. Artist + city + year on ticketing sites (intl + Swiss)
+      3. Artist + venue + date (generic query)
+      4. Artist + city only (broad fallback for niche artists)
     """
     artist = concert["artist_name"]
     venue = concert.get("venue", "")
@@ -357,20 +364,28 @@ def _build_search_queries(concert: dict) -> list[str]:
 
     queries = []
 
-    # Query 1: Site-targeted search on ticketing platforms
+    # Query 1: Venue-website targeted search (highest signal for niche artists)
+    venue_cal_url = _get_venue_calendar_url(venue) if venue else None
+    if venue_cal_url:
+        venue_domain = urlparse(venue_cal_url).hostname or ""
+        if venue_domain:
+            queries.append(f'"{artist}" site:{venue_domain}')
+
+    # Query 2: Site-targeted search on ticketing platforms (intl + Swiss)
     city_part = city if city else "Switzerland"
     queries.append(
         f'"{artist}" {city_part} {date_part} '
-        f"site:songkick.com OR site:bandsintown.com OR site:setlist.fm"
+        f"site:songkick.com OR site:bandsintown.com OR site:setlist.fm "
+        f"OR site:starticket.ch OR site:petzi.ch OR site:ticketcorner.ch"
     )
 
-    # Query 2: Original generic query with venue
+    # Query 3: Generic query with venue
     venue_part = f'"{venue}"' if venue and venue != "TBD" else ""
     queries.append(
         f'"{artist}" concert {venue_part} {date_part} Switzerland'.strip()
     )
 
-    # Query 3: Broad fallback — artist + city only (helps niche artists)
+    # Query 4: Broad fallback — artist + city only (helps niche artists)
     if city and city != "TBD":
         queries.append(f'"{artist}" concert "{city}" 2026')
 
@@ -402,6 +417,12 @@ def search_for_concert(concert: dict, tavily: TavilyClient) -> dict:
             log["queries_tried"].append(query)
             results = tavily.search(query, max_results=3)
             items = results.get("results", [])
+
+            # Filter out results from unreliable evidence sources
+            items = [
+                r for r in items
+                if not any(p.search(r.get("url", "")) for p in _UNRELIABLE_EVIDENCE_PATTERNS)
+            ]
 
             if items:
                 log["query_used"] = query
@@ -446,8 +467,15 @@ STORED CONCERT RECORD:
 - Country: {country}
 - Source URL: {url}
 
-EVIDENCE TEXT:
+EVIDENCE:
 {evidence}
+
+SOURCE TRUST GUIDANCE:
+- Evidence labeled "VENUE CALENDAR" comes from the venue's own official website. This is the MOST authoritative source — venues control their own event listings.
+- If the venue calendar lists the artist: treat this as strong positive confirmation, even if other sources are ambiguous.
+- If the venue calendar does NOT list the artist: this is a significant negative signal suggesting the concert may not be happening. Weight this heavily.
+- Evidence labeled "SOURCE PAGE" or "WEB SEARCH RESULTS" is supplementary and less authoritative than venue calendar data.
+- When venue calendar evidence conflicts with other sources, prefer the venue calendar.
 
 INSTRUCTIONS:
 - If the evidence contains clear confirmation of the same artist, date, and venue: status = "confirmed"
@@ -456,7 +484,7 @@ INSTRUCTIONS:
 - If multiple fields changed: status = "details_changed" (include all changed fields)
 - If the evidence explicitly says the concert is cancelled or removed: status = "cancelled"
 - If the evidence contains NO mention of this artist or event at this venue: status = "unverified"
-- Confidence: "high" if directly stated, "medium" if inferred, "low" if weak signal
+- Confidence: "high" if directly stated or confirmed by venue calendar, "medium" if inferred, "low" if weak signal
 
 Respond with ONLY this JSON (no markdown, no extra text):
 {{"status": "confirmed|date_changed|venue_changed|details_changed|cancelled|unverified", "confidence": "high|medium|low", "new_date": null, "new_venue": null, "new_city": null, "notes": "Brief 1-sentence explanation"}}"""
@@ -529,6 +557,43 @@ def compare_concert_info(
 # ---------------------------------------------------------------------------
 # Single concert verification
 # ---------------------------------------------------------------------------
+
+
+def _assemble_evidence(
+    *,
+    venue_evidence: str | None,
+    venue_calendar_signal: str | None,
+    venue_name: str,
+    cal_url: str,
+    other_evidence: str | None,
+    other_source: str | None,
+) -> str | None:
+    """Combine venue calendar and other evidence into labeled sections.
+
+    Returns None if no evidence is available from any source.
+    """
+    parts = []
+
+    if venue_calendar_signal == "artist_found" and venue_evidence:
+        parts.append(
+            f"--- VENUE CALENDAR (official: {venue_name} — {cal_url}) ---\n"
+            f"{venue_evidence}"
+        )
+    elif venue_calendar_signal == "artist_not_found":
+        parts.append(
+            f"--- VENUE CALENDAR (official: {venue_name} — {cal_url}) ---\n"
+            f"NOTE: The artist was NOT found on the venue's event calendar, "
+            f"which lists upcoming shows. This is a meaningful negative signal."
+        )
+
+    if other_evidence:
+        source_label = {
+            "source_refetch": "SOURCE PAGE",
+            "web_search": "WEB SEARCH RESULTS",
+        }.get(other_source or "", "OTHER EVIDENCE")
+        parts.append(f"--- {source_label} ---\n{other_evidence}")
+
+    return "\n\n".join(parts) if parts else None
 
 
 def verify_single_concert(
@@ -616,6 +681,30 @@ def verify_single_concert(
 
     evidence_text = None
     evidence_source = None
+    venue_evidence = None
+    venue_calendar_signal = None  # "artist_found", "artist_not_found", or None
+
+    # --- Tier 0: Venue calendar check (most trusted source) ---
+    vcal_log = try_venue_calendar(concert, venues)
+    concert_log["venue_calendar"] = {
+        k: v for k, v in vcal_log.items() if k != "extracted_text"
+    }
+    if vcal_log["artist_found"]:
+        venue_evidence = vcal_log["extracted_text"]
+        venue_calendar_signal = "artist_found"
+        logger.debug(
+            "Tier0 OK: %s — found on %s calendar (%d chars)",
+            concert["artist_name"],
+            vcal_log["venue"],
+            len(venue_evidence),
+        )
+    elif vcal_log["attempted"]:
+        venue_calendar_signal = "artist_not_found"
+        logger.debug(
+            "Tier0 NEGATIVE: %s — not on %s calendar",
+            concert["artist_name"],
+            vcal_log["venue"],
+        )
 
     # --- Tier 1: Re-fetch source URL ---
     if url_class == "fetchable":
@@ -653,29 +742,6 @@ def verify_single_concert(
             url_class,
             concert.get("url", "")[:60],
         )
-
-    # --- Tier 1.5: Venue calendar check (if tier1 yielded no evidence) ---
-    if evidence_text is None:
-        vcal_log = try_venue_calendar(concert, venues)
-        concert_log["venue_calendar"] = {
-            k: v for k, v in vcal_log.items() if k != "extracted_text"
-        }
-        vcal_text = vcal_log.get("extracted_text")
-        if vcal_text:
-            evidence_text = vcal_text
-            evidence_source = "venue_calendar"
-            logger.debug(
-                "Tier1.5 OK: %s — found on %s calendar (%d chars)",
-                concert["artist_name"],
-                vcal_log["venue"],
-                len(vcal_text),
-            )
-        elif vcal_log["attempted"]:
-            logger.debug(
-                "Tier1.5 FAIL: %s — %s",
-                concert["artist_name"],
-                vcal_log.get("error_message", "not found"),
-            )
 
     # --- Helper: run tier2 search ---
     def _run_tier2(reason: str) -> str | None:
@@ -753,34 +819,51 @@ def verify_single_concert(
             evidence_text = snippets
             evidence_source = "web_search"
 
+    # --- Assemble labeled evidence for LLM ---
+    combined_evidence = _assemble_evidence(
+        venue_evidence=venue_evidence,
+        venue_calendar_signal=venue_calendar_signal,
+        venue_name=concert.get("venue", ""),
+        cal_url=concert_log["venue_calendar"].get("calendar_url", ""),
+        other_evidence=evidence_text,
+        other_source=evidence_source,
+    )
+    if venue_evidence and evidence_source:
+        evidence_source = f"venue_calendar+{evidence_source}"
+    elif venue_evidence:
+        evidence_source = "venue_calendar"
+    # evidence_source stays as-is when no venue evidence
+
     # --- LLM comparison ---
-    if evidence_text:
-        result = _run_llm(evidence_text, evidence_source)
+    if combined_evidence:
+        result = _run_llm(combined_evidence, evidence_source)
         concert_log["result"] = result
 
-        # --- Tier 2 fallback: if tier1 succeeded but LLM said unverified,
+        # --- Tier 2 fallback: if earlier tiers were inconclusive,
         #     try a supplemental web search for a second opinion ---
         if (
             result["status"] == "unverified"
-            and evidence_source == "source_refetch"
+            and evidence_source in (
+                "source_refetch", "venue_calendar",
+                "venue_calendar+source_refetch",
+            )
             and not no_search
         ):
             logger.debug(
-                "Tier2 FALLBACK: %s — tier1 inconclusive, trying web search",
+                "Tier2 FALLBACK: %s — earlier tiers inconclusive, trying web search",
                 concert["artist_name"],
             )
-            snippets = _run_tier2("tier1_inconclusive")
+            snippets = _run_tier2("earlier_tiers_inconclusive")
             if snippets:
-                # Combine tier1 + tier2 evidence for a richer context
-                combined = evidence_text + "\n\n--- WEB SEARCH RESULTS ---\n\n" + snippets
-                result = _run_llm(combined, "source_refetch+web_search")
+                combined = combined_evidence + "\n\n--- WEB SEARCH RESULTS ---\n\n" + snippets
+                result = _run_llm(combined, evidence_source + "+web_search")
                 concert_log["result"] = result
     else:
         concert_log["result"] = {
             "status": "unverified",
             "confidence": "low",
             "changes": {},
-            "notes": "No evidence obtained from either tier",
+            "notes": "No evidence obtained from any tier",
         }
 
     # --- Override unverified → festival_pending for festival concerts ---
