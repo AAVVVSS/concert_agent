@@ -128,14 +128,23 @@ The test script must pass `venues` to `parse_concert_page` — without it, the p
 
 ### Tiered Architecture
 
-The verification pipeline uses a multi-tier evidence gathering strategy before sending evidence to an LLM (Claude Sonnet) for comparison against stored concert data.
+The verification pipeline uses a multi-tier evidence gathering strategy before sending evidence to an LLM (Claude Sonnet) for comparison against stored concert data. **Venue calendar data is treated as the most authoritative source.**
 
 ```
+Tier 0:   Venue calendar check (ALWAYS runs first — most trusted)
 Tier 1:   Re-fetch source URL directly
-Tier 1.5: Fetch venue's event calendar page (if tier1 has no evidence)
 Tier 2:   Tavily web search with multi-query strategy
-Fallback: If tier1 succeeded but LLM said "unverified", try tier2 as supplemental evidence
+Fallback: If earlier tiers were inconclusive, try tier2 as supplemental evidence
 ```
+
+### Tier 0 — Venue Calendar Check (most trusted source)
+- **Always runs first**, before any other evidence gathering, for every concert at a mapped venue.
+- Fetches the venue's event calendar page and checks if the artist name appears (case-insensitive).
+- Stores two separate outputs:
+  - `venue_evidence`: full extracted text if artist was found (strong positive signal).
+  - `venue_calendar_signal`: `"artist_found"`, `"artist_not_found"` (meaningful negative signal), or `None` (no calendar for this venue).
+- Currently covers 22 Swiss venues (~45% of concerts) with known working calendar URLs.
+- **Key insight**: Previous Tier 1.5 placement meant venue calendars almost never fired (gated behind source refetch). Promoting to Tier 0 ensures this authoritative data is always collected.
 
 ### Tier 1 — Source URL Re-fetch
 - Re-fetches the URL stored during research and extracts text via `html_to_text`.
@@ -143,30 +152,44 @@ Fallback: If tier1 succeeded but LLM said "unverified", try tier2 as supplementa
 - Records detailed metadata: HTTP status, response headers, redirect chain, JSON-LD types, HTML size.
 - Pages with <50 chars of extracted text are treated as "empty_response" failures.
 
-### Tier 1.5 — Venue Calendar Check (new)
-- When tier1 yields no evidence, looks up the venue name in `_VENUE_CALENDARS` mapping.
-- Fetches the venue's event calendar page directly and checks if the artist name appears in the text.
-- Provides an alternative evidence path that bypasses the original source URL entirely.
-- Currently covers 22 Swiss venues with known working calendar URLs.
-- Falls through silently if the venue isn't in the mapping or the artist isn't found on the calendar.
-
 ### Tier 2 — Tavily Web Search
-- Uses a **multi-query strategy** (`_build_search_queries`), trying up to 3 queries in order:
-  1. Site-targeted: `"artist" city YYYY-MM site:songkick.com OR site:bandsintown.com OR site:setlist.fm`
-  2. Generic: `"artist" concert "venue" YYYY-MM Switzerland`
-  3. Broad fallback: `"artist" concert "city" 2026`
+- Uses a **multi-query strategy** (`_build_search_queries`), trying up to 4 queries in order:
+  1. Venue-site targeted: `"artist" site:{venue_domain}` (if venue is in `_VENUE_CALENDARS`)
+  2. Ticketing platforms (intl + Swiss): `"artist" city YYYY-MM site:songkick.com OR site:bandsintown.com OR site:setlist.fm OR site:starticket.ch OR site:petzi.ch OR site:ticketcorner.ch`
+  3. Generic: `"artist" concert "venue" YYYY-MM Switzerland`
+  4. Broad fallback: `"artist" concert "city" 2026`
+- Swiss ticketing sites (starticket, petzi, ticketcorner) added to cover niche local shows that international platforms miss.
 - Stops at the first query that returns results.
 - 0.5s pause between queries, 1.0s pause after completion for rate limiting.
 
 ### Tier 2 Fallback
-- When tier1 succeeds but the LLM says "unverified" (common with generic artist pages that don't mention the Swiss date), a supplemental tier2 search fires.
-- Tier1 + tier2 evidence are combined with a separator and sent to the LLM together.
-- Evidence source recorded as `"source_refetch+web_search"`.
+- When earlier tiers (source refetch, venue calendar, or both) succeed but the LLM says "unverified", a supplemental tier2 search fires.
+- All available evidence is combined with labeled sections and sent to the LLM together.
+- Evidence source recorded as e.g. `"venue_calendar+source_refetch+web_search"`.
+
+### Evidence Assembly & Source Attribution
+- Before the LLM call, all evidence is assembled into labeled sections via `_assemble_evidence()`:
+  ```
+  --- VENUE CALENDAR (official: {venue_name} — {cal_url}) ---
+  {venue text, or "NOTE: Artist NOT found on venue calendar..."}
+
+  --- SOURCE PAGE ---
+  {tier1 refetch text}
+  ```
+- When the venue calendar was checked but the artist was NOT found, an explicit negative signal note is injected, telling the LLM this is meaningful.
+- This labeled format allows the LLM to apply trust weighting based on source type.
 
 ### LLM Comparison
 - Uses Claude Sonnet (`claude-sonnet-4-6`) with temperature 0.0 and max_tokens 256.
-- Prompt provides: stored artist, date, venue, city, country, URL + evidence text (capped at 8000 chars).
+- Prompt provides: stored artist, date, venue, city, country, URL + labeled evidence text (capped at 8000 chars).
+- **Source Trust Guidance** in the prompt instructs the LLM:
+  - Venue calendar = most authoritative (venues control their own listings)
+  - Artist found on venue calendar = strong positive confirmation, even if other sources are ambiguous
+  - Artist NOT found on venue calendar = significant negative signal
+  - When venue calendar conflicts with other sources, prefer the venue calendar
+  - Source page / web search = supplementary, less authoritative
 - Returns JSON with: status, confidence (high/medium/low), new_date/venue/city if changed, notes.
+- Confidence "high" applies when directly stated OR confirmed by venue calendar.
 - **Past-date guard**: If the LLM reports `date_changed` with a date in the past, status is overridden to `"past"`. This catches stale data (e.g., Filter's "new date" was 2024-03-19).
 
 ### Verification Statuses
@@ -278,10 +301,11 @@ After the LLM comparison, two additional overrides are applied:
 - **LLM hallucination in research**: Despite explicit instructions ("Do NOT hallucinate dates", "Do NOT fabricate URLs"), the research agent occasionally conflates search results. The cross-validation step catches the most obvious cases (wrong artist at venue), but subtle errors (correct artist, wrong date) are harder to detect.
 
 ### Venue Calendar Limitations
-- The `_VENUE_CALENDARS` mapping currently covers 22 venues with known working URLs.
+- The `_VENUE_CALENDARS` mapping currently covers 22 venues (~45% of concerts). Major gaps: Hallenstadion (7 concerts), Halle 622 (3), Kaserne Basel (2), festival sites.
 - Some venue sites use JS-rendered calendars (won't work with simple HTTP fetch).
 - Calendar URLs may change or go stale — requires periodic maintenance.
-- Venue calendars list ALL events, so artist name matching must be case-insensitive and handle variations (e.g., "A$AP Rocky" vs "ASAP Rocky").
+- Artist name matching is simple case-insensitive substring (`artist.lower() in text.lower()`). This can miss variations like "A$AP Rocky" vs "ASAP Rocky" and may false-match substrings (e.g., "toe" appearing in unrelated words). More sophisticated matching (fuzzy, word-boundary) could improve accuracy.
+- Venue calendars typically only show events a few months out — very distant future events may not appear yet.
 
 ### Tavily Search Limitations
 - Tavily's `site:` operator doesn't always work reliably — sometimes returns results from other domains.
