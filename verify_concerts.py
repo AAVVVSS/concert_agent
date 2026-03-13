@@ -1054,9 +1054,7 @@ def generate_verified_report(
     """Generate an HTML report with verification badges."""
     sorted_concerts = sorted(concerts, key=sort_key)
     generated = datetime.now().strftime("%B %-d, %Y at %-I:%M %p")
-    total = len(sorted_concerts)
-
-    # Count statuses for header
+    # Count statuses for header (from all concerts)
     status_counts = Counter()
     for c in sorted_concerts:
         v = c.get("verification", {})
@@ -1069,20 +1067,30 @@ def generate_verified_report(
         ("venue_changed", "Venue Changed"),
         ("details_changed", "Details Changed"),
         ("cancelled", "Cancelled"),
-        ("past", "Past"),
         ("tentative", "Social Media Only"),
         ("festival_pending", "Lineup Pending"),
-        ("unverified", "Unverified"),
     ]:
         count = status_counts.get(status, 0)
         if count > 0:
             status_summary_parts.append(f"{label}: {count}")
+
+    excluded = status_counts.get("unverified", 0) + status_counts.get("past", 0)
+    if excluded > 0:
+        status_summary_parts.append(f"Excluded: {excluded}")
     status_summary = " &nbsp;|&nbsp; ".join(status_summary_parts)
+    total = len(sorted_concerts) - excluded
 
     cards_html = []
     prev_tbd = False
 
-    for c in sorted_concerts:
+    # Filter out unverified (likely hallucinated) and past concerts
+    _EXCLUDED_STATUSES = {"unverified", "past"}
+    display_concerts = [
+        c for c in sorted_concerts
+        if c.get("verification", {}).get("status", "unverified") not in _EXCLUDED_STATUSES
+    ]
+
+    for c in display_concerts:
         is_tbd = c["date"] == "TBD" or parse_date(c["date"]) is None
         verification = c.get("verification", {})
         v_status = verification.get("status", "unverified")
