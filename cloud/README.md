@@ -5,7 +5,7 @@ A scheduled, cloud-hosted version of the concert agent. Claude runs it as two sc
 | Routine | When (Zurich time) | What it does |
 |---|---|---|
 | Weekly sweep | Mondays, morning | Syncs Tidal favorites, reads the calendars of the venues and open airs in `data/venues.json`, and matches them against favorites. It also verifies matches and rechecks tracked shows. |
-| Monthly deep pass | First Sunday of the month | Syncs favorites (with bios), researches every artist not checked in 30 days, and re-verifies all tracked shows. |
+| Monthly deep pass | First Sunday of the month | Syncs favorites (with bios), researches every artist not checked in 30 days, writes a bio and tags for new favorites, and re-verifies all tracked shows. |
 
 Each run ends by:
 - updating `data/concerts.json` (the full state, with history per show),
@@ -21,10 +21,12 @@ German-speaking Switzerland, plus Biel and Fribourg, from today to six months ah
 |---|---|
 | `prompts/weekly.md`, `prompts/monthly.md` | What each routine run does (the routine prompt points here) |
 | `prompts/common.md` | Setup, parallelism, publishing, commit and notification steps shared by both |
+| `prompts/profiles.md` | How to research an artist's bio and tags |
 | `prompts/lessons.md` | Verification rules distilled from `../notes.md` |
 | `tidal_sync.py` | Favorites sync using `TIDAL_REFRESH_TOKEN` (no interactive login) |
 | `concerts.py` | Deterministic bookkeeping: `due`, `match`, `mark`, `merge`, `report` |
 | `data/favorite_artists.json` | Favorites plus research status (custom fields are preserved) |
+| `data/artist_profiles.json` | Bio, genres, styles and origin per favorite artist, keyed by Tidal ID (see `prompts/profiles.md`). Committed, unlike `favorite_artists.json` |
 | `data/venues.json` | Venues, open airs and aggregators to sweep. Runs fix and extend it |
 | `data/concerts.json` | All tracked shows |
 | `runs/` | One summary per run |

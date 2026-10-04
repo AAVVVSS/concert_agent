@@ -11,6 +11,8 @@ keeps the bookkeeping deterministic:
                                                       upsert concerts, write run summary,
                                                       print the phone message
     python cloud/concerts.py report                   render cloud/report/index.html
+    python cloud/concerts.py profiles-due             favorites without a bio/tags profile
+    python cloud/concerts.py profiles-merge NEW.json  add or replace artist profiles
 
 Only the standard library is used so it runs anywhere.
 """
@@ -27,11 +29,17 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 ARTISTS_FILE = ROOT / "data" / "favorite_artists.json"
 CONCERTS_FILE = ROOT / "data" / "concerts.json"
+PROFILES_FILE = ROOT / "data" / "artist_profiles.json"
 RUNS_DIR = ROOT / "runs"
 REPORT_FILE = ROOT / "report" / "index.html"
 
 HORIZON_DAYS = 183  # six months
 STATUSES = {"confirmed", "tentative", "festival_pending", "cancelled"}
+GENRES = {
+    "rock", "indie", "pop", "electronic", "hip hop", "r&b", "soul", "jazz", "folk", "country",
+    "blues", "metal", "punk", "latin", "reggae", "world", "ambient", "experimental", "classical",
+    "soundtrack",
+}
 
 
 # ---------------------------------------------------------------------------
@@ -272,6 +280,29 @@ STATUS_LABEL = {
 }
 
 
+def cmd_profiles_due(args) -> None:
+    profiles = load(PROFILES_FILE, {})
+    due = [{"id": a["id"], "name": a["name"]} for k, a in favorites().items() if k not in profiles]
+    due.sort(key=lambda a: a["name"].lower())
+    json.dump(due, sys.stdout, indent=2, ensure_ascii=False)
+    print(f"\n{len(due)} artists without a profile", file=sys.stderr)
+
+
+def cmd_profiles_merge(args) -> None:
+    profiles = load(PROFILES_FILE, {})
+    new = load(Path(args.profiles), {})
+    errors = []
+    for k, p in new.items():
+        bad = [g for g in p.get("genres", []) if g not in GENRES]
+        if bad or not p.get("bio") or not p.get("name"):
+            errors.append(f"{k} {p.get('name')}: missing bio/name or unknown genres {bad}")
+    if errors:
+        sys.exit("Not merged:\n" + "\n".join(errors))
+    profiles.update({str(k): p for k, p in new.items()})
+    PROFILES_FILE.write_text(json.dumps(profiles, indent=2, ensure_ascii=False, sort_keys=True) + "\n")
+    print(f"Merged {len(new)} profiles ({len(profiles)} total)")
+
+
 def cmd_report(args) -> None:
     concerts = load(CONCERTS_FILE, [])
     runs = sorted(RUNS_DIR.glob("*.json")) if RUNS_DIR.exists() else []
@@ -281,11 +312,11 @@ def cmd_report(args) -> None:
     horizon = today + timedelta(days=HORIZON_DAYS)
     upcoming = [c for c in concerts if today.isoformat() <= c["date"] <= horizon.isoformat()]
     REPORT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    REPORT_FILE.write_text(render(upcoming, fresh, last_run, today, horizon))
+    REPORT_FILE.write_text(render(upcoming, fresh, last_run, today, horizon, load(PROFILES_FILE, {})))
     print(f"Wrote {REPORT_FILE} ({len(upcoming)} concerts)")
 
 
-def render(upcoming: list, fresh: set, last_run: dict, today: date, horizon: date) -> str:
+def render(upcoming: list, fresh: set, last_run: dict, today: date, horizon: date, profiles: dict) -> str:
     e = html.escape
     months: dict[str, list] = {}
     for c in upcoming:
@@ -306,6 +337,11 @@ def render(upcoming: list, fresh: set, last_run: dict, today: date, horizon: dat
             if c.get("url"):
                 artist = f'<a href="{e(c["url"])}" target="_blank" rel="noopener">{artist}</a>'
             note = f'<p class="note">{e(c["notes"])}</p>' if c.get("notes") else ""
+            prof = profiles.get(str(c["artist_id"]), {})
+            if prof.get("styles"):
+                note = f'<p class="tags">{e(" · ".join(prof["styles"]))}</p>' + note
+            if prof.get("bio"):
+                note += f'<details><summary>About</summary><p>{e(prof["bio"])}</p></details>'
             rows.append(
                 f'<li class="gig{" off" if c["status"] == "cancelled" else ""}">'
                 f'<time datetime="{c["date"]}"><span class="dow">{d.strftime("%a")}</span><span class="dom">{d.day}</span></time>'
@@ -357,6 +393,10 @@ h3 a {{ color: inherit; text-decoration-color: var(--line); text-underline-offse
 h3 a:hover, h3 a:focus-visible {{ text-decoration-color: var(--accent); outline: none; }}
 .where {{ color: var(--muted); margin: .1rem 0 0; }}
 .note {{ color: var(--muted); font-size: .85rem; margin: .25rem 0 0; }}
+.tags {{ font: 500 .72rem var(--mono); color: var(--accent); margin: .2rem 0 0; }}
+details {{ font-size: .85rem; margin-top: .3rem; }}
+summary {{ color: var(--muted); cursor: pointer; }}
+details p {{ margin: .3rem 0 0; }}
 .chips {{ display: flex; flex-wrap: wrap; gap: .3rem; justify-content: flex-end; max-width: 9rem; }}
 .chip {{ font: 500 .66rem var(--mono); text-transform: uppercase; letter-spacing: .05em; padding: .15rem .45rem; border-radius: 99px; border: 1px solid currentColor; white-space: nowrap; }}
 .s-confirmed {{ color: var(--accent); }}
@@ -390,6 +430,8 @@ def main() -> None:
     s = sub.add_parser("mark"); s.add_argument("researched"); s.set_defaults(fn=cmd_mark)
     s = sub.add_parser("merge"); s.add_argument("findings"); s.add_argument("--kind", choices=["weekly", "monthly"], required=True); s.set_defaults(fn=cmd_merge)
     s = sub.add_parser("report"); s.set_defaults(fn=cmd_report)
+    s = sub.add_parser("profiles-due"); s.set_defaults(fn=cmd_profiles_due)
+    s = sub.add_parser("profiles-merge"); s.add_argument("profiles"); s.set_defaults(fn=cmd_profiles_merge)
     args = p.parse_args()
     args.fn(args)
 
