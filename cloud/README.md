@@ -31,8 +31,8 @@ German-speaking Switzerland, plus Biel and Fribourg, from today to six months ah
 | `report/index.html` | The rendered report that gets published |
 
 ## Setup
-- **Cloud environment.** Network access set to Custom with `api.tidal.com`, `auth.tidal.com` and `login.tidal.com` allowed. Claude's web fetch goes through the same egress policy, so venue calendars are only readable with Network access set to Full (with Custom, runs fall back to web-search snippets).
-- **`TIDAL_REFRESH_TOKEN`** is an environment variable holding the `refresh_token` from a local `tidal_session.json`. To renew it, run `python main.py` locally with `SYNC_TIDAL = True`, then copy the new value.
+- **Cloud environment.** Network access set to Custom with `api.tidal.com`, `auth.tidal.com` and `login.tidal.com` allowed (the device login works without `link.tidal.com`). Claude's web fetch goes through the same egress policy, so venue calendars are only readable with Network access set to Full (with Custom, runs fall back to web-search snippets).
+- **Tidal token.** Run `uv run python -u cloud/tidal_sync.py --login` once in the "Concert runs" thread and approve the printed link. The refresh token is saved to the project's private shared folder (`/mnt/project-files/tidal/tidal_session.json`, never committed). A `TIDAL_REFRESH_TOKEN` environment variable, if set, takes precedence.
 - **Changing the schedule or prompts.** The routines only say "follow `cloud/prompts/<kind>.md`", so edits to these files take effect on the next run.
 
 ## Local dry run

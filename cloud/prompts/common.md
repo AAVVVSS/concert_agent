@@ -7,7 +7,8 @@ You are running unattended, woken by a scheduled routine in the project thread "
 1. Read `cloud/prompts/lessons.md`. It covers the trust order, known traps, area and horizon.
 2. Switch to main and update it: `git fetch origin main && git checkout -B main origin/main`. Alfred decided that run results are committed straight to `main`.
 3. Run `uv sync -q`, then sync favorites: `uv run python cloud/tidal_sync.py` (the monthly run adds `--bios`).
-   - If it reports that a new Tidal login is needed, keep going with the existing `cloud/data/favorite_artists.json`. Start the final message with `Tidal login expired, please renew TIDAL_REFRESH_TOKEN.`
+   - If it reports that there is no token or a new login is needed, keep going with the existing `cloud/data/favorite_artists.json`. Start the run's reply with `Tidal login needed:` followed by the link from the next step.
+   - To log in: run `uv run python -u cloud/tidal_sync.py --login` in the background. It prints a `link.tidal.com` URL, which you post for Alfred to approve. When it finishes, the token is saved to `/mnt/project-files/tidal/tidal_session.json`. Never print, commit or post the token itself.
 
 ## Working in parallel
 Split large batches across subagents with the Agent tool: about 10 venues or 15 artists per agent, all launched in one message. Give each agent its slice of the list, the full text of `cloud/prompts/lessons.md`, and the exact JSON shape to write to a file under `cloud/runs/tmp/`. Then combine their files yourself. Subagents use WebSearch and WebFetch. Plain `curl` only reaches hosts the environment allows.
