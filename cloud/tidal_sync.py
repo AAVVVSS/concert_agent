@@ -3,7 +3,8 @@ Sync Tidal favorite artists into cloud/data/favorite_artists.json.
 
 Cloud-friendly variant of ../tidal_client.py. Authenticates with a refresh
 token, taken from the TIDAL_REFRESH_TOKEN environment variable if set, else
-from the token file in the project's private shared folder (TOKEN_FILE).
+from the session file in the project's private shared folder (TOKEN_FILE, same
+format as ../tidal_session.json). Each successful refresh is written back.
 
 `--login` runs Tidal's device-code login once: it prints a link.tidal.com URL
 for the account owner to approve, waits, and saves the refresh token to
@@ -16,7 +17,7 @@ kept but flagged with "favorite": false so their history survives.
 Usage:
     uv run python cloud/tidal_sync.py            # sync, no bios
     uv run python cloud/tidal_sync.py --bios     # also fetch bios for artists missing one
-    uv run python -u cloud/tidal_sync.py --login # one-time login, saves the token file
+    uv run python -u cloud/tidal_sync.py --login # one-time login, saves the session file
 """
 
 import argparse
@@ -27,19 +28,31 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+import requests
 import tidalapi
+import tidalapi.exceptions
 
 ARTISTS_FILE = Path(__file__).parent / "data" / "favorite_artists.json"
-TOKEN_FILE = Path(os.environ.get("TIDAL_TOKEN_FILE", "/mnt/project-files/concerts/tidal_token.json"))
+TOKEN_FILE = Path(os.environ.get("TIDAL_TOKEN_FILE", "/mnt/project-files/tidal/tidal_session.json"))
+
+
+def save_session(session: tidalapi.Session, refresh_token: str) -> None:
+    """Write the session in tidal_client.py's tidal_session.json format (never logged)."""
+    TOKEN_FILE.parent.mkdir(parents=True, exist_ok=True)
+    TOKEN_FILE.write_text(json.dumps({
+        "token_type": session.token_type,
+        "access_token": session.access_token,
+        "refresh_token": refresh_token,
+        "expiry_time": str(session.expiry_time),
+    }, indent=2) + "\n")
+    TOKEN_FILE.chmod(0o600)
 
 
 def login() -> None:
     session = tidalapi.Session()
     session.login_oauth_simple(fn_print=lambda text: print(text, flush=True))
-    TOKEN_FILE.parent.mkdir(parents=True, exist_ok=True)
-    TOKEN_FILE.write_text(json.dumps({"refresh_token": session.refresh_token}) + "\n")
-    TOKEN_FILE.chmod(0o600)
-    print(f"Logged in as user {session.user.id}; token saved to {TOKEN_FILE}")
+    save_session(session, session.refresh_token)
+    print(f"Logged in; session saved to {TOKEN_FILE}")
 
 
 def read_refresh_token() -> str:
@@ -56,12 +69,16 @@ def get_session() -> tidalapi.Session:
     session = tidalapi.Session()
     try:
         ok = session.token_refresh(refresh_token)
-    except Exception as e:  # tidalapi raises AuthenticationError on a revoked token
+    except tidalapi.exceptions.AuthenticationError as e:
         sys.exit(f"Tidal token refresh failed ({e}). A new Tidal login is needed.")
+    except requests.RequestException as e:
+        sys.exit(f"Could not reach Tidal ({type(e).__name__}); check the environment's network allowlist.")
     if not ok or not session.load_oauth_session(
         session.token_type, session.access_token, refresh_token, session.expiry_time
     ):
         sys.exit("Tidal login failed after token refresh. A new Tidal login is needed.")
+    if TOKEN_FILE.parent.exists():
+        save_session(session, refresh_token)
     return session
 
 
@@ -74,7 +91,7 @@ def clean_bio(bio: str | None) -> str | None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[1])
     parser.add_argument("--bios", action="store_true", help="fetch bios for artists without one")
-    parser.add_argument("--login", action="store_true", help="one-time device-code login; saves the token file")
+    parser.add_argument("--login", action="store_true", help="one-time device-code login; saves the session file")
     args = parser.parse_args()
 
     if args.login:
