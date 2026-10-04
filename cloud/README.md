@@ -1,6 +1,6 @@
 # Cloud concert workflow
 
-A scheduled, cloud-hosted version of the concert agent. Claude runs it as two Claude Code routines, each firing a fresh cloud session. The Python scripts in the repo root still work for local runs. This folder is self-contained and doesn't touch them.
+A scheduled, cloud-hosted version of the concert agent. Claude runs it as two scheduled routines that wake the project thread "Concert runs". Private projects can't start fresh sessions on a schedule, and that thread was started on the environment with Tidal access. The Python scripts in the repo root still work for local runs. This folder is self-contained and doesn't touch them.
 
 | Routine | When (Zurich time) | What it does |
 |---|---|---|
@@ -11,7 +11,7 @@ Each run ends by:
 - updating `data/concerts.json` (the full state, with history per show),
 - writing `runs/<date>-<kind>.json` (what was new or changed),
 - republishing the report page, whose fixed URL is in `config.json` (all upcoming shows within six months, new and changed ones flagged),
-- committing to `main` and sending a phone notification that lists only the new and changed shows.
+- committing to `main`, and posting a reply in the thread (which the Claude app pushes to the phone) that lists only the new and changed shows.
 
 ## Scope
 German-speaking Switzerland, plus Biel and Fribourg, from today to six months ahead, open airs included. See `prompts/lessons.md`.
