@@ -3,7 +3,8 @@ Weekly check for new releases (albums, EPs, singles) by the Tidal favorites.
 
 Reads the favorites straight from Tidal, lists each artist's albums and
 EPs/singles, and compares them with cloud/data/releases.json (every release
-seen so far). A release counts as new when it hasn't been seen before and its
+seen so far: full details for the reported ones, just the first-seen date for
+the rest, which keeps the file small). A release counts as new when it hasn't been seen before and its
 release date falls within the last NEW_WINDOW_DAYS days, which keeps catalog
 uploads and reissues of old records out. Tidal sometimes lists a release
 before its date; those are reported once as "coming" and again when they're out.
@@ -170,6 +171,20 @@ def fmt_day(d: str | None) -> str:
     return f"{x.strftime('%a')} {x.day} {x.strftime('%b')}"
 
 
+def phone_lines(rs: list[dict]) -> list[str]:
+    """One line per release, but an artist's batch of same-day singles becomes one line."""
+    groups: dict[tuple, list] = {}
+    for r in rs:
+        groups.setdefault((r["artist"], r["release_date"], r["kind"]), []).append(r)
+    lines = []
+    for (artist, day, kind), g in groups.items():
+        if len(g) > 2:
+            lines.append(f"- {artist}: {len(g)} {kind.lower()}s ({fmt_day(day)})")
+        else:
+            lines += [f"- {artist}: {r['title']} ({kind}, {fmt_day(day)})" for r in g]
+    return lines
+
+
 def phone_message(run: dict) -> str:
     out, coming = run["new"], run["coming"]
     if not out and not coming:
@@ -177,10 +192,10 @@ def phone_message(run: dict) -> str:
     parts = []
     if out:
         parts.append(f"{len(out)} new release{'s' if len(out) != 1 else ''} from your favorites:")
-        parts += [f"- {r['artist']}: {r['title']} ({r['kind']}, {fmt_day(r['release_date'])})" for r in out]
+        parts += phone_lines(out)
     if coming:
         parts.append("Coming soon:" if not out else "\nComing soon:")
-        parts += [f"- {r['artist']}: {r['title']} ({r['kind']}, {fmt_day(r['release_date'])})" for r in coming]
+        parts += phone_lines(coming)
     return "\n".join(parts)
 
 
@@ -188,8 +203,8 @@ def run(args) -> None:
     today = date.today()
     state = load(STATE_FILE, None)
     first_run = state is None
-    state = state or {"releases": {}}
-    known = state["releases"]
+    state = state or {"releases": {}, "seen": {}}
+    known, seen = state["releases"], state.setdefault("seen", {})
 
     session = tidal_sync.get_session()
     found, n_favorites, failed = fetch_all(session)
@@ -197,7 +212,8 @@ def run(args) -> None:
     window_start = today - timedelta(days=FIRST_RUN_DAYS if first_run else NEW_WINDOW_DAYS)
 
     new, coming = [], []
-    for r in pick_versions([r for r in found if r["id"] not in known or known[r["id"]].get("status") == "coming"]):
+    candidates = [r for r in found if r["id"] not in seen and (r["id"] not in known or known[r["id"]]["status"] == "coming")]
+    for r in pick_versions(candidates):
         d = date.fromisoformat(r["release_date"]) if r["release_date"] else None
         prev = known.get(r["id"])
         if d and d > today:
@@ -208,12 +224,12 @@ def run(args) -> None:
             new.append(r)
             status = "new"
         else:
-            status = "old"
-        known[r["id"]] = {**r, "status": status, "first_seen": (prev or {}).get("first_seen", now), "reported": now if status != "old" else (prev or {}).get("reported")}
-    # Everything else Tidal listed is now known, so it never counts as new later.
+            continue
+        known[r["id"]] = {**r, "status": status, "first_seen": (prev or {}).get("first_seen", now), "reported": now}
+    # Everything else Tidal listed is now seen, so it never counts as new later.
     for r in found:
         if r["id"] not in known:
-            known[r["id"]] = {**r, "status": "old", "first_seen": now, "reported": None}
+            seen.setdefault(r["id"], today.isoformat())
     new.sort(key=lambda r: (r["release_date"], r["artist"].lower()), reverse=True)
     coming.sort(key=lambda r: r["release_date"])
 
@@ -277,8 +293,8 @@ def render(state: dict, last_run: dict) -> None:
     def item(r: dict) -> str:
         e = html.escape
         names = ", ".join(r["artists"]) if r.get("artists") else r["artist"]
-        img = (f'<img src="{e(r["cover"])}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{{className:\'nocover\'}}))">'
-               if r.get("cover") else '<span class="nocover"></span>')
+        # Artifact pages can't load Tidal's cover images, so each row gets a lettered tile instead.
+        img = f'<span class="tile k-{r["kind"].lower()}" aria-hidden="true">{e(r["artist"][:1].upper())}</span>'
         chips = f'<span class="chip k-{r["kind"].lower()}">{e(r["kind"])}</span>'
         if r["id"] in fresh:
             chips += '<span class="chip s-new">New</span>'
@@ -318,7 +334,7 @@ PAGE = """<title>Fresh Drops</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
-/* Same visual family as Swiss Gig Radar: one narrow column, week headings, a row per release with its cover on the left. */
+/* Same visual family as Swiss Gig Radar: one narrow column, week headings, a row per release with a lettered tile on the left. */
 :root {
   --bg: #f4f3f6; --surface: #ffffff; --fg: #1b1a21; --muted: #605d6b; --line: #dcdae2;
   --accent: #5b3fb5; --new: #b4421b; --off: #8f8c99;
@@ -344,7 +360,8 @@ h2 { font: 500 1.15rem var(--display); display: flex; align-items: baseline; gap
 .count { font: 500 .75rem var(--mono); color: var(--muted); }
 ol { list-style: none; margin: 0; padding: 0; }
 .rel { display: grid; grid-template-columns: 3.5rem minmax(0, 1fr) auto; gap: .9rem; align-items: center; padding: .75rem 0; border-bottom: 1px solid var(--line); }
-.rel img, .nocover { width: 3.5rem; height: 3.5rem; border-radius: 4px; object-fit: cover; background: var(--surface); border: 1px solid var(--line); display: block; }
+.tile { width: 3.5rem; height: 3.5rem; border-radius: 6px; background: var(--surface); border: 1px solid var(--line); display: grid; place-items: center; font: 700 1.4rem var(--display); color: var(--muted); }
+.tile.k-album { color: var(--accent); }
 h3 { font: 500 1.02rem/1.3 var(--body); margin: 0; overflow-wrap: anywhere; }
 h3 a { color: inherit; text-decoration-color: var(--line); text-underline-offset: 3px; }
 h3 a:hover, h3 a:focus-visible { text-decoration-color: var(--accent); outline: none; }
@@ -357,7 +374,7 @@ h3 a:hover, h3 a:focus-visible { text-decoration-color: var(--accent); outline: 
 .empty { color: var(--muted); margin-top: 2rem; }
 @media (max-width: 30rem) {
   .rel { grid-template-columns: 3rem minmax(0, 1fr); }
-  .rel img, .nocover { width: 3rem; height: 3rem; }
+  .tile { width: 3rem; height: 3rem; }
   .chips { grid-column: 2; justify-content: flex-start; max-width: none; }
 }
 </style>

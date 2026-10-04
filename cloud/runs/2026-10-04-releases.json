@@ -1,0 +1,670 @@
+{
+  "coming": [
+    {
+      "artist": "Arlo Parks",
+      "artist_id": "9160820",
+      "artists": [
+        "Arlo Parks"
+      ],
+      "cover": "https://resources.tidal.com/images/3aa9a921/7cc9/4674/a0ed/3fbfc61280b7/320x320.jpg",
+      "explicit": false,
+      "id": "566971283",
+      "kind": "Album",
+      "release_date": "2026-10-09",
+      "title": "Ambiguous Desire (Deluxe)",
+      "tracks": 20,
+      "url": "https://tidal.com/album/566971283"
+    },
+    {
+      "artist": "Bibio",
+      "artist_id": "3637822",
+      "artists": [
+        "Bibio",
+        "Dorian Concept"
+      ],
+      "cover": "https://resources.tidal.com/images/b6a72b4f/8f15/4c2e/8e33/5e0d84dba8c9/320x320.jpg",
+      "explicit": false,
+      "id": "534920096",
+      "kind": "Album",
+      "release_date": "2026-10-16",
+      "title": "Answers",
+      "tracks": 13,
+      "url": "https://tidal.com/album/534920096"
+    },
+    {
+      "artist": "Caspian",
+      "artist_id": "3881491",
+      "artists": [
+        "Caspian"
+      ],
+      "cover": "https://resources.tidal.com/images/f8fa8fee/b5ba/44b5/949d/6b7fc8f1af97/320x320.jpg",
+      "explicit": false,
+      "id": "549872730",
+      "kind": "Album",
+      "release_date": "2026-10-16",
+      "title": "Caspian",
+      "tracks": 6,
+      "url": "https://tidal.com/album/549872730"
+    },
+    {
+      "artist": "Fenne Lily",
+      "artist_id": "7773162",
+      "artists": [
+        "Fenne Lily"
+      ],
+      "cover": "https://resources.tidal.com/images/1c4e2cf5/cbc7/446f/8d04/2e1c8eae9e50/320x320.jpg",
+      "explicit": false,
+      "id": "519933463",
+      "kind": "Album",
+      "release_date": "2026-10-23",
+      "title": "Win Win",
+      "tracks": 10,
+      "url": "https://tidal.com/album/519933463"
+    },
+    {
+      "artist": "Land Of Talk",
+      "artist_id": "18786",
+      "artists": [
+        "Land Of Talk"
+      ],
+      "cover": "https://resources.tidal.com/images/542e09a3/8b2b/4e9b/9f3c/ff4c16d81bae/320x320.jpg",
+      "explicit": true,
+      "id": "551819048",
+      "kind": "Album",
+      "release_date": "2026-11-13",
+      "title": "LASTS",
+      "tracks": 8,
+      "url": "https://tidal.com/album/551819048"
+    },
+    {
+      "artist": "Morcheeba",
+      "artist_id": "12034",
+      "artists": [
+        "Morcheeba"
+      ],
+      "cover": "https://resources.tidal.com/images/085099ad/eb98/492c/bd07/70b05f337439/320x320.jpg",
+      "explicit": false,
+      "id": "565829146",
+      "kind": "EP",
+      "release_date": "2027-01-08",
+      "title": "Remix The Chaos (Volume 3)",
+      "tracks": 4,
+      "url": "https://tidal.com/album/565829146"
+    }
+  ],
+  "date": "2026-10-04",
+  "failed": [],
+  "favorites": 677,
+  "first_run": true,
+  "new": [
+    {
+      "artist": "Yin Yin",
+      "artist_id": "6158693",
+      "artists": [
+        "The Bam Jam Band",
+        "D Apal",
+        "Yin Yin",
+        "Jiri Jiri",
+        "DJ Kobayashi"
+      ],
+      "cover": "https://resources.tidal.com/images/1260fe11/cad4/4f1f/a916/c07d13456d05/320x320.jpg",
+      "explicit": false,
+      "id": "543003405",
+      "kind": "EP",
+      "release_date": "2026-10-02",
+      "title": "Give Me Disco - Vol 2 (Selected by DJ Kobayashi)",
+      "tracks": 4,
+      "url": "https://tidal.com/album/543003405"
+    },
+    {
+      "artist": "Vanishing Twin",
+      "artist_id": "7782790",
+      "artists": [
+        "Vanishing Twin"
+      ],
+      "cover": "https://resources.tidal.com/images/6aed0988/24a2/4353/9996/243281c39bd9/320x320.jpg",
+      "explicit": false,
+      "id": "528694041",
+      "kind": "Album",
+      "release_date": "2026-10-02",
+      "title": "Archives",
+      "tracks": 9,
+      "url": "https://tidal.com/album/528694041"
+    },
+    {
+      "artist": "The Big Moon",
+      "artist_id": "6891143",
+      "artists": [
+        "The Big Moon"
+      ],
+      "cover": "https://resources.tidal.com/images/9645ef1d/e151/4809/bf72/bd6af7299492/320x320.jpg",
+      "explicit": false,
+      "id": "539094487",
+      "kind": "EP",
+      "release_date": "2026-10-02",
+      "title": "F.O.R.E.V.E.R",
+      "tracks": 4,
+      "url": "https://tidal.com/album/539094487"
+    },
+    {
+      "artist": "Solomun",
+      "artist_id": "3532352",
+      "artists": [
+        "Dom Dolla",
+        "Solomun",
+        "Skepta"
+      ],
+      "cover": "https://resources.tidal.com/images/e2b82911/4692/4e8e/a9a3/918bf0448a33/320x320.jpg",
+      "explicit": false,
+      "id": "565112593",
+      "kind": "Single",
+      "release_date": "2026-10-02",
+      "title": "DANGER DANGER",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565112593"
+    },
+    {
+      "artist": "Soft Kill",
+      "artist_id": "4298868",
+      "artists": [
+        "Soft Kill"
+      ],
+      "cover": "https://resources.tidal.com/images/87ba9afe/c079/49bf/952d/c801934cc3ee/320x320.jpg",
+      "explicit": false,
+      "id": "561465885",
+      "kind": "Album",
+      "release_date": "2026-10-02",
+      "title": "Rap & Bullshit",
+      "tracks": 7,
+      "url": "https://tidal.com/album/561465885"
+    },
+    {
+      "artist": "richard houghten",
+      "artist_id": "4203238",
+      "artists": [
+        "richard houghten"
+      ],
+      "cover": "https://resources.tidal.com/images/0fc2f52d/999b/4392/87e8/dbf34a45f799/320x320.jpg",
+      "explicit": false,
+      "id": "565477220",
+      "kind": "Single",
+      "release_date": "2026-10-02",
+      "title": "Feeling the Line",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565477220"
+    },
+    {
+      "artist": "Princess Nokia",
+      "artist_id": "7097936",
+      "artists": [
+        "DeathbyRomy",
+        "Princess Nokia"
+      ],
+      "cover": "https://resources.tidal.com/images/fbf3a4be/d137/4639/8ac6/94287dd62329/320x320.jpg",
+      "explicit": true,
+      "id": "560364228",
+      "kind": "Single",
+      "release_date": "2026-10-02",
+      "title": "LOLLIPOP",
+      "tracks": 1,
+      "url": "https://tidal.com/album/560364228"
+    },
+    {
+      "artist": "Morcheeba",
+      "artist_id": "12034",
+      "artists": [
+        "Morcheeba",
+        "UNKLE",
+        "Oscar #Worldpeace"
+      ],
+      "cover": "https://resources.tidal.com/images/ca125f81/bd13/4231/9706/b47869f6d864/320x320.jpg",
+      "explicit": false,
+      "id": "561489798",
+      "kind": "Single",
+      "release_date": "2026-10-02",
+      "title": "Peace Of Me (UNKLE Reconstruction)",
+      "tracks": 3,
+      "url": "https://tidal.com/album/561489798"
+    },
+    {
+      "artist": "Michael Kiwanuka",
+      "artist_id": "4348856",
+      "artists": [
+        "Michael Kiwanuka"
+      ],
+      "cover": "https://resources.tidal.com/images/4c5bb3cc/ee8a/4d25/ac77/1235600612c8/320x320.jpg",
+      "explicit": false,
+      "id": "564201123",
+      "kind": "Single",
+      "release_date": "2026-10-02",
+      "title": "Summer Clothes",
+      "tracks": 1,
+      "url": "https://tidal.com/album/564201123"
+    },
+    {
+      "artist": "Johnny Marr",
+      "artist_id": "4808934",
+      "artists": [
+        "Johnny Marr"
+      ],
+      "cover": "https://resources.tidal.com/images/a13bbb1f/01a4/4474/a6ef/5c6aba3b88a2/320x320.jpg",
+      "explicit": false,
+      "id": "564178304",
+      "kind": "Album",
+      "release_date": "2026-10-02",
+      "title": "The Age Of Everything",
+      "tracks": 10,
+      "url": "https://tidal.com/album/564178304"
+    },
+    {
+      "artist": "DIIV",
+      "artist_id": "4646142",
+      "artists": [
+        "DIIV"
+      ],
+      "cover": "https://resources.tidal.com/images/37a17698/ce09/4c6b/a9eb/c893ab74f1bd/320x320.jpg",
+      "explicit": false,
+      "id": "564202940",
+      "kind": "Single",
+      "release_date": "2026-10-02",
+      "title": "Trillions",
+      "tracks": 1,
+      "url": "https://tidal.com/album/564202940"
+    },
+    {
+      "artist": "Bilderbuch",
+      "artist_id": "5238762",
+      "artists": [
+        "Bilderbuch"
+      ],
+      "cover": "https://resources.tidal.com/images/7b92ed7d/d6c2/4a17/ba0e/1936052cfaef/320x320.jpg",
+      "explicit": true,
+      "id": "563949039",
+      "kind": "Single",
+      "release_date": "2026-10-02",
+      "title": "Baby Junkie",
+      "tracks": 1,
+      "url": "https://tidal.com/album/563949039"
+    },
+    {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid"
+      ],
+      "cover": "https://resources.tidal.com/images/5466bc55/0473/4031/9ddf/b85a4eeb3038/320x320.jpg",
+      "explicit": false,
+      "id": "536224732",
+      "kind": "Single",
+      "release_date": "2026-10-02",
+      "title": "Heaven on earth",
+      "tracks": 1,
+      "url": "https://tidal.com/album/536224732"
+    },
+    {
+      "artist": "Tokischa",
+      "artist_id": "10108090",
+      "artists": [
+        "Tokischa"
+      ],
+      "cover": "https://resources.tidal.com/images/f7c79b20/0932/436a/8c53/eecf6332e239/320x320.jpg",
+      "explicit": false,
+      "id": "565620417",
+      "kind": "Single",
+      "release_date": "2026-10-01",
+      "title": "DROGA DE DISEÑADOR",
+      "tracks": 3,
+      "url": "https://tidal.com/album/565620417"
+    },
+    {
+      "artist": "Pip Millett",
+      "artist_id": "9028244",
+      "artists": [
+        "Pip Millett"
+      ],
+      "cover": "https://resources.tidal.com/images/562d2866/4f10/4912/bb5f/db6b751365b9/320x320.jpg",
+      "explicit": false,
+      "id": "561498456",
+      "kind": "Single",
+      "release_date": "2026-10-01",
+      "title": "Mad",
+      "tracks": 1,
+      "url": "https://tidal.com/album/561498456"
+    },
+    {
+      "artist": "Japanese Heart Software",
+      "artist_id": "16364758",
+      "artists": [
+        "Japanese Heart Software"
+      ],
+      "cover": "https://resources.tidal.com/images/e5de8b8a/8106/451e/b8df/ec593e0ad4bc/320x320.jpg",
+      "explicit": true,
+      "id": "558818843",
+      "kind": "Album",
+      "release_date": "2026-10-01",
+      "title": "Desiderium",
+      "tracks": 9,
+      "url": "https://tidal.com/album/558818843"
+    },
+    {
+      "artist": "ANOHNI",
+      "artist_id": "7432292",
+      "artists": [
+        "Meshell Ndegeocello",
+        "ANOHNI"
+      ],
+      "cover": "https://resources.tidal.com/images/25000ed9/29e6/4cae/beeb/85e4d8e71f41/320x320.jpg",
+      "explicit": false,
+      "id": "564202494",
+      "kind": "Single",
+      "release_date": "2026-10-01",
+      "title": "I Got You Babe",
+      "tracks": 1,
+      "url": "https://tidal.com/album/564202494"
+    },
+    {
+      "artist": "Paulo Londra",
+      "artist_id": "8839251",
+      "artists": [
+        "Paulo Londra"
+      ],
+      "cover": "https://resources.tidal.com/images/0b04e338/a9d7/4c7d/bc92/3201a8a52e69/320x320.jpg",
+      "explicit": false,
+      "id": "561081361",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "hIGhLIGhTS",
+      "tracks": 1,
+      "url": "https://tidal.com/album/561081361"
+    },
+    {
+      "artist": "Los Bitchos",
+      "artist_id": "9132216",
+      "artists": [
+        "Los Bitchos",
+        "Chicha Libre"
+      ],
+      "cover": "https://resources.tidal.com/images/23d07ac4/f74d/42b6/9828/9da03d4dfb9b/320x320.jpg",
+      "explicit": false,
+      "id": "545730475",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "Conexiones",
+      "tracks": 1,
+      "url": "https://tidal.com/album/545730475"
+    },
+    {
+      "artist": "La Zowi",
+      "artist_id": "8127718",
+      "artists": [
+        "La Zowi"
+      ],
+      "cover": "https://resources.tidal.com/images/c9a108e8/3fb5/44d9/80d4/baf7252a22d2/320x320.jpg",
+      "explicit": true,
+      "id": "563065443",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "GORDO",
+      "tracks": 1,
+      "url": "https://tidal.com/album/563065443"
+    },
+    {
+      "artist": "Jordan Rakei",
+      "artist_id": "5978731",
+      "artists": [
+        "Jordan Rakei"
+      ],
+      "cover": "https://resources.tidal.com/images/cbd47a93/14e9/4623/9c7e/e7268175d37e/320x320.jpg",
+      "explicit": false,
+      "id": "555633880",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "Paradise",
+      "tracks": 1,
+      "url": "https://tidal.com/album/555633880"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/41c7196b/e739/4080/9bfa/a8be54e02c5f/320x320.jpg",
+      "explicit": false,
+      "id": "565886701",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "I-40 LOOP",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565886701"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/5093a7be/4801/4390/87f5/770642f86401/320x320.jpg",
+      "explicit": false,
+      "id": "565886762",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "BROKEN DOWN AGAIN @ THE MOTEL",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565886762"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/08f97277/a924/4448/999b/4a8eaf5e4e80/320x320.jpg",
+      "explicit": false,
+      "id": "565886945",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "Beam Burns Hot",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565886945"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/c222c4c7/209f/4620/9f3a/b81f77ce4b9a/320x320.jpg",
+      "explicit": false,
+      "id": "565886975",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "DROWNED BY THE BLARE",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565886975"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/9e4c4c7e/73bb/432e/a1c9/45b8da28f42b/320x320.jpg",
+      "explicit": false,
+      "id": "565886989",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "THE CALL",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565886989"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/d9af8235/1dc3/4ff1/af07/50437dc39384/320x320.jpg",
+      "explicit": false,
+      "id": "565887253",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "Spinning Walls",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565887253"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/82451fe1/d974/455e/9857/873ac3b11772/320x320.jpg",
+      "explicit": false,
+      "id": "565930351",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "BURN IT DOWN, TN",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565930351"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/96abcc1a/a1eb/4874/a441/191bbfc1c56b/320x320.jpg",
+      "explicit": false,
+      "id": "565930367",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "CRAVE",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565930367"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/d52640a0/2c3d/431c/8e99/ea3682432323/320x320.jpg",
+      "explicit": false,
+      "id": "565947710",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "BLUE LIGHT DESERT",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565947710"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/e2e53753/9903/4abc/a79c/04462d798e65/320x320.jpg",
+      "explicit": false,
+      "id": "565947714",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "SHARP & WASTED",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565947714"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/99a130fd/406a/4d8e/800c/87063dd33e7b/320x320.jpg",
+      "explicit": false,
+      "id": "565947839",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "DARK NIGHT CALLS",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565947839"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/11b4a39f/9806/445b/a67c/6be2ebe83e37/320x320.jpg",
+      "explicit": false,
+      "id": "565947895",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "ON DISPLAY",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565947895"
+    },
+    {
+      "artist": "Fontaines D.C.",
+      "artist_id": "9484963",
+      "artists": [
+        "Fontaines D.C."
+      ],
+      "cover": "https://resources.tidal.com/images/754ca4d3/580f/43d2/8cec/1b4daf893634/320x320.jpg",
+      "explicit": true,
+      "id": "559346734",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "Tongue",
+      "tracks": 1,
+      "url": "https://tidal.com/album/559346734"
+    },
+    {
+      "artist": "Death From Above 1979",
+      "artist_id": "15544",
+      "artists": [
+        "Death From Above 1979"
+      ],
+      "cover": "https://resources.tidal.com/images/34f57bcd/ce82/4bfa/a163/f72d232df2e2/320x320.jpg",
+      "explicit": false,
+      "id": "554440974",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "Private Lives",
+      "tracks": 1,
+      "url": "https://tidal.com/album/554440974"
+    },
+    {
+      "artist": "Chastity Belt",
+      "artist_id": "6367387",
+      "artists": [
+        "Chastity Belt"
+      ],
+      "cover": "https://resources.tidal.com/images/fee7dda9/2fa3/4bd6/b98e/a849571351f2/320x320.jpg",
+      "explicit": false,
+      "id": "545814960",
+      "kind": "Single",
+      "release_date": "2026-09-30",
+      "title": "To Decide / Designs",
+      "tracks": 4,
+      "url": "https://tidal.com/album/545814960"
+    },
+    {
+      "artist": "A Perfect Circle",
+      "artist_id": "11241",
+      "artists": [
+        "A Perfect Circle"
+      ],
+      "cover": "https://resources.tidal.com/images/008c3b1a/4273/49f8/8d19/97f6c2bbcd60/320x320.jpg",
+      "explicit": false,
+      "id": "564337235",
+      "kind": "Single",
+      "release_date": "2026-09-29",
+      "title": "To Whom It May Concern",
+      "tracks": 1,
+      "url": "https://tidal.com/album/564337235"
+    }
+  ],
+  "playlist_url": "https://tidal.com/playlist/7f909003-f4b3-435c-914f-3119365a08ba",
+  "ran_at": "2026-10-04T21:28:01+00:00",
+  "releases_listed": 24206
+}
