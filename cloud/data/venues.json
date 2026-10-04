@@ -87,7 +87,7 @@
     "name": "Moods",
     "city": "Zürich",
     "kind": "venue",
-    "url": "https://www.moods.ch/",
+    "url": "https://www.moods.ch/programm",
     "notes": ""
   },
   {
@@ -95,7 +95,7 @@
     "city": "Zürich",
     "kind": "venue",
     "url": "https://www.stall6.ch/programm/",
-    "notes": ""
+    "notes": "few public concert listings found; check stadtkonzerte.ch/locations/stall-6-zurich"
   },
   {
     "name": "Stadion Letzigrund",
@@ -143,84 +143,84 @@
     "name": "Volkshaus Basel",
     "city": "Basel",
     "kind": "venue",
-    "url": "https://www.volkshaus-basel.ch/",
+    "url": "https://volkshaus-basel.ch/en/programm/",
     "notes": ""
   },
   {
     "name": "St. Jakobshalle",
     "city": "Basel",
     "kind": "venue",
-    "url": "https://www.stjakobshalle.ch/",
+    "url": "https://stjakobshalle.ch/en/events/",
     "notes": ""
   },
   {
     "name": "Sommercasino",
     "city": "Basel",
     "kind": "venue",
-    "url": "https://www.sommercasino.ch/",
+    "url": "https://sommercasino.ch/Programm/",
     "notes": ""
   },
   {
     "name": "Atlantis",
     "city": "Basel",
     "kind": "venue",
-    "url": null,
+    "url": "https://atlantis-basel.ch/musik-kultur/",
     "notes": ""
   },
   {
     "name": "Gannet",
     "city": "Basel",
     "kind": "venue",
-    "url": null,
+    "url": "https://stadtkonzerte.ch/locations/gannet-holzpark-klybeck-basel",
     "notes": ""
   },
   {
     "name": "Dachstock (Reitschule)",
     "city": "Bern",
     "kind": "venue",
-    "url": "https://www.dachstock.ch/programm/",
+    "url": "https://dachstock.ch/events",
     "notes": ""
   },
   {
     "name": "Bierhübeli",
     "city": "Bern",
     "kind": "venue",
-    "url": "https://www.bierhuebeli.ch/events/",
+    "url": "https://bierhuebeli.ch/konzerte/",
     "notes": ""
   },
   {
     "name": "ISC Club",
     "city": "Bern",
     "kind": "venue",
-    "url": null,
+    "url": "https://isc-club.ch/",
     "notes": ""
   },
   {
     "name": "Dampfzentrale",
     "city": "Bern",
     "kind": "venue",
-    "url": "https://www.dampfzentrale.ch/programm/",
+    "url": "https://www.dampfzentrale.ch/en/",
     "notes": ""
   },
   {
     "name": "Gaskessel",
     "city": "Bern",
     "kind": "venue",
-    "url": "https://www.gaskessel.ch/",
+    "url": "https://gaskessel.ch/programm/",
     "notes": ""
   },
   {
     "name": "PostFinance Arena",
     "city": "Bern",
     "kind": "venue",
-    "url": null,
+    "url": "https://www.postfinancearena.ch/",
     "notes": ""
   },
   {
     "name": "Mühle Hunziken",
     "city": "Rubigen",
     "kind": "venue",
-    "url": null,
+    "url": "https://muehlehunziken.ch/",
     "notes": ""
   },
   {
@@ -248,7 +248,7 @@
     "name": "Sedel",
     "city": "Emmen",
     "kind": "venue",
-    "url": null,
+    "url": "https://sedel.ch/",
     "notes": ""
   },
   {
@@ -269,7 +269,7 @@
     "name": "Royal",
     "city": "Baden",
     "kind": "venue",
-    "url": null,
+    "url": "https://www.royalbaden.ch/",
     "notes": ""
   },
   {
@@ -283,43 +283,43 @@
     "name": "Kulturfabrik Kofmehl",
     "city": "Solothurn",
     "kind": "venue",
-    "url": "https://www.kofmehl.net/",
+    "url": "https://kofmehl.net/programm/0/",
     "notes": ""
   },
   {
     "name": "Kulturhalle Sägegasse",
     "city": "Burgdorf",
     "kind": "venue",
-    "url": null,
+    "url": "https://www.saegegasse.ch/programm",
     "notes": ""
   },
   {
     "name": "Kammgarn",
     "city": "Schaffhausen",
     "kind": "venue",
-    "url": null,
-    "notes": ""
+    "url": "https://kammgarn.ch/",
+    "notes": "event pages kammgarn.ch/event/<slug>/; not kammgarn.de (Kaiserslautern)"
   },
   {
     "name": "Galvanik",
     "city": "Zug",
     "kind": "venue",
-    "url": null,
-    "notes": ""
+    "url": "https://galvanik-zug.ch/programm/",
+    "notes": "many comedy/party events, filter to concerts"
   },
   {
     "name": "Mokka",
     "city": "Thun",
     "kind": "venue",
-    "url": null,
-    "notes": ""
+    "url": "https://mokka.ch/",
+    "notes": "event pages mokka.ch/event/<slug>/"
   },
   {
     "name": "Fri-Son",
     "city": "Fribourg",
     "kind": "venue",
-    "url": "https://fri-son.ch/programme/",
-    "notes": ""
+    "url": "https://www.fri-son.ch/fr/programme",
+    "notes": "paginated ?page=N"
   },
   {
     "name": "Bad Bonn",
@@ -332,8 +332,8 @@
     "name": "Le Singe / Kulturzentrum Gaskessel Biel",
     "city": "Biel/Bienne",
     "kind": "venue",
-    "url": null,
-    "notes": ""
+    "url": "https://ajz.ch/de-ch/chessu/programm/",
+    "notes": "two venues: Le Singe (Untergasse 21, no own site found; use stadtkonzerte/petzi) and AJZ Gaskessel/Chessu at ajz.ch; gaskessel.ch is Bern, not Biel"
   },
   {
     "name": "Stadtkonzerte (aggregator)",
@@ -416,77 +416,77 @@
     "name": "Zermatt Unplugged",
     "city": "Zermatt",
     "kind": "openair",
-    "url": "https://www.zermatt-unplugged.ch/",
+    "url": "https://zermatt-unplugged.ch/en/",
     "notes": ""
   },
   {
     "name": "Heitere Open Air",
     "city": "Zofingen",
     "kind": "openair",
-    "url": "https://www.heitere.ch/",
-    "notes": ""
+    "url": "https://heitere.ch/",
+    "notes": "next edition 6-8 Aug 2027 (outside horizon)"
   },
   {
     "name": "Royal Arena Festival",
     "city": "Orpund",
     "kind": "openair",
-    "url": null,
-    "notes": ""
+    "url": "https://www.royalarena.ch/",
+    "notes": "defunct: last edition 2023 (2024/25 one day within Lakelive Festival)"
   },
   {
     "name": "Rock the Ring",
     "city": "Hinwil",
     "kind": "openair",
-    "url": null,
-    "notes": ""
+    "url": "https://www.rocktheringfestival.ch/",
+    "notes": "defunct: bankruptcy, no editions since 2022"
   },
   {
     "name": "Seaside Festival",
     "city": "Spiez",
     "kind": "openair",
-    "url": null,
-    "notes": ""
+    "url": "https://www.seasidefestival.ch/",
+    "notes": "next edition 27-28 Aug 2027"
   },
   {
     "name": "Stars in Town",
     "city": "Schaffhausen",
     "kind": "openair",
-    "url": null,
-    "notes": ""
+    "url": "https://starsintown.ch/",
+    "notes": "next edition 3-14 Aug 2027"
   },
   {
     "name": "Kilbi (Bad Bonn)",
     "city": "Düdingen",
     "kind": "openair",
-    "url": null,
-    "notes": ""
+    "url": "https://kilbi.badbonn.ch/",
+    "notes": "moved to late summer since 2025; 2027 date TBA"
   },
   {
     "name": "Summerdays Festival",
     "city": "Arbon",
     "kind": "openair",
-    "url": null,
-    "notes": ""
+    "url": "https://summerdays.ch/",
+    "notes": "next edition 27-28 Aug 2027; lineup mid-Nov 2026"
   },
   {
     "name": "Openair Lumnezia",
     "city": "Degen",
     "kind": "openair",
-    "url": null,
-    "notes": ""
+    "url": "https://openair-lumnezia.ch/",
+    "notes": "next edition 22-24 Jul 2027"
   },
   {
     "name": "Jazz Festival Willisau",
     "city": "Willisau",
     "kind": "openair",
-    "url": null,
-    "notes": ""
+    "url": "https://www.jazzfestivalwillisau.ch/",
+    "notes": "late August annually (2026: 26-30 Aug); next 2027"
   },
   {
     "name": "Baloise Session",
     "city": "Basel",
     "kind": "festival",
-    "url": null,
+    "url": "https://www.baloisesession.ch/",
     "notes": ""
   },
   {

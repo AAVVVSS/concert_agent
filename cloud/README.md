@@ -31,7 +31,7 @@ German-speaking Switzerland, plus Biel and Fribourg, from today to six months ah
 | `report/index.html` | The rendered report that gets published |
 
 ## Setup
-- **Cloud environment.** Network access set to Custom with `api.tidal.com`, `auth.tidal.com` and `login.tidal.com` allowed. Venue sites are read through Claude's web fetch, so they need no allowlist.
+- **Cloud environment.** Network access set to Custom with `api.tidal.com`, `auth.tidal.com` and `login.tidal.com` allowed. Claude's web fetch goes through the same egress policy, so venue calendars are only readable with Network access set to Full (with Custom, runs fall back to web-search snippets).
 - **`TIDAL_REFRESH_TOKEN`** is an environment variable holding the `refresh_token` from a local `tidal_session.json`. To renew it, run `python main.py` locally with `SYNC_TIDAL = True`, then copy the new value.
 - **Changing the schedule or prompts.** The routines only say "follow `cloud/prompts/<kind>.md`", so edits to these files take effect on the next run.
 
