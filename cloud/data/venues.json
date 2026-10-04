@@ -1,0 +1,499 @@
+[
+  {
+    "name": "Hallenstadion",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://www.hallenstadion.ch/events/",
+    "notes": ""
+  },
+  {
+    "name": "Halle 622",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://www.halle622.ch/",
+    "notes": ""
+  },
+  {
+    "name": "X-TRA / Plaza",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://www.x-tra.ch/programm/",
+    "notes": ""
+  },
+  {
+    "name": "Kaufleuten",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://kaufleuten.ch/programm/",
+    "notes": ""
+  },
+  {
+    "name": "Volkshaus Zürich",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://www.volkshaus.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Komplex 457",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://komplex457.ch/programm/",
+    "notes": ""
+  },
+  {
+    "name": "Dynamo",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://www.dynamo.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Rote Fabrik",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://rotefabrik.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Mascotte",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://www.mascotte.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Exil",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://www.exil.cl/programm/",
+    "notes": ""
+  },
+  {
+    "name": "Bogen F",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://bogenf.ch/programm/",
+    "notes": ""
+  },
+  {
+    "name": "Helsinki",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://www.helsinkiklub.ch/events/",
+    "notes": ""
+  },
+  {
+    "name": "Moods",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://www.moods.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Stall 6",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://www.stall6.ch/programm/",
+    "notes": ""
+  },
+  {
+    "name": "Stadion Letzigrund",
+    "city": "Zürich",
+    "kind": "venue",
+    "url": "https://www.letzigrund.ch/",
+    "notes": ""
+  },
+  {
+    "name": "The Hall",
+    "city": "Dübendorf",
+    "kind": "venue",
+    "url": "https://www.thehall.ch/events/",
+    "notes": ""
+  },
+  {
+    "name": "Albani",
+    "city": "Winterthur",
+    "kind": "venue",
+    "url": "https://www.albani.ch/programm/",
+    "notes": ""
+  },
+  {
+    "name": "Salzhaus",
+    "city": "Winterthur",
+    "kind": "venue",
+    "url": "https://salzhaus.ch/programm/",
+    "notes": ""
+  },
+  {
+    "name": "Gaswerk",
+    "city": "Winterthur",
+    "kind": "venue",
+    "url": "https://www.gaswerk.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Kaserne Basel",
+    "city": "Basel",
+    "kind": "venue",
+    "url": "https://www.kaserne-basel.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Volkshaus Basel",
+    "city": "Basel",
+    "kind": "venue",
+    "url": "https://www.volkshaus-basel.ch/",
+    "notes": ""
+  },
+  {
+    "name": "St. Jakobshalle",
+    "city": "Basel",
+    "kind": "venue",
+    "url": "https://www.stjakobshalle.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Sommercasino",
+    "city": "Basel",
+    "kind": "venue",
+    "url": "https://www.sommercasino.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Atlantis",
+    "city": "Basel",
+    "kind": "venue",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Gannet",
+    "city": "Basel",
+    "kind": "venue",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Dachstock (Reitschule)",
+    "city": "Bern",
+    "kind": "venue",
+    "url": "https://www.dachstock.ch/programm/",
+    "notes": ""
+  },
+  {
+    "name": "Bierhübeli",
+    "city": "Bern",
+    "kind": "venue",
+    "url": "https://www.bierhuebeli.ch/events/",
+    "notes": ""
+  },
+  {
+    "name": "ISC Club",
+    "city": "Bern",
+    "kind": "venue",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Dampfzentrale",
+    "city": "Bern",
+    "kind": "venue",
+    "url": "https://www.dampfzentrale.ch/programm/",
+    "notes": ""
+  },
+  {
+    "name": "Gaskessel",
+    "city": "Bern",
+    "kind": "venue",
+    "url": "https://www.gaskessel.ch/",
+    "notes": ""
+  },
+  {
+    "name": "PostFinance Arena",
+    "city": "Bern",
+    "kind": "venue",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Mühle Hunziken",
+    "city": "Rubigen",
+    "kind": "venue",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Schüür",
+    "city": "Luzern",
+    "kind": "venue",
+    "url": "https://www.schuur.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Südpol",
+    "city": "Kriens",
+    "kind": "venue",
+    "url": "https://www.sudpol.ch/",
+    "notes": ""
+  },
+  {
+    "name": "KKL Luzern",
+    "city": "Luzern",
+    "kind": "venue",
+    "url": "https://www.kkl-luzern.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Sedel",
+    "city": "Emmen",
+    "kind": "venue",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Palace",
+    "city": "St. Gallen",
+    "kind": "venue",
+    "url": "https://www.palace.sg/",
+    "notes": ""
+  },
+  {
+    "name": "Grabenhalle",
+    "city": "St. Gallen",
+    "kind": "venue",
+    "url": "https://www.grabenhalle.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Royal",
+    "city": "Baden",
+    "kind": "venue",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "KiFF",
+    "city": "Aarau",
+    "kind": "venue",
+    "url": "https://www.kiff.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Kulturfabrik Kofmehl",
+    "city": "Solothurn",
+    "kind": "venue",
+    "url": "https://www.kofmehl.net/",
+    "notes": ""
+  },
+  {
+    "name": "Kulturhalle Sägegasse",
+    "city": "Burgdorf",
+    "kind": "venue",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Kammgarn",
+    "city": "Schaffhausen",
+    "kind": "venue",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Galvanik",
+    "city": "Zug",
+    "kind": "venue",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Mokka",
+    "city": "Thun",
+    "kind": "venue",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Fri-Son",
+    "city": "Fribourg",
+    "kind": "venue",
+    "url": "https://fri-son.ch/programme/",
+    "notes": ""
+  },
+  {
+    "name": "Bad Bonn",
+    "city": "Düdingen",
+    "kind": "venue",
+    "url": "https://www.badbonn.ch/programm/",
+    "notes": ""
+  },
+  {
+    "name": "Le Singe / Kulturzentrum Gaskessel Biel",
+    "city": "Biel/Bienne",
+    "kind": "venue",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Stadtkonzerte (aggregator)",
+    "city": "Zürich",
+    "kind": "aggregator",
+    "url": "https://stadtkonzerte.ch/",
+    "notes": ""
+  },
+  {
+    "name": "petzi (Swiss club ticketing)",
+    "city": "Switzerland",
+    "kind": "aggregator",
+    "url": "https://www.petzi.ch/",
+    "notes": ""
+  },
+  {
+    "name": "OpenAir St. Gallen",
+    "city": "St. Gallen",
+    "kind": "openair",
+    "url": "https://www.openairsg.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Gurtenfestival",
+    "city": "Bern",
+    "kind": "openair",
+    "url": "https://gurtenfestival.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Openair Frauenfeld",
+    "city": "Frauenfeld",
+    "kind": "openair",
+    "url": "https://www.openair-frauenfeld.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Greenfield Festival",
+    "city": "Interlaken",
+    "kind": "openair",
+    "url": "https://www.greenfieldfestival.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Zürich Openair",
+    "city": "Rümlang",
+    "kind": "openair",
+    "url": "https://zurichopenair.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Winterthurer Musikfestwochen",
+    "city": "Winterthur",
+    "kind": "openair",
+    "url": "https://www.musikfestwochen.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Blue Balls Festival",
+    "city": "Luzern",
+    "kind": "openair",
+    "url": "https://www.blueballs.ch/",
+    "notes": ""
+  },
+  {
+    "name": "B-Sides Festival",
+    "city": "Kriens",
+    "kind": "openair",
+    "url": "https://www.b-sides.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Openair Gampel",
+    "city": "Gampel",
+    "kind": "openair",
+    "url": "https://www.openairgampel.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Zermatt Unplugged",
+    "city": "Zermatt",
+    "kind": "openair",
+    "url": "https://www.zermatt-unplugged.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Heitere Open Air",
+    "city": "Zofingen",
+    "kind": "openair",
+    "url": "https://www.heitere.ch/",
+    "notes": ""
+  },
+  {
+    "name": "Royal Arena Festival",
+    "city": "Orpund",
+    "kind": "openair",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Rock the Ring",
+    "city": "Hinwil",
+    "kind": "openair",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Seaside Festival",
+    "city": "Spiez",
+    "kind": "openair",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Stars in Town",
+    "city": "Schaffhausen",
+    "kind": "openair",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Kilbi (Bad Bonn)",
+    "city": "Düdingen",
+    "kind": "openair",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Summerdays Festival",
+    "city": "Arbon",
+    "kind": "openair",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Openair Lumnezia",
+    "city": "Degen",
+    "kind": "openair",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Jazz Festival Willisau",
+    "city": "Willisau",
+    "kind": "openair",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Baloise Session",
+    "city": "Basel",
+    "kind": "festival",
+    "url": null,
+    "notes": ""
+  },
+  {
+    "name": "Lucerne Open Air",
+    "city": "Luzern",
+    "kind": "openair",
+    "url": null,
+    "notes": ""
+  }
+]
