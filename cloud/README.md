@@ -13,6 +13,9 @@ Each run ends by:
 - republishing the report page, whose fixed URL is in `config.json` (all upcoming shows within six months, new and changed ones flagged),
 - committing to `main`, and posting a reply in the thread (which the Claude app pushes to the phone) that lists only the new and changed shows.
 
+## New releases
+A separate weekly routine wakes the project thread "New releases" on Friday afternoons and follows `prompts/releases.md`. `releases.py` lists the albums, EPs and singles of every Tidal favorite and reports the ones not seen before that came out in the last 30 days (or that Tidal lists ahead of their date). It refills the Tidal playlist "New from my favorites" with that week's new tracks, renders `report/releases.html` (published to `releases_artifact_url` in `config.json`), and keeps every release it has seen in `data/releases.json`.
+
 ## Scope
 German-speaking Switzerland, plus Biel and Fribourg, from today to six months ahead, open airs included. See `prompts/lessons.md`.
 
@@ -29,6 +32,8 @@ German-speaking Switzerland, plus Biel and Fribourg, from today to six months ah
 | `data/artist_profiles.json` | Bio, genres, styles and origin per favorite artist, keyed by Tidal ID (see `prompts/profiles.md`). Committed, unlike `favorite_artists.json` |
 | `data/venues.json` | Venues, open airs and aggregators to sweep. Runs fix and extend it |
 | `data/concerts.json` | All tracked shows |
+| `releases.py`, `prompts/releases.md` | Weekly new-releases check |
+| `data/releases.json` | Every release seen so far, with status and first-seen date |
 | `runs/` | One summary per run |
 | `report/index.html` | The rendered report that gets published |
 
