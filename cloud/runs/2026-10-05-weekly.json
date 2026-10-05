@@ -1,0 +1,25 @@
+{
+  "kind": "weekly",
+  "ran_at": "2026-10-05T06:05:14+00:00",
+  "findings": 17,
+  "new": [
+    {
+      "id": "8150823|bierhubeli|2026-12-16",
+      "artist_id": 8150823,
+      "artist_name": "Veronica Fusaro",
+      "date": "2026-12-16",
+      "venue": "Bierhübeli",
+      "city": "Bern",
+      "kind": "concert",
+      "url": "https://stadtkonzerte.ch/locations/bierhubeli-bern",
+      "status": "tentative",
+      "notes": "Only a search summary of the stadtkonzerte listing; not verified this run (search limit reached, venue site blocked).",
+      "first_seen": "2026-10-05T06:05:14+00:00",
+      "last_seen": "2026-10-05T06:05:14+00:00",
+      "last_changed": "2026-10-05T06:05:14+00:00",
+      "history": []
+    }
+  ],
+  "changed": [],
+  "message": "1 new, 0 changed: Veronica Fusaro Bierhübeli Wed 16 Dec"
+}

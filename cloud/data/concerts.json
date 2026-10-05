@@ -27,7 +27,7 @@
     "status": "confirmed",
     "notes": "venue page + stadtkonzerte; Swedish post-punk band",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -59,7 +59,7 @@
     "status": "tentative",
     "notes": "eventfrog ticket listing (Dynamo Werk21, 20:00, CHF 25) + stadtkonzerte; act is Constantin Kopp's Dolphin Love (EP 'NOT FROM HERE') Only artist-level or ambiguous sources found; calendar not readable this run.",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -75,7 +75,7 @@
     "status": "confirmed",
     "notes": "ticketcorner event + bandsintown/songkick event pages",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -91,7 +91,7 @@
     "status": "confirmed",
     "notes": "Apple Music event page + bandsintown/songkick artist dates; Madeline Johnston's project, touring with Devin Shaffer",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -107,7 +107,7 @@
     "status": "confirmed",
     "notes": "bandsintown + songkick event pages, tickets via ticketcorner",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -139,7 +139,7 @@
     "status": "confirmed",
     "notes": "ticketcorner event + stadtkonzerte artist page + bandsintown",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -171,7 +171,7 @@
     "status": "confirmed",
     "notes": "venue page + livenation.ch; support Perturbator, RJ Pasin",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -203,7 +203,7 @@
     "status": "confirmed",
     "notes": "petzi event + songkick event",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -219,7 +219,7 @@
     "status": "confirmed",
     "notes": "venue page + livenation.ch",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -235,7 +235,7 @@
     "status": "confirmed",
     "notes": "ticketcorner event + jambase; rescheduled from 15.03.2026",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -251,7 +251,7 @@
     "status": "confirmed",
     "notes": "petzi event page",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -283,8 +283,24 @@
     "status": "confirmed",
     "notes": "venue page + allblues.ch; support Sanaë",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
+    "history": []
+  },
+  {
+    "id": "8150823|bierhubeli|2026-12-16",
+    "artist_id": 8150823,
+    "artist_name": "Veronica Fusaro",
+    "date": "2026-12-16",
+    "venue": "Bierhübeli",
+    "city": "Bern",
+    "kind": "concert",
+    "url": "https://stadtkonzerte.ch/locations/bierhubeli-bern",
+    "status": "tentative",
+    "notes": "Only a search summary of the stadtkonzerte listing; not verified this run (search limit reached, venue site blocked).",
+    "first_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_changed": "2026-10-05T06:05:14+00:00",
     "history": []
   },
   {
@@ -299,7 +315,7 @@
     "status": "confirmed",
     "notes": "venue page + bandsintown; venue also lists a second show 21.12.2026 (kaufleuten.ch/en/event/hermanos-gutierrez-2-2026/)",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -315,7 +331,7 @@
     "status": "confirmed",
     "notes": "second Kaufleuten night; venue page + songkick event",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -347,7 +363,7 @@
     "status": "confirmed",
     "notes": "songkick + bandsintown event pages; 'Distance In Static' tour (Ninja Tune)",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -379,7 +395,7 @@
     "status": "tentative",
     "notes": "artist tour calendar (songkick/bandsintown/jambase) + gaesteliste tour news; support Cinder Well; no venue page surfaced Only artist-level or ambiguous sources found; calendar not readable this run.",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   }
