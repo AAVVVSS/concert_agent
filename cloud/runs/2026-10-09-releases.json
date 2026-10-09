@@ -1,0 +1,483 @@
+{
+  "coming": [
+    {
+      "artist": "Death From Above 1979",
+      "artist_id": "15544",
+      "artists": [
+        "Death From Above 1979"
+      ],
+      "cover": "https://resources.tidal.com/images/1943ae1c/d46e/4dc1/a2f1/ced7abdb2dcc/320x320.jpg",
+      "explicit": true,
+      "id": "556166788",
+      "kind": "Album",
+      "release_date": "2027-01-29",
+      "title": "Private Lives",
+      "tracks": 10,
+      "url": "https://tidal.com/album/556166788"
+    },
+    {
+      "artist": "Tusks",
+      "artist_id": "3923467",
+      "artists": [
+        "Tusks"
+      ],
+      "cover": "https://resources.tidal.com/images/a18fe81b/c433/484f/8213/890dc0f1bdd9/320x320.jpg",
+      "explicit": false,
+      "id": "559730255",
+      "kind": "Album",
+      "release_date": "2027-02-12",
+      "title": "Do I See You There?",
+      "tracks": 10,
+      "url": "https://tidal.com/album/559730255"
+    }
+  ],
+  "date": "2026-10-09",
+  "failed": [],
+  "favorites": 678,
+  "first_run": false,
+  "new": [
+    {
+      "artist": "The Zombies",
+      "artist_id": "30814",
+      "artists": [
+        "The Zombies"
+      ],
+      "cover": "https://resources.tidal.com/images/b53dced8/d3e7/4b15/9ff3/e07e566fb26d/320x320.jpg",
+      "explicit": false,
+      "id": "563627359",
+      "kind": "Single",
+      "release_date": "2026-10-09",
+      "title": "Whenever You're Ready (Mono Remastered)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/563627359"
+    },
+    {
+      "artist": "The Mars Volta",
+      "artist_id": "24959",
+      "artists": [
+        "The Mars Volta"
+      ],
+      "cover": "https://resources.tidal.com/images/23ada984/f276/4105/8c5b/57a3e150b515/320x320.jpg",
+      "explicit": false,
+      "id": "563707955",
+      "kind": "Single",
+      "release_date": "2026-10-09",
+      "title": "Voice In My Knives / Poseedora De Mi Sombra",
+      "tracks": 1,
+      "url": "https://tidal.com/album/563707955"
+    },
+    {
+      "artist": "The Decemberists",
+      "artist_id": "27309",
+      "artists": [
+        "The Decemberists"
+      ],
+      "cover": "https://resources.tidal.com/images/bfa67255/841a/4e0f/9ea0/b68ffc490733/320x320.jpg",
+      "explicit": false,
+      "id": "568001659",
+      "kind": "Single",
+      "release_date": "2026-10-09",
+      "title": "The Better Part Of Bravery",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568001659"
+    },
+    {
+      "artist": "Tears For Fears",
+      "artist_id": "3824",
+      "artists": [
+        "Tears For Fears"
+      ],
+      "cover": "https://resources.tidal.com/images/567f4f68/e29d/40da/83c7/e5241a978a0b/320x320.jpg",
+      "explicit": false,
+      "id": "566441606",
+      "kind": "Album",
+      "release_date": "2026-10-09",
+      "title": "Woman In Chains",
+      "tracks": 7,
+      "url": "https://tidal.com/album/566441606"
+    },
+    {
+      "artist": "Judeline",
+      "artist_id": "17359658",
+      "artists": [
+        "Judeline"
+      ],
+      "cover": "https://resources.tidal.com/images/b6e046d9/b7c9/43a7/88e4/96d2a0d8d077/320x320.jpg",
+      "explicit": false,
+      "id": "567741241",
+      "kind": "Single",
+      "release_date": "2026-10-09",
+      "title": "La Falda",
+      "tracks": 1,
+      "url": "https://tidal.com/album/567741241"
+    },
+    {
+      "artist": "Grimes",
+      "artist_id": "3819688",
+      "artists": [
+        "Grimes",
+        "VADAKIN"
+      ],
+      "cover": "https://resources.tidal.com/images/48d12a94/edf4/4a53/a6b9/b47e7b24d37b/320x320.jpg",
+      "explicit": false,
+      "id": "562443466",
+      "kind": "Single",
+      "release_date": "2026-10-09",
+      "title": "ACCELERANDO",
+      "tracks": 1,
+      "url": "https://tidal.com/album/562443466"
+    },
+    {
+      "artist": "Greta Van Fleet",
+      "artist_id": "7899267",
+      "artists": [
+        "Greta Van Fleet"
+      ],
+      "cover": "https://resources.tidal.com/images/933cf143/c0dd/4bc0/8a0e/c1ecb09ab6da/320x320.jpg",
+      "explicit": false,
+      "id": "567988579",
+      "kind": "Album",
+      "release_date": "2026-10-09",
+      "title": "Palace for the People",
+      "tracks": 13,
+      "url": "https://tidal.com/album/567988579"
+    },
+    {
+      "artist": "Girl Ultra",
+      "artist_id": "8538031",
+      "artists": [
+        "Girl Ultra"
+      ],
+      "cover": "https://resources.tidal.com/images/c7ee4783/8f14/4f52/be99/944379d3f979/320x320.jpg",
+      "explicit": false,
+      "id": "541537420",
+      "kind": "Album",
+      "release_date": "2026-10-09",
+      "title": "RRRomeo",
+      "tracks": 8,
+      "url": "https://tidal.com/album/541537420"
+    },
+    {
+      "artist": "Dolphin Love",
+      "artist_id": "24449964",
+      "artists": [
+        "Dolphin Love"
+      ],
+      "cover": "https://resources.tidal.com/images/c321f7ec/951c/48f1/b6b2/8f4b681eb229/320x320.jpg",
+      "explicit": false,
+      "id": "553036472",
+      "kind": "Single",
+      "release_date": "2026-10-09",
+      "title": "WILL YOU EVER LET ME KNOW",
+      "tracks": 1,
+      "url": "https://tidal.com/album/553036472"
+    },
+    {
+      "artist": "Deafheaven",
+      "artist_id": "3938220",
+      "artists": [
+        "Deafheaven"
+      ],
+      "cover": "https://resources.tidal.com/images/f6ad81c8/5f8b/4295/b1b7/ec895f7455ad/320x320.jpg",
+      "explicit": false,
+      "id": "563888796",
+      "kind": "EP",
+      "release_date": "2026-10-09",
+      "title": "At Work In The Fields Of The Bomb",
+      "tracks": 3,
+      "url": "https://tidal.com/album/563888796"
+    },
+    {
+      "artist": "Deafcult",
+      "artist_id": "7064771",
+      "artists": [
+        "Deafcult"
+      ],
+      "cover": "https://resources.tidal.com/images/b592e154/490f/47df/982f/8e4a30e1ac67/320x320.jpg",
+      "explicit": false,
+      "id": "564389372",
+      "kind": "Single",
+      "release_date": "2026-10-09",
+      "title": "All My Friends Are Leaving",
+      "tracks": 2,
+      "url": "https://tidal.com/album/564389372"
+    },
+    {
+      "artist": "Bilderbuch",
+      "artist_id": "5238762",
+      "artists": [
+        "Bilderbuch"
+      ],
+      "cover": "https://resources.tidal.com/images/8a6c2455/641d/4a39/8933/a8b20e4c1297/320x320.jpg",
+      "explicit": true,
+      "id": "527185745",
+      "kind": "Album",
+      "release_date": "2026-10-09",
+      "title": "∞+1",
+      "tracks": 10,
+      "url": "https://tidal.com/album/527185745"
+    },
+    {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid"
+      ],
+      "cover": "https://resources.tidal.com/images/b77d60de/fab0/4c4e/a2dc/6766fdda045f/320x320.jpg",
+      "explicit": false,
+      "id": "536224736",
+      "kind": "Single",
+      "release_date": "2026-10-09",
+      "title": "Empty places",
+      "tracks": 1,
+      "url": "https://tidal.com/album/536224736"
+    },
+    {
+      "artist": "Arlo Parks",
+      "artist_id": "9160820",
+      "artists": [
+        "Arlo Parks"
+      ],
+      "cover": "https://resources.tidal.com/images/3aa9a921/7cc9/4674/a0ed/3fbfc61280b7/320x320.jpg",
+      "explicit": false,
+      "id": "566971283",
+      "kind": "Album",
+      "release_date": "2026-10-09",
+      "title": "Ambiguous Desire (Deluxe)",
+      "tracks": 20,
+      "url": "https://tidal.com/album/566971283"
+    },
+    {
+      "artist": "AIM",
+      "artist_id": "3518502",
+      "artists": [
+        "AIM"
+      ],
+      "cover": "https://resources.tidal.com/images/0e257efb/34ab/483f/99e7/1ee963d6ed60/320x320.jpg",
+      "explicit": true,
+      "id": "567556821",
+      "kind": "Single",
+      "release_date": "2026-10-09",
+      "title": "Temperament",
+      "tracks": 1,
+      "url": "https://tidal.com/album/567556821"
+    },
+    {
+      "artist": "Tokischa",
+      "artist_id": "10108090",
+      "artists": [
+        "Tokischa"
+      ],
+      "cover": "https://resources.tidal.com/images/5079293e/3609/422b/9585/83448c1011e0/320x320.jpg",
+      "explicit": true,
+      "id": "568062807",
+      "kind": "Single",
+      "release_date": "2026-10-08",
+      "title": "Mucha Leche En Tu Cumpleaño / Tetas Tetas",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568062807"
+    },
+    {
+      "artist": "Dubioza Kolektiv",
+      "artist_id": "3929921",
+      "artists": [
+        "Dubioza Kolektiv",
+        "Brano Jakubović"
+      ],
+      "cover": "https://resources.tidal.com/images/14f06354/ec28/48d5/b022/79c66f027d50/320x320.jpg",
+      "explicit": false,
+      "id": "565896122",
+      "kind": "EP",
+      "release_date": "2026-10-08",
+      "title": "Soundtrack za knjigu \"MOJE DUBIOZE\"",
+      "tracks": 3,
+      "url": "https://tidal.com/album/565896122"
+    },
+    {
+      "artist": "Tusks",
+      "artist_id": "3923467",
+      "artists": [
+        "Tusks"
+      ],
+      "cover": "https://resources.tidal.com/images/6a2eaaf1/90ae/4d0f/81b3/0cacf14ae2e4/320x320.jpg",
+      "explicit": false,
+      "id": "559745700",
+      "kind": "Single",
+      "release_date": "2026-10-07",
+      "title": "How Can I Be The Same",
+      "tracks": 1,
+      "url": "https://tidal.com/album/559745700"
+    },
+    {
+      "artist": "Thundercat",
+      "artist_id": "4068070",
+      "artists": [
+        "Thundercat",
+        "Button Masher"
+      ],
+      "cover": "https://resources.tidal.com/images/372c7798/9eef/4f7e/91e3/0a20de888527/320x320.jpg",
+      "explicit": true,
+      "id": "565783594",
+      "kind": "Single",
+      "release_date": "2026-10-07",
+      "title": "Moving at Light Speed",
+      "tracks": 3,
+      "url": "https://tidal.com/album/565783594"
+    },
+    {
+      "artist": "Sampa the Great",
+      "artist_id": "7319678",
+      "artists": [
+        "Sampa the Great"
+      ],
+      "cover": "https://resources.tidal.com/images/0f981e93/a48a/4755/99a8/41ed4dd86e2b/320x320.jpg",
+      "explicit": false,
+      "id": "565717081",
+      "kind": "Single",
+      "release_date": "2026-10-07",
+      "title": "Location",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565717081"
+    },
+    {
+      "artist": "Caspian",
+      "artist_id": "3881491",
+      "artists": [
+        "Caspian"
+      ],
+      "cover": "https://resources.tidal.com/images/8383491c/92ef/40fc/8227/28aa3d0a6920/320x320.jpg",
+      "explicit": false,
+      "id": "549872067",
+      "kind": "Single",
+      "release_date": "2026-10-07",
+      "title": "Far Country",
+      "tracks": 2,
+      "url": "https://tidal.com/album/549872067"
+    },
+    {
+      "artist": "Royal Blood",
+      "artist_id": "4351582",
+      "artists": [
+        "Royal Blood"
+      ],
+      "cover": "https://resources.tidal.com/images/f5452594/5cb6/4427/8a21/24c236739f13/320x320.jpg",
+      "explicit": false,
+      "id": "567282396",
+      "kind": "Single",
+      "release_date": "2026-10-06",
+      "title": "Dead Company",
+      "tracks": 1,
+      "url": "https://tidal.com/album/567282396"
+    },
+    {
+      "artist": "NINA SIMONE",
+      "artist_id": "1684",
+      "artists": [
+        "NINA SIMONE"
+      ],
+      "cover": "https://resources.tidal.com/images/9455c433/e313/4eb8/b024/265c479ca03b/320x320.jpg",
+      "explicit": false,
+      "id": "565192364",
+      "kind": "Album",
+      "release_date": "2026-10-06",
+      "title": "Atlantic Jazz Legends",
+      "tracks": 30,
+      "url": "https://tidal.com/album/565192364"
+    },
+    {
+      "artist": "HanuMankind",
+      "artist_id": "15465368",
+      "artists": [
+        "DIVINE",
+        "HanuMankind"
+      ],
+      "cover": "https://resources.tidal.com/images/498228cf/7cee/495a/94a1/10a43fbadd56/320x320.jpg",
+      "explicit": true,
+      "id": "567483835",
+      "kind": "Single",
+      "release_date": "2026-10-06",
+      "title": "Tequila Dance",
+      "tracks": 1,
+      "url": "https://tidal.com/album/567483835"
+    },
+    {
+      "artist": "Ex:Re",
+      "artist_id": "10636324",
+      "artists": [
+        "Ex:Re"
+      ],
+      "cover": "https://resources.tidal.com/images/fd26f678/4e54/4279/aedb/80dcbd702aeb/320x320.jpg",
+      "explicit": false,
+      "id": "562288757",
+      "kind": "Single",
+      "release_date": "2026-10-06",
+      "title": "Sleep",
+      "tracks": 1,
+      "url": "https://tidal.com/album/562288757"
+    },
+    {
+      "artist": "L7",
+      "artist_id": "13998",
+      "artists": [
+        "L7"
+      ],
+      "cover": "https://resources.tidal.com/images/30455704/c559/4ac6/aacb/f1ff79f6b615/320x320.jpg",
+      "explicit": false,
+      "id": "566251799",
+      "kind": "Single",
+      "release_date": "2026-10-05",
+      "title": "Loma Linda",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566251799"
+    },
+    {
+      "artist": "Swain",
+      "artist_id": "3524587",
+      "artists": [
+        "Swain"
+      ],
+      "cover": "https://resources.tidal.com/images/210a2ef0/ae9e/4c42/967e/ea55b2d576d9/320x320.jpg",
+      "explicit": false,
+      "id": "568038943",
+      "kind": "Single",
+      "release_date": "2026-09-22",
+      "title": "Two Dogs",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568038943"
+    },
+    {
+      "artist": "Heavy Psychadelics",
+      "artist_id": "75507723",
+      "artists": [
+        "bloomrot",
+        "Heavy Psychadelics"
+      ],
+      "cover": "https://resources.tidal.com/images/afbbbbe1/6575/4eba/b02f/a760c25762f4/320x320.jpg",
+      "explicit": false,
+      "id": "561939139",
+      "kind": "Single",
+      "release_date": "2026-09-18",
+      "title": "FADE OUT ON ELM",
+      "tracks": 1,
+      "url": "https://tidal.com/album/561939139"
+    },
+    {
+      "artist": "Greta Van Fleet",
+      "artist_id": "7899267",
+      "artists": [
+        "Greta Van Fleet"
+      ],
+      "cover": "https://resources.tidal.com/images/c6005f3f/0665/4ccf/b62c/c6094a7d7b09/320x320.jpg",
+      "explicit": false,
+      "id": "567296462",
+      "kind": "Single",
+      "release_date": "2026-09-18",
+      "title": "Tear It Down",
+      "tracks": 1,
+      "url": "https://tidal.com/album/567296462"
+    }
+  ],
+  "playlist_url": "https://tidal.com/playlist/7f909003-f4b3-435c-914f-3119365a08ba",
+  "ran_at": "2026-10-09T13:49:43+00:00",
+  "releases_listed": 24214
+}
