@@ -16,6 +16,38 @@
     "history": []
   },
   {
+    "id": "8112|baloise session|2026-10-19",
+    "artist_id": 8112,
+    "artist_name": "CHIC",
+    "date": "2026-10-19",
+    "venue": "Baloise Session",
+    "city": "Basel",
+    "kind": "concert",
+    "url": "https://www.baselland-tourismus.ch/en/event-calendar/baloise-session-nile-rodgers-chic-rick-astley-eve_uv7_hejidcgfbdffihgchbf",
+    "status": "confirmed",
+    "notes": "Nile Rodgers & CHIC with Rick Astley, Messe Basel Eventhalle",
+    "first_seen": "2026-10-12T06:00:18+00:00",
+    "last_seen": "2026-10-12T06:00:18+00:00",
+    "last_changed": "2026-10-12T06:00:18+00:00",
+    "history": []
+  },
+  {
+    "id": "8112|baloise session|2026-10-20",
+    "artist_id": 8112,
+    "artist_name": "CHIC",
+    "date": "2026-10-20",
+    "venue": "Baloise Session",
+    "city": "Basel",
+    "kind": "concert",
+    "url": "https://www.baloisesession.ch/en/session/2026-10-20-now-forever",
+    "status": "confirmed",
+    "notes": "Nile Rodgers & CHIC with Natasha Bedingfield, Messe Basel Eventhalle",
+    "first_seen": "2026-10-12T06:00:18+00:00",
+    "last_seen": "2026-10-12T06:00:18+00:00",
+    "last_changed": "2026-10-12T06:00:18+00:00",
+    "history": []
+  },
+  {
     "id": "3638894|albani|2026-10-21",
     "artist_id": 3638894,
     "artist_name": "Makthaverskan",
@@ -91,7 +123,7 @@
     "status": "confirmed",
     "notes": "Apple Music event page + bandsintown/songkick artist dates; Madeline Johnston's project, touring with Devin Shaffer",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-12T06:00:18+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -235,8 +267,24 @@
     "status": "confirmed",
     "notes": "ticketcorner event + jambase; rescheduled from 15.03.2026",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-12T06:00:18+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
+    "history": []
+  },
+  {
+    "id": "4112974|fri son|2026-12-11",
+    "artist_id": 4112974,
+    "artist_name": "Chelsea Wolfe",
+    "date": "2026-12-11",
+    "venue": "Fri-Son",
+    "city": "Fribourg",
+    "kind": "concert",
+    "url": "https://www.verdammnis.com/events/chelsea-wolfe-a-a-williams-le-fri-son-fribourg-ch-11-decembre-2026",
+    "status": "confirmed",
+    "notes": "The Dark World Tour, support A.A. Williams; stadtkonzerte + tour listings",
+    "first_seen": "2026-10-12T06:00:18+00:00",
+    "last_seen": "2026-10-12T06:00:18+00:00",
+    "last_changed": "2026-10-12T06:00:18+00:00",
     "history": []
   },
   {
@@ -315,7 +363,7 @@
     "status": "confirmed",
     "notes": "venue page + bandsintown; venue also lists a second show 21.12.2026 (kaufleuten.ch/en/event/hermanos-gutierrez-2-2026/)",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-12T06:00:18+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
