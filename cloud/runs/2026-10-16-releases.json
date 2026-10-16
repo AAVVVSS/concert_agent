@@ -1,0 +1,643 @@
+{
+  "coming": [],
+  "date": "2026-10-16",
+  "failed": [
+    "playlist: 412 on add (stale ETag); refilled by hand after the fix, 120 tracks"
+  ],
+  "favorites": 685,
+  "first_run": false,
+  "new": [
+    {
+      "artist": "Vacíos Cuerpos",
+      "artist_id": "21556526",
+      "artists": [
+        "Vacíos Cuerpos"
+      ],
+      "cover": "https://resources.tidal.com/images/64092aa9/c219/40bd/ac07/aaa1fd8971a4/320x320.jpg",
+      "explicit": false,
+      "id": "568198680",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "Volviéndome Loco",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568198680"
+    },
+    {
+      "artist": "Summer Walker",
+      "artist_id": "9329127",
+      "artists": [
+        "Victony",
+        "Summer Walker",
+        "Don Toliver"
+      ],
+      "cover": "https://resources.tidal.com/images/616f536c/c834/47ac/b473/b4a0ac5c189d/320x320.jpg",
+      "explicit": true,
+      "id": "570001978",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "SLICK (Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570001978"
+    },
+    {
+      "artist": "Snoop Dogg",
+      "artist_id": "8914",
+      "artists": [
+        "HUGEL",
+        "Snoop Dogg"
+      ],
+      "cover": "https://resources.tidal.com/images/089e81f4/f56e/4d42/938c/fed1c1a1c88e/320x320.jpg",
+      "explicit": false,
+      "id": "565466750",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "H.O.U.S.E",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565466750"
+    },
+    {
+      "artist": "Olivia Rodrigo",
+      "artist_id": "8161298",
+      "artists": [
+        "Olivia Rodrigo",
+        "Chappell Roan"
+      ],
+      "cover": "https://resources.tidal.com/images/439b6974/501a/4ff5/bde7/bb49467bf94f/320x320.jpg",
+      "explicit": false,
+      "id": "570010074",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "expectations",
+      "tracks": 2,
+      "url": "https://tidal.com/album/570010074"
+    },
+    {
+      "artist": "Nora En Pure",
+      "artist_id": "3707455",
+      "artists": [
+        "HAYLA",
+        "Nelly Furtado",
+        "Nora En Pure"
+      ],
+      "cover": "https://resources.tidal.com/images/db4ba914/f361/4143/94b4/308b9892cb61/320x320.jpg",
+      "explicit": false,
+      "id": "568705485",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "FADED (Nora En Pure Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568705485"
+    },
+    {
+      "artist": "Nora En Pure",
+      "artist_id": "3707455",
+      "artists": [
+        "Nora En Pure"
+      ],
+      "cover": "https://resources.tidal.com/images/2dc416e6/be63/4245/b39b/8892c41ebe14/320x320.jpg",
+      "explicit": false,
+      "id": "561743275",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "Space (Paradoks Remix)",
+      "tracks": 2,
+      "url": "https://tidal.com/album/561743275"
+    },
+    {
+      "artist": "NINA SIMONE",
+      "artist_id": "1684",
+      "artists": [
+        "NINA SIMONE"
+      ],
+      "cover": "https://resources.tidal.com/images/cf6bff2a/d260/461f/b620/3b533b569b6a/320x320.jpg",
+      "explicit": false,
+      "id": "568424572",
+      "kind": "Album",
+      "release_date": "2026-10-16",
+      "title": "Verve Remixed // Nina Simone",
+      "tracks": 8,
+      "url": "https://tidal.com/album/568424572"
+    },
+    {
+      "artist": "Niko Rubio",
+      "artist_id": "9231923",
+      "artists": [
+        "Niko Rubio"
+      ],
+      "cover": "https://resources.tidal.com/images/76aefa5a/4e96/4f0d/ad57/cdf0bc333b98/320x320.jpg",
+      "explicit": false,
+      "id": "566408185",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "all i want is you",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566408185"
+    },
+    {
+      "artist": "Michael Kiwanuka",
+      "artist_id": "4348856",
+      "artists": [
+        "Michael Kiwanuka"
+      ],
+      "cover": "https://resources.tidal.com/images/223bb63d/b496/4061/b929/fd35aa22385c/320x320.jpg",
+      "explicit": false,
+      "id": "568445888",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "Sing",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568445888"
+    },
+    {
+      "artist": "Loco Escrito",
+      "artist_id": "4971631",
+      "artists": [
+        "Loco Escrito"
+      ],
+      "cover": "https://resources.tidal.com/images/65e52719/7dfd/4c0b/ab0a/958a5c821061/320x320.jpg",
+      "explicit": false,
+      "id": "563273342",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "Pensatiti",
+      "tracks": 1,
+      "url": "https://tidal.com/album/563273342"
+    },
+    {
+      "artist": "Kanaan",
+      "artist_id": "4399011",
+      "artists": [
+        "Kanaan"
+      ],
+      "cover": "https://resources.tidal.com/images/73517322/8551/4c33/830e/e8bc612ddd82/320x320.jpg",
+      "explicit": false,
+      "id": "551689780",
+      "kind": "EP",
+      "release_date": "2026-10-16",
+      "title": "Kanaan",
+      "tracks": 4,
+      "url": "https://tidal.com/album/551689780"
+    },
+    {
+      "artist": "Holy Motors",
+      "artist_id": "6427480",
+      "artists": [
+        "Holy Motors"
+      ],
+      "cover": "https://resources.tidal.com/images/596d2b75/24de/4615/bf2c/8f5eaec1d837/320x320.jpg",
+      "explicit": false,
+      "id": "529049992",
+      "kind": "Album",
+      "release_date": "2026-10-16",
+      "title": "Heaven's Night",
+      "tracks": 10,
+      "url": "https://tidal.com/album/529049992"
+    },
+    {
+      "artist": "Fontaines D.C.",
+      "artist_id": "9484963",
+      "artists": [
+        "Fontaines D.C."
+      ],
+      "cover": "https://resources.tidal.com/images/e6c21849/20e3/4a1b/88a1/833e0f94d953/320x320.jpg",
+      "explicit": true,
+      "id": "563963539",
+      "kind": "Album",
+      "release_date": "2026-10-16",
+      "title": "Dopamine Chamber",
+      "tracks": 11,
+      "url": "https://tidal.com/album/563963539"
+    },
+    {
+      "artist": "Caspian",
+      "artist_id": "3881491",
+      "artists": [
+        "Caspian"
+      ],
+      "cover": "https://resources.tidal.com/images/f8fa8fee/b5ba/44b5/949d/6b7fc8f1af97/320x320.jpg",
+      "explicit": false,
+      "id": "549872730",
+      "kind": "Album",
+      "release_date": "2026-10-16",
+      "title": "Caspian",
+      "tracks": 6,
+      "url": "https://tidal.com/album/549872730"
+    },
+    {
+      "artist": "Bibio",
+      "artist_id": "3637822",
+      "artists": [
+        "Bibio",
+        "Dorian Concept"
+      ],
+      "cover": "https://resources.tidal.com/images/b6a72b4f/8f15/4c2e/8e33/5e0d84dba8c9/320x320.jpg",
+      "explicit": false,
+      "id": "534920096",
+      "kind": "Album",
+      "release_date": "2026-10-16",
+      "title": "Answers",
+      "tracks": 13,
+      "url": "https://tidal.com/album/534920096"
+    },
+    {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid"
+      ],
+      "cover": "https://resources.tidal.com/images/85ce9eb3/1a35/4f3d/abca/638689468371/320x320.jpg",
+      "explicit": false,
+      "id": "536224740",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "Nectar",
+      "tracks": 1,
+      "url": "https://tidal.com/album/536224740"
+    },
+    {
+      "artist": "A$AP Rocky",
+      "artist_id": "4315444",
+      "artists": [
+        "A$AP Rocky",
+        "reGGie",
+        "Jeremih"
+      ],
+      "cover": "https://resources.tidal.com/images/dc0e5949/5fe7/4d55/b0a5/d38f5d6bfc30/320x320.jpg",
+      "explicit": true,
+      "id": "570345195",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "Shroom Clouds (feat. reggie & Jeremih)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570345195"
+    },
+    {
+      "artist": "SZA",
+      "artist_id": "5416271",
+      "artists": [
+        "Justice",
+        "Tame Impala",
+        "SZA",
+        "Grand Theft Auto VI"
+      ],
+      "cover": "https://resources.tidal.com/images/7e822cd0/337a/4dd8/b83c/bf6185f2152e/320x320.jpg",
+      "explicit": false,
+      "id": "569120137",
+      "kind": "Single",
+      "release_date": "2026-10-15",
+      "title": "Flower In A Hurricane (feat. Tame Impala, SZA, King Gizzard & the Lizard Wizard) [from GTAVI]",
+      "tracks": 1,
+      "url": "https://tidal.com/album/569120137"
+    },
+    {
+      "artist": "Silvana Estrada",
+      "artist_id": "9249274",
+      "artists": [
+        "Silvana Estrada",
+        "M. Ward"
+      ],
+      "cover": "https://resources.tidal.com/images/8fb72e73/55cf/4583/99df/abc56e959cd3/320x320.jpg",
+      "explicit": false,
+      "id": "569604021",
+      "kind": "Single",
+      "release_date": "2026-10-15",
+      "title": "Todo Baila (feat. M. Ward)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/569604021"
+    },
+    {
+      "artist": "PinkPantheress",
+      "artist_id": "23409727",
+      "artists": [
+        "Danny L Harle",
+        "PinkPantheress",
+        "Skrillex",
+        "ring noord"
+      ],
+      "cover": "https://resources.tidal.com/images/6ea12679/b211/4827/80d6/ace35a13c74e/320x320.jpg",
+      "explicit": false,
+      "id": "568030818",
+      "kind": "Single",
+      "release_date": "2026-10-15",
+      "title": "Starlight (Skrillex & ring noord Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568030818"
+    },
+    {
+      "artist": "Lana Del Rey",
+      "artist_id": "4099308",
+      "artists": [
+        "Zach Bryan",
+        "Lana Del Rey"
+      ],
+      "cover": "https://resources.tidal.com/images/581ebcc1/f332/4227/aa5e/e73f4538c45b/320x320.jpg",
+      "explicit": false,
+      "id": "569974842",
+      "kind": "Single",
+      "release_date": "2026-10-15",
+      "title": "Lies (feat. Lana Del Rey)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/569974842"
+    },
+    {
+      "artist": "Gian Marco",
+      "artist_id": "29575",
+      "artists": [
+        "Gian Marco"
+      ],
+      "cover": "https://resources.tidal.com/images/a3b6cfb0/00da/44d9/af4a/90ec9d091e9e/320x320.jpg",
+      "explicit": false,
+      "id": "559230479",
+      "kind": "Album",
+      "release_date": "2026-10-15",
+      "title": "Bajo la Manga",
+      "tracks": 7,
+      "url": "https://tidal.com/album/559230479"
+    },
+    {
+      "artist": "Dounia",
+      "artist_id": "8434703",
+      "artists": [
+        "Dounia"
+      ],
+      "cover": "https://resources.tidal.com/images/ba243a85/6c9b/461a/a253/58dcd8352e28/320x320.jpg",
+      "explicit": false,
+      "id": "567131826",
+      "kind": "Single",
+      "release_date": "2026-10-15",
+      "title": "sechs high heels",
+      "tracks": 1,
+      "url": "https://tidal.com/album/567131826"
+    },
+    {
+      "artist": "Bodywash",
+      "artist_id": "7540050",
+      "artists": [
+        "Bodywash"
+      ],
+      "cover": "https://resources.tidal.com/images/fb770fca/e4bb/420a/a242/b223a350eed4/320x320.jpg",
+      "explicit": false,
+      "id": "566290543",
+      "kind": "Single",
+      "release_date": "2026-10-15",
+      "title": "La Renommée",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566290543"
+    },
+    {
+      "artist": "AURORA",
+      "artist_id": "55225",
+      "artists": [
+        "TOMORA",
+        "AURORA",
+        "Tom Rowlands"
+      ],
+      "cover": "https://resources.tidal.com/images/71895d84/1abe/4ca9/bae0/efeb16f08efe/320x320.jpg",
+      "explicit": false,
+      "id": "569212883",
+      "kind": "Single",
+      "release_date": "2026-10-15",
+      "title": "Hold On Let Go",
+      "tracks": 1,
+      "url": "https://tidal.com/album/569212883"
+    },
+    {
+      "artist": "NINA SIMONE",
+      "artist_id": "1684",
+      "artists": [
+        "NINA SIMONE",
+        "Austin Millz"
+      ],
+      "cover": "https://resources.tidal.com/images/66d085ef/cee3/4e95/8748/9dc3a387fb40/320x320.jpg",
+      "explicit": false,
+      "id": "567775691",
+      "kind": "Single",
+      "release_date": "2026-10-14",
+      "title": "I Put A Spell On You (Austin Millz Remix)",
+      "tracks": 2,
+      "url": "https://tidal.com/album/567775691"
+    },
+    {
+      "artist": "Kenichiro Isoda",
+      "artist_id": "13094360",
+      "artists": [
+        "Kenichiro Isoda"
+      ],
+      "cover": "https://resources.tidal.com/images/ea50b48f/06d2/4b4f/85a7/ca0ae2164ece/320x320.jpg",
+      "explicit": false,
+      "id": "554122482",
+      "kind": "Single",
+      "release_date": "2026-10-14",
+      "title": "WATERWAYS",
+      "tracks": 1,
+      "url": "https://tidal.com/album/554122482"
+    },
+    {
+      "artist": "Django Django",
+      "artist_id": "3660775",
+      "artists": [
+        "Django Django"
+      ],
+      "cover": "https://resources.tidal.com/images/6d0180f7/3a62/490b/b7bd/58e03e92d2ef/320x320.jpg",
+      "explicit": false,
+      "id": "559457122",
+      "kind": "Single",
+      "release_date": "2026-10-14",
+      "title": "Year of the Snake",
+      "tracks": 4,
+      "url": "https://tidal.com/album/559457122"
+    },
+    {
+      "artist": "Butthole Surfers",
+      "artist_id": "10984",
+      "artists": [
+        "Butthole Surfers"
+      ],
+      "cover": "https://resources.tidal.com/images/916f1659/638c/4074/9238/f0826b337629/320x320.jpg",
+      "explicit": false,
+      "id": "563367280",
+      "kind": "Album",
+      "release_date": "2026-10-14",
+      "title": "piouhgd (2026 Remaster)",
+      "tracks": 13,
+      "url": "https://tidal.com/album/563367280"
+    },
+    {
+      "artist": "Bibio",
+      "artist_id": "3637822",
+      "artists": [
+        "Bibio",
+        "Dorian Concept"
+      ],
+      "cover": "https://resources.tidal.com/images/83f2720f/85e0/4bf6/aca9/6e9d42702d76/320x320.jpg",
+      "explicit": false,
+      "id": "553380620",
+      "kind": "Single",
+      "release_date": "2026-10-14",
+      "title": "Womb Glow",
+      "tracks": 4,
+      "url": "https://tidal.com/album/553380620"
+    },
+    {
+      "artist": "Cleopatrick",
+      "artist_id": "7563521",
+      "artists": [
+        "Cleopatrick"
+      ],
+      "cover": "https://resources.tidal.com/images/b1e61b48/93c6/4135/bf8f/f139ca5ebbf8/320x320.jpg",
+      "explicit": false,
+      "id": "563860914",
+      "kind": "Single",
+      "release_date": "2026-10-13",
+      "title": "WHAAT",
+      "tracks": 1,
+      "url": "https://tidal.com/album/563860914"
+    },
+    {
+      "artist": "APPARAT",
+      "artist_id": "3519747",
+      "artists": [
+        "APPARAT"
+      ],
+      "cover": "https://resources.tidal.com/images/091aa03b/fd20/478c/b9fc/f7bef8673c76/320x320.jpg",
+      "explicit": false,
+      "id": "568106410",
+      "kind": "Single",
+      "release_date": "2026-10-13",
+      "title": "Little Feet",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568106410"
+    },
+    {
+      "artist": "Fontaines D.C.",
+      "artist_id": "9484963",
+      "artists": [
+        "Fontaines D.C.",
+        "ROSALÍA"
+      ],
+      "cover": "https://resources.tidal.com/images/df86c74d/0933/47ce/b523/8cc9dcb91718/320x320.jpg",
+      "explicit": false,
+      "id": "563844346",
+      "kind": "Single",
+      "release_date": "2026-10-12",
+      "title": "Where Is Gone?",
+      "tracks": 1,
+      "url": "https://tidal.com/album/563844346"
+    },
+    {
+      "artist": "HEALTH",
+      "artist_id": "3571162",
+      "artists": [
+        "Tyler Bates",
+        "HEALTH"
+      ],
+      "cover": "https://resources.tidal.com/images/f746cb07/7ee5/4427/bc98/f2f2797fb05e/320x320.jpg",
+      "explicit": true,
+      "id": "561436371",
+      "kind": "Single",
+      "release_date": "2026-10-09",
+      "title": "Outer Dark",
+      "tracks": 1,
+      "url": "https://tidal.com/album/561436371"
+    },
+    {
+      "artist": "untitled (halo)",
+      "artist_id": "37221039",
+      "artists": [
+        "untitled (halo)"
+      ],
+      "cover": "https://resources.tidal.com/images/c834faf5/186a/440c/ac53/c544ddf7ea51/320x320.jpg",
+      "explicit": true,
+      "id": "562128669",
+      "kind": "EP",
+      "release_date": "2026-10-07",
+      "title": "sex",
+      "tracks": 3,
+      "url": "https://tidal.com/album/562128669"
+    },
+    {
+      "artist": "MARO",
+      "artist_id": "17208862",
+      "artists": [
+        "Meritxell Neddermann",
+        "MARO"
+      ],
+      "cover": "https://resources.tidal.com/images/f0675202/67e0/42dd/ae3e/269df1796f9c/320x320.jpg",
+      "explicit": false,
+      "id": "563489414",
+      "kind": "Single",
+      "release_date": "2026-10-02",
+      "title": "Tanto para dar",
+      "tracks": 1,
+      "url": "https://tidal.com/album/563489414"
+    },
+    {
+      "artist": "jennylee",
+      "artist_id": "7311651",
+      "artists": [
+        "jennylee",
+        "Johnny Marr"
+      ],
+      "cover": "https://resources.tidal.com/images/8ae353df/4869/4653/8873/320242135743/320x320.jpg",
+      "explicit": true,
+      "id": "557150025",
+      "kind": "Single",
+      "release_date": "2026-10-02",
+      "title": "GIRLS",
+      "tracks": 1,
+      "url": "https://tidal.com/album/557150025"
+    },
+    {
+      "artist": "Noname",
+      "artist_id": "8986224",
+      "artists": [
+        "Wine TKK",
+        "Noname",
+        "Kuptz"
+      ],
+      "cover": "https://resources.tidal.com/images/f6951982/1fa8/47fe/acde/470ef91a3126/320x320.jpg",
+      "explicit": true,
+      "id": "522428240",
+      "kind": "Single",
+      "release_date": "2026-09-25",
+      "title": "DEPOIS ATENDO",
+      "tracks": 1,
+      "url": "https://tidal.com/album/522428240"
+    },
+    {
+      "artist": "AURORA",
+      "artist_id": "55225",
+      "artists": [
+        "TOMORA",
+        "AURORA",
+        "Tom Rowlands"
+      ],
+      "cover": "https://resources.tidal.com/images/a3d7805a/6c50/49c6/84de/6faa95f9660d/320x320.jpg",
+      "explicit": false,
+      "id": "568434385",
+      "kind": "Single",
+      "release_date": "2026-09-21",
+      "title": "CELEBRATION",
+      "tracks": 5,
+      "url": "https://tidal.com/album/568434385"
+    },
+    {
+      "artist": "untitled (halo)",
+      "artist_id": "37221039",
+      "artists": [
+        "untitled (halo)"
+      ],
+      "cover": "https://resources.tidal.com/images/3b1fc4b1/b6cf/4fc1/ba80/63be12f3362a/320x320.jpg",
+      "explicit": true,
+      "id": "557615497",
+      "kind": "Single",
+      "release_date": "2026-09-16",
+      "title": "easy rider",
+      "tracks": 2,
+      "url": "https://tidal.com/album/557615497"
+    }
+  ],
+  "playlist_url": "https://tidal.com/playlist/7f909003-f4b3-435c-914f-3119365a08ba",
+  "ran_at": "2026-10-16T13:50:40+00:00",
+  "releases_listed": 24416
+}
