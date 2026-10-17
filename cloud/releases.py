@@ -159,8 +159,11 @@ def update_playlist(session, tracks_by_release: list[tuple[dict, list]]) -> str 
     else:
         playlist.clear()
     ids = [str(t.id) for _, tracks in tracks_by_release for t in tracks]
-    if ids:
-        playlist.add(ids, allow_duplicates=False)
+    # Each change bumps the playlist's ETag, so reload it before every write
+    # (a stale one gets 412 Precondition Failed). Tidal adds at most 100 per call.
+    for i in range(0, len(ids), 100):
+        playlist = session.playlist(playlist.id)
+        playlist.add(ids[i:i + 100], allow_duplicates=False, limit=100)
     return f"https://tidal.com/playlist/{playlist.id}"
 
 
