@@ -1,0 +1,523 @@
+{
+  "coming": [
+    {
+      "artist": "Death From Above 1979",
+      "artist_id": "15544",
+      "artists": [
+        "Death From Above 1979",
+        "Steve Aoki"
+      ],
+      "cover": "https://resources.tidal.com/images/3823fb20/d308/498e/a20f/04b5b5d66a7a/320x320.jpg",
+      "explicit": false,
+      "id": "572315757",
+      "kind": "Single",
+      "release_date": "2026-11-13",
+      "title": "Private Lives (Steve Aoki Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/572315757"
+    }
+  ],
+  "date": "2026-10-23",
+  "failed": [],
+  "favorites": 688,
+  "first_run": false,
+  "new": [
+    {
+      "artist": "Suki Waterhouse",
+      "artist_id": "8240439",
+      "artists": [
+        "Lous and The Yakuza",
+        "Suki Waterhouse"
+      ],
+      "cover": "https://resources.tidal.com/images/74af2183/1315/4819/bba2/f44d02ffdf28/320x320.jpg",
+      "explicit": false,
+      "id": "571470712",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "title": "Close my eyes",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571470712"
+    },
+    {
+      "artist": "Sinéad Harnett",
+      "artist_id": "4932381",
+      "artists": [
+        "Sinéad Harnett"
+      ],
+      "cover": "https://resources.tidal.com/images/03100a7b/3bfd/4b12/8108/57955fa86672/320x320.jpg",
+      "explicit": false,
+      "id": "563652487",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "title": "I Feel",
+      "tracks": 1,
+      "url": "https://tidal.com/album/563652487"
+    },
+    {
+      "artist": "richard houghten",
+      "artist_id": "4203238",
+      "artists": [
+        "richard houghten"
+      ],
+      "cover": "https://resources.tidal.com/images/ef1d1f73/8700/42fd/a2fa/19ace5fc474b/320x320.jpg",
+      "explicit": false,
+      "id": "571316181",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "title": "Big Waves",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571316181"
+    },
+    {
+      "artist": "Polyphia",
+      "artist_id": "5744956",
+      "artists": [
+        "Polyphia"
+      ],
+      "cover": "https://resources.tidal.com/images/e67f47e2/4dab/4c46/8686/defe482f086c/320x320.jpg",
+      "explicit": true,
+      "id": "570305455",
+      "kind": "Album",
+      "release_date": "2026-10-23",
+      "title": "BE NOT AFRAID",
+      "tracks": 12,
+      "url": "https://tidal.com/album/570305455"
+    },
+    {
+      "artist": "MUNYA",
+      "artist_id": "9812034",
+      "artists": [
+        "Jordann",
+        "MUNYA"
+      ],
+      "cover": "https://resources.tidal.com/images/27ef8cc1/c02c/4f87/bc2b/a20d59939193/320x320.jpg",
+      "explicit": false,
+      "id": "556057158",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "title": "Time Will Tell",
+      "tracks": 1,
+      "url": "https://tidal.com/album/556057158"
+    },
+    {
+      "artist": "Michael Kiwanuka",
+      "artist_id": "4348856",
+      "artists": [
+        "Michael Kiwanuka"
+      ],
+      "cover": "https://resources.tidal.com/images/04c7e9e8/44ff/4c92/9166/18e918ca2932/320x320.jpg",
+      "explicit": false,
+      "id": "570330370",
+      "kind": "Album",
+      "release_date": "2026-10-23",
+      "title": "FUDGE",
+      "tracks": 12,
+      "url": "https://tidal.com/album/570330370"
+    },
+    {
+      "artist": "Man Without Country",
+      "artist_id": "4192314",
+      "artists": [
+        "Man Without Country"
+      ],
+      "cover": "https://resources.tidal.com/images/5dd46510/acd1/4b54/a630/63530766dbe7/320x320.jpg",
+      "explicit": false,
+      "id": "569442897",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "title": "Luck Runs Out",
+      "tracks": 1,
+      "url": "https://tidal.com/album/569442897"
+    },
+    {
+      "artist": "Loli Cosmica",
+      "artist_id": "9751628",
+      "artists": [
+        "Iyakuh",
+        "Captures",
+        "Loli Cosmica"
+      ],
+      "cover": "https://resources.tidal.com/images/2261b128/fe64/415f/abdc/76e7561372f6/320x320.jpg",
+      "explicit": false,
+      "id": "568751937",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "title": "Hampi Rosa",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568751937"
+    },
+    {
+      "artist": "Jule X",
+      "artist_id": "16617727",
+      "artists": [
+        "Jule X",
+        "Astro Burger",
+        "Anru"
+      ],
+      "cover": "https://resources.tidal.com/images/dfbd1eb2/df6b/446c/a706/519ade184c5c/320x320.jpg",
+      "explicit": true,
+      "id": "568588323",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "title": "Wieso kompliziert?",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568588323"
+    },
+    {
+      "artist": "Fenne Lily",
+      "artist_id": "7773162",
+      "artists": [
+        "Fenne Lily"
+      ],
+      "cover": "https://resources.tidal.com/images/1c4e2cf5/cbc7/446f/8d04/2e1c8eae9e50/320x320.jpg",
+      "explicit": false,
+      "id": "519933463",
+      "kind": "Album",
+      "release_date": "2026-10-23",
+      "title": "Win Win",
+      "tracks": 10,
+      "url": "https://tidal.com/album/519933463"
+    },
+    {
+      "artist": "CRIMER",
+      "artist_id": "8523033",
+      "artists": [
+        "CRIMER"
+      ],
+      "cover": "https://resources.tidal.com/images/a2b531e0/24f2/4a4c/91cb/38443b1a250c/320x320.jpg",
+      "explicit": false,
+      "id": "569157077",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "title": "Join Me",
+      "tracks": 1,
+      "url": "https://tidal.com/album/569157077"
+    },
+    {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid"
+      ],
+      "cover": "https://resources.tidal.com/images/ad121958/c1a9/4b6b/b01f/39023234ee25/320x320.jpg",
+      "explicit": false,
+      "id": "536224746",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "title": "Second nature",
+      "tracks": 1,
+      "url": "https://tidal.com/album/536224746"
+    },
+    {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid"
+      ],
+      "cover": "https://resources.tidal.com/images/c362800b/5649/4a6c/988d/6bb5b30ba232/320x320.jpg",
+      "explicit": false,
+      "id": "536224757",
+      "kind": "EP",
+      "release_date": "2026-10-23",
+      "title": "Heaven on earth",
+      "tracks": 4,
+      "url": "https://tidal.com/album/536224757"
+    },
+    {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid"
+      ],
+      "cover": "https://resources.tidal.com/images/58ed3a72/287c/41c4/a3d8/3e403f27f664/320x320.jpg",
+      "explicit": false,
+      "id": "561443183",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "title": "Home (Will Rees Remix)",
+      "tracks": 2,
+      "url": "https://tidal.com/album/561443183"
+    },
+    {
+      "artist": "Anderson .Paak",
+      "artist_id": "5866385",
+      "artists": [
+        "Anderson .Paak",
+        "Cordae"
+      ],
+      "cover": "https://resources.tidal.com/images/bd418166/748c/4440/b267/8be83e04743a/320x320.jpg",
+      "explicit": true,
+      "id": "552536330",
+      "kind": "Album",
+      "release_date": "2026-10-23",
+      "title": "Heavy Is The Crown",
+      "tracks": 11,
+      "url": "https://tidal.com/album/552536330"
+    },
+    {
+      "artist": "AIM",
+      "artist_id": "3518502",
+      "artists": [
+        "AIM"
+      ],
+      "cover": "https://resources.tidal.com/images/622a6c02/4432/477f/87ba/677a914db8ef/320x320.jpg",
+      "explicit": false,
+      "id": "570998970",
+      "kind": "EP",
+      "release_date": "2026-10-23",
+      "title": "chainmail",
+      "tracks": 4,
+      "url": "https://tidal.com/album/570998970"
+    },
+    {
+      "artist": "Toro Y Moi",
+      "artist_id": "3887256",
+      "artists": [
+        "Toro Y Moi"
+      ],
+      "cover": "https://resources.tidal.com/images/92caad9e/2d23/45f9/b7f1/70c3f9680823/320x320.jpg",
+      "explicit": false,
+      "id": "570496638",
+      "kind": "Single",
+      "release_date": "2026-10-22",
+      "title": "Proof",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570496638"
+    },
+    {
+      "artist": "Purity Ring",
+      "artist_id": "4087094",
+      "artists": [
+        "Purity Ring"
+      ],
+      "cover": "https://resources.tidal.com/images/427537cd/e9e8/4d34/af46/3382a948836d/320x320.jpg",
+      "explicit": false,
+      "id": "566602103",
+      "kind": "Album",
+      "release_date": "2026-10-22",
+      "title": "transmutations",
+      "tracks": 28,
+      "url": "https://tidal.com/album/566602103"
+    },
+    {
+      "artist": "NO JOY",
+      "artist_id": "3835737",
+      "artists": [
+        "NO JOY",
+        "Morgan Greenwood"
+      ],
+      "cover": "https://resources.tidal.com/images/10645d65/e87a/4d23/8f7e/b121b4199690/320x320.jpg",
+      "explicit": false,
+      "id": "564134351",
+      "kind": "Single",
+      "release_date": "2026-10-22",
+      "title": "Bamboo",
+      "tracks": 1,
+      "url": "https://tidal.com/album/564134351"
+    },
+    {
+      "artist": "Warpaint",
+      "artist_id": "3722866",
+      "artists": [
+        "Warpaint"
+      ],
+      "cover": "https://resources.tidal.com/images/26b5cc50/9bb5/4041/be97/bdf1cf55ace3/320x320.jpg",
+      "explicit": false,
+      "id": "566549026",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "title": "Billie Holiday (Live in Phoenix, 2024)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566549026"
+    },
+    {
+      "artist": "Warpaint",
+      "artist_id": "3722866",
+      "artists": [
+        "Warpaint"
+      ],
+      "cover": "https://resources.tidal.com/images/a7581f51/5ec1/45a9/9fad/626a8a5f6483/320x320.jpg",
+      "explicit": false,
+      "id": "566549024",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "title": "New Song (Live in Dallas, 2024)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566549024"
+    },
+    {
+      "artist": "Puma Blue",
+      "artist_id": "8725355",
+      "artists": [
+        "Puma Blue"
+      ],
+      "cover": "https://resources.tidal.com/images/0887724f/5edd/4ff1/8c91/4ea862ef1767/320x320.jpg",
+      "explicit": false,
+      "id": "570304648",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "title": "Whispering",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570304648"
+    },
+    {
+      "artist": "Paulo Londra",
+      "artist_id": "8839251",
+      "artists": [
+        "Paulo Londra"
+      ],
+      "cover": "https://resources.tidal.com/images/984bff1b/cdd5/4c08/93f4/0354d39293b4/320x320.jpg",
+      "explicit": false,
+      "id": "561084861",
+      "kind": "Album",
+      "release_date": "2026-10-21",
+      "title": "entre CIELOS",
+      "tracks": 10,
+      "url": "https://tidal.com/album/561084861"
+    },
+    {
+      "artist": "Michael Kiwanuka",
+      "artist_id": "4348856",
+      "artists": [
+        "Michael Kiwanuka"
+      ],
+      "cover": "https://resources.tidal.com/images/f59ea8b0/77c0/4870/aadc/65c288afbb73/320x320.jpg",
+      "explicit": false,
+      "id": "571501852",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "title": "California",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571501852"
+    },
+    {
+      "artist": "Los Bitchos",
+      "artist_id": "9132216",
+      "artists": [
+        "Los Bitchos",
+        "Kit Sebastian"
+      ],
+      "cover": "https://resources.tidal.com/images/18d0dd28/4c63/4ebf/b70c/da154432f015/320x320.jpg",
+      "explicit": false,
+      "id": "545730357",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "title": "El Pençe",
+      "tracks": 1,
+      "url": "https://tidal.com/album/545730357"
+    },
+    {
+      "artist": "Lolo Zouaï",
+      "artist_id": "9147884",
+      "artists": [
+        "Lolo Zouaï"
+      ],
+      "cover": "https://resources.tidal.com/images/8dfbd2a7/37a3/442b/b2c8/352675a86946/320x320.jpg",
+      "explicit": false,
+      "id": "566555404",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "title": "5432ON",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566555404"
+    },
+    {
+      "artist": "Fenne Lily",
+      "artist_id": "7773162",
+      "artists": [
+        "Fenne Lily"
+      ],
+      "cover": "https://resources.tidal.com/images/5f9e8c8f/8662/4980/a8a8/3bcba0c831a9/320x320.jpg",
+      "explicit": false,
+      "id": "565048800",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "title": "Stranger Things",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565048800"
+    },
+    {
+      "artist": "Cloud Nothings",
+      "artist_id": "3753433",
+      "artists": [
+        "Cloud Nothings"
+      ],
+      "cover": "https://resources.tidal.com/images/5f97abff/6cff/46e6/8648/8d27a2e2f50a/320x320.jpg",
+      "explicit": false,
+      "id": "562339445",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "title": "Death Keeps Me Alive",
+      "tracks": 1,
+      "url": "https://tidal.com/album/562339445"
+    },
+    {
+      "artist": "Phantogram",
+      "artist_id": "3614038",
+      "artists": [
+        "Chalk",
+        "Phantogram",
+        "Cosign"
+      ],
+      "cover": "https://resources.tidal.com/images/13dbc942/8fc3/4f94/841b/5774880b1cad/320x320.jpg",
+      "explicit": false,
+      "id": "561118501",
+      "kind": "Single",
+      "release_date": "2026-10-20",
+      "title": "Heaven / Hell",
+      "tracks": 2,
+      "url": "https://tidal.com/album/561118501"
+    },
+    {
+      "artist": "Julia Holter",
+      "artist_id": "3753399",
+      "artists": [
+        "Hologram Teen",
+        "Julia Holter"
+      ],
+      "cover": "https://resources.tidal.com/images/0ce5eee4/3b36/40be/9779/12afe76fbb3f/320x320.jpg",
+      "explicit": false,
+      "id": "567656994",
+      "kind": "Single",
+      "release_date": "2026-10-20",
+      "title": "Wolkman (Julia Holter Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/567656994"
+    },
+    {
+      "artist": "The Decemberists",
+      "artist_id": "27309",
+      "artists": [
+        "The Decemberists",
+        "Wildwood Sessions"
+      ],
+      "cover": "https://resources.tidal.com/images/153e3c79/3409/4a2e/aab4/c2ed9456353b/320x320.jpg",
+      "explicit": false,
+      "id": "571567425",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "'I Want To Be Lost' (Music Inspired by LAIKA's Wildwood)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571567425"
+    },
+    {
+      "artist": "Saya Gray",
+      "artist_id": "14347717",
+      "artists": [
+        "Saya Gray",
+        "Wildwood Sessions"
+      ],
+      "cover": "https://resources.tidal.com/images/8c40a20a/ce50/4389/987d/c11ab30a95b6/320x320.jpg",
+      "explicit": false,
+      "id": "571600073",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "‘Some Days Are Made for Rain’ (Music Inspired by LAIKA's Wildwood)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571600073"
+    }
+  ],
+  "playlist_url": "https://tidal.com/playlist/7f909003-f4b3-435c-914f-3119365a08ba",
+  "ran_at": "2026-10-23T13:50:38+00:00",
+  "releases_listed": 24450
+}

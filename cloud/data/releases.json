@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-16T13:50:40+00:00",
+  "last_run": "2026-10-23T13:50:38+00:00",
   "playlist_url": "https://tidal.com/playlist/7f909003-f4b3-435c-914f-3119365a08ba",
   "releases": {
     "519933463": {
@@ -14,8 +14,8 @@
       "id": "519933463",
       "kind": "Album",
       "release_date": "2026-10-23",
-      "reported": "2026-10-16T13:50:40+00:00",
-      "status": "coming",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
       "title": "Win Win",
       "tracks": 10,
       "url": "https://tidal.com/album/519933463"
@@ -167,6 +167,42 @@
       "tracks": 1,
       "url": "https://tidal.com/album/536224740"
     },
+    "536224746": {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid"
+      ],
+      "cover": "https://resources.tidal.com/images/ad121958/c1a9/4b6b/b01f/39023234ee25/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "536224746",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Second nature",
+      "tracks": 1,
+      "url": "https://tidal.com/album/536224746"
+    },
+    "536224757": {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid"
+      ],
+      "cover": "https://resources.tidal.com/images/c362800b/5649/4a6c/988d/6bb5b30ba232/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "536224757",
+      "kind": "EP",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Heaven on earth",
+      "tracks": 4,
+      "url": "https://tidal.com/album/536224757"
+    },
     "539094487": {
       "artist": "The Big Moon",
       "artist_id": "6891143",
@@ -224,6 +260,25 @@
       "title": "Give Me Disco - Vol 2 (Selected by DJ Kobayashi)",
       "tracks": 4,
       "url": "https://tidal.com/album/543003405"
+    },
+    "545730357": {
+      "artist": "Los Bitchos",
+      "artist_id": "9132216",
+      "artists": [
+        "Los Bitchos",
+        "Kit Sebastian"
+      ],
+      "cover": "https://resources.tidal.com/images/18d0dd28/4c63/4ebf/b70c/da154432f015/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "545730357",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "El Pençe",
+      "tracks": 1,
+      "url": "https://tidal.com/album/545730357"
     },
     "545730475": {
       "artist": "Los Bitchos",
@@ -328,11 +383,30 @@
       "id": "551819048",
       "kind": "Album",
       "release_date": "2026-11-13",
-      "reported": "2026-10-16T13:50:40+00:00",
+      "reported": "2026-10-23T13:50:38+00:00",
       "status": "coming",
       "title": "LASTS",
       "tracks": 8,
       "url": "https://tidal.com/album/551819048"
+    },
+    "552536330": {
+      "artist": "Anderson .Paak",
+      "artist_id": "5866385",
+      "artists": [
+        "Anderson .Paak",
+        "Cordae"
+      ],
+      "cover": "https://resources.tidal.com/images/bd418166/748c/4440/b267/8be83e04743a/320x320.jpg",
+      "explicit": true,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "552536330",
+      "kind": "Album",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Heavy Is The Crown",
+      "tracks": 11,
+      "url": "https://tidal.com/album/552536330"
     },
     "553036472": {
       "artist": "Dolphin Love",
@@ -425,6 +499,25 @@
       "tracks": 1,
       "url": "https://tidal.com/album/555633880"
     },
+    "556057158": {
+      "artist": "MUNYA",
+      "artist_id": "9812034",
+      "artists": [
+        "Jordann",
+        "MUNYA"
+      ],
+      "cover": "https://resources.tidal.com/images/27ef8cc1/c02c/4f87/bc2b/a20d59939193/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "556057158",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Time Will Tell",
+      "tracks": 1,
+      "url": "https://tidal.com/album/556057158"
+    },
     "556166788": {
       "artist": "Death From Above 1979",
       "artist_id": "15544",
@@ -437,7 +530,7 @@
       "id": "556166788",
       "kind": "Album",
       "release_date": "2027-01-29",
-      "reported": "2026-10-16T13:50:40+00:00",
+      "reported": "2026-10-23T13:50:38+00:00",
       "status": "coming",
       "title": "Private Lives",
       "tracks": 10,
@@ -564,7 +657,7 @@
       "id": "559730255",
       "kind": "Album",
       "release_date": "2027-02-12",
-      "reported": "2026-10-16T13:50:40+00:00",
+      "reported": "2026-10-23T13:50:38+00:00",
       "status": "coming",
       "title": "Do I See You There?",
       "tracks": 10,
@@ -625,6 +718,44 @@
       "tracks": 1,
       "url": "https://tidal.com/album/561081361"
     },
+    "561084861": {
+      "artist": "Paulo Londra",
+      "artist_id": "8839251",
+      "artists": [
+        "Paulo Londra"
+      ],
+      "cover": "https://resources.tidal.com/images/984bff1b/cdd5/4c08/93f4/0354d39293b4/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "561084861",
+      "kind": "Album",
+      "release_date": "2026-10-21",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "entre CIELOS",
+      "tracks": 10,
+      "url": "https://tidal.com/album/561084861"
+    },
+    "561118501": {
+      "artist": "Phantogram",
+      "artist_id": "3614038",
+      "artists": [
+        "Chalk",
+        "Phantogram",
+        "Cosign"
+      ],
+      "cover": "https://resources.tidal.com/images/13dbc942/8fc3/4f94/841b/5774880b1cad/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "561118501",
+      "kind": "Single",
+      "release_date": "2026-10-20",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Heaven / Hell",
+      "tracks": 2,
+      "url": "https://tidal.com/album/561118501"
+    },
     "561436371": {
       "artist": "HEALTH",
       "artist_id": "3571162",
@@ -643,6 +774,24 @@
       "title": "Outer Dark",
       "tracks": 1,
       "url": "https://tidal.com/album/561436371"
+    },
+    "561443183": {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid"
+      ],
+      "cover": "https://resources.tidal.com/images/58ed3a72/287c/41c4/a3d8/3e403f27f664/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "561443183",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Home (Will Rees Remix)",
+      "tracks": 2,
+      "url": "https://tidal.com/album/561443183"
     },
     "561465885": {
       "artist": "Soft Kill",
@@ -773,6 +922,24 @@
       "tracks": 1,
       "url": "https://tidal.com/album/562288757"
     },
+    "562339445": {
+      "artist": "Cloud Nothings",
+      "artist_id": "3753433",
+      "artists": [
+        "Cloud Nothings"
+      ],
+      "cover": "https://resources.tidal.com/images/5f97abff/6cff/46e6/8648/8d27a2e2f50a/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "562339445",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Death Keeps Me Alive",
+      "tracks": 1,
+      "url": "https://tidal.com/album/562339445"
+    },
     "562443466": {
       "artist": "Grimes",
       "artist_id": "3819688",
@@ -883,6 +1050,24 @@
       "tracks": 1,
       "url": "https://tidal.com/album/563627359"
     },
+    "563652487": {
+      "artist": "Sinéad Harnett",
+      "artist_id": "4932381",
+      "artists": [
+        "Sinéad Harnett"
+      ],
+      "cover": "https://resources.tidal.com/images/03100a7b/3bfd/4b12/8108/57955fa86672/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "563652487",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "I Feel",
+      "tracks": 1,
+      "url": "https://tidal.com/album/563652487"
+    },
     "563707955": {
       "artist": "The Mars Volta",
       "artist_id": "24959",
@@ -992,6 +1177,25 @@
       "tracks": 11,
       "url": "https://tidal.com/album/563963539"
     },
+    "564134351": {
+      "artist": "NO JOY",
+      "artist_id": "3835737",
+      "artists": [
+        "NO JOY",
+        "Morgan Greenwood"
+      ],
+      "cover": "https://resources.tidal.com/images/10645d65/e87a/4d23/8f7e/b121b4199690/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "564134351",
+      "kind": "Single",
+      "release_date": "2026-10-22",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Bamboo",
+      "tracks": 1,
+      "url": "https://tidal.com/album/564134351"
+    },
     "564178304": {
       "artist": "Johnny Marr",
       "artist_id": "4808934",
@@ -1100,6 +1304,24 @@
       "title": "All My Friends Are Leaving",
       "tracks": 2,
       "url": "https://tidal.com/album/564389372"
+    },
+    "565048800": {
+      "artist": "Fenne Lily",
+      "artist_id": "7773162",
+      "artists": [
+        "Fenne Lily"
+      ],
+      "cover": "https://resources.tidal.com/images/5f9e8c8f/8662/4980/a8a8/3bcba0c831a9/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "565048800",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Stranger Things",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565048800"
     },
     "565112593": {
       "artist": "Solomun",
@@ -1243,7 +1465,7 @@
       "id": "565829146",
       "kind": "EP",
       "release_date": "2027-01-08",
-      "reported": "2026-10-16T13:50:40+00:00",
+      "reported": "2026-10-23T13:50:38+00:00",
       "status": "coming",
       "title": "Remix The Chaos (Volume 3)",
       "tracks": 4,
@@ -1556,6 +1778,78 @@
       "tracks": 7,
       "url": "https://tidal.com/album/566441606"
     },
+    "566549024": {
+      "artist": "Warpaint",
+      "artist_id": "3722866",
+      "artists": [
+        "Warpaint"
+      ],
+      "cover": "https://resources.tidal.com/images/a7581f51/5ec1/45a9/9fad/626a8a5f6483/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "566549024",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "New Song (Live in Dallas, 2024)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566549024"
+    },
+    "566549026": {
+      "artist": "Warpaint",
+      "artist_id": "3722866",
+      "artists": [
+        "Warpaint"
+      ],
+      "cover": "https://resources.tidal.com/images/26b5cc50/9bb5/4041/be97/bdf1cf55ace3/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "566549026",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Billie Holiday (Live in Phoenix, 2024)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566549026"
+    },
+    "566555404": {
+      "artist": "Lolo Zouaï",
+      "artist_id": "9147884",
+      "artists": [
+        "Lolo Zouaï"
+      ],
+      "cover": "https://resources.tidal.com/images/8dfbd2a7/37a3/442b/b2c8/352675a86946/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "566555404",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "5432ON",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566555404"
+    },
+    "566602103": {
+      "artist": "Purity Ring",
+      "artist_id": "4087094",
+      "artists": [
+        "Purity Ring"
+      ],
+      "cover": "https://resources.tidal.com/images/427537cd/e9e8/4d34/af46/3382a948836d/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "566602103",
+      "kind": "Album",
+      "release_date": "2026-10-22",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "transmutations",
+      "tracks": 28,
+      "url": "https://tidal.com/album/566602103"
+    },
     "566971283": {
       "artist": "Arlo Parks",
       "artist_id": "9160820",
@@ -1664,6 +1958,25 @@
       "title": "Temperament",
       "tracks": 1,
       "url": "https://tidal.com/album/567556821"
+    },
+    "567656994": {
+      "artist": "Julia Holter",
+      "artist_id": "3753399",
+      "artists": [
+        "Hologram Teen",
+        "Julia Holter"
+      ],
+      "cover": "https://resources.tidal.com/images/0ce5eee4/3b36/40be/9779/12afe76fbb3f/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "567656994",
+      "kind": "Single",
+      "release_date": "2026-10-20",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Wolkman (Julia Holter Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/567656994"
     },
     "567741241": {
       "artist": "Judeline",
@@ -1887,6 +2200,26 @@
       "tracks": 1,
       "url": "https://tidal.com/album/568445888"
     },
+    "568588323": {
+      "artist": "Jule X",
+      "artist_id": "16617727",
+      "artists": [
+        "Jule X",
+        "Astro Burger",
+        "Anru"
+      ],
+      "cover": "https://resources.tidal.com/images/dfbd1eb2/df6b/446c/a706/519ade184c5c/320x320.jpg",
+      "explicit": true,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "568588323",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Wieso kompliziert?",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568588323"
+    },
     "568705485": {
       "artist": "Nora En Pure",
       "artist_id": "3707455",
@@ -1906,6 +2239,26 @@
       "title": "FADED (Nora En Pure Remix)",
       "tracks": 1,
       "url": "https://tidal.com/album/568705485"
+    },
+    "568751937": {
+      "artist": "Loli Cosmica",
+      "artist_id": "9751628",
+      "artists": [
+        "Iyakuh",
+        "Captures",
+        "Loli Cosmica"
+      ],
+      "cover": "https://resources.tidal.com/images/2261b128/fe64/415f/abdc/76e7561372f6/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "568751937",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Hampi Rosa",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568751937"
     },
     "569120137": {
       "artist": "SZA",
@@ -1928,6 +2281,24 @@
       "tracks": 1,
       "url": "https://tidal.com/album/569120137"
     },
+    "569157077": {
+      "artist": "CRIMER",
+      "artist_id": "8523033",
+      "artists": [
+        "CRIMER"
+      ],
+      "cover": "https://resources.tidal.com/images/a2b531e0/24f2/4a4c/91cb/38443b1a250c/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "569157077",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Join Me",
+      "tracks": 1,
+      "url": "https://tidal.com/album/569157077"
+    },
     "569212883": {
       "artist": "AURORA",
       "artist_id": "55225",
@@ -1947,6 +2318,24 @@
       "title": "Hold On Let Go",
       "tracks": 1,
       "url": "https://tidal.com/album/569212883"
+    },
+    "569442897": {
+      "artist": "Man Without Country",
+      "artist_id": "4192314",
+      "artists": [
+        "Man Without Country"
+      ],
+      "cover": "https://resources.tidal.com/images/5dd46510/acd1/4b54/a630/63530766dbe7/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "569442897",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Luck Runs Out",
+      "tracks": 1,
+      "url": "https://tidal.com/album/569442897"
     },
     "569604021": {
       "artist": "Silvana Estrada",
@@ -2025,6 +2414,60 @@
       "tracks": 2,
       "url": "https://tidal.com/album/570010074"
     },
+    "570304648": {
+      "artist": "Puma Blue",
+      "artist_id": "8725355",
+      "artists": [
+        "Puma Blue"
+      ],
+      "cover": "https://resources.tidal.com/images/0887724f/5edd/4ff1/8c91/4ea862ef1767/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "570304648",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Whispering",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570304648"
+    },
+    "570305455": {
+      "artist": "Polyphia",
+      "artist_id": "5744956",
+      "artists": [
+        "Polyphia"
+      ],
+      "cover": "https://resources.tidal.com/images/e67f47e2/4dab/4c46/8686/defe482f086c/320x320.jpg",
+      "explicit": true,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "570305455",
+      "kind": "Album",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "BE NOT AFRAID",
+      "tracks": 12,
+      "url": "https://tidal.com/album/570305455"
+    },
+    "570330370": {
+      "artist": "Michael Kiwanuka",
+      "artist_id": "4348856",
+      "artists": [
+        "Michael Kiwanuka"
+      ],
+      "cover": "https://resources.tidal.com/images/04c7e9e8/44ff/4c92/9166/18e918ca2932/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "570330370",
+      "kind": "Album",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "FUDGE",
+      "tracks": 12,
+      "url": "https://tidal.com/album/570330370"
+    },
     "570345195": {
       "artist": "A$AP Rocky",
       "artist_id": "4315444",
@@ -2044,6 +2487,154 @@
       "title": "Shroom Clouds (feat. reggie & Jeremih)",
       "tracks": 1,
       "url": "https://tidal.com/album/570345195"
+    },
+    "570496638": {
+      "artist": "Toro Y Moi",
+      "artist_id": "3887256",
+      "artists": [
+        "Toro Y Moi"
+      ],
+      "cover": "https://resources.tidal.com/images/92caad9e/2d23/45f9/b7f1/70c3f9680823/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "570496638",
+      "kind": "Single",
+      "release_date": "2026-10-22",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Proof",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570496638"
+    },
+    "570998970": {
+      "artist": "AIM",
+      "artist_id": "3518502",
+      "artists": [
+        "AIM"
+      ],
+      "cover": "https://resources.tidal.com/images/622a6c02/4432/477f/87ba/677a914db8ef/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "570998970",
+      "kind": "EP",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "chainmail",
+      "tracks": 4,
+      "url": "https://tidal.com/album/570998970"
+    },
+    "571316181": {
+      "artist": "richard houghten",
+      "artist_id": "4203238",
+      "artists": [
+        "richard houghten"
+      ],
+      "cover": "https://resources.tidal.com/images/ef1d1f73/8700/42fd/a2fa/19ace5fc474b/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "571316181",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Big Waves",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571316181"
+    },
+    "571470712": {
+      "artist": "Suki Waterhouse",
+      "artist_id": "8240439",
+      "artists": [
+        "Lous and The Yakuza",
+        "Suki Waterhouse"
+      ],
+      "cover": "https://resources.tidal.com/images/74af2183/1315/4819/bba2/f44d02ffdf28/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "571470712",
+      "kind": "Single",
+      "release_date": "2026-10-23",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "Close my eyes",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571470712"
+    },
+    "571501852": {
+      "artist": "Michael Kiwanuka",
+      "artist_id": "4348856",
+      "artists": [
+        "Michael Kiwanuka"
+      ],
+      "cover": "https://resources.tidal.com/images/f59ea8b0/77c0/4870/aadc/65c288afbb73/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "571501852",
+      "kind": "Single",
+      "release_date": "2026-10-21",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "California",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571501852"
+    },
+    "571567425": {
+      "artist": "The Decemberists",
+      "artist_id": "27309",
+      "artists": [
+        "The Decemberists",
+        "Wildwood Sessions"
+      ],
+      "cover": "https://resources.tidal.com/images/153e3c79/3409/4a2e/aab4/c2ed9456353b/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "571567425",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "'I Want To Be Lost' (Music Inspired by LAIKA's Wildwood)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571567425"
+    },
+    "571600073": {
+      "artist": "Saya Gray",
+      "artist_id": "14347717",
+      "artists": [
+        "Saya Gray",
+        "Wildwood Sessions"
+      ],
+      "cover": "https://resources.tidal.com/images/8c40a20a/ce50/4389/987d/c11ab30a95b6/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "571600073",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "new",
+      "title": "‘Some Days Are Made for Rain’ (Music Inspired by LAIKA's Wildwood)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571600073"
+    },
+    "572315757": {
+      "artist": "Death From Above 1979",
+      "artist_id": "15544",
+      "artists": [
+        "Death From Above 1979",
+        "Steve Aoki"
+      ],
+      "cover": "https://resources.tidal.com/images/3823fb20/d308/498e/a20f/04b5b5d66a7a/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-10-23T13:50:38+00:00",
+      "id": "572315757",
+      "kind": "Single",
+      "release_date": "2026-11-13",
+      "reported": "2026-10-23T13:50:38+00:00",
+      "status": "coming",
+      "title": "Private Lives (Steve Aoki Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/572315757"
     }
   },
   "seen": {
@@ -3247,6 +3838,8 @@
     "119898867": "2026-10-04",
     "119899698": "2026-10-04",
     "119909799": "2026-10-04",
+    "119911858": "2026-10-23",
+    "119911870": "2026-10-23",
     "119953360": "2026-10-04",
     "119972194": "2026-10-04",
     "119978812": "2026-10-04",
@@ -3487,6 +4080,10 @@
     "1231197": "2026-10-04",
     "123149214": "2026-10-04",
     "12320534": "2026-10-04",
+    "123219944": "2026-10-23",
+    "123220044": "2026-10-23",
+    "123220111": "2026-10-23",
+    "123220187": "2026-10-23",
     "123260000": "2026-10-04",
     "123273755": "2026-10-04",
     "123288419": "2026-10-04",
@@ -5563,6 +6160,7 @@
     "164389966": "2026-10-04",
     "164399237": "2026-10-04",
     "164420300": "2026-10-04",
+    "164510506": "2026-10-23",
     "164523691": "2026-10-04",
     "164536": "2026-10-04",
     "164557379": "2026-10-04",
@@ -5639,6 +6237,7 @@
     "16631483": "2026-10-04",
     "166327679": "2026-10-04",
     "166331427": "2026-10-04",
+    "166351596": "2026-10-23",
     "166356219": "2026-10-04",
     "166425934": "2026-10-04",
     "166436460": "2026-10-04",
@@ -7055,6 +7654,7 @@
     "193521953": "2026-10-04",
     "193521957": "2026-10-04",
     "19352306": "2026-10-04",
+    "193590995": "2026-10-23",
     "193597174": "2026-10-04",
     "193623219": "2026-10-04",
     "193642467": "2026-10-04",
@@ -10421,6 +11021,7 @@
     "25303152": "2026-10-04",
     "25303166": "2026-10-04",
     "2531059": "2026-10-04",
+    "253165501": "2026-10-23",
     "253304455": "2026-10-04",
     "253307769": "2026-10-04",
     "253345688": "2026-10-04",
@@ -11767,6 +12368,7 @@
     "288349571": "2026-10-04",
     "288370430": "2026-10-04",
     "288416431": "2026-10-16",
+    "288489275": "2026-10-23",
     "288533330": "2026-10-04",
     "288547104": "2026-10-04",
     "288583346": "2026-10-04",
@@ -12008,6 +12610,7 @@
     "29468807": "2026-10-04",
     "294717387": "2026-10-04",
     "294793780": "2026-10-04",
+    "294812580": "2026-10-23",
     "294830703": "2026-10-04",
     "294830715": "2026-10-04",
     "294906605": "2026-10-04",
@@ -12315,6 +12918,7 @@
     "300989860": "2026-10-04",
     "301008591": "2026-10-04",
     "301026606": "2026-10-04",
+    "301043085": "2026-10-23",
     "301080225": "2026-10-04",
     "301082619": "2026-10-04",
     "301107510": "2026-10-04",
@@ -15327,6 +15931,7 @@
     "36877661": "2026-10-04",
     "368936855": "2026-10-04",
     "36901033": "2026-10-04",
+    "369056377": "2026-10-23",
     "369071415": "2026-10-04",
     "3691610": "2026-10-04",
     "369174524": "2026-10-04",
@@ -18199,6 +18804,7 @@
     "433943183": "2026-10-04",
     "433949755": "2026-10-04",
     "433949790": "2026-10-04",
+    "433999955": "2026-10-23",
     "434004881": "2026-10-04",
     "434059712": "2026-10-04",
     "434068523": "2026-10-04",
@@ -18508,6 +19114,8 @@
     "439104302": "2026-10-04",
     "439119689": "2026-10-04",
     "439125883": "2026-10-04",
+    "439147970": "2026-10-23",
+    "439148335": "2026-10-23",
     "439202177": "2026-10-04",
     "439222668": "2026-10-04",
     "439225415": "2026-10-04",
@@ -20729,6 +21337,7 @@
     "490869305": "2026-10-04",
     "490869688": "2026-10-04",
     "490875055": "2026-10-04",
+    "490892738": "2026-10-23",
     "490895338": "2026-10-04",
     "490900476": "2026-10-04",
     "490904650": "2026-10-04",
@@ -21086,6 +21695,7 @@
     "49433419": "2026-10-04",
     "494339105": "2026-10-04",
     "494367858": "2026-10-04",
+    "494378063": "2026-10-23",
     "494397426": "2026-10-04",
     "494397430": "2026-10-04",
     "494397967": "2026-10-04",
@@ -21407,6 +22017,7 @@
     "502598510": "2026-10-04",
     "502605992": "2026-10-04",
     "50262851": "2026-10-04",
+    "502630168": "2026-10-23",
     "502631854": "2026-10-04",
     "50265085": "2026-10-04",
     "502674527": "2026-10-04",
@@ -22562,6 +23173,7 @@
     "540852220": "2026-10-04",
     "540854527": "2026-10-04",
     "54106331": "2026-10-04",
+    "541111640": "2026-10-23",
     "541171746": "2026-10-04",
     "541174540": "2026-10-04",
     "541214210": "2026-10-04",
@@ -22586,6 +23198,7 @@
     "541798815": "2026-10-04",
     "541798817": "2026-10-04",
     "541845749": "2026-10-04",
+    "541879093": "2026-10-23",
     "541890175": "2026-10-04",
     "541972778": "2026-10-04",
     "541972826": "2026-10-04",
@@ -22826,6 +23439,7 @@
     "546225065": "2026-10-04",
     "546291565": "2026-10-04",
     "546297615": "2026-10-04",
+    "546492306": "2026-10-23",
     "546575591": "2026-10-04",
     "546724492": "2026-10-04",
     "546789387": "2026-10-16",
@@ -22890,6 +23504,7 @@
     "548331018": "2026-10-04",
     "548392207": "2026-10-04",
     "548507705": "2026-10-04",
+    "548590073": "2026-10-23",
     "54870204": "2026-10-04",
     "548765817": "2026-10-04",
     "548944465": "2026-10-04",
@@ -22914,6 +23529,7 @@
     "549529999": "2026-10-04",
     "549549903": "2026-10-04",
     "549549910": "2026-10-04",
+    "549859284": "2026-10-23",
     "549871941": "2026-10-04",
     "549915785": "2026-10-04",
     "549947079": "2026-10-04",
@@ -22941,6 +23557,7 @@
     "550858406": "2026-10-04",
     "550881432": "2026-10-04",
     "55098209": "2026-10-04",
+    "551002028": "2026-10-23",
     "551022343": "2026-10-04",
     "551125525": "2026-10-04",
     "551237194": "2026-10-04",
@@ -22997,6 +23614,7 @@
     "55259565": "2026-10-04",
     "55271898": "2026-10-04",
     "552790370": "2026-10-04",
+    "552792334": "2026-10-23",
     "55280900": "2026-10-04",
     "552876775": "2026-10-04",
     "552882067": "2026-10-04",
@@ -23127,6 +23745,7 @@
     "557227368": "2026-10-04",
     "557250139": "2026-10-04",
     "557338368": "2026-10-04",
+    "557375139": "2026-10-23",
     "557375731": "2026-10-04",
     "557405138": "2026-10-04",
     "557413470": "2026-10-04",
@@ -23196,6 +23815,7 @@
     "55875100": "2026-10-04",
     "559064938": "2026-10-04",
     "55918077": "2026-10-04",
+    "559209783": "2026-10-23",
     "5593535": "2026-10-04",
     "559583035": "2026-10-04",
     "559698083": "2026-10-04",
@@ -23242,6 +23862,7 @@
     "560433329": "2026-10-04",
     "560467927": "2026-10-04",
     "560558112": "2026-10-04",
+    "560573473": "2026-10-23",
     "56057885": "2026-10-04",
     "56057887": "2026-10-04",
     "56090460": "2026-10-04",
@@ -23408,13 +24029,22 @@
     "56971": "2026-10-04",
     "5701276": "2026-10-04",
     "57021808": "2026-10-04",
+    "570308534": "2026-10-23",
+    "570330717": "2026-10-23",
+    "570630098": "2026-10-23",
     "57108408": "2026-10-04",
     "57116358": "2026-10-04",
     "57116593": "2026-10-04",
     "57117463": "2026-10-04",
     "57144318": "2026-10-04",
+    "571501836": "2026-10-23",
+    "571529462": "2026-10-23",
+    "571630506": "2026-10-23",
+    "571656430": "2026-10-23",
     "5722716": "2026-10-04",
     "572292": "2026-10-04",
+    "572326933": "2026-10-23",
+    "572477876": "2026-10-23",
     "5731130": "2026-10-04",
     "573341": "2026-10-04",
     "57339781": "2026-10-04",
@@ -24413,6 +25043,7 @@
     "72550822": "2026-10-04",
     "72572049": "2026-10-04",
     "72572054": "2026-10-04",
+    "72601246": "2026-10-23",
     "72601502": "2026-10-04",
     "72601914": "2026-10-04",
     "72602348": "2026-10-04",
