@@ -113,10 +113,18 @@ def artist_releases(artist) -> list[dict]:
     return out
 
 
+def clean_title(title: str) -> str:
+    return re.sub(r"\s*[\(\[](dolby atmos|explicit|clean|clean version)[\)\]]\s*$", "", title, flags=re.I).strip().lower()
+
+
 def version_key(r: dict) -> tuple:
     """Tidal often lists the same record twice (explicit/clean, Dolby Atmos)."""
-    title = re.sub(r"\s*[\(\[](dolby atmos|explicit|clean|clean version)[\)\]]\s*$", "", r["title"], flags=re.I)
-    return (r["artist_id"], title.strip().lower(), r["release_date"])
+    return (r["artist_id"], clean_title(r["title"]), r["release_date"])
+
+
+def repeat_key(r: dict) -> tuple:
+    """Tidal sometimes re-lists a release under a new ID weeks later, often with a shifted date."""
+    return (r["artist_id"], clean_title(r["title"]), r["kind"])
 
 
 def pick_versions(found: list[dict]) -> list[dict]:
@@ -216,6 +224,11 @@ def run(args) -> None:
 
     new, coming = [], []
     candidates = [r for r in found if r["id"] not in seen and (r["id"] not in known or known[r["id"]]["status"] == "coming")]
+    reported = {repeat_key(r) for k, r in known.items() if r.get("reported")}
+    repeats = [r for r in candidates if r["id"] not in known and repeat_key(r) in reported]
+    for r in repeats:
+        seen[r["id"]] = today.isoformat()
+    candidates = [r for r in candidates if r not in repeats]
     for r in pick_versions(candidates):
         d = date.fromisoformat(r["release_date"]) if r["release_date"] else None
         prev = known.get(r["id"])
