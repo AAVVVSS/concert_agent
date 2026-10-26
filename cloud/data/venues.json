@@ -10,50 +10,50 @@
     "name": "Halle 622",
     "city": "Zürich",
     "kind": "venue",
-    "url": "https://www.halle622.ch/",
-    "notes": ""
+    "url": "https://www.halle622.ch/622/de/events.html",
+    "notes": "home page has no listing; full calendar on events page"
   },
   {
     "name": "X-TRA / Plaza",
     "city": "Zürich",
     "kind": "venue",
-    "url": "https://www.x-tra.ch/programm/",
-    "notes": ""
+    "url": "https://www.x-tra.ch/en/program/",
+    "notes": "/programm/ shows only a teaser; full list loads more via JS"
   },
   {
     "name": "Kaufleuten",
     "city": "Zürich",
     "kind": "venue",
-    "url": "https://kaufleuten.ch/programm/",
-    "notes": ""
+    "url": "https://kaufleuten.ch/events/",
+    "notes": "/programm/ returns client error; /events/ has full list"
   },
   {
     "name": "Volkshaus Zürich",
     "city": "Zürich",
     "kind": "venue",
-    "url": "https://www.volkshaus.ch/",
-    "notes": ""
+    "url": "https://www.volkshaus.ch/veranstaltungen",
+    "notes": "full program list"
   },
   {
     "name": "Komplex 457",
     "city": "Zürich",
     "kind": "venue",
-    "url": "https://komplex457.ch/programm/",
-    "notes": ""
+    "url": "https://komplex-457.ch/programm",
+    "notes": "old domain redirects (302) to komplex-457.ch"
   },
   {
     "name": "Dynamo",
     "city": "Zürich",
     "kind": "venue",
-    "url": "https://www.dynamo.ch/",
-    "notes": ""
+    "url": "https://www.dynamo.ch/events-kurse",
+    "notes": "home page lists only courses; unverified, fetch budget ran out"
   },
   {
     "name": "Rote Fabrik",
     "city": "Zürich",
     "kind": "venue",
-    "url": "https://rotefabrik.ch/",
-    "notes": ""
+    "url": "https://rotefabrik.ch/programm",
+    "notes": "home page has no listing; unverified, fetch budget ran out"
   },
   {
     "name": "Mascotte",
@@ -73,8 +73,8 @@
     "name": "Bogen F",
     "city": "Zürich",
     "kind": "venue",
-    "url": "https://bogenf.ch/programm/",
-    "notes": ""
+    "url": "https://www.bogenf.ch/konzerte",
+    "notes": "bogenf.ch/programm/ errors; concerts listed at /konzerte"
   },
   {
     "name": "Helsinki",
@@ -108,8 +108,8 @@
     "name": "The Hall",
     "city": "Dübendorf",
     "kind": "venue",
-    "url": "https://www.thehall.ch/events/",
-    "notes": ""
+    "url": "https://www.thehall.ch/de/eventkalender/",
+    "notes": "/events/ errors; full list at /de/eventkalender/"
   },
   {
     "name": "Albani",
@@ -136,8 +136,8 @@
     "name": "Kaserne Basel",
     "city": "Basel",
     "kind": "venue",
-    "url": "https://www.kaserne-basel.ch/",
-    "notes": ""
+    "url": "https://kaserne-basel.ch/de",
+    "notes": "listing shows no dates; dates only on each /de/events/<slug> page"
   },
   {
     "name": "Volkshaus Basel",
@@ -178,8 +178,8 @@
     "name": "Dachstock (Reitschule)",
     "city": "Bern",
     "kind": "venue",
-    "url": "https://dachstock.ch/events",
-    "notes": ""
+    "url": "https://dachstock.ch/events.ics",
+    "notes": "/events HTML list stops at ~mid-December; the iCal feed lists the full season"
   },
   {
     "name": "Bierhübeli",
@@ -214,41 +214,41 @@
     "city": "Bern",
     "kind": "venue",
     "url": "https://www.postfinancearena.ch/",
-    "notes": ""
+    "notes": "blocks fetch (robots); needs alternative source"
   },
   {
     "name": "Mühle Hunziken",
     "city": "Rubigen",
     "kind": "venue",
-    "url": "https://muehlehunziken.ch/",
-    "notes": ""
+    "url": "https://muehlehunziken.ch/programm",
+    "notes": "full program on one page"
   },
   {
     "name": "Schüür",
     "city": "Luzern",
     "kind": "venue",
     "url": "https://www.schuur.ch/",
-    "notes": ""
+    "notes": "schuur.ch blocks fetch (robots); songkick venue page as fallback, untested"
   },
   {
     "name": "Südpol",
     "city": "Kriens",
     "kind": "venue",
-    "url": "https://www.sudpol.ch/",
-    "notes": ""
+    "url": "https://www.sudpol.ch/programm",
+    "notes": "full program on one page"
   },
   {
     "name": "KKL Luzern",
     "city": "Luzern",
     "kind": "venue",
-    "url": "https://www.kkl-luzern.ch/",
-    "notes": ""
+    "url": "https://www.kkl-luzern.ch/events",
+    "notes": "home has no listing; events page shows only ~2 months"
   },
   {
     "name": "Sedel",
     "city": "Emmen",
     "kind": "venue",
-    "url": "https://sedel.ch/",
+    "url": "https://sedel.ch/club",
     "notes": ""
   },
   {
@@ -256,14 +256,14 @@
     "city": "St. Gallen",
     "kind": "venue",
     "url": "https://www.palace.sg/",
-    "notes": ""
+    "notes": "palace.sg blocks fetch (robots); songkick venue page as fallback, untested"
   },
   {
     "name": "Grabenhalle",
     "city": "St. Gallen",
     "kind": "venue",
-    "url": "https://www.grabenhalle.ch/",
-    "notes": ""
+    "url": "https://www.grabenhalle.ch/programm/",
+    "notes": "program published ~1 month ahead"
   },
   {
     "name": "Royal",
@@ -276,15 +276,15 @@
     "name": "KiFF",
     "city": "Aarau",
     "kind": "venue",
-    "url": "https://www.kiff.ch/",
-    "notes": ""
+    "url": "https://www.kiff.ch/programm",
+    "notes": "/programm blocked by robots; home page only shows ~1 week"
   },
   {
     "name": "Kulturfabrik Kofmehl",
     "city": "Solothurn",
     "kind": "venue",
-    "url": "https://kofmehl.net/programm/0/",
-    "notes": ""
+    "url": "https://kofmehl.net/programm/",
+    "notes": "/programm/0/ shows Fabrikgeflüster news; /programm/ is the full calendar"
   },
   {
     "name": "Kulturhalle Sägegasse",
@@ -325,8 +325,8 @@
     "name": "Bad Bonn",
     "city": "Düdingen",
     "kind": "venue",
-    "url": "https://www.badbonn.ch/programm/",
-    "notes": ""
+    "url": "https://club.badbonn.ch/",
+    "notes": "badbonn.ch/programm/ errors; program moved to club.badbonn.ch"
   },
   {
     "name": "Le Singe / Kulturzentrum Gaskessel Biel",
@@ -354,70 +354,70 @@
     "city": "St. Gallen",
     "kind": "openair",
     "url": "https://www.openairsg.ch/",
-    "notes": ""
+    "notes": "next edition 1-4 Jul 2027 (outside horizon)"
   },
   {
     "name": "Gurtenfestival",
     "city": "Bern",
     "kind": "openair",
     "url": "https://gurtenfestival.ch/",
-    "notes": ""
+    "notes": "next edition 14-18 Jul 2027 (outside horizon)"
   },
   {
     "name": "Openair Frauenfeld",
     "city": "Frauenfeld",
     "kind": "openair",
     "url": "https://www.openair-frauenfeld.ch/",
-    "notes": ""
+    "notes": "next edition 8-10 Jul 2027 (outside horizon)"
   },
   {
     "name": "Greenfield Festival",
     "city": "Interlaken",
     "kind": "openair",
     "url": "https://www.greenfieldfestival.ch/",
-    "notes": ""
+    "notes": "next edition 10-12 Jun 2027 (outside horizon)"
   },
   {
     "name": "Zürich Openair",
     "city": "Rümlang",
     "kind": "openair",
     "url": "https://zurichopenair.ch/",
-    "notes": ""
+    "notes": "late August annually (2026: 22-23 + 29-30 Aug); 2027 dates TBA, pre-registration open"
   },
   {
     "name": "Winterthurer Musikfestwochen",
     "city": "Winterthur",
     "kind": "openair",
     "url": "https://www.musikfestwochen.ch/",
-    "notes": ""
+    "notes": "next edition 11-22 Aug 2027 (outside horizon)"
   },
   {
     "name": "Blue Balls Festival",
     "city": "Luzern",
     "kind": "openair",
-    "url": "https://www.blueballs.ch/",
-    "notes": ""
+    "url": "https://www.luzern-live.ch/",
+    "notes": "succeeded by Luzern Live (Seebecken/KKL Luzern, 5th edition 2027); next edition 15-24 Jul 2027; blueballs.ch only shows PHP errors"
   },
   {
     "name": "B-Sides Festival",
     "city": "Kriens",
     "kind": "openair",
     "url": "https://www.b-sides.ch/",
-    "notes": ""
+    "notes": "next edition 17-19 Jun 2027 (outside horizon)"
   },
   {
     "name": "Openair Gampel",
     "city": "Gampel",
     "kind": "openair",
     "url": "https://www.openairgampel.ch/",
-    "notes": ""
+    "notes": "next edition 18-22 Aug 2027 (outside horizon)"
   },
   {
     "name": "Zermatt Unplugged",
     "city": "Zermatt",
     "kind": "openair",
     "url": "https://zermatt-unplugged.ch/en/",
-    "notes": ""
+    "notes": "next edition 6-10 Apr 2027 (in horizon); no acts announced as of 2026-10-26, recheck"
   },
   {
     "name": "Heitere Open Air",
@@ -459,14 +459,14 @@
     "city": "Düdingen",
     "kind": "openair",
     "url": "https://kilbi.badbonn.ch/",
-    "notes": "moved to late summer since 2025; 2027 date TBA"
+    "notes": "late summer since 2025 (2026: 3-5 Sep); 2027 date TBA"
   },
   {
     "name": "Summerdays Festival",
     "city": "Arbon",
     "kind": "openair",
     "url": "https://summerdays.ch/",
-    "notes": "next edition 27-28 Aug 2027; lineup mid-Nov 2026"
+    "notes": "late August annually (2026: 28-29 Aug); 2027 dates not on site yet (27-28 Aug 2027 unconfirmed); lineup expected mid-Nov 2026"
   },
   {
     "name": "Openair Lumnezia",
@@ -480,20 +480,20 @@
     "city": "Willisau",
     "kind": "openair",
     "url": "https://www.jazzfestivalwillisau.ch/",
-    "notes": "late August annually (2026: 26-30 Aug); next 2027"
+    "notes": "late August annually (2026: 26-30 Aug); 2027 page up but no dates yet"
   },
   {
     "name": "Baloise Session",
     "city": "Basel",
     "kind": "festival",
     "url": "https://www.baloisesession.ch/",
-    "notes": ""
+    "notes": "annual Oct-Nov at Event Halle Messe Basel; 2026 edition 15 Oct-4 Nov (remaining: 30 Oct, 3 Nov, 4 Nov; Erykah Badu's 27 Oct show moved to 15 Oct); 2027 edition expected Oct-Nov 2027"
   },
   {
     "name": "Lucerne Open Air",
     "city": "Luzern",
     "kind": "openair",
     "url": null,
-    "notes": ""
+    "notes": "no festival of this name found; probably a duplicate of Luzern Live (ex Blue Balls, 15-24 Jul 2027, https://www.luzern-live.ch/); consider removing"
   }
 ]

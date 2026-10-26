@@ -1,8 +1,118 @@
 {
   "kind": "weekly",
-  "ran_at": "2026-10-26T07:00:37+00:00",
-  "findings": 4,
-  "new": [],
-  "changed": [],
-  "message": "Concerts (weekly): nothing new or changed."
+  "ran_at": "2026-10-26T09:25:48+00:00",
+  "findings": 17,
+  "new": [
+    {
+      "id": "5978731|kaufleuten|2027-04-06",
+      "artist_id": 5978731,
+      "artist_name": "Jordan Rakei",
+      "date": "2027-04-06",
+      "venue": "Kaufleuten",
+      "city": "Zürich",
+      "kind": "concert",
+      "url": "https://kaufleuten.ch/event/jordan-rakei-konzert/",
+      "status": "confirmed",
+      "notes": "Listed on the venue calendar: Jordan Rakei",
+      "first_seen": "2026-10-26T09:25:48+00:00",
+      "last_seen": "2026-10-26T09:25:48+00:00",
+      "last_changed": "2026-10-26T09:25:48+00:00",
+      "history": []
+    },
+    {
+      "id": "6427480|bogen f|2027-02-11",
+      "artist_id": 6427480,
+      "artist_name": "Holy Motors",
+      "date": "2027-02-11",
+      "venue": "Bogen F",
+      "city": "Zürich",
+      "kind": "concert",
+      "url": "https://www.bogenf.ch/konzerte/holy-motors",
+      "status": "confirmed",
+      "notes": "Listed on the venue calendar: Holy Motors & Support",
+      "first_seen": "2026-10-26T09:25:48+00:00",
+      "last_seen": "2026-10-26T09:25:48+00:00",
+      "last_changed": "2026-10-26T09:25:48+00:00",
+      "history": []
+    },
+    {
+      "id": "6427480|sedel|2027-02-07",
+      "artist_id": 6427480,
+      "artist_name": "Holy Motors",
+      "date": "2027-02-07",
+      "venue": "Sedel",
+      "city": "Emmen",
+      "kind": "concert",
+      "url": "https://sedel.ch/programm/holy-motors-deleterolf",
+      "status": "confirmed",
+      "notes": "Listed on the venue calendar: Holy Motors, deleterolf",
+      "first_seen": "2026-10-26T09:25:48+00:00",
+      "last_seen": "2026-10-26T09:25:48+00:00",
+      "last_changed": "2026-10-26T09:25:48+00:00",
+      "history": []
+    }
+  ],
+  "changed": [
+    {
+      "id": "6511885|bad bonn|2026-11-18",
+      "artist_id": 6511885,
+      "artist_name": "Frankie and the Witch Fingers",
+      "date": "2026-11-18",
+      "venue": "Bad Bonn",
+      "city": "Düdingen",
+      "kind": "concert",
+      "url": "https://club.badbonn.ch/archive/2026/frankie-and-the-witch-fingers-iguana-death-cult",
+      "status": "confirmed",
+      "notes": "Listed on the venue calendar.",
+      "first_seen": "2026-10-04T16:56:16+00:00",
+      "last_seen": "2026-10-26T09:25:48+00:00",
+      "last_changed": "2026-10-26T09:25:48+00:00",
+      "history": [
+        {
+          "at": "2026-10-26T09:25:48+00:00",
+          "field": "status",
+          "old": "tentative",
+          "new": "confirmed"
+        }
+      ],
+      "changes": [
+        {
+          "field": "status",
+          "old": "tentative",
+          "new": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "8150823|bierhubeli|2026-12-16",
+      "artist_id": 8150823,
+      "artist_name": "Veronica Fusaro",
+      "date": "2026-12-16",
+      "venue": "Bierhübeli",
+      "city": "Bern",
+      "kind": "concert",
+      "url": "https://bierhuebeli.ch/event/veronica-fusaro/",
+      "status": "confirmed",
+      "notes": "Listed on the venue calendar.",
+      "first_seen": "2026-10-05T06:05:14+00:00",
+      "last_seen": "2026-10-26T09:25:48+00:00",
+      "last_changed": "2026-10-26T09:25:48+00:00",
+      "history": [
+        {
+          "at": "2026-10-26T09:25:48+00:00",
+          "field": "status",
+          "old": "tentative",
+          "new": "confirmed"
+        }
+      ],
+      "changes": [
+        {
+          "field": "status",
+          "old": "tentative",
+          "new": "confirmed"
+        }
+      ]
+    }
+  ],
+  "message": "3 new, 2 changed: Jordan Rakei Kaufleuten Tue 6 Apr; Holy Motors Bogen F Thu 11 Feb; Holy Motors Sedel Sun 7 Feb; Frankie and the Witch Fingers status changed; Veronica Fusaro status changed"
 }

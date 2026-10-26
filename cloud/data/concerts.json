@@ -107,7 +107,7 @@
     "status": "confirmed",
     "notes": "ticketcorner event + bandsintown/songkick event pages",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -139,7 +139,7 @@
     "status": "confirmed",
     "notes": "bandsintown + songkick event pages, tickets via ticketcorner",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -171,7 +171,7 @@
     "status": "confirmed",
     "notes": "ticketcorner event + stadtkonzerte artist page + bandsintown",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -183,13 +183,20 @@
     "venue": "Bad Bonn",
     "city": "Düdingen",
     "kind": "concert",
-    "url": "https://www.songkick.com/artists/7170049-frankie-and-the-witch-fingers/calendar",
-    "status": "tentative",
-    "notes": "artist tour calendar (songkick) lists Bad Bonn 18.11, 20:30, CHF 30, support Iguana Death Cult; no venue page surfaced Only artist-level or ambiguous sources found; calendar not readable this run.",
+    "url": "https://club.badbonn.ch/archive/2026/frankie-and-the-witch-fingers-iguana-death-cult",
+    "status": "confirmed",
+    "notes": "Listed on the venue calendar.",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
-    "last_changed": "2026-10-04T16:56:16+00:00",
-    "history": []
+    "last_seen": "2026-10-26T09:25:48+00:00",
+    "last_changed": "2026-10-26T09:25:48+00:00",
+    "history": [
+      {
+        "at": "2026-10-26T09:25:48+00:00",
+        "field": "status",
+        "old": "tentative",
+        "new": "confirmed"
+      }
+    ]
   },
   {
     "id": "5744956|halle 622|2026-11-18",
@@ -203,7 +210,7 @@
     "status": "confirmed",
     "notes": "venue page + livenation.ch; support Perturbator, RJ Pasin",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -219,7 +226,7 @@
     "status": "confirmed",
     "notes": "venue page + ticketcorner + livenation.ch (CONFLICT: EUROPE 2026, w/ VOWWS, Doodseskader); LA noise/industrial band",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-26T07:00:37+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -235,7 +242,7 @@
     "status": "confirmed",
     "notes": "petzi event + songkick event",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -251,7 +258,7 @@
     "status": "confirmed",
     "notes": "venue page + livenation.ch",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -315,7 +322,7 @@
     "status": "confirmed",
     "notes": "Co-bill with Gros Coeur",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -331,7 +338,7 @@
     "status": "confirmed",
     "notes": "venue page + allblues.ch; support Sanaë",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -343,13 +350,20 @@
     "venue": "Bierhübeli",
     "city": "Bern",
     "kind": "concert",
-    "url": "https://stadtkonzerte.ch/locations/bierhubeli-bern",
-    "status": "tentative",
-    "notes": "Only a search summary of the stadtkonzerte listing; not verified this run (search limit reached, venue site blocked).",
+    "url": "https://bierhuebeli.ch/event/veronica-fusaro/",
+    "status": "confirmed",
+    "notes": "Listed on the venue calendar.",
     "first_seen": "2026-10-05T06:05:14+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
-    "last_changed": "2026-10-05T06:05:14+00:00",
-    "history": []
+    "last_seen": "2026-10-26T09:25:48+00:00",
+    "last_changed": "2026-10-26T09:25:48+00:00",
+    "history": [
+      {
+        "at": "2026-10-26T09:25:48+00:00",
+        "field": "status",
+        "old": "tentative",
+        "new": "confirmed"
+      }
+    ]
   },
   {
     "id": "9835680|kaufleuten|2026-12-20",
@@ -363,7 +377,7 @@
     "status": "confirmed",
     "notes": "venue page + bandsintown; venue also lists a second show 21.12.2026 (kaufleuten.ch/en/event/hermanos-gutierrez-2-2026/)",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-26T07:00:37+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -379,7 +393,7 @@
     "status": "confirmed",
     "notes": "second Kaufleuten night; venue page + songkick event",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -395,8 +409,40 @@
     "status": "confirmed",
     "notes": "venue page + bandsintown",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
+    "history": []
+  },
+  {
+    "id": "6427480|sedel|2027-02-07",
+    "artist_id": 6427480,
+    "artist_name": "Holy Motors",
+    "date": "2027-02-07",
+    "venue": "Sedel",
+    "city": "Emmen",
+    "kind": "concert",
+    "url": "https://sedel.ch/programm/holy-motors-deleterolf",
+    "status": "confirmed",
+    "notes": "Listed on the venue calendar: Holy Motors, deleterolf",
+    "first_seen": "2026-10-26T09:25:48+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
+    "last_changed": "2026-10-26T09:25:48+00:00",
+    "history": []
+  },
+  {
+    "id": "6427480|bogen f|2027-02-11",
+    "artist_id": 6427480,
+    "artist_name": "Holy Motors",
+    "date": "2027-02-11",
+    "venue": "Bogen F",
+    "city": "Zürich",
+    "kind": "concert",
+    "url": "https://www.bogenf.ch/konzerte/holy-motors",
+    "status": "confirmed",
+    "notes": "Listed on the venue calendar: Holy Motors & Support",
+    "first_seen": "2026-10-26T09:25:48+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
+    "last_changed": "2026-10-26T09:25:48+00:00",
     "history": []
   },
   {
@@ -445,6 +491,22 @@
     "first_seen": "2026-10-04T16:56:16+00:00",
     "last_seen": "2026-10-05T06:05:14+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
+    "history": []
+  },
+  {
+    "id": "5978731|kaufleuten|2027-04-06",
+    "artist_id": 5978731,
+    "artist_name": "Jordan Rakei",
+    "date": "2027-04-06",
+    "venue": "Kaufleuten",
+    "city": "Zürich",
+    "kind": "concert",
+    "url": "https://kaufleuten.ch/event/jordan-rakei-konzert/",
+    "status": "confirmed",
+    "notes": "Listed on the venue calendar: Jordan Rakei",
+    "first_seen": "2026-10-26T09:25:48+00:00",
+    "last_seen": "2026-10-26T09:25:48+00:00",
+    "last_changed": "2026-10-26T09:25:48+00:00",
     "history": []
   }
 ]
