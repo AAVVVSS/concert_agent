@@ -305,7 +305,11 @@ def cmd_profiles_merge(args) -> None:
 
 def cmd_report(args) -> None:
     concerts = load(CONCERTS_FILE, [])
-    runs = sorted(RUNS_DIR.glob("*.json")) if RUNS_DIR.exists() else []
+    # Concert run summaries only (not releases runs or pending.json); same-day runs by run time.
+    runs = sorted(
+        (p for p in RUNS_DIR.glob("*.json") if p.stem.rsplit("-", 1)[-1] in ("weekly", "monthly", "backup")),
+        key=lambda p: (p.name[:10], load(p, {}).get("ran_at", "")),
+    ) if RUNS_DIR.exists() else []
     last_run = load(runs[-1], {}) if runs else {}
     fresh = {c["id"] for c in last_run.get("new", [])} | {c["id"] for c in last_run.get("changed", [])}
     today = date.today()

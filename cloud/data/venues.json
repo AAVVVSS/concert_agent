@@ -53,7 +53,7 @@
     "city": "Zürich",
     "kind": "venue",
     "url": "https://rotefabrik.ch/programm",
-    "notes": "home page has no listing; unverified, fetch budget ran out"
+    "notes": "Calendar is rendered by JavaScript; no events in fetched HTML. Needs an API/ICS feed or petzi."
   },
   {
     "name": "Mascotte",
@@ -67,7 +67,7 @@
     "city": "Zürich",
     "kind": "venue",
     "url": "https://www.exil.cl/programm/",
-    "notes": ""
+    "notes": "Site refuses automated fetching (client_error)."
   },
   {
     "name": "Bogen F",
@@ -80,8 +80,8 @@
     "name": "Helsinki",
     "city": "Zürich",
     "kind": "venue",
-    "url": "https://www.helsinkiklub.ch/events/",
-    "notes": ""
+    "url": "https://www.petzi.ch/de/organiser/149/",
+    "notes": "Own site blocks automated reading; petzi organiser page lists all shows."
   },
   {
     "name": "Moods",
@@ -137,7 +137,21 @@
     "city": "Basel",
     "kind": "venue",
     "url": "https://kaserne-basel.ch/de",
-    "notes": "listing shows no dates; dates only on each /de/events/<slug> page"
+    "notes": "Dates not in page text; listing accepts ?start=YYYY-MM-DD&end=YYYY-MM-DD (end exclusive) to pin dates."
+  },
+  {
+    "name": "Kuppel",
+    "city": "Basel",
+    "kind": "venue",
+    "url": "https://www.petzi.ch/de/organiser/475292/",
+    "notes": "petzi organiser page"
+  },
+  {
+    "name": "TapTab",
+    "city": "Schaffhausen",
+    "kind": "venue",
+    "url": "https://www.petzi.ch/de/organiser/164/",
+    "notes": "petzi organiser page"
   },
   {
     "name": "Volkshaus Basel",
@@ -276,8 +290,8 @@
     "name": "KiFF",
     "city": "Aarau",
     "kind": "venue",
-    "url": "https://www.kiff.ch/programm",
-    "notes": "/programm blocked by robots; home page only shows ~1 week"
+    "url": "https://www.petzi.ch/de/organiser/5/",
+    "notes": "Own site blocks automated reading; petzi organiser page lists all shows."
   },
   {
     "name": "Kulturfabrik Kofmehl",
@@ -318,8 +332,8 @@
     "name": "Fri-Son",
     "city": "Fribourg",
     "kind": "venue",
-    "url": "https://www.fri-son.ch/fr/programme",
-    "notes": "paginated ?page=N"
+    "url": "https://www.petzi.ch/de/organiser/29/",
+    "notes": "Own site serves stale pages; petzi organiser page lists all shows."
   },
   {
     "name": "Bad Bonn",
@@ -332,8 +346,8 @@
     "name": "Le Singe / Kulturzentrum Gaskessel Biel",
     "city": "Biel/Bienne",
     "kind": "venue",
-    "url": "https://ajz.ch/de-ch/chessu/programm/",
-    "notes": "two venues: Le Singe (Untergasse 21, no own site found; use stadtkonzerte/petzi) and AJZ Gaskessel/Chessu at ajz.ch; gaskessel.ch is Bern, not Biel"
+    "url": "https://www.petzi.ch/de/organiser/200/",
+    "notes": "KartellCulturel (Le Singe) petzi organiser page; may cut off after ~50 entries."
   },
   {
     "name": "Stadtkonzerte (aggregator)",
@@ -346,8 +360,8 @@
     "name": "petzi (Swiss club ticketing)",
     "city": "Switzerland",
     "kind": "aggregator",
-    "url": "https://www.petzi.ch/",
-    "notes": ""
+    "url": "https://www.petzi.ch/de/events/",
+    "notes": "/de/events/ shows only ~4 days. Use organiser pages https://www.petzi.ch/de/organiser/<id>/ (KiFF 5, Fri-Son 29, Helsinki 149, TapTab 164, KartellCulturel 200, Kuppel 475292); find an id via an event page's \"Weitere Veranstaltungen von\" link."
   },
   {
     "name": "OpenAir St. Gallen",

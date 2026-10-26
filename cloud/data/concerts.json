@@ -91,7 +91,7 @@
     "status": "tentative",
     "notes": "eventfrog ticket listing (Dynamo Werk21, 20:00, CHF 25) + stadtkonzerte; act is Constantin Kopp's Dolphin Love (EP 'NOT FROM HERE') Only artist-level or ambiguous sources found; calendar not readable this run.",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-05T06:05:14+00:00",
+    "last_seen": "2026-10-26T10:58:09+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -151,13 +151,20 @@
     "venue": "Fri-Son",
     "city": "Fribourg",
     "kind": "concert",
-    "url": "https://www.bandsintown.com/a/135187-midwife",
-    "status": "tentative",
-    "notes": "bandsintown/songkick/shazam artist tour dates list Fri-Son 30.10; co-bill with Devin Shaffer matches other tour stops (La Malterie); no venue page seen Only artist-level or ambiguous sources found; calendar not readable this run.",
+    "url": "https://www.petzi.ch/de/events/63988-fri-son-midwife-us-support-devin-shaffer-us/",
+    "status": "confirmed",
+    "notes": "petzi event page for Fri-Son, support Devin Shaffer.",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-04T16:56:16+00:00",
-    "last_changed": "2026-10-04T16:56:16+00:00",
-    "history": []
+    "last_seen": "2026-10-26T10:58:09+00:00",
+    "last_changed": "2026-10-26T10:58:09+00:00",
+    "history": [
+      {
+        "at": "2026-10-26T10:58:09+00:00",
+        "field": "status",
+        "old": "tentative",
+        "new": "confirmed"
+      }
+    ]
   },
   {
     "id": "3520832|volkshaus|2026-11-15",
@@ -274,7 +281,7 @@
     "status": "confirmed",
     "notes": "ticketcorner event + jambase; rescheduled from 15.03.2026",
     "first_seen": "2026-10-04T16:56:16+00:00",
-    "last_seen": "2026-10-19T05:59:11+00:00",
+    "last_seen": "2026-10-26T10:58:09+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
     "history": []
   },
@@ -290,7 +297,7 @@
     "status": "confirmed",
     "notes": "The Dark World Tour, support A.A. Williams; stadtkonzerte + tour listings",
     "first_seen": "2026-10-12T06:00:18+00:00",
-    "last_seen": "2026-10-26T07:00:37+00:00",
+    "last_seen": "2026-10-26T10:58:09+00:00",
     "last_changed": "2026-10-12T06:00:18+00:00",
     "history": []
   },
@@ -324,6 +331,22 @@
     "first_seen": "2026-10-04T16:56:16+00:00",
     "last_seen": "2026-10-26T09:25:48+00:00",
     "last_changed": "2026-10-04T16:56:16+00:00",
+    "history": []
+  },
+  {
+    "id": "5782729|kuppel|2026-12-12",
+    "artist_id": 5782729,
+    "artist_name": "Ibeyi",
+    "date": "2026-12-12",
+    "venue": "Kuppel",
+    "city": "Basel",
+    "kind": "concert",
+    "url": "https://www.petzi.ch/de/events/63755-kuppel-ibeyi-fr/",
+    "status": "confirmed",
+    "notes": "petzi event page",
+    "first_seen": "2026-10-26T10:58:09+00:00",
+    "last_seen": "2026-10-26T10:58:09+00:00",
+    "last_changed": "2026-10-26T10:58:09+00:00",
     "history": []
   },
   {

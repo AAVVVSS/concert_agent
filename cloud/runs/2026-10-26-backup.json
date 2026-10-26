@@ -1,0 +1,56 @@
+{
+  "kind": "backup",
+  "ran_at": "2026-10-26T10:58:09+00:00",
+  "findings": 5,
+  "new": [
+    {
+      "id": "5782729|kuppel|2026-12-12",
+      "artist_id": 5782729,
+      "artist_name": "Ibeyi",
+      "date": "2026-12-12",
+      "venue": "Kuppel",
+      "city": "Basel",
+      "kind": "concert",
+      "url": "https://www.petzi.ch/de/events/63755-kuppel-ibeyi-fr/",
+      "status": "confirmed",
+      "notes": "petzi event page",
+      "first_seen": "2026-10-26T10:58:09+00:00",
+      "last_seen": "2026-10-26T10:58:09+00:00",
+      "last_changed": "2026-10-26T10:58:09+00:00",
+      "history": []
+    }
+  ],
+  "changed": [
+    {
+      "id": "10060426|fri son|2026-10-30",
+      "artist_id": 10060426,
+      "artist_name": "Midwife",
+      "date": "2026-10-30",
+      "venue": "Fri-Son",
+      "city": "Fribourg",
+      "kind": "concert",
+      "url": "https://www.petzi.ch/de/events/63988-fri-son-midwife-us-support-devin-shaffer-us/",
+      "status": "confirmed",
+      "notes": "petzi event page for Fri-Son, support Devin Shaffer.",
+      "first_seen": "2026-10-04T16:56:16+00:00",
+      "last_seen": "2026-10-26T10:58:09+00:00",
+      "last_changed": "2026-10-26T10:58:09+00:00",
+      "history": [
+        {
+          "at": "2026-10-26T10:58:09+00:00",
+          "field": "status",
+          "old": "tentative",
+          "new": "confirmed"
+        }
+      ],
+      "changes": [
+        {
+          "field": "status",
+          "old": "tentative",
+          "new": "confirmed"
+        }
+      ]
+    }
+  ],
+  "message": "1 new, 1 changed: Ibeyi Kuppel Sat 12 Dec; Midwife status changed"
+}
