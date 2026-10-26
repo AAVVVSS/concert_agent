@@ -7,7 +7,7 @@ keeps the bookkeeping deterministic:
     python cloud/concerts.py due [--days 30]          artists due for deep research
     python cloud/concerts.py match EVENTS.json        venue-calendar events -> favorite artists
     python cloud/concerts.py mark RESEARCHED.json     record deep-research results per artist
-    python cloud/concerts.py merge FINDINGS.json --kind weekly|monthly
+    python cloud/concerts.py merge FINDINGS.json --kind weekly|monthly|backup
                                                       upsert concerts, write run summary,
                                                       print the phone message
     python cloud/concerts.py report                   render cloud/report/index.html
@@ -428,7 +428,7 @@ def main() -> None:
     s = sub.add_parser("due"); s.add_argument("--days", type=int, default=30); s.set_defaults(fn=cmd_due)
     s = sub.add_parser("match"); s.add_argument("events"); s.set_defaults(fn=cmd_match)
     s = sub.add_parser("mark"); s.add_argument("researched"); s.set_defaults(fn=cmd_mark)
-    s = sub.add_parser("merge"); s.add_argument("findings"); s.add_argument("--kind", choices=["weekly", "monthly"], required=True); s.set_defaults(fn=cmd_merge)
+    s = sub.add_parser("merge"); s.add_argument("findings"); s.add_argument("--kind", choices=["weekly", "monthly", "backup"], required=True); s.set_defaults(fn=cmd_merge)
     s = sub.add_parser("report"); s.set_defaults(fn=cmd_report)
     s = sub.add_parser("profiles-due"); s.set_defaults(fn=cmd_profiles_due)
     s = sub.add_parser("profiles-merge"); s.add_argument("profiles"); s.set_defaults(fn=cmd_profiles_merge)
