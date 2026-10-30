@@ -1,0 +1,642 @@
+{
+  "coming": [
+    {
+      "artist": "Panda Bear",
+      "artist_id": "3609536",
+      "artists": [
+        "Panda Bear"
+      ],
+      "cover": "https://resources.tidal.com/images/445e485b/ade1/4791/a370/9b9ef004b20b/320x320.jpg",
+      "explicit": false,
+      "id": "567288911",
+      "kind": "Album",
+      "release_date": "2026-12-11",
+      "title": "pb band live 25 at power station",
+      "tracks": 17,
+      "url": "https://tidal.com/album/567288911"
+    }
+  ],
+  "date": "2026-10-30",
+  "failed": [],
+  "favorites": 690,
+  "first_run": false,
+  "new": [
+    {
+      "artist": "Vinilo Pintao'",
+      "artist_id": "48361880",
+      "artists": [
+        "Vinilo Pintao'"
+      ],
+      "cover": "https://resources.tidal.com/images/1e1634e6/741e/41bf/81a2/10c35934e039/320x320.jpg",
+      "explicit": false,
+      "id": "570098642",
+      "kind": "EP",
+      "release_date": "2026-10-30",
+      "title": "Sueños ultravioleta (En Vivo)",
+      "tracks": 4,
+      "url": "https://tidal.com/album/570098642"
+    },
+    {
+      "artist": "Vacíos Cuerpos",
+      "artist_id": "21556526",
+      "artists": [
+        "Vacíos Cuerpos"
+      ],
+      "cover": "https://resources.tidal.com/images/ccf6af9c/182a/4f49/a34b/a3156ae9f82b/320x320.jpg",
+      "explicit": false,
+      "id": "572480265",
+      "kind": "Single",
+      "release_date": "2026-10-30",
+      "title": "Esperando, Fría",
+      "tracks": 2,
+      "url": "https://tidal.com/album/572480265"
+    },
+    {
+      "artist": "The Mars Volta",
+      "artist_id": "24959",
+      "artists": [
+        "The Mars Volta"
+      ],
+      "cover": "https://resources.tidal.com/images/a6169418/b676/48b6/9872/b3d66e2a76f9/320x320.jpg",
+      "explicit": false,
+      "id": "569139694",
+      "kind": "Single",
+      "release_date": "2026-10-30",
+      "title": "The Iron Rose",
+      "tracks": 1,
+      "url": "https://tidal.com/album/569139694"
+    },
+    {
+      "artist": "The Big Moon",
+      "artist_id": "6891143",
+      "artists": [
+        "The Big Moon"
+      ],
+      "cover": "https://resources.tidal.com/images/38bbc85b/cfc6/4e46/b828/eafc84a2a1c4/320x320.jpg",
+      "explicit": false,
+      "id": "531655203",
+      "kind": "Album",
+      "release_date": "2026-10-30",
+      "title": "Forever",
+      "tracks": 10,
+      "url": "https://tidal.com/album/531655203"
+    },
+    {
+      "artist": "Tears For Fears",
+      "artist_id": "3824",
+      "artists": [
+        "Tears For Fears"
+      ],
+      "cover": "https://resources.tidal.com/images/42219b4a/9701/40a5/9235/35140cad4af7/320x320.jpg",
+      "explicit": false,
+      "id": "572402828",
+      "kind": "EP",
+      "release_date": "2026-10-30",
+      "title": "Advice For The Young At Heart",
+      "tracks": 5,
+      "url": "https://tidal.com/album/572402828"
+    },
+    {
+      "artist": "Spectres",
+      "artist_id": "3816948",
+      "artists": [
+        "Spectres",
+        "ImRétribute"
+      ],
+      "cover": "https://resources.tidal.com/images/bfd214bd/d082/4b65/bdbf/10d45b5c1748/320x320.jpg",
+      "explicit": true,
+      "id": "566296713",
+      "kind": "Single",
+      "release_date": "2026-10-30",
+      "title": "Nø Plan",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566296713"
+    },
+    {
+      "artist": "Sidewalks and Skeletons",
+      "artist_id": "5487487",
+      "artists": [
+        "Sidewalks and Skeletons"
+      ],
+      "cover": "https://resources.tidal.com/images/23ba06a5/caea/462f/8e8f/5d5b45b66105/320x320.jpg",
+      "explicit": false,
+      "id": "573407939",
+      "kind": "Single",
+      "release_date": "2026-10-30",
+      "title": "Crawlspace",
+      "tracks": 1,
+      "url": "https://tidal.com/album/573407939"
+    },
+    {
+      "artist": "Sampa the Great",
+      "artist_id": "7319678",
+      "artists": [
+        "Sampa the Great"
+      ],
+      "cover": "https://resources.tidal.com/images/9114d183/fbdd/45ec/8378/4dde452ae36f/320x320.jpg",
+      "explicit": false,
+      "id": "572392487",
+      "kind": "Album",
+      "release_date": "2026-10-30",
+      "title": "Nu Zamrock",
+      "tracks": 16,
+      "url": "https://tidal.com/album/572392487"
+    },
+    {
+      "artist": "Queens Of The Stone Age",
+      "artist_id": "29902",
+      "artists": [
+        "Queens Of The Stone Age"
+      ],
+      "cover": "https://resources.tidal.com/images/8c8d6553/1b7e/41b8/a3fd/1d19119d0f2a/320x320.jpg",
+      "explicit": true,
+      "id": "568202498",
+      "kind": "Album",
+      "release_date": "2026-10-30",
+      "title": "Perfecth",
+      "tracks": 9,
+      "url": "https://tidal.com/album/568202498"
+    },
+    {
+      "artist": "Phantogram",
+      "artist_id": "3614038",
+      "artists": [
+        "Phantogram",
+        "Aaron Hibell"
+      ],
+      "cover": "https://resources.tidal.com/images/298f7f50/b72c/43ed/9dd7/93c846ea6b25/320x320.jpg",
+      "explicit": false,
+      "id": "572402819",
+      "kind": "Single",
+      "release_date": "2026-10-30",
+      "title": "You Don’t Get Me High Anymore (Aaron Hibell Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/572402819"
+    },
+    {
+      "artist": "Niko Rubio",
+      "artist_id": "9231923",
+      "artists": [
+        "Niko Rubio"
+      ],
+      "cover": "https://resources.tidal.com/images/5f2f4b3f/25a9/4da3/a0d8/385ce493ad47/320x320.jpg",
+      "explicit": false,
+      "id": "571996339",
+      "kind": "Album",
+      "release_date": "2026-10-30",
+      "title": "late night swim",
+      "tracks": 10,
+      "url": "https://tidal.com/album/571996339"
+    },
+    {
+      "artist": "Morcheeba",
+      "artist_id": "12034",
+      "artists": [
+        "Morcheeba",
+        "Gui Boratto"
+      ],
+      "cover": "https://resources.tidal.com/images/3131d5b6/9913/4a09/921c/b272cdf66b12/320x320.jpg",
+      "explicit": false,
+      "id": "572545930",
+      "kind": "Single",
+      "release_date": "2026-10-30",
+      "title": "Molten (Gui Boratto's Rework)",
+      "tracks": 2,
+      "url": "https://tidal.com/album/572545930"
+    },
+    {
+      "artist": "Lowly",
+      "artist_id": "5657211",
+      "artists": [
+        "Lowly"
+      ],
+      "cover": "https://resources.tidal.com/images/d99c7303/6d59/4c96/8936/6d8da7417e48/320x320.jpg",
+      "explicit": false,
+      "id": "516101473",
+      "kind": "Album",
+      "release_date": "2026-10-30",
+      "title": "Softy",
+      "tracks": 10,
+      "url": "https://tidal.com/album/516101473"
+    },
+    {
+      "artist": "Little Dragon",
+      "artist_id": "3519571",
+      "artists": [
+        "Yukimi",
+        "Little Dragon"
+      ],
+      "cover": "https://resources.tidal.com/images/2f996e6e/c852/4dbb/861c/85b9ade53f06/320x320.jpg",
+      "explicit": false,
+      "id": "565594384",
+      "kind": "Single",
+      "release_date": "2026-10-30",
+      "title": "Solen",
+      "tracks": 1,
+      "url": "https://tidal.com/album/565594384"
+    },
+    {
+      "artist": "Kenichiro Isoda",
+      "artist_id": "13094360",
+      "artists": [
+        "Kenichiro Isoda"
+      ],
+      "cover": "https://resources.tidal.com/images/cfda2ffe/a9c7/4f3d/b922/6af893b9d7e8/320x320.jpg",
+      "explicit": false,
+      "id": "555426658",
+      "kind": "Album",
+      "release_date": "2026-10-30",
+      "title": "EPILOGUE",
+      "tracks": 8,
+      "url": "https://tidal.com/album/555426658"
+    },
+    {
+      "artist": "Ex:Re",
+      "artist_id": "10636324",
+      "artists": [
+        "Ex:Re"
+      ],
+      "cover": "https://resources.tidal.com/images/b3a7532d/8a70/4980/9cd8/45d5eaa1e593/320x320.jpg",
+      "explicit": false,
+      "id": "568202448",
+      "kind": "Album",
+      "release_date": "2026-10-30",
+      "title": "Save As",
+      "tracks": 9,
+      "url": "https://tidal.com/album/568202448"
+    },
+    {
+      "artist": "DIIV",
+      "artist_id": "4646142",
+      "artists": [
+        "DIIV"
+      ],
+      "cover": "https://resources.tidal.com/images/73705442/2113/45f5/aed1/703e161ea2ca/320x320.jpg",
+      "explicit": false,
+      "id": "572393416",
+      "kind": "Album",
+      "release_date": "2026-10-30",
+      "title": "ZIRP!",
+      "tracks": 11,
+      "url": "https://tidal.com/album/572393416"
+    },
+    {
+      "artist": "ANAIT",
+      "artist_id": "16748699",
+      "artists": [
+        "ANAIT"
+      ],
+      "cover": "https://resources.tidal.com/images/cb42c3e7/5069/4caf/8c8e/f9aa29a80b5d/320x320.jpg",
+      "explicit": false,
+      "id": "569771655",
+      "kind": "Single",
+      "release_date": "2026-10-30",
+      "title": "Ветер уважает грусть",
+      "tracks": 1,
+      "url": "https://tidal.com/album/569771655"
+    },
+    {
+      "artist": "RY X",
+      "artist_id": "5020362",
+      "artists": [
+        "RY X"
+      ],
+      "cover": "https://resources.tidal.com/images/58370e05/4052/47a4/b0c0/95312ad3540e/320x320.jpg",
+      "explicit": false,
+      "id": "571615006",
+      "kind": "Single",
+      "release_date": "2026-10-29",
+      "title": "Lay",
+      "tracks": 2,
+      "url": "https://tidal.com/album/571615006"
+    },
+    {
+      "artist": "Rostam",
+      "artist_id": "4848663",
+      "artists": [
+        "Hamilton Leithauser",
+        "Rostam"
+      ],
+      "cover": "https://resources.tidal.com/images/dcb790cb/d82b/4df5/ad17/9b6837dfbeaa/320x320.jpg",
+      "explicit": false,
+      "id": "567966827",
+      "kind": "Album",
+      "release_date": "2026-10-29",
+      "title": "I Won’t Let Up: Live at Music Hall of Williamsburg",
+      "tracks": 22,
+      "url": "https://tidal.com/album/567966827"
+    },
+    {
+      "artist": "Phoebe Bridgers",
+      "artist_id": "6743691",
+      "artists": [
+        "Phoebe Bridgers"
+      ],
+      "cover": "https://resources.tidal.com/images/ad1cdd58/32a8/4177/b77b/860da54b432d/320x320.jpg",
+      "explicit": false,
+      "id": "574136505",
+      "kind": "EP",
+      "release_date": "2026-10-29",
+      "title": "Live at Madison Square Garden",
+      "tracks": 5,
+      "url": "https://tidal.com/album/574136505"
+    },
+    {
+      "artist": "Natalia Lafourcade",
+      "artist_id": "3618024",
+      "artists": [
+        "Santana",
+        "Natalia Lafourcade"
+      ],
+      "cover": "https://resources.tidal.com/images/7af2ebfc/b05e/4aac/a6ec/e147304d645c/320x320.jpg",
+      "explicit": false,
+      "id": "573672940",
+      "kind": "Single",
+      "release_date": "2026-10-29",
+      "title": "Hermano",
+      "tracks": 1,
+      "url": "https://tidal.com/album/573672940"
+    },
+    {
+      "artist": "Jorja Smith",
+      "artist_id": "7644395",
+      "artists": [
+        "Jorja Smith"
+      ],
+      "cover": "https://resources.tidal.com/images/e84ac2e0/14dd/48b1/80b4/6c91ed7282d5/320x320.jpg",
+      "explicit": false,
+      "id": "571223603",
+      "kind": "Single",
+      "release_date": "2026-10-29",
+      "title": "Dancing (Unplugged)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571223603"
+    },
+    {
+      "artist": "Gracie Abrams",
+      "artist_id": "15686643",
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "cover": "https://resources.tidal.com/images/a2874338/c5d7/489b/844d/3ddcd759ff38/320x320.jpg",
+      "explicit": false,
+      "id": "573644524",
+      "kind": "Single",
+      "release_date": "2026-10-29",
+      "title": "Here You Come, There You Go",
+      "tracks": 1,
+      "url": "https://tidal.com/album/573644524"
+    },
+    {
+      "artist": "CHVRCHES",
+      "artist_id": "4764745",
+      "artists": [
+        "CHVRCHES"
+      ],
+      "cover": "https://resources.tidal.com/images/6077bfa1/3c54/4053/ba72/808bf8ee3693/320x320.jpg",
+      "explicit": true,
+      "id": "571006474",
+      "kind": "Single",
+      "release_date": "2026-10-29",
+      "title": "Overthinker",
+      "tracks": 2,
+      "url": "https://tidal.com/album/571006474"
+    },
+    {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid",
+        "Quokka Music"
+      ],
+      "cover": "https://resources.tidal.com/images/0b7b55b4/bb8d/43e9/9842/00bb6a02f542/320x320.jpg",
+      "explicit": false,
+      "id": "548655942",
+      "kind": "Single",
+      "release_date": "2026-10-29",
+      "title": "Rollercoaster",
+      "tracks": 1,
+      "url": "https://tidal.com/album/548655942"
+    },
+    {
+      "artist": "Queens Of The Stone Age",
+      "artist_id": "29902",
+      "artists": [
+        "Queens Of The Stone Age"
+      ],
+      "cover": "https://resources.tidal.com/images/c01ac617/5112/4ce6/937a/38fb502d667b/320x320.jpg",
+      "explicit": false,
+      "id": "569548565",
+      "kind": "Single",
+      "release_date": "2026-10-28",
+      "title": "Run Away From the Mob",
+      "tracks": 1,
+      "url": "https://tidal.com/album/569548565"
+    },
+    {
+      "artist": "Panda Bear",
+      "artist_id": "3609536",
+      "artists": [
+        "Panda Bear"
+      ],
+      "cover": "https://resources.tidal.com/images/3908c5a6/360f/4bfc/a793/e042e957a465/320x320.jpg",
+      "explicit": false,
+      "id": "568220491",
+      "kind": "Single",
+      "release_date": "2026-10-28",
+      "title": "Take Pills (Live at Power Station)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568220491"
+    },
+    {
+      "artist": "Elsa Y Elmar",
+      "artist_id": "5153608",
+      "artists": [
+        "Susana Cala",
+        "Elsa Y Elmar"
+      ],
+      "cover": "https://resources.tidal.com/images/0a663d58/3282/45f6/9ea4/feaf2b83dd20/320x320.jpg",
+      "explicit": false,
+      "id": "571388891",
+      "kind": "Single",
+      "release_date": "2026-10-28",
+      "title": "llorando de risa",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571388891"
+    },
+    {
+      "artist": "DIIV",
+      "artist_id": "4646142",
+      "artists": [
+        "DIIV"
+      ],
+      "cover": "https://resources.tidal.com/images/cd7e8b99/9697/4506/8ead/a304076143c9/320x320.jpg",
+      "explicit": false,
+      "id": "571402994",
+      "kind": "Single",
+      "release_date": "2026-10-28",
+      "title": "Dare Me",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571402994"
+    },
+    {
+      "artist": "Niko Rubio",
+      "artist_id": "9231923",
+      "artists": [
+        "Niko Rubio"
+      ],
+      "cover": "https://resources.tidal.com/images/215f7646/c95f/4777/8835/165ad9e441e6/320x320.jpg",
+      "explicit": false,
+      "id": "572609803",
+      "kind": "Single",
+      "release_date": "2026-10-27",
+      "title": "birds and butterflies",
+      "tracks": 1,
+      "url": "https://tidal.com/album/572609803"
+    },
+    {
+      "artist": "Ex:Re",
+      "artist_id": "10636324",
+      "artists": [
+        "Ex:Re"
+      ],
+      "cover": "https://resources.tidal.com/images/ef2c02ca/56db/4012/8159/a50c97a84b8e/320x320.jpg",
+      "explicit": false,
+      "id": "567204654",
+      "kind": "Single",
+      "release_date": "2026-10-27",
+      "title": "Am I Even Real?",
+      "tracks": 1,
+      "url": "https://tidal.com/album/567204654"
+    },
+    {
+      "artist": "DannyLux",
+      "artist_id": "20448658",
+      "artists": [
+        "Jose Alatorre",
+        "DannyLux"
+      ],
+      "cover": "https://resources.tidal.com/images/d04966a8/9f1f/4404/b2e2/c7a2c239462a/320x320.jpg",
+      "explicit": false,
+      "id": "571925271",
+      "kind": "Single",
+      "release_date": "2026-10-27",
+      "title": "abu$adora",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571925271"
+    },
+    {
+      "artist": "Miles Davis",
+      "artist_id": "55",
+      "artists": [
+        "Miles Davis"
+      ],
+      "cover": "https://resources.tidal.com/images/a13a9788/61ee/428c/ab44/0564deb1be1a/320x320.jpg",
+      "explicit": false,
+      "id": "571037077",
+      "kind": "Single",
+      "release_date": "2026-10-26",
+      "title": "Miles Runs the Voodoo Down (Live In Copenhagen, 1969)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571037077"
+    },
+    {
+      "artist": "Desperate Journalist",
+      "artist_id": "4949602",
+      "artists": [
+        "Desperate Journalist"
+      ],
+      "cover": "https://resources.tidal.com/images/d271c9ac/a307/4166/8fa1/4778cf98168f/320x320.jpg",
+      "explicit": false,
+      "id": "549550551",
+      "kind": "Single",
+      "release_date": "2026-10-26",
+      "title": "Dust",
+      "tracks": 1,
+      "url": "https://tidal.com/album/549550551"
+    },
+    {
+      "artist": "AIM",
+      "artist_id": "3518502",
+      "artists": [
+        "AIM",
+        "Capital Dogz",
+        "Khai"
+      ],
+      "cover": "https://resources.tidal.com/images/63f75a4b/6450/4238/8ad3/8956f766d079/320x320.jpg",
+      "explicit": false,
+      "id": "570711507",
+      "kind": "Single",
+      "release_date": "2026-10-26",
+      "title": "Once, Step (SoftSkilla Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570711507"
+    },
+    {
+      "artist": "Peder B. Helland",
+      "artist_id": "6687095",
+      "artists": [
+        "Peder B. Helland"
+      ],
+      "cover": "https://resources.tidal.com/images/3931494c/39ad/4b4f/a74f/d3b3f29e20f9/320x320.jpg",
+      "explicit": false,
+      "id": "572730534",
+      "kind": "Album",
+      "release_date": "2026-10-23",
+      "title": "Barna på Havstein (Originalmusikk fra podkasten)",
+      "tracks": 10,
+      "url": "https://tidal.com/album/572730534"
+    },
+    {
+      "artist": "Anderson .Paak",
+      "artist_id": "5866385",
+      "artists": [
+        "Anderson .Paak",
+        "Cordae",
+        "Colors"
+      ],
+      "cover": "https://resources.tidal.com/images/0a0f3a50/e7fb/4316/aca8/3a205183d487/320x320.jpg",
+      "explicit": true,
+      "id": "570088086",
+      "kind": "Single",
+      "release_date": "2026-10-22",
+      "title": "58th Floor - A COLORS SHOW",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570088086"
+    },
+    {
+      "artist": "Peder B. Helland",
+      "artist_id": "6687095",
+      "artists": [
+        "Peder B. Helland"
+      ],
+      "cover": "https://resources.tidal.com/images/baf83160/1a0d/42ee/9b72/f5855cee6736/320x320.jpg",
+      "explicit": false,
+      "id": "572752478",
+      "kind": "Single",
+      "release_date": "2026-10-20",
+      "title": "Majestic",
+      "tracks": 1,
+      "url": "https://tidal.com/album/572752478"
+    },
+    {
+      "artist": "Portugal. The Man",
+      "artist_id": "3923470",
+      "artists": [
+        "Portugal. The Man",
+        "Wildwood Sessions"
+      ],
+      "cover": "https://resources.tidal.com/images/cebe872c/2f51/4078/a4c6/f7f26870b641/320x320.jpg",
+      "explicit": false,
+      "id": "569866548",
+      "kind": "Single",
+      "release_date": "2026-10-16",
+      "title": "'You Can Count On Me' (Music Inspired by LAIKA’s Wildwood)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/569866548"
+    }
+  ],
+  "playlist_url": "https://tidal.com/playlist/7f909003-f4b3-435c-914f-3119365a08ba",
+  "ran_at": "2026-10-30T15:56:54+00:00",
+  "releases_listed": 24662
+}
