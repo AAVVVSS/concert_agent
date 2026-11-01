@@ -1,0 +1,25 @@
+{
+  "kind": "monthly",
+  "ran_at": "2026-11-01T07:42:40+00:00",
+  "findings": 21,
+  "new": [
+    {
+      "id": "8523033|alpengold hotel davos|2026-12-04",
+      "artist_id": 8523033,
+      "artist_name": "CRIMER",
+      "date": "2026-12-04",
+      "venue": "AlpenGold Hotel Davos",
+      "city": "Davos",
+      "kind": "concert",
+      "url": "https://www.davos.ch/en/experience/events/songbird-crimer",
+      "status": "confirmed",
+      "notes": "Songbird event series, Fri 04.12.2026 20:30, per davos.ch tourism event page",
+      "first_seen": "2026-11-01T07:42:40+00:00",
+      "last_seen": "2026-11-01T07:42:40+00:00",
+      "last_changed": "2026-11-01T07:42:40+00:00",
+      "history": []
+    }
+  ],
+  "changed": [],
+  "message": "1 new, 0 changed: CRIMER AlpenGold Hotel Davos Fri 4 Dec"
+}

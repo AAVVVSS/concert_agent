@@ -1975,6 +1975,27 @@
       "noise pop"
     ]
   },
+  "17201121": {
+    "active": "2014-",
+    "bio": "Hip-hop collective and label from Buffalo, New York, built around Westside Gunn, Conway the Machine and Benny the Butcher. Founded by Westside Gunn in 2014, it revived the grim, sample-heavy sound of 1990s East Coast rap, signed with Shady Records in 2017 and released the group album WWCD in 2019.",
+    "confidence": "high",
+    "genres": [
+      "hip hop"
+    ],
+    "name": "Griselda",
+    "origin": {
+      "city": "Buffalo",
+      "country": "US"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal"
+    ],
+    "styles": [
+      "boom bap",
+      "east coast hip hop"
+    ]
+  },
   "17208862": {
     "active": "2018-",
     "bio": "Portuguese multi-instrumentalist, singer and producer who has drawn attention from artists like Quincy Jones and Tracy Chapman. Her records include saudade, saudade (2024) and Lifeline (2025).",
@@ -3146,6 +3167,29 @@
       "dream pop"
     ]
   },
+  "24475770": {
+    "active": "2018-",
+    "bio": "London-based composer and multi-instrumentalist of Caribbean-Belgian roots who blends ambient textures with spiritual jazz, playing pedal harp and modular synths. Her self-produced Warp debut Space 1.8 (2021) was followed by the song cycle Endlessness (2024) and her first film score, The Smashing Machine (2025).",
+    "confidence": "high",
+    "genres": [
+      "jazz",
+      "ambient"
+    ],
+    "name": "Nala Sinephro",
+    "origin": {
+      "city": "London",
+      "country": "GB"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal"
+    ],
+    "styles": [
+      "spiritual jazz",
+      "ambient",
+      "nu-jazz"
+    ]
+  },
   "24516191": {
     "active": "2018-",
     "bio": "Pittsburgh guitar band making noisy, jangly indie rock and shoegaze-adjacent songs. Records include Hayday (2021), Girl with Fish (2023) and bitknot (2026).",
@@ -3265,6 +3309,29 @@
       "indie rock",
       "indie pop",
       "art punk"
+    ]
+  },
+  "26912544": {
+    "active": "2023-",
+    "bio": "Little-documented band listed as a Los Angeles act, whose album New Jokes came out in 2023 with tracks such as \"Bong World\" and \"Punchline\". Beyond that, background details could not be confirmed.",
+    "confidence": "low",
+    "genres": [
+      "indie"
+    ],
+    "name": "Buff Ginger",
+    "note": "Genre guessed; only a gig listing and Bandcamp page found",
+    "origin": {
+      "city": "Los Angeles",
+      "country": "US"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal",
+      "https://losangeles.ohmyrockness.com/bands/buff-ginger",
+      "https://buffginger.bandcamp.com/music"
+    ],
+    "styles": [
+      "indie rock"
     ]
   },
   "27196553": {
@@ -3411,6 +3478,20 @@
       "art punk",
       "dance-punk"
     ]
+  },
+  "27874153": {
+    "active": "2022-",
+    "bio": "Little-documented act with a handful of short releases on Tidal between 2022 and 2023, including Midnight Dreams, Files, (2) and (3). No reliable background information was found, and the Tidal bio gives no details.",
+    "confidence": "low",
+    "genres": [],
+    "name": "AGTHA",
+    "note": "No bio or web sources found; genre and origin unknown",
+    "origin": {},
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal"
+    ],
+    "styles": []
   },
   "27911777": {
     "active": "2020-",
@@ -5057,6 +5138,30 @@
       "dream pop"
     ]
   },
+  "3565296": {
+    "active": "2004-",
+    "bio": "Toronto band founded in 2004 by Graham Walsh and Brian Borcherdt that makes dance music with live drums, bass, old keyboards and junk-shop gadgets instead of laptops. They began with krautrock-style improvised jams on Holy Fuck (2005) and LP (2007), and later grew more song-based on Congrats (2016) and Deleter (2020).",
+    "confidence": "high",
+    "genres": [
+      "electronic",
+      "rock"
+    ],
+    "name": "Holy Fuck",
+    "origin": {
+      "city": "Toronto",
+      "country": "CA"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal"
+    ],
+    "styles": [
+      "electronic rock",
+      "krautrock",
+      "dance-punk",
+      "experimental rock"
+    ]
+  },
   "3565988": {
     "active": "1988-1998, 2015-",
     "bio": "London shoegaze and dream pop band led by Miki Berenyi and Emma Anderson on 4AD. Spooky (1992) and Split are early classics, and Lovelife (1996) brought Britpop-era hits; they reformed in 2015.",
@@ -6154,6 +6259,29 @@
       "noise pop"
     ]
   },
+  "36524796": {
+    "active": "2016-",
+    "bio": "Solo shoegaze project of US multi-instrumentalist Will Kraus, who writes, plays and records his dense, distorted, melodic songs on his own. His breakthrough album was Path (2018), followed by View No Country (2021) and Eye Escapes (2022).",
+    "confidence": "medium",
+    "genres": [
+      "rock"
+    ],
+    "name": "Kraus",
+    "origin": {
+      "country": "US"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal",
+      "https://en.wikipedia.org/wiki/Kraus_(shoegaze_musician)",
+      "https://willkraus.bandcamp.com/album/path"
+    ],
+    "styles": [
+      "shoegaze",
+      "noise pop",
+      "dream pop"
+    ]
+  },
   "3652908": {
     "active": "2009-",
     "bio": "Duo of The Shins' James Mercer and producer Danger Mouse. Their self-titled 2010 debut and After the Disco (2014) blend Mercer's melodies with cinematic, retro-leaning production, with a third record, Into the Blue, in 2022.",
@@ -6584,6 +6712,29 @@
       "indietronica",
       "future garage",
       "art pop"
+    ]
+  },
+  "37221039": {
+    "active": "2023-",
+    "bio": "Los Angeles shoegaze band formed in the early 2020s by Ariana Mamnoon, Jack Dione and Jay Are, later expanded to a four-piece. They are known for churning guitars and the interplay of two lead voices on the EPs towncryer (2023) and headbanger (2024).",
+    "confidence": "high",
+    "genres": [
+      "rock",
+      "indie"
+    ],
+    "name": "untitled (halo)",
+    "origin": {
+      "city": "Los Angeles",
+      "country": "US"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal"
+    ],
+    "styles": [
+      "shoegaze",
+      "noise pop",
+      "alternative rock"
     ]
   },
   "3722866": {
@@ -7066,6 +7217,28 @@
       "new wave",
       "pop rock",
       "new romantic"
+    ]
+  },
+  "3824301": {
+    "active": "2001-",
+    "bio": "Instrumental post-rock band formed in Mexico City in 2001, known for playing in rabbit masks and for wordless, cinematic songs that let listeners read their own meaning into the music. Their first album La Ultima Noche del Mundo (2003) and Fontana Bella (2007) made them a cult name in Mexican indie; after a long break they came back with Rizoma (2023) and Ma (2026).",
+    "confidence": "high",
+    "genres": [
+      "rock"
+    ],
+    "name": "Austin TV",
+    "origin": {
+      "city": "Mexico City",
+      "country": "MX"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal"
+    ],
+    "styles": [
+      "post-rock",
+      "instrumental rock",
+      "math rock"
     ]
   },
   "3832155": {
@@ -9887,6 +10060,30 @@
       "electropop"
     ]
   },
+  "48506358": {
+    "active": "2021-",
+    "bio": "Philadelphia band making loud, fuzzed-out shoegaze that they describe themselves as \"noise gunk\". They put out the Murmur EP in 2021, a split single with Sparkler in 2024 and the sckrpnch EP in 2026.",
+    "confidence": "medium",
+    "genres": [
+      "rock"
+    ],
+    "name": "Doused",
+    "origin": {
+      "city": "Philadelphia",
+      "country": "US"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal",
+      "https://dousedphl.bandcamp.com/album/murmur",
+      "https://staticsoundsclub.com/2026/04/14/doused-sckrpnch-ep-review/"
+    ],
+    "styles": [
+      "shoegaze",
+      "noise rock",
+      "noise pop"
+    ]
+  },
   "4852314": {
     "active": "2013-",
     "bio": "Los Angeles indie rock band led by Clementine Creevy, mixing 90s grunge, fuzzy alt-pop and dark lyrics. Albums include Apocalipstick (2017), Stuffed & Ready (2019) and I Don't Want You Anymore (2023).",
@@ -11392,6 +11589,30 @@
       "indie pop"
     ]
   },
+  "5658106": {
+    "active": "2014-",
+    "bio": "Istanbul singer and songwriter who mixes Turkish folk and Anatolian psychedelic rock with surf guitar and post-punk edges, with a flamboyant stage look to match. She debuted in 2014 and is best known for İstikrarlı Hayal Hakikattir (2018) and Anadolu Ejderi (2022).",
+    "confidence": "medium",
+    "genres": [
+      "world",
+      "rock"
+    ],
+    "name": "Gaye Su Akyol",
+    "note": "No Tidal bio; summary from general knowledge plus Tidal discography",
+    "origin": {
+      "city": "Istanbul",
+      "country": "TR"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal"
+    ],
+    "styles": [
+      "anatolian rock",
+      "psychedelic rock",
+      "neo-psychedelia"
+    ]
+  },
   "5688806": {
     "active": "2013-",
     "bio": "Duo of Harmony Tividad and Cleo Tucker, who started playing Los Angeles all-ages shows as high schoolers. They moved from minimal lo-fi punk-folk to fuller indie rock on records like Powerplant (2017) and What Chaos Is Imaginary (2019). Forgiveness (2022) followed.",
@@ -12400,6 +12621,30 @@
       "persian rock"
     ]
   },
+  "6585522": {
+    "active": "1979-",
+    "bio": "Kid Congo Powers is a Los Angeles-born guitarist who played in The Gun Club, The Cramps and Nick Cave and the Bad Seeds. Since the mid-2000s he has led Kid Congo & the Pink Monkey Birds, a garage-psych band heard on Dracula Boots (2009) and That Delicious Vice (2024).",
+    "confidence": "medium",
+    "genres": [
+      "rock",
+      "punk"
+    ],
+    "name": "Kid Congo",
+    "note": "No Tidal bio; summary from general knowledge plus Tidal discography",
+    "origin": {
+      "city": "Los Angeles",
+      "country": "US"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal"
+    ],
+    "styles": [
+      "garage rock",
+      "garage punk",
+      "psychedelic rock"
+    ]
+  },
   "6632454": {
     "active": "2018-",
     "bio": "English artist Jed Stewart-Ng who started producing in his bedroom, making downtempo indie pop. Known for GOOD COMPANY (2020) and tracks like Lights Out.",
@@ -12875,6 +13120,30 @@
       "emo rap"
     ]
   },
+  "71471209": {
+    "active": "2018-",
+    "bio": "Naples band formed in 2018 by local scene veterans Marcello Giannini, Paolo Petrella and Andrea de Fazio, later joined by keyboardist Roberto Porzio. They make loose, groove-based instrumental music that draws on Italian cosmic jazz, Anatolian psych, Balkan folk and desert blues over dub and funk rhythms. Albums: Psyché (2023) and Psyché II (2026).",
+    "confidence": "high",
+    "genres": [
+      "world",
+      "jazz"
+    ],
+    "name": "Psyché",
+    "origin": {
+      "city": "Naples",
+      "country": "IT"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal"
+    ],
+    "styles": [
+      "world fusion",
+      "psychedelic rock",
+      "funk",
+      "dub"
+    ]
+  },
   "7154671": {
     "active": "2014-",
     "bio": "Los Angeles-based singer-songwriter (born in Oregon) who rose from early industry buzz into a dreamy, noir-tinged psych-pop style. Her records include Belladonna of Sadness (2017), The Archer (2020) and Beneath the Lilypad (2025).",
@@ -13278,6 +13547,29 @@
       "latin trap",
       "urbano",
       "dembow"
+    ]
+  },
+  "74": {
+    "active": "1966-",
+    "bio": "San Francisco band led by guitarist Carlos Santana that brought Latin rock into the mainstream in the late 1960s, mixing blues-rock guitar with Afro-Cuban percussion. After their Woodstock set came the classic albums Santana, Abraxas and Santana III, and in 1999 they made a huge comeback with Supernatural and its hit \"Smooth\".",
+    "confidence": "high",
+    "genres": [
+      "rock",
+      "latin"
+    ],
+    "name": "Santana",
+    "origin": {
+      "city": "San Francisco",
+      "country": "US"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal"
+    ],
+    "styles": [
+      "latin rock",
+      "blues rock",
+      "jazz fusion"
     ]
   },
   "7401022": {
@@ -14283,6 +14575,27 @@
       "cinematic"
     ]
   },
+  "8039214": {
+    "active": "2016-",
+    "bio": "Project of Northern California multi-instrumentalist Hannah van Loon, formerly of Trails and Ways, produced with Toro y Moi's Chaz Bear. Her songs sit between shoegaze haze and soft dream pop: Sundays (2018) is quiet and melancholy, while GIZMO (2023) brought heavier guitars and industrial synths.",
+    "confidence": "high",
+    "genres": [
+      "rock",
+      "indie"
+    ],
+    "name": "Tanukichan",
+    "origin": {
+      "country": "US"
+    },
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal"
+    ],
+    "styles": [
+      "shoegaze",
+      "dream pop"
+    ]
+  },
   "8054795": {
     "active": "2015-",
     "bio": "Low Hum is the psychedelic synth pop project of Collin Deshazer from Los Angeles. His music balances clubby beats, textured noise and billowy atmospheres. Albums include Room to Breathe (2019), Nonfiction (2021) and Terra Incognita (2024).",
@@ -14544,6 +14857,20 @@
       "baroque pop",
       "soft rock"
     ]
+  },
+  "82418472": {
+    "active": "2015-",
+    "bio": "Little-documented act on Tidal with the release Nothing New (2026) and a 2026 mix of the 2015 track \"sway\". No reliable background information was found.",
+    "confidence": "low",
+    "genres": [],
+    "name": "pitschouse",
+    "note": "No bio or web sources found; genre and origin unknown",
+    "origin": {},
+    "researched_at": "2026-11-01",
+    "sources": [
+      "tidal"
+    ],
+    "styles": []
   },
   "8260554": {
     "active": "2018-",
