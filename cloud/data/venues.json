@@ -4,7 +4,7 @@
     "city": "Zürich",
     "kind": "venue",
     "url": "https://www.hallenstadion.ch/events/",
-    "notes": ""
+    "notes": "/events/ shows only ~3 weeks (Nov) though filter offers to April; needs month filter or other source"
   },
   {
     "name": "Halle 622",
@@ -18,7 +18,7 @@
     "city": "Zürich",
     "kind": "venue",
     "url": "https://www.x-tra.ch/en/program/",
-    "notes": "/programm/ shows only a teaser; full list loads more via JS"
+    "notes": "/en/program/ shows only ~2 weeks (9 events); rest loaded via JS"
   },
   {
     "name": "Kaufleuten",
@@ -46,14 +46,14 @@
     "city": "Zürich",
     "kind": "venue",
     "url": "https://www.dynamo.ch/events-kurse",
-    "notes": "home page lists only courses; unverified, fetch budget ran out"
+    "notes": "events-kurse page lists concerts (no per-event links) ~7 weeks ahead; Chapo102 29.11 listed here 'new venue' but Komplex 457 lists it too"
   },
   {
     "name": "Rote Fabrik",
     "city": "Zürich",
     "kind": "venue",
     "url": "https://rotefabrik.ch/programm",
-    "notes": "Calendar is rendered by JavaScript; no events in fetched HTML. Needs an API/ICS feed or petzi."
+    "notes": "Calendar JS-only (confirmed 2026-11-02); no API/ICS/petzi link in HTML; petzi organiser id unknown"
   },
   {
     "name": "Mascotte",
@@ -88,14 +88,14 @@
     "city": "Zürich",
     "kind": "venue",
     "url": "https://www.moods.ch/programm",
-    "notes": ""
+    "notes": "/programm shows only ~30 days; 'next 30 days' load-more has no URL; programme PDF link fails to fetch."
   },
   {
     "name": "Stall 6",
     "city": "Zürich",
     "kind": "venue",
-    "url": "https://www.stall6.ch/programm/",
-    "notes": "few public concert listings found; check stadtkonzerte.ch/locations/stall-6-zurich"
+    "url": "https://stadtkonzerte.ch/locations/stall-6-zurich",
+    "notes": "stall6.ch/programm/ redirects to gessnerallee.ch/gastronomieprogramm which has no events; try stadtkonzerte.ch listing."
   },
   {
     "name": "Stadion Letzigrund",
@@ -137,7 +137,7 @@
     "city": "Basel",
     "kind": "venue",
     "url": "https://kaserne-basel.ch/de",
-    "notes": "Dates not in page text; listing accepts ?start=YYYY-MM-DD&end=YYYY-MM-DD (end exclusive) to pin dates."
+    "notes": "Dates not in page text even with ?start&end; a 6-month range lists events without dates. Must use per-month (or narrower) windows; budget ~6+ fetches."
   },
   {
     "name": "Kuppel",
@@ -214,7 +214,7 @@
     "city": "Bern",
     "kind": "venue",
     "url": "https://www.dampfzentrale.ch/en/",
-    "notes": ""
+    "notes": "mostly dance/theatre; music = Full Of Lava festival (Nov) + occasional concerts, all on /en/ homepage"
   },
   {
     "name": "Gaskessel",
@@ -249,14 +249,14 @@
     "city": "Kriens",
     "kind": "venue",
     "url": "https://www.sudpol.ch/programm",
-    "notes": "full program on one page"
+    "notes": "full program on one page but per year; 2027 events at ?year=2027; no per-event links"
   },
   {
     "name": "KKL Luzern",
     "city": "Luzern",
     "kind": "venue",
     "url": "https://www.kkl-luzern.ch/events",
-    "notes": "home has no listing; events page shows only ~2 months"
+    "notes": "home has no listing; events page shows only ~2 months (Nov-Dec), no pagination URLs"
   },
   {
     "name": "Sedel",
@@ -277,7 +277,7 @@
     "city": "St. Gallen",
     "kind": "venue",
     "url": "https://www.grabenhalle.ch/programm/",
-    "notes": "program published ~1 month ahead"
+    "notes": "program published ~1 month ahead; fetched page text truncates after ~7 weeks"
   },
   {
     "name": "Royal",
@@ -291,7 +291,7 @@
     "city": "Aarau",
     "kind": "venue",
     "url": "https://www.petzi.ch/de/organiser/5/",
-    "notes": "Own site blocks automated reading; petzi organiser page lists all shows."
+    "notes": "Own site blocks automated reading; petzi organiser page lists ~50 entries incl. recent past shows and may cap (gap 2026-12-19..2027-03-11). Ruby Haunt 2027-03-24 not on petzi as of 2026-11-02."
   },
   {
     "name": "Kulturfabrik Kofmehl",
@@ -340,7 +340,7 @@
     "city": "Düdingen",
     "kind": "venue",
     "url": "https://club.badbonn.ch/",
-    "notes": "badbonn.ch/programm/ errors; program moved to club.badbonn.ch"
+    "notes": "badbonn.ch/programm/ errors; program at club.badbonn.ch. Listing omits years; archive URL year can be wrong (Jan events under /2026/)."
   },
   {
     "name": "Le Singe / Kulturzentrum Gaskessel Biel",
@@ -353,15 +353,15 @@
     "name": "Stadtkonzerte (aggregator)",
     "city": "Zürich",
     "kind": "aggregator",
-    "url": "https://stadtkonzerte.ch/",
-    "notes": ""
+    "url": "https://stadtkonzerte.ch/konzertnews",
+    "notes": "Homepage, /konzerte and /konzerte?region=X are JS-rendered (Angular placeholders, no dates). Use /konzertnews (announcements with date+venue+city, ~100 shows, truncated by reader) and /konzerttipps (dated picks); event links are /artists/<slug>."
   },
   {
     "name": "petzi (Swiss club ticketing)",
     "city": "Switzerland",
     "kind": "aggregator",
     "url": "https://www.petzi.ch/de/events/",
-    "notes": "/de/events/ shows only ~4 days. Use organiser pages https://www.petzi.ch/de/organiser/<id>/ (KiFF 5, Fri-Son 29, Helsinki 149, TapTab 164, KartellCulturel 200, Kuppel 475292); find an id via an event page's \"Weitere Veranstaltungen von\" link."
+    "notes": "/de/events/ shows only ~4 days. Use organiser pages https://www.petzi.ch/de/organiser/<id>/ (KiFF Aarau 5, Fri-Son Fribourg 29, Helsinki Zürich 149, TapTab Schaffhausen 164, KartellCulturel Biel 200 (Le Singe, Untergasse 21), Kuppel Basel 475292); organiser pages list no city, and include some past events; find an id via an event page's \"Weitere Veranstaltungen von\" link."
   },
   {
     "name": "OpenAir St. Gallen",
@@ -430,8 +430,8 @@
     "name": "Zermatt Unplugged",
     "city": "Zermatt",
     "kind": "openair",
-    "url": "https://zermatt-unplugged.ch/en/",
-    "notes": "next edition 6-10 Apr 2027 (in horizon); no acts announced as of 2026-10-26, recheck"
+    "url": "https://zermatt-unplugged.ch/en/program/",
+    "notes": "6-10 Apr 2027 confirmed; program page says lineup 'coming in December' (checked 2026-11-02). Recheck in December."
   },
   {
     "name": "Heitere Open Air",
@@ -501,13 +501,13 @@
     "city": "Basel",
     "kind": "festival",
     "url": "https://www.baloisesession.ch/",
-    "notes": "annual Oct-Nov at Event Halle Messe Basel; 2026 edition 15 Oct-4 Nov (remaining: 30 Oct, 3 Nov, 4 Nov; Erykah Badu's 27 Oct show moved to 15 Oct); 2027 edition expected Oct-Nov 2027"
+    "notes": "2026 edition ends 4 Nov 2026 (remaining after 2026-11-02: 3 Nov Joe Bonamassa + Brandy Clark; 4 Nov Picture This + Amistat). Next edition expected Oct-Nov 2027, outside horizon."
   },
   {
     "name": "Lucerne Open Air",
     "city": "Luzern",
     "kind": "openair",
     "url": null,
-    "notes": "no festival of this name found; probably a duplicate of Luzern Live (ex Blue Balls, 15-24 Jul 2027, https://www.luzern-live.ch/); consider removing"
+    "notes": "Still no festival of this name (WebSearch 2026-11-02). Nearest matches: Luzern Live (ex Blue Balls, 15-24 Jul 2027, https://www.luzern-live.ch/) and 'Das Klassik Open Air' of the Luzerner Sinfonieorchester at KKL/Europaplatz, free entry, probably 19 Jun 2027 (https://sinfonieorchester.ch/de/, https://www.luzern.com/de/event/das-klassik-open-air-2027). Both outside horizon. Recommend removing the entry or renaming it to Klassik Open Air Luzern."
   }
 ]
