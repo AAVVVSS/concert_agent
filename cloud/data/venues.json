@@ -137,7 +137,7 @@
     "city": "Basel",
     "kind": "venue",
     "url": "https://kaserne-basel.ch/de",
-    "notes": "Dates not in page text even with ?start&end; a 6-month range lists events without dates. Must use per-month (or narrower) windows; budget ~6+ fetches."
+    "notes": "Event list shows no dates. Use ?start=YYYY-MM-DD&end=YYYY-MM-DD (end exclusive) per month to see slugs, then narrow the window (down to one day) to pin a favourite's date; event pages /de/events/<slug> give lineup but no date."
   },
   {
     "name": "Kuppel",

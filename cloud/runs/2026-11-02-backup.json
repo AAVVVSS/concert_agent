@@ -1,0 +1,25 @@
+{
+  "kind": "backup",
+  "ran_at": "2026-11-02T09:50:32+00:00",
+  "findings": 1,
+  "new": [
+    {
+      "id": "16617727|kaserne basel|2027-04-17",
+      "artist_id": 16617727,
+      "artist_name": "Jule X",
+      "date": "2027-04-17",
+      "venue": "Kaserne Basel",
+      "city": "Basel",
+      "kind": "concert",
+      "url": "https://kaserne-basel.ch/de/events/julex",
+      "status": "confirmed",
+      "notes": "Kaserne program: Jule X with Astro Burger, ANRU & areem (Vokuhila Mafia), 20:00; date pinned via the calendar's date filter (only 17.04 lists it)",
+      "first_seen": "2026-11-02T09:50:32+00:00",
+      "last_seen": "2026-11-02T09:50:32+00:00",
+      "last_changed": "2026-11-02T09:50:32+00:00",
+      "history": []
+    }
+  ],
+  "changed": [],
+  "message": "1 new, 0 changed: Jule X Kaserne Basel Sat 17 Apr"
+}
