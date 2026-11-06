@@ -1,0 +1,573 @@
+{
+  "coming": [],
+  "date": "2026-11-06",
+  "failed": [
+    "playlist: 412 while clearing (stale ETag); refilled by hand after the fix, 129 tracks"
+  ],
+  "favorites": 693,
+  "first_run": false,
+  "new": [
+    {
+      "artist": "Şatellites",
+      "artist_id": "18594582",
+      "artists": [
+        "Mulatu Astatke",
+        "Hoodna Orchestra",
+        "Bolbec",
+        "Eje Eje",
+        "Sababa 5",
+        "Shay Hazan",
+        "Moriah Plaza",
+        "MOMO.",
+        "Wax Machine",
+        "Ouzo Bazooka",
+        "Yurika Hanashima",
+        "Romano",
+        "Sandman Project",
+        "Kolonel Djafaar",
+        "Gypsy Hill",
+        "La Chooma",
+        "El Khat",
+        "Boom Pam",
+        "Chavo",
+        "Shotnez",
+        "Mamman Sani",
+        "Tropikal Camel",
+        "SHIRAN",
+        "Muito Kaballa",
+        "Hallouminati",
+        "DJ Kobayashi",
+        "Şatellites"
+      ],
+      "cover": "https://resources.tidal.com/images/c984b27e/4796/4892/992c/53080b1a449c/320x320.jpg",
+      "explicit": false,
+      "id": "549079416",
+      "kind": "Album",
+      "release_date": "2026-11-06",
+      "title": "Around The Sun - Batov Records - 10 Years",
+      "tracks": 23,
+      "url": "https://tidal.com/album/549079416"
+    },
+    {
+      "artist": "Vincemp3",
+      "artist_id": "47119025",
+      "artists": [
+        "Vincemp3"
+      ],
+      "cover": "https://resources.tidal.com/images/f8dd722a/dfc2/4d68/929b/534399435a50/320x320.jpg",
+      "explicit": false,
+      "id": "572086868",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "Candy",
+      "tracks": 1,
+      "url": "https://tidal.com/album/572086868"
+    },
+    {
+      "artist": "The Neighbourhood",
+      "artist_id": "3642059",
+      "artists": [
+        "The Neighbourhood"
+      ],
+      "cover": "https://resources.tidal.com/images/388d81b7/96a6/4093/85f7/761e8e8fef24/320x320.jpg",
+      "explicit": false,
+      "id": "571341042",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "Why'd You Have To Leave?",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571341042"
+    },
+    {
+      "artist": "Tegan and Sara",
+      "artist_id": "3556217",
+      "artists": [
+        "Tegan and Sara"
+      ],
+      "cover": "https://resources.tidal.com/images/5bf0f6c2/bd4e/4ec3/a455/ef8a36012179/320x320.jpg",
+      "explicit": false,
+      "id": "572166317",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "I Love Christmas",
+      "tracks": 1,
+      "url": "https://tidal.com/album/572166317"
+    },
+    {
+      "artist": "Tegan and Sara",
+      "artist_id": "3556217",
+      "artists": [
+        "Tegan and Sara"
+      ],
+      "cover": "https://resources.tidal.com/images/099e30e7/16c6/4e56/bfb3/481243d9f5b4/320x320.jpg",
+      "explicit": false,
+      "id": "572166312",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "A December to Remember",
+      "tracks": 1,
+      "url": "https://tidal.com/album/572166312"
+    },
+    {
+      "artist": "Sonn",
+      "artist_id": "6632454",
+      "artists": [
+        "Sonn",
+        "Tony Di Bart"
+      ],
+      "cover": "https://resources.tidal.com/images/23336d24/62c8/4b8e/9a1a/931cc303ce32/320x320.jpg",
+      "explicit": false,
+      "id": "572580970",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "If I Cant Have You",
+      "tracks": 1,
+      "url": "https://tidal.com/album/572580970"
+    },
+    {
+      "artist": "Royal Blood",
+      "artist_id": "4351582",
+      "artists": [
+        "Royal Blood"
+      ],
+      "cover": "https://resources.tidal.com/images/913233a7/0f8f/4c13/a2aa/5f172f67bbea/320x320.jpg",
+      "explicit": true,
+      "id": "575619711",
+      "kind": "Album",
+      "release_date": "2026-11-06",
+      "title": "Dead Company",
+      "tracks": 10,
+      "url": "https://tidal.com/album/575619711"
+    },
+    {
+      "artist": "Nora En Pure",
+      "artist_id": "3707455",
+      "artists": [
+        "Nora En Pure"
+      ],
+      "cover": "https://resources.tidal.com/images/3dbf04f9/fd26/4d9a/a27c/bec5ef6e293c/320x320.jpg",
+      "explicit": false,
+      "id": "571794247",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "Big World",
+      "tracks": 2,
+      "url": "https://tidal.com/album/571794247"
+    },
+    {
+      "artist": "Niko Rubio",
+      "artist_id": "9231923",
+      "artists": [
+        "Marlon Hoffstadt",
+        "Niko Rubio"
+      ],
+      "cover": "https://resources.tidal.com/images/4094081d/b738/4304/8612/626f55d7833a/320x320.jpg",
+      "explicit": false,
+      "id": "574814835",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "Water",
+      "tracks": 1,
+      "url": "https://tidal.com/album/574814835"
+    },
+    {
+      "artist": "Kurt Vile",
+      "artist_id": "3638338",
+      "artists": [
+        "Kurt Vile"
+      ],
+      "cover": "https://resources.tidal.com/images/de1c3711/3fca/4e9f/b487/f6df41b007a7/320x320.jpg",
+      "explicit": false,
+      "id": "559840579",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "When Your Lonely Heart Breaks",
+      "tracks": 1,
+      "url": "https://tidal.com/album/559840579"
+    },
+    {
+      "artist": "Django Django",
+      "artist_id": "3660775",
+      "artists": [
+        "Django Django"
+      ],
+      "cover": "https://resources.tidal.com/images/e19ee18d/f26a/4406/a2f9/574e7ea548ed/320x320.jpg",
+      "explicit": false,
+      "id": "530280509",
+      "kind": "Album",
+      "release_date": "2026-11-06",
+      "title": "Doveland",
+      "tracks": 12,
+      "url": "https://tidal.com/album/530280509"
+    },
+    {
+      "artist": "Devendra Banhart",
+      "artist_id": "3566081",
+      "artists": [
+        "Devendra Banhart"
+      ],
+      "cover": "https://resources.tidal.com/images/8b33111d/1123/4584/926c/eed038b9c1b8/320x320.jpg",
+      "explicit": false,
+      "id": "558585747",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "Pardon My Heart",
+      "tracks": 1,
+      "url": "https://tidal.com/album/558585747"
+    },
+    {
+      "artist": "Deafcult",
+      "artist_id": "7064771",
+      "artists": [
+        "Deafcult"
+      ],
+      "cover": "https://resources.tidal.com/images/1212c2d1/a350/43c8/93ca/f6f3cc43c1fd/320x320.jpg",
+      "explicit": false,
+      "id": "573445382",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "Daily Rothko",
+      "tracks": 1,
+      "url": "https://tidal.com/album/573445382"
+    },
+    {
+      "artist": "Chastity Belt",
+      "artist_id": "6367387",
+      "artists": [
+        "Chastity Belt"
+      ],
+      "cover": "https://resources.tidal.com/images/2d3c0b8d/5d09/4c1b/b1b1/0b170d632936/320x320.jpg",
+      "explicit": true,
+      "id": "544766779",
+      "kind": "Album",
+      "release_date": "2026-11-06",
+      "title": "All My Friends",
+      "tracks": 11,
+      "url": "https://tidal.com/album/544766779"
+    },
+    {
+      "artist": "AURORA",
+      "artist_id": "55225",
+      "artists": [
+        "AURORA",
+        "Bear McCreary"
+      ],
+      "cover": "https://resources.tidal.com/images/2e0c96e5/bfb0/44a0/9a2a/ffee565e2d11/320x320.jpg",
+      "explicit": false,
+      "id": "574504229",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "Morning Shall Come",
+      "tracks": 1,
+      "url": "https://tidal.com/album/574504229"
+    },
+    {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid"
+      ],
+      "cover": "https://resources.tidal.com/images/7ed00121/cb43/4636/b4c4/90d7b6994035/320x320.jpg",
+      "explicit": false,
+      "id": "573866901",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "Into The Ether",
+      "tracks": 1,
+      "url": "https://tidal.com/album/573866901"
+    },
+    {
+      "artist": "ANAIT",
+      "artist_id": "16748699",
+      "artists": [
+        "ANAIT"
+      ],
+      "cover": "https://resources.tidal.com/images/bfe0fef8/52aa/448f/b9bc/df889905a4ed/320x320.jpg",
+      "explicit": false,
+      "id": "568311338",
+      "kind": "Single",
+      "release_date": "2026-11-06",
+      "title": "Поверила твоим глазам",
+      "tracks": 1,
+      "url": "https://tidal.com/album/568311338"
+    },
+    {
+      "artist": "Tusks",
+      "artist_id": "3923467",
+      "artists": [
+        "Tusks"
+      ],
+      "cover": "https://resources.tidal.com/images/fa72fba1/7c88/47dc/a4e2/bc7a0d9f5d9a/320x320.jpg",
+      "explicit": false,
+      "id": "559735689",
+      "kind": "Single",
+      "release_date": "2026-11-05",
+      "title": "Adhere To The Loss",
+      "tracks": 2,
+      "url": "https://tidal.com/album/559735689"
+    },
+    {
+      "artist": "Toro Y Moi",
+      "artist_id": "3887256",
+      "artists": [
+        "Toro Y Moi"
+      ],
+      "cover": "https://resources.tidal.com/images/cd05cf4e/cc6d/4208/95ae/8d63c45b55c2/320x320.jpg",
+      "explicit": false,
+      "id": "570496379",
+      "kind": "Single",
+      "release_date": "2026-11-05",
+      "title": "Motive",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570496379"
+    },
+    {
+      "artist": "Pink Floyd",
+      "artist_id": "9706",
+      "artists": [
+        "Pink Floyd"
+      ],
+      "cover": "https://resources.tidal.com/images/0a62367d/eb41/4529/b28d/8f4a9acbbf6c/320x320.jpg",
+      "explicit": false,
+      "id": "571761049",
+      "kind": "Single",
+      "release_date": "2026-11-05",
+      "title": "Sheep (Original Radio Edit)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571761049"
+    },
+    {
+      "artist": "Olivia Rodrigo",
+      "artist_id": "8161298",
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "cover": "https://resources.tidal.com/images/c708adc0/6cc0/41f8/b6ca/00997fbad300/320x320.jpg",
+      "explicit": false,
+      "id": "576439062",
+      "kind": "Single",
+      "release_date": "2026-11-05",
+      "title": "take me home (4 christmas)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/576439062"
+    },
+    {
+      "artist": "The Durutti Column",
+      "artist_id": "16288",
+      "artists": [
+        "The Durutti Column"
+      ],
+      "cover": "https://resources.tidal.com/images/5fad7f84/9c28/421b/a2dd/d1b585ebc6c6/320x320.jpg",
+      "explicit": false,
+      "id": "570303732",
+      "kind": "Single",
+      "release_date": "2026-11-04",
+      "title": "Your Shadow at Morning (Four Tet Rework)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570303732"
+    },
+    {
+      "artist": "Royal Blood",
+      "artist_id": "4351582",
+      "artists": [
+        "Royal Blood"
+      ],
+      "cover": "https://resources.tidal.com/images/051a7449/b250/4ae2/aad5/0ff8b150e0b4/320x320.jpg",
+      "explicit": false,
+      "id": "574282262",
+      "kind": "Single",
+      "release_date": "2026-11-04",
+      "title": "Mother Never Told You",
+      "tracks": 1,
+      "url": "https://tidal.com/album/574282262"
+    },
+    {
+      "artist": "J Balvin",
+      "artist_id": "5054713",
+      "artists": [
+        "Manuel Turizo",
+        "J Balvin"
+      ],
+      "cover": "https://resources.tidal.com/images/f031d459/a752/484e/98cc/46c072267037/320x320.jpg",
+      "explicit": false,
+      "id": "570182442",
+      "kind": "Single",
+      "release_date": "2026-11-04",
+      "title": "COMO FUERA",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570182442"
+    },
+    {
+      "artist": "Hannah Jadagu",
+      "artist_id": "18134760",
+      "artists": [
+        "Hannah Jadagu"
+      ],
+      "cover": "https://resources.tidal.com/images/2019165a/41d5/43b4/90f7/d257c61354a6/320x320.jpg",
+      "explicit": false,
+      "id": "566408242",
+      "kind": "Single",
+      "release_date": "2026-11-04",
+      "title": "Curse",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566408242"
+    },
+    {
+      "artist": "Crate",
+      "artist_id": "85742448",
+      "artists": [
+        "Crate"
+      ],
+      "cover": "https://resources.tidal.com/images/04632587/2991/47f6/a55b/ce27ad5b40ac/320x320.jpg",
+      "explicit": false,
+      "id": "566657239",
+      "kind": "Single",
+      "release_date": "2026-11-04",
+      "title": "Crushed to Nothing",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566657239"
+    },
+    {
+      "artist": "Cafuné",
+      "artist_id": "6309321",
+      "artists": [
+        "ronin",
+        "Cafuné"
+      ],
+      "cover": "https://resources.tidal.com/images/c6b9655b/9913/4b5e/b81d/0ecafd32a2bd/320x320.jpg",
+      "explicit": false,
+      "id": "575966121",
+      "kind": "Single",
+      "release_date": "2026-11-04",
+      "title": "Back To The",
+      "tracks": 1,
+      "url": "https://tidal.com/album/575966121"
+    },
+    {
+      "artist": "Arden Jones",
+      "artist_id": "23067787",
+      "artists": [
+        "Newport",
+        "Arden Jones"
+      ],
+      "cover": "https://resources.tidal.com/images/c36749b2/0917/449d/8f25/a46d0a235844/320x320.jpg",
+      "explicit": false,
+      "id": "570159944",
+      "kind": "Single",
+      "release_date": "2026-11-04",
+      "title": "everything was fickle (feat. Arden Jones)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570159944"
+    },
+    {
+      "artist": "Saya Gray",
+      "artist_id": "14347717",
+      "artists": [
+        "Saya Gray"
+      ],
+      "cover": "https://resources.tidal.com/images/db7a3cb7/c559/4b6d/93a1/0e212e88c82a/320x320.jpg",
+      "explicit": true,
+      "id": "569989931",
+      "kind": "Album",
+      "release_date": "2026-11-03",
+      "title": "QWERTY III",
+      "tracks": 7,
+      "url": "https://tidal.com/album/569989931"
+    },
+    {
+      "artist": "Liraz",
+      "artist_id": "8306846",
+      "artists": [
+        "Liraz"
+      ],
+      "cover": "https://resources.tidal.com/images/56abb7ed/1231/4833/ab5d/cad49cf9a955/320x320.jpg",
+      "explicit": false,
+      "id": "570216225",
+      "kind": "Single",
+      "release_date": "2026-11-02",
+      "title": "Azizam (Guy Moses Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/570216225"
+    },
+    {
+      "artist": "Snoop Dogg",
+      "artist_id": "8914",
+      "artists": [
+        "Snoop Dogg",
+        "Kurupt"
+      ],
+      "cover": "https://resources.tidal.com/images/6c1f217b/b008/4c01/8bf7/9c27550ed22f/320x320.jpg",
+      "explicit": true,
+      "id": "574256344",
+      "kind": "Album",
+      "release_date": "2026-10-31",
+      "title": "The Hollow",
+      "tracks": 8,
+      "url": "https://tidal.com/album/574256344"
+    },
+    {
+      "artist": "untitled (halo)",
+      "artist_id": "37221039",
+      "artists": [
+        "untitled (halo)"
+      ],
+      "cover": "https://resources.tidal.com/images/554e891d/d96f/4b2c/b87e/fc2b7de5d893/320x320.jpg",
+      "explicit": true,
+      "id": "564450196",
+      "kind": "Album",
+      "release_date": "2026-10-30",
+      "title": "untitled (halo)",
+      "tracks": 11,
+      "url": "https://tidal.com/album/564450196"
+    },
+    {
+      "artist": "The Zombies",
+      "artist_id": "30814",
+      "artists": [
+        "The Zombies"
+      ],
+      "cover": "https://resources.tidal.com/images/f1ca59bf/b3e3/43b5/85d3/2259753b98be/320x320.jpg",
+      "explicit": false,
+      "id": "574692596",
+      "kind": "Album",
+      "release_date": "2026-10-30",
+      "title": "Continue Here (Mono Remastered)",
+      "tracks": 18,
+      "url": "https://tidal.com/album/574692596"
+    },
+    {
+      "artist": "C. Tangana",
+      "artist_id": "7995155",
+      "artists": [
+        "C. Tangana",
+        "Agorazein"
+      ],
+      "cover": "https://resources.tidal.com/images/d72ab0ac/517c/466d/8453/6ee55db0915e/320x320.jpg",
+      "explicit": true,
+      "id": "572245989",
+      "kind": "Single",
+      "release_date": "2026-10-30",
+      "title": "Milko Freestyle",
+      "tracks": 1,
+      "url": "https://tidal.com/album/572245989"
+    },
+    {
+      "artist": "nowhere else to be",
+      "artist_id": "78565908",
+      "artists": [
+        "nowhere else to be"
+      ],
+      "cover": "https://resources.tidal.com/images/db7b11a4/19c0/4e00/8f71/4ea13a371514/320x320.jpg",
+      "explicit": false,
+      "id": "531797124",
+      "kind": "Single",
+      "release_date": "2026-10-28",
+      "title": "r1 (ripples)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/531797124"
+    }
+  ],
+  "playlist_url": "https://tidal.com/playlist/7f909003-f4b3-435c-914f-3119365a08ba",
+  "ran_at": "2026-11-06T14:49:18+00:00",
+  "releases_listed": 24705
+}
