@@ -164,11 +164,15 @@ def update_playlist(session, tracks_by_release: list[tuple[dict, list]]) -> str 
     if playlist is None:
         playlist = session.user.create_playlist(
             PLAYLIST_TITLE, "New albums, EPs and singles by my favorite artists, refreshed every week.")
-    else:
-        playlist.clear()
-    ids = [str(t.id) for _, tracks in tracks_by_release for t in tracks]
     # Each change bumps the playlist's ETag, so reload it before every write
-    # (a stale one gets 412 Precondition Failed). Tidal adds at most 100 per call.
+    # (a stale one gets 412 Precondition Failed). That's why this doesn't use
+    # playlist.clear(), which removes in chunks of 50 without reloading.
+    playlist = session.playlist(playlist.id)
+    while playlist.num_tracks:
+        playlist.remove_by_indices(range(min(playlist.num_tracks, 50)))
+        playlist = session.playlist(playlist.id)
+    ids = [str(t.id) for _, tracks in tracks_by_release for t in tracks]
+    # Tidal adds at most 100 per call.
     for i in range(0, len(ids), 100):
         playlist = session.playlist(playlist.id)
         playlist.add(ids[i:i + 100], allow_duplicates=False, limit=100)
