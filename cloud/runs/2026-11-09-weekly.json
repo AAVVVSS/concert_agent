@@ -1,0 +1,41 @@
+{
+  "kind": "weekly",
+  "ran_at": "2026-11-09T06:59:55+00:00",
+  "findings": 23,
+  "new": [
+    {
+      "id": "17108759|volkshaus zurich|2027-01-31",
+      "artist_id": 17108759,
+      "artist_name": "Tricky",
+      "date": "2027-01-31",
+      "venue": "Volkshaus Zürich",
+      "city": "Zürich",
+      "kind": "concert",
+      "url": "https://www.ticketmaster.ch/event/268780933",
+      "status": "confirmed",
+      "notes": "Volkshaus Zürich program lists Tricky 31.01.2027; also stadtkonzerte /konzertnews (Tricky (uk))",
+      "first_seen": "2026-11-09T06:59:55+00:00",
+      "last_seen": "2026-11-09T06:59:55+00:00",
+      "last_changed": "2026-11-09T06:59:55+00:00",
+      "history": []
+    },
+    {
+      "id": "3819025|mokka|2027-04-16",
+      "artist_id": 3819025,
+      "artist_name": "Fai Baba",
+      "date": "2027-04-16",
+      "venue": "Mokka",
+      "city": "Thun",
+      "kind": "concert",
+      "url": "https://mokka.ch/event/fai-baba-domi-chansorn/",
+      "status": "confirmed",
+      "notes": "Mokka program: Fai Baba + Domi Chansorn; also stadtkonzerte /konzertnews",
+      "first_seen": "2026-11-09T06:59:55+00:00",
+      "last_seen": "2026-11-09T06:59:55+00:00",
+      "last_changed": "2026-11-09T06:59:55+00:00",
+      "history": []
+    }
+  ],
+  "changed": [],
+  "message": "2 new, 0 changed: Tricky Volkshaus Zürich Sun 31 Jan; Fai Baba Mokka Fri 16 Apr"
+}
