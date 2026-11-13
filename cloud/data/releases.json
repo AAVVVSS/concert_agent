@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-06T14:49:18+00:00",
+  "last_run": "2026-11-13T15:52:15+00:00",
   "playlist_url": "https://tidal.com/playlist/7f909003-f4b3-435c-914f-3119365a08ba",
   "releases": {
     "516101473": {
@@ -389,6 +389,24 @@
       "tracks": 1,
       "url": "https://tidal.com/album/545730475"
     },
+    "545730519": {
+      "artist": "Los Bitchos",
+      "artist_id": "9132216",
+      "artists": [
+        "Los Bitchos"
+      ],
+      "cover": "https://resources.tidal.com/images/0330d4b0/9395/4405/8224/440427a52207/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "545730519",
+      "kind": "Album",
+      "release_date": "2026-11-13",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Los Bitchos & Friends Vol 1",
+      "tracks": 9,
+      "url": "https://tidal.com/album/545730519"
+    },
     "545814960": {
       "artist": "Chastity Belt",
       "artist_id": "6367387",
@@ -406,6 +424,43 @@
       "title": "To Decide / Designs",
       "tracks": 4,
       "url": "https://tidal.com/album/545814960"
+    },
+    "546904838": {
+      "artist": "Sufjan Stevens",
+      "artist_id": "64638",
+      "artists": [
+        "Sufjan Stevens"
+      ],
+      "cover": "https://resources.tidal.com/images/738df834/8df3/490e/828a/6e276dafdaf4/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "546904838",
+      "kind": "Album",
+      "release_date": "2026-11-06",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Worst Christmas Ever!",
+      "tracks": 16,
+      "url": "https://tidal.com/album/546904838"
+    },
+    "548654696": {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid",
+        "Quokka Music"
+      ],
+      "cover": "https://resources.tidal.com/images/6b890b9f/5b0c/47c4/b34b/4ab82f59a2e4/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "548654696",
+      "kind": "Single",
+      "release_date": "2026-11-12",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Day by Day",
+      "tracks": 1,
+      "url": "https://tidal.com/album/548654696"
     },
     "548655942": {
       "artist": "Asteroid",
@@ -542,6 +597,24 @@
       "tracks": 4,
       "url": "https://tidal.com/album/551689780"
     },
+    "551795817": {
+      "artist": "Sufjan Stevens",
+      "artist_id": "64638",
+      "artists": [
+        "Sufjan Stevens"
+      ],
+      "cover": "https://resources.tidal.com/images/a0366ca3/fc6c/4aac/868f/72f62bc4ca43/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "551795817",
+      "kind": "Single",
+      "release_date": "2026-11-02",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "On This Christmas (It Only Gets Better)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/551795817"
+    },
     "551819048": {
       "artist": "Land Of Talk",
       "artist_id": "18786",
@@ -554,8 +627,8 @@
       "id": "551819048",
       "kind": "Album",
       "release_date": "2026-11-13",
-      "reported": "2026-11-06T14:49:18+00:00",
-      "status": "coming",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
       "title": "LASTS",
       "tracks": 8,
       "url": "https://tidal.com/album/551819048"
@@ -719,7 +792,7 @@
       "id": "556166788",
       "kind": "Album",
       "release_date": "2027-01-29",
-      "reported": "2026-11-06T14:49:18+00:00",
+      "reported": "2026-11-13T15:52:15+00:00",
       "status": "coming",
       "title": "Private Lives",
       "tracks": 10,
@@ -864,7 +937,7 @@
       "id": "559730255",
       "kind": "Album",
       "release_date": "2027-02-12",
-      "reported": "2026-11-06T14:49:18+00:00",
+      "reported": "2026-11-13T15:52:15+00:00",
       "status": "coming",
       "title": "Do I See You There?",
       "tracks": 10,
@@ -1255,6 +1328,24 @@
       "title": "piouhgd (2026 Remaster)",
       "tracks": 13,
       "url": "https://tidal.com/album/563367280"
+    },
+    "563392668": {
+      "artist": "Four Tet",
+      "artist_id": "3520717",
+      "artists": [
+        "Four Tet"
+      ],
+      "cover": "https://resources.tidal.com/images/a700d2d5/23ba/467f/b2db/a4aed1cde22c/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "563392668",
+      "kind": "Single",
+      "release_date": "2026-11-13",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Moma (2026 Remaster)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/563392668"
     },
     "563489414": {
       "artist": "MARO",
@@ -1745,7 +1836,7 @@
       "id": "565829146",
       "kind": "EP",
       "release_date": "2027-01-08",
-      "reported": "2026-11-06T14:49:18+00:00",
+      "reported": "2026-11-13T15:52:15+00:00",
       "status": "coming",
       "title": "Remix The Chaos (Volume 3)",
       "tracks": 4,
@@ -2095,6 +2186,43 @@
       "tracks": 7,
       "url": "https://tidal.com/album/566441606"
     },
+    "566532832": {
+      "artist": "King Gizzard & The Lizard Wizard",
+      "artist_id": "5336235",
+      "artists": [
+        "Scott Reef",
+        "King Gizzard & The Lizard Wizard",
+        "Jimmy Barnes",
+        "Fred Leone",
+        "Alex Lahey",
+        "Drifting Clouds",
+        "Montaigne",
+        "DOBBY",
+        "Urthboy",
+        "BIRDLAND",
+        "John Butler",
+        "Ruby Rodgers",
+        "Mahalia Barnes and The Soul Mates",
+        "Brinkley Davies",
+        "Nidala",
+        "Ngaiire",
+        "Leah Senior",
+        "The Moving Stills",
+        "Lipstick Palms",
+        "Tim Shiel"
+      ],
+      "cover": "https://resources.tidal.com/images/8e3cd571/e04b/4a05/bdfa/eae40bbc0d87/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "566532832",
+      "kind": "Single",
+      "release_date": "2026-11-09",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "If Not Now (Extended Version)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/566532832"
+    },
     "566549024": {
       "artist": "Warpaint",
       "artist_id": "3722866",
@@ -2149,6 +2277,25 @@
       "tracks": 1,
       "url": "https://tidal.com/album/566555404"
     },
+    "566577852": {
+      "artist": "Oklou",
+      "artist_id": "8140560",
+      "artists": [
+        "Oklou",
+        "rob"
+      ],
+      "cover": "https://resources.tidal.com/images/67ce7509/f532/445f/a9bb/d00ab91b04c4/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "566577852",
+      "kind": "Album",
+      "release_date": "2026-12-11",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "coming",
+      "title": "In Waves (Original Soundtrack)",
+      "tracks": 23,
+      "url": "https://tidal.com/album/566577852"
+    },
     "566602103": {
       "artist": "Purity Ring",
       "artist_id": "4087094",
@@ -2184,6 +2331,24 @@
       "title": "Crushed to Nothing",
       "tracks": 1,
       "url": "https://tidal.com/album/566657239"
+    },
+    "566657258": {
+      "artist": "Crate",
+      "artist_id": "85742448",
+      "artists": [
+        "Crate"
+      ],
+      "cover": "https://resources.tidal.com/images/8d8e11b1/c88f/449c/9e6a/13be9a816d77/320x320.jpg",
+      "explicit": true,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "566657258",
+      "kind": "Album",
+      "release_date": "2026-11-13",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Crate",
+      "tracks": 11,
+      "url": "https://tidal.com/album/566657258"
     },
     "566971283": {
       "artist": "Arlo Parks",
@@ -2269,7 +2434,7 @@
       "id": "567288911",
       "kind": "Album",
       "release_date": "2026-12-11",
-      "reported": "2026-11-06T14:49:18+00:00",
+      "reported": "2026-11-13T15:52:15+00:00",
       "status": "coming",
       "title": "pb band live 25 at power station",
       "tracks": 17,
@@ -2681,6 +2846,24 @@
       "title": "Wieso kompliziert?",
       "tracks": 1,
       "url": "https://tidal.com/album/568588323"
+    },
+    "568694667": {
+      "artist": "Paris Texas",
+      "artist_id": "24178234",
+      "artists": [
+        "Paris Texas"
+      ],
+      "cover": "https://resources.tidal.com/images/7e88a785/cf69/4d55/91cb/0fa206c44f95/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "568694667",
+      "kind": "Album",
+      "release_date": "2026-11-13",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "The Truth Ain't Shy",
+      "tracks": 6,
+      "url": "https://tidal.com/album/568694667"
     },
     "568705485": {
       "artist": "Nora En Pure",
@@ -3281,6 +3464,24 @@
       "tracks": 1,
       "url": "https://tidal.com/album/571223603"
     },
+    "571259142": {
+      "artist": "Vanishing Twin",
+      "artist_id": "7782790",
+      "artists": [
+        "Vanishing Twin"
+      ],
+      "cover": "https://resources.tidal.com/images/ce3a58d8/7b9d/41bc/9ed3/faef8f198bff/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "571259142",
+      "kind": "Single",
+      "release_date": "2026-11-10",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Twist (Version)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571259142"
+    },
     "571316181": {
       "artist": "richard houghten",
       "artist_id": "4203238",
@@ -3428,6 +3629,24 @@
       "title": "‘Some Days Are Made for Rain’ (Music Inspired by LAIKA's Wildwood)",
       "tracks": 1,
       "url": "https://tidal.com/album/571600073"
+    },
+    "571609047": {
+      "artist": "TEKE::TEKE",
+      "artist_id": "9770131",
+      "artists": [
+        "TEKE::TEKE"
+      ],
+      "cover": "https://resources.tidal.com/images/c1dba6e0/8e41/4083/886d/f9a4471c5b19/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "571609047",
+      "kind": "Single",
+      "release_date": "2026-11-12",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Shura",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571609047"
     },
     "571615006": {
       "artist": "RY X",
@@ -3600,15 +3819,15 @@
         "Death From Above 1979",
         "Steve Aoki"
       ],
-      "cover": "https://resources.tidal.com/images/3823fb20/d308/498e/a20f/04b5b5d66a7a/320x320.jpg",
+      "cover": "https://resources.tidal.com/images/80ef1196/1015/433d/848f/ae48750d865e/320x320.jpg",
       "explicit": false,
       "first_seen": "2026-10-23T13:50:38+00:00",
       "id": "572315757",
       "kind": "Single",
       "release_date": "2026-11-13",
-      "reported": "2026-10-23T13:50:38+00:00",
-      "status": "coming",
-      "title": "Private Lives (Steve Aoki Remix)",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Private Lives (Steve Aoki 3LKTR0 Remix)",
       "tracks": 1,
       "url": "https://tidal.com/album/572315757"
     },
@@ -3685,6 +3904,25 @@
       "tracks": 5,
       "url": "https://tidal.com/album/572402828"
     },
+    "572469835": {
+      "artist": "Sofía Gabanna",
+      "artist_id": "16127746",
+      "artists": [
+        "Sofía Gabanna",
+        "Lucho Marc"
+      ],
+      "cover": "https://resources.tidal.com/images/403b1beb/4366/4f7b/90e9/e5e17b9e548f/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "572469835",
+      "kind": "Single",
+      "release_date": "2026-11-13",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "CUENTA ATRÁS",
+      "tracks": 1,
+      "url": "https://tidal.com/album/572469835"
+    },
     "572480265": {
       "artist": "Vacíos Cuerpos",
       "artist_id": "21556526",
@@ -3741,6 +3979,26 @@
       "tracks": 1,
       "url": "https://tidal.com/album/572580970"
     },
+    "572588565": {
+      "artist": "Loli Cosmica",
+      "artist_id": "9751628",
+      "artists": [
+        "Kren Organico",
+        "MARAHÄ",
+        "Loli Cosmica"
+      ],
+      "cover": "https://resources.tidal.com/images/639c084d/c924/40b3/a01b/5393fdafefb5/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "572588565",
+      "kind": "Single",
+      "release_date": "2026-11-10",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Yaku Mama",
+      "tracks": 1,
+      "url": "https://tidal.com/album/572588565"
+    },
     "572609803": {
       "artist": "Niko Rubio",
       "artist_id": "9231923",
@@ -3794,6 +4052,25 @@
       "title": "Majestic",
       "tracks": 1,
       "url": "https://tidal.com/album/572752478"
+    },
+    "573071833": {
+      "artist": "Kamasi Washington",
+      "artist_id": "6289811",
+      "artists": [
+        "Kamasi Washington",
+        "Peanuts"
+      ],
+      "cover": "https://resources.tidal.com/images/87eb5c67/04b5/4a49/8a79/80b94733fe9d/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "573071833",
+      "kind": "Single",
+      "release_date": "2026-11-10",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Trying To Get There (From \"Snoopy Presents: 12 Days of Snoopy\")",
+      "tracks": 1,
+      "url": "https://tidal.com/album/573071833"
     },
     "573407939": {
       "artist": "Sidewalks and Skeletons",
@@ -3997,6 +4274,24 @@
       "tracks": 1,
       "url": "https://tidal.com/album/574814835"
     },
+    "575329502": {
+      "artist": "Sonn",
+      "artist_id": "6632454",
+      "artists": [
+        "Sonn"
+      ],
+      "cover": "https://resources.tidal.com/images/f28d4334/d70a/4efb/a59f/be2f1748efac/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "575329502",
+      "kind": "Single",
+      "release_date": "2026-11-13",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Get Off The Wall",
+      "tracks": 1,
+      "url": "https://tidal.com/album/575329502"
+    },
     "575619711": {
       "artist": "Royal Blood",
       "artist_id": "4351582",
@@ -4014,6 +4309,24 @@
       "title": "Dead Company",
       "tracks": 10,
       "url": "https://tidal.com/album/575619711"
+    },
+    "575918798": {
+      "artist": "King Gizzard & The Lizard Wizard",
+      "artist_id": "5336235",
+      "artists": [
+        "King Gizzard & The Lizard Wizard"
+      ],
+      "cover": "https://resources.tidal.com/images/c76e099d/4f25/4d8b/a858/22f46e0cd380/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "575918798",
+      "kind": "Single",
+      "release_date": "2026-11-10",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Rogue Wave",
+      "tracks": 1,
+      "url": "https://tidal.com/album/575918798"
     },
     "575966121": {
       "artist": "Cafuné",
@@ -4034,6 +4347,28 @@
       "tracks": 1,
       "url": "https://tidal.com/album/575966121"
     },
+    "576407928": {
+      "artist": "Moby",
+      "artist_id": "9045",
+      "artists": [
+        "Shygirl",
+        "Brutalismus 3000",
+        "Moby",
+        "Christine and the Queens",
+        "Nirosta Steel"
+      ],
+      "cover": "https://resources.tidal.com/images/a03c6660/029d/4826/a58d/1968abb5ae69/320x320.jpg",
+      "explicit": true,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "576407928",
+      "kind": "EP",
+      "release_date": "2026-11-03",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Club Kid (Music From & Inspired by the Film)",
+      "tracks": 5,
+      "url": "https://tidal.com/album/576407928"
+    },
     "576439062": {
       "artist": "Olivia Rodrigo",
       "artist_id": "8161298",
@@ -4051,6 +4386,268 @@
       "title": "take me home (4 christmas)",
       "tracks": 1,
       "url": "https://tidal.com/album/576439062"
+    },
+    "576454826": {
+      "artist": "Camilo Séptimo",
+      "artist_id": "5401144",
+      "artists": [
+        "Camilo Séptimo"
+      ],
+      "cover": "https://resources.tidal.com/images/2c7abd18/373c/41ca/990b/c2964897dfb9/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "576454826",
+      "kind": "Single",
+      "release_date": "2026-11-10",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Kundalini",
+      "tracks": 1,
+      "url": "https://tidal.com/album/576454826"
+    },
+    "576487357": {
+      "artist": "Nubya Garcia",
+      "artist_id": "8757140",
+      "artists": [
+        "Nubya Garcia",
+        "Richie"
+      ],
+      "cover": "https://resources.tidal.com/images/d15fdf98/0796/4c55/9cb3/f2269cee37ca/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "576487357",
+      "kind": "Single",
+      "release_date": "2026-11-13",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Set It Free (musclecars Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/576487357"
+    },
+    "576735690": {
+      "artist": "Moby",
+      "artist_id": "9045",
+      "artists": [
+        "Moby"
+      ],
+      "cover": "https://resources.tidal.com/images/00c3d9c8/a9e2/4250/88ab/f879dea3b005/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "576735690",
+      "kind": "Single",
+      "release_date": "2026-11-13",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "I Want A Rocket (From \"Club Kid\")",
+      "tracks": 1,
+      "url": "https://tidal.com/album/576735690"
+    },
+    "576792829": {
+      "artist": "KAROL G",
+      "artist_id": "5237820",
+      "artists": [
+        "KAROL G",
+        "John Summit",
+        "Judeline",
+        "rusowsky"
+      ],
+      "cover": "https://resources.tidal.com/images/484256af/7576/4018/b9de/09b8052c72e9/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "576792829",
+      "kind": "Single",
+      "release_date": "2026-11-11",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "BbY WOW (John Summit Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/576792829"
+    },
+    "576959881": {
+      "artist": "AIM",
+      "artist_id": "3518502",
+      "artists": [
+        "AIM"
+      ],
+      "cover": "https://resources.tidal.com/images/469134fd/ceb5/4a66/adb3/891848aca515/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "576959881",
+      "kind": "EP",
+      "release_date": "2026-11-12",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "one day at a time",
+      "tracks": 5,
+      "url": "https://tidal.com/album/576959881"
+    },
+    "576990652": {
+      "artist": "Puma Blue",
+      "artist_id": "8725355",
+      "artists": [
+        "Puma Blue"
+      ],
+      "cover": "https://resources.tidal.com/images/d7fd3fa6/1bd5/4fd8/b229/cd6569256b4f/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "576990652",
+      "kind": "Album",
+      "release_date": "2026-11-13",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Croak Deluxe",
+      "tracks": 20,
+      "url": "https://tidal.com/album/576990652"
+    },
+    "577202105": {
+      "artist": "King Gizzard & The Lizard Wizard",
+      "artist_id": "5336235",
+      "artists": [
+        "Scott Reef",
+        "King Gizzard & The Lizard Wizard",
+        "Jimmy Barnes",
+        "Fred Leone",
+        "Alex Lahey",
+        "Drifting Clouds",
+        "Montaigne",
+        "DOBBY",
+        "Urthboy",
+        "BIRDLAND",
+        "John Butler",
+        "Ruby Rodgers",
+        "Mahalia Barnes and The Soul Mates",
+        "Brinkley Davies",
+        "Nidala",
+        "Ngaiire",
+        "Leah Senior",
+        "The Moving Stills",
+        "Lipstick Palms",
+        "Tim Shiel"
+      ],
+      "cover": "https://resources.tidal.com/images/2d85c026/3535/4e83/9192/e7026db6107e/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "577202105",
+      "kind": "Single",
+      "release_date": "2026-11-09",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "If Not Now",
+      "tracks": 1,
+      "url": "https://tidal.com/album/577202105"
+    },
+    "577762728": {
+      "artist": "Summer Walker",
+      "artist_id": "9329127",
+      "artists": [
+        "Belly Gang Kushington",
+        "Summer Walker",
+        "Wale"
+      ],
+      "cover": "https://resources.tidal.com/images/abea8151/e29b/43cf/b3d3/24c8ec5a3086/320x320.jpg",
+      "explicit": true,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "577762728",
+      "kind": "Single",
+      "release_date": "2026-11-12",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Bonnet (feat. Summer Walker & Wale)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/577762728"
+    },
+    "577883981": {
+      "artist": "Summer Walker",
+      "artist_id": "9329127",
+      "artists": [
+        "Skilla Baby",
+        "Chris Brown",
+        "Bryson Tiller",
+        "Summer Walker"
+      ],
+      "cover": "https://resources.tidal.com/images/0d7b2364/cd54/4748/a1ed/afc231ca0aba/320x320.jpg",
+      "explicit": true,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "577883981",
+      "kind": "Single",
+      "release_date": "2026-11-10",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Face Card (Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/577883981"
+    },
+    "578072690": {
+      "artist": "Bonobo",
+      "artist_id": "3518222",
+      "artists": [
+        "Bonobo"
+      ],
+      "cover": "https://resources.tidal.com/images/19763d01/43a2/455c/b61e/3c984bbba7d5/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "578072690",
+      "kind": "Single",
+      "release_date": "2026-11-12",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Memory Signal / Vakata",
+      "tracks": 5,
+      "url": "https://tidal.com/album/578072690"
+    },
+    "578092838": {
+      "artist": "Joseph McDade",
+      "artist_id": "7583051",
+      "artists": [
+        "Joseph McDade"
+      ],
+      "cover": "https://resources.tidal.com/images/d9ef7dea/a65c/4f65/bfa3/fc259a8a8470/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "578092838",
+      "kind": "Album",
+      "release_date": "2026-11-10",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Currents",
+      "tracks": 9,
+      "url": "https://tidal.com/album/578092838"
+    },
+    "578275706": {
+      "artist": "Dark Chisme",
+      "artist_id": "49246712",
+      "artists": [
+        "Dark Chisme"
+      ],
+      "cover": "https://resources.tidal.com/images/6e9da8eb/ad54/4028/bf3c/160a0b2b466d/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "578275706",
+      "kind": "Single",
+      "release_date": "2026-11-11",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Raw",
+      "tracks": 1,
+      "url": "https://tidal.com/album/578275706"
+    },
+    "578820449": {
+      "artist": "The Decemberists",
+      "artist_id": "27309",
+      "artists": [
+        "The Decemberists"
+      ],
+      "cover": "https://resources.tidal.com/images/afdccc39/54ee/4404/b6a3/5a027681a69f/320x320.jpg",
+      "explicit": false,
+      "first_seen": "2026-11-13T15:52:15+00:00",
+      "id": "578820449",
+      "kind": "Single",
+      "release_date": "2026-11-13",
+      "reported": "2026-11-13T15:52:15+00:00",
+      "status": "new",
+      "title": "Bandit Kind",
+      "tracks": 1,
+      "url": "https://tidal.com/album/578820449"
     }
   },
   "seen": {
@@ -14114,6 +14711,7 @@
     "294667386": "2026-10-04",
     "29468807": "2026-10-04",
     "294717387": "2026-10-04",
+    "294719660": "2026-11-13",
     "294793780": "2026-10-04",
     "294812580": "2026-10-23",
     "294830703": "2026-10-04",
@@ -18844,6 +19442,7 @@
     "402142778": "2026-10-04",
     "40214360": "2026-10-04",
     "402146049": "2026-10-04",
+    "402219662": "2026-11-13",
     "402239631": "2026-10-04",
     "4022578": "2026-10-04",
     "402388736": "2026-10-04",
@@ -19828,6 +20427,7 @@
     "424022766": "2026-10-04",
     "424049775": "2026-10-04",
     "424052451": "2026-10-04",
+    "424062311": "2026-11-13",
     "424069517": "2026-10-04",
     "424096415": "2026-10-04",
     "424098230": "2026-10-04",
@@ -23907,6 +24507,7 @@
     "514244841": "2026-10-04",
     "514260218": "2026-10-04",
     "514260385": "2026-10-04",
+    "514263505": "2026-11-13",
     "514336615": "2026-10-04",
     "514370500": "2026-10-04",
     "514393151": "2026-10-04",
@@ -24519,6 +25120,7 @@
     "532865762": "2026-10-04",
     "532865794": "2026-10-04",
     "532934122": "2026-10-04",
+    "533112216": "2026-11-13",
     "53314400": "2026-10-04",
     "533158651": "2026-10-04",
     "53316015": "2026-10-04",
@@ -25005,6 +25607,7 @@
     "546097628": "2026-10-04",
     "546148893": "2026-10-04",
     "546208305": "2026-10-04",
+    "546212145": "2026-11-13",
     "546225065": "2026-10-04",
     "546291565": "2026-10-04",
     "546297615": "2026-10-04",
@@ -25645,6 +26248,7 @@
     "57116358": "2026-10-04",
     "57116593": "2026-10-04",
     "57117463": "2026-10-04",
+    "571297830": "2026-11-13",
     "57144318": "2026-10-04",
     "571501836": "2026-10-23",
     "571529462": "2026-10-23",
@@ -25720,6 +26324,7 @@
     "57514381": "2026-10-04",
     "57522882": "2026-10-04",
     "57530547": "2026-10-04",
+    "575322229": "2026-11-13",
     "575491883": "2026-11-06",
     "575548749": "2026-11-06",
     "575590996": "2026-11-06",
@@ -25732,6 +26337,10 @@
     "576075427": "2026-11-06",
     "576332849": "2026-11-06",
     "576332862": "2026-11-06",
+    "576454818": "2026-11-13",
+    "576487352": "2026-11-13",
+    "576489200": "2026-11-13",
+    "576489202": "2026-11-13",
     "57650991": "2026-10-04",
     "5767895": "2026-10-04",
     "57680448": "2026-10-04",
@@ -25742,10 +26351,22 @@
     "57754406": "2026-10-04",
     "57755156": "2026-10-04",
     "57766114": "2026-10-04",
+    "577720532": "2026-11-13",
+    "577744076": "2026-11-13",
+    "577887304": "2026-11-13",
+    "577908659": "2026-11-13",
+    "578000507": "2026-11-13",
+    "578025237": "2026-11-13",
+    "578064729": "2026-11-13",
+    "578068331": "2026-11-13",
+    "578068347": "2026-11-13",
+    "578087142": "2026-11-13",
     "57809189": "2026-10-04",
     "57833405": "2026-10-04",
     "57840915": "2026-10-04",
     "57842310": "2026-10-04",
+    "578618452": "2026-11-13",
+    "578633726": "2026-11-13",
     "5786914": "2026-10-04",
     "57873928": "2026-10-04",
     "57906441": "2026-10-04",
