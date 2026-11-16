@@ -17,8 +17,8 @@
     "name": "X-TRA / Plaza",
     "city": "Zürich",
     "kind": "venue",
-    "url": "https://www.x-tra.ch/en/program/",
-    "notes": "/en/program/ shows only ~2 weeks (9 events); rest loaded via JS; ?format=ics on the list gives the same 9 (per-event ?format=ics exists). Need other source (e.g. songkick venue calendar on app.songkick.com)."
+    "url": "https://app.songkick.com/venues/49813-xtra/calendar",
+    "notes": "Use app.songkick.com venue calendar (id 49813; full list to May, worked 2026-11-16). Own site https://www.x-tra.ch/en/program/ shows only ~2 weeks incl. Musikcafe shows; fetch it too for Musikcafe/local acts if budget allows."
   },
   {
     "name": "Kaufleuten",
@@ -46,7 +46,7 @@
     "city": "Zürich",
     "kind": "venue",
     "url": "https://www.dynamo.ch/events-kurse",
-    "notes": "events-kurse page lists concerts (no per-event links) ~6 weeks ahead (to 19.12 on 2026-11-09); skip Resonance Jam Sessions, courses, markets. Chapo102 29.11 is a Komplex 457 show."
+    "notes": "events-kurse page lists concerts (no per-event links) ~5 weeks ahead (to 19.12 on 2026-11-16); skip Resonance Jam Sessions, courses, markets, auditions. Chapo102 29.11 is a Komplex 457 show. Soft Loft 19.12 also appears on Kaufleuten list (it's at Dynamo)."
   },
   {
     "name": "Rote Fabrik",
@@ -88,7 +88,7 @@
     "city": "Zürich",
     "kind": "venue",
     "url": "https://www.moods.ch/programm",
-    "notes": "/programm shows only ~30 days (to ~2026-12-09 on 2026-11-09 run); 'Ganzes Programm laden' has no URL; programme PDF link fails to fetch. Excludes cancelled shows marked 'Abgesagt'."
+    "notes": "/programm shows only ~30 days (to 2026-12-15 on 2026-11-16 run); ?page=2 returns the same 30 days; 'Ganzes Programm laden' has no URL; programme PDF link fails to fetch. Excludes cancelled shows marked 'Abgesagt'."
   },
   {
     "name": "Stall 6",
@@ -137,7 +137,7 @@
     "city": "Basel",
     "kind": "venue",
     "url": "https://kaserne-basel.ch/de",
-    "notes": "Event list shows no dates. Use ?start=YYYY-MM-DD&end=YYYY-MM-DD (end exclusive) per month to see slugs, then narrow the window (down to one day) to pin a favourite's date; event pages /de/events/<slug> give lineup but no date."
+    "notes": "Event list shows no dates. Use ?start=YYYY-MM-DD&end=YYYY-MM-DD (end exclusive) per month to see slugs, then narrow the window (down to one day) to pin a favourite's date; event pages /de/events/<slug> give lineup but no date. Listing gives no categories; most entries are theatre/dance/workshops. On 2026-11-16 nothing was listed from 2027-05-01 on."
   },
   {
     "name": "Kuppel",
@@ -214,7 +214,7 @@
     "city": "Bern",
     "kind": "venue",
     "url": "https://www.dampfzentrale.ch/en/",
-    "notes": "mostly dance/theatre; music = Full Of Lava festival (Nov, link /en/festival/full-of-lava-2026-e/) + occasional concerts (Ensemble Proton Bern residency, Associated Artist evenings), all on /en/ homepage"
+    "notes": "mostly dance/theatre; music = Full Of Lava festival (Nov, link /en/festival/full-of-lava-2026-e/ has full per-day lineup) + occasional concerts (Ensemble Proton Bern residency, Associated Artist evenings) + monthly 'Listening lazy club' Sundays, all on /en/ homepage"
   },
   {
     "name": "Gaskessel",
@@ -255,8 +255,8 @@
     "name": "KKL Luzern",
     "city": "Luzern",
     "kind": "venue",
-    "url": "https://www.kkl-luzern.ch/events",
-    "notes": "events page shows only the current month (Nov 2026 on 2026-11-09), no pagination URLs; per-event links available; later months need another source"
+    "url": "https://www.kkl-luzern.ch/events?amp=&category=Konzerte&eventCount=300",
+    "notes": "/events shows only current month; use ?amp=&category=Konzerte&eventCount=300 (lists through 2028, but fetched text then has no per-event URLs; eventCount=50 gives ~2 months WITH per-event links). Includes film-in-concert, comedy, ballet: filter."
   },
   {
     "name": "Sedel",
@@ -277,7 +277,7 @@
     "city": "St. Gallen",
     "kind": "venue",
     "url": "https://www.grabenhalle.ch/programm/",
-    "notes": "program published ~1 month ahead; on 2026-11-09 listing ended 2026-12-12 (fetched text truncates there); multi-day 'bis' entries are late shows, use start date"
+    "notes": "program published ~1 month ahead; on 2026-11-16 listing ended 2026-12-23 (fetched text truncates there; offset read gives nothing more); multi-day 'bis' entries are late shows, use start date"
   },
   {
     "name": "Royal",
@@ -291,7 +291,7 @@
     "city": "Aarau",
     "kind": "venue",
     "url": "https://www.petzi.ch/de/organiser/5/",
-    "notes": "Own site blocks automated reading. Base petzi organiser page caps at ~50 entries incl. past shows; ALSO fetch ?page=2, which lists upcoming-only and showed extra shows (Evergrey, Mother's Cake, Nohr, Futterfabrik finale Jan 7-9 etc.). Still gap 2027-01-10..03-10 and nothing after 2027-04-23 as of 2026-11-09. Ruby Haunt 2027-03-24 not on petzi as of 2026-11-09."
+    "notes": "Own site blocks automated reading. Base petzi organiser page caps at ~50 entries incl. past shows; ALSO fetch ?page=2, which lists upcoming-only and showed extra shows (Evergrey, Mother's Cake, Nohr, NIÑO & Valentin Jakob, Futterfabrik finale Jan 7-9 etc.). Still gap 2027-01-10..03-10 and nothing after 2027-04-23 as of 2026-11-16. Ruby Haunt 2027-03-24 not on petzi as of 2026-11-16."
   },
   {
     "name": "Kulturfabrik Kofmehl",
@@ -305,7 +305,7 @@
     "city": "Burgdorf",
     "kind": "venue",
     "url": "https://www.saegegasse.ch/programm",
-    "notes": ""
+    "notes": "Page shows ~20 of 22 events; the rest sit behind a 'Weitere Veranstaltungen' link (not fetched). Many non-music events (PingPong, Repair Café, Geimerei): filter."
   },
   {
     "name": "Kammgarn",
@@ -326,7 +326,7 @@
     "city": "Thun",
     "kind": "venue",
     "url": "https://mokka.ch/",
-    "notes": "event pages mokka.ch/event/<slug>/"
+    "notes": "event pages mokka.ch/event/<slug>/; some shows are off-site (Bärensaal Thun / Dürrenast) - noted in title."
   },
   {
     "name": "Fri-Son",
@@ -354,14 +354,14 @@
     "city": "Zürich",
     "kind": "aggregator",
     "url": "https://stadtkonzerte.ch/konzertnews",
-    "notes": "Homepage, /konzerte and /konzerte?region=X are JS-rendered (Angular placeholders, no dates). Use /konzertnews (announcements with date+venue+city, ~98 shows sorted roughly by date through end of 2027, reader marks it truncated) and /konzerttipps (~24 dated picks); event links are /artists/<slug>."
+    "notes": "Homepage, /konzerte and /konzerte?region=X are JS-rendered (Angular placeholders, no dates). Use /konzertnews (announcements, NOT sorted by date; reader truncates after ~95 entries) and /konzerttipps (~25 dated picks, headliners only); event links are /artists/<slug>."
   },
   {
     "name": "petzi (Swiss club ticketing)",
     "city": "Switzerland",
     "kind": "aggregator",
     "url": "https://www.petzi.ch/de/events/",
-    "notes": "/de/events/ shows only ~4 days. Use organiser pages https://www.petzi.ch/de/organiser/<id>/ (KiFF Aarau 5, Fri-Son Fribourg 29, Bad Bonn Düdingen 33, Dachstock Bern 51, Sedel Emmenbrücke 58, Grabenhalle St. Gallen 104, Helsinki Zürich 149, TapTab Schaffhausen 164, Gaskessel Bern 181, KartellCulturel Biel 200 (Le Singe, Untergasse 21), Bogen F Zürich 136227, Kuppel Basel 475292); organiser pages list no city, and include some past events; find an id via an event page's \"Weitere Veranstaltungen von\" link."
+    "notes": "/de/events/ shows only ~4 days. Use organiser pages https://www.petzi.ch/de/organiser/<id>/ (KiFF Aarau 5, Kammgarn Schaffhausen 19, Fri-Son Fribourg 29, Bad Bonn Düdingen 33, Dachstock Bern 51, Sedel Emmenbrücke 58, Gaswerk Winterthur 65, Eisenwerk Frauenfeld 87, Grabenhalle St. Gallen 104, Helsinki Zürich 149, TapTab Schaffhausen 164, Gaskessel Bern 181, KartellCulturel Biel 200 (Le Singe, Untergasse 21), Kulturhaus Royal Baden 225, Bogen F Zürich 136227, Kuppel Basel 475292); Neubad Luzern id still unknown; organiser pages list no city, and include some past events; find an id via an event page's \"Weitere Veranstaltungen von\" link."
   },
   {
     "name": "OpenAir St. Gallen",
@@ -431,7 +431,7 @@
     "city": "Zermatt",
     "kind": "openair",
     "url": "https://zermatt-unplugged.ch/en/program/",
-    "notes": "6-10 Apr 2027 confirmed; program page still says 'line-up for Zermatt Unplugged 2027 will be announced in December' (checked 2026-11-09). Recheck in December."
+    "notes": "6-10 Apr 2027 confirmed; program page (checked 2026-11-16) says line-up announced on 3 Dec 2026, 48h pre-sale from 14 Dec. Recheck after 3 Dec."
   },
   {
     "name": "Heitere Open Air",

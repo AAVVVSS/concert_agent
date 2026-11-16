@@ -1,0 +1,25 @@
+{
+  "kind": "weekly",
+  "ran_at": "2026-11-16T06:59:57+00:00",
+  "findings": 23,
+  "new": [
+    {
+      "id": "5605500|dampfzentrale|2026-11-20",
+      "artist_id": 5605500,
+      "artist_name": "Sirens Of Lesbos",
+      "date": "2026-11-20",
+      "venue": "Dampfzentrale",
+      "city": "Bern",
+      "kind": "concert",
+      "url": "https://www.dampfzentrale.ch/en/festival/full-of-lava-2026-e/",
+      "status": "confirmed",
+      "notes": "DJ set, not a live concert: Full Of Lava festival timetable lists 'Sirens Of Lesbos (DJ)' on Fri 20.11 at 03:00 (i.e. early Saturday)",
+      "first_seen": "2026-11-16T06:59:57+00:00",
+      "last_seen": "2026-11-16T06:59:57+00:00",
+      "last_changed": "2026-11-16T06:59:57+00:00",
+      "history": []
+    }
+  ],
+  "changed": [],
+  "message": "1 new, 0 changed: Sirens Of Lesbos Dampfzentrale Fri 20 Nov"
+}
