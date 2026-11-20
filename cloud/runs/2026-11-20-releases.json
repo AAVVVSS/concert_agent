@@ -1,0 +1,497 @@
+{
+  "coming": [],
+  "date": "2026-11-20",
+  "failed": [],
+  "favorites": 698,
+  "first_run": false,
+  "new": [
+    {
+      "artist": "Toro Y Moi",
+      "artist_id": "3887256",
+      "artists": [
+        "Toro Y Moi"
+      ],
+      "cover": "https://resources.tidal.com/images/ce2b4806/4d49/4643/ad29/ee6292330f14/320x320.jpg",
+      "explicit": false,
+      "id": "570278348",
+      "kind": "Album",
+      "release_date": "2026-11-20",
+      "title": "Unusua",
+      "tracks": 7,
+      "url": "https://tidal.com/album/570278348"
+    },
+    {
+      "artist": "Tears For Fears",
+      "artist_id": "3824",
+      "artists": [
+        "Tears For Fears"
+      ],
+      "cover": "https://resources.tidal.com/images/96a2c8dc/bb61/413b/981d/bb1e9307405e/320x320.jpg",
+      "explicit": false,
+      "id": "578736071",
+      "kind": "EP",
+      "release_date": "2026-11-20",
+      "title": "Famous Last Words",
+      "tracks": 3,
+      "url": "https://tidal.com/album/578736071"
+    },
+    {
+      "artist": "SXMPRA",
+      "artist_id": "20401509",
+      "artists": [
+        "SXMPRA",
+        "1nonly"
+      ],
+      "cover": "https://resources.tidal.com/images/0533e848/b984/4d13/b9c2/bde91d838e5d/320x320.jpg",
+      "explicit": true,
+      "id": "578774093",
+      "kind": "Single",
+      "release_date": "2026-11-20",
+      "title": "GET MOVIN!",
+      "tracks": 2,
+      "url": "https://tidal.com/album/578774093"
+    },
+    {
+      "artist": "Sonic Youth",
+      "artist_id": "17551",
+      "artists": [
+        "Sonic Youth"
+      ],
+      "cover": "https://resources.tidal.com/images/754a736d/8bd8/40a0/aa1b/3345e68a3180/320x320.jpg",
+      "explicit": false,
+      "id": "546926674",
+      "kind": "Single",
+      "release_date": "2026-11-20",
+      "title": "Scream",
+      "tracks": 1,
+      "url": "https://tidal.com/album/546926674"
+    },
+    {
+      "artist": "richard houghten",
+      "artist_id": "4203238",
+      "artists": [
+        "richard houghten"
+      ],
+      "cover": "https://resources.tidal.com/images/11859e3a/0b22/4eaf/bc97/b27ca8618f16/320x320.jpg",
+      "explicit": false,
+      "id": "573035852",
+      "kind": "Single",
+      "release_date": "2026-11-20",
+      "title": "Blue Light",
+      "tracks": 1,
+      "url": "https://tidal.com/album/573035852"
+    },
+    {
+      "artist": "Maruja",
+      "artist_id": "4828104",
+      "artists": [
+        "Maruja"
+      ],
+      "cover": "https://resources.tidal.com/images/e6f43d9e/e21f/478f/a79f/472282232948/320x320.jpg",
+      "explicit": true,
+      "id": "572473275",
+      "kind": "Album",
+      "release_date": "2026-11-20",
+      "title": "The Holy Inadequate (Live)",
+      "tracks": 13,
+      "url": "https://tidal.com/album/572473275"
+    },
+    {
+      "artist": "La Zowi",
+      "artist_id": "8127718",
+      "artists": [
+        "La Zowi"
+      ],
+      "cover": "https://resources.tidal.com/images/99d68d8e/816b/45cc/a6e7/7771ecf03627/320x320.jpg",
+      "explicit": true,
+      "id": "574618478",
+      "kind": "Single",
+      "release_date": "2026-11-20",
+      "title": "VOYEUR",
+      "tracks": 1,
+      "url": "https://tidal.com/album/574618478"
+    },
+    {
+      "artist": "Jule X",
+      "artist_id": "16617727",
+      "artists": [
+        "Jule X"
+      ],
+      "cover": "https://resources.tidal.com/images/14a1055e/981c/4dc8/a95a/5846231b2dee/320x320.jpg",
+      "explicit": false,
+      "id": "576868710",
+      "kind": "Single",
+      "release_date": "2026-11-20",
+      "title": "Zäme simer vieli",
+      "tracks": 1,
+      "url": "https://tidal.com/album/576868710"
+    },
+    {
+      "artist": "J Balvin",
+      "artist_id": "5054713",
+      "artists": [
+        "JUL",
+        "J Balvin"
+      ],
+      "cover": "https://resources.tidal.com/images/288ab275/37a4/4462/9c76/bbc62286e699/320x320.jpg",
+      "explicit": true,
+      "id": "580597304",
+      "kind": "Single",
+      "release_date": "2026-11-20",
+      "title": "Ma préférée",
+      "tracks": 1,
+      "url": "https://tidal.com/album/580597304"
+    },
+    {
+      "artist": "Grimes",
+      "artist_id": "3819688",
+      "artists": [
+        "Grimes"
+      ],
+      "cover": "https://resources.tidal.com/images/007dede7/4a73/4fbf/8138/1a72dd7fd8cd/320x320.jpg",
+      "explicit": false,
+      "id": "574506622",
+      "kind": "Single",
+      "release_date": "2026-11-20",
+      "title": "爱",
+      "tracks": 2,
+      "url": "https://tidal.com/album/574506622"
+    },
+    {
+      "artist": "Eyedress",
+      "artist_id": "5151716",
+      "artists": [
+        "Eyedress",
+        "Lil Novi"
+      ],
+      "cover": "https://resources.tidal.com/images/c7928191/5651/4cab/90c0/7cdfce708007/320x320.jpg",
+      "explicit": true,
+      "id": "574101274",
+      "kind": "Single",
+      "release_date": "2026-11-20",
+      "title": "Vivienne Westwood Tears (feat. Lil Novi)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/574101274"
+    },
+    {
+      "artist": "Desperate Journalist",
+      "artist_id": "4949602",
+      "artists": [
+        "Desperate Journalist"
+      ],
+      "cover": "https://resources.tidal.com/images/625d12d0/9227/42ea/9746/8276e19e0e42/320x320.jpg",
+      "explicit": true,
+      "id": "549532533",
+      "kind": "Album",
+      "release_date": "2026-11-20",
+      "title": "Gilding The Lily",
+      "tracks": 12,
+      "url": "https://tidal.com/album/549532533"
+    },
+    {
+      "artist": "CHVRCHES",
+      "artist_id": "4764745",
+      "artists": [
+        "CHVRCHES"
+      ],
+      "cover": "https://resources.tidal.com/images/403c3081/73c5/47e2/84b1/6ef2a7a2d84b/320x320.jpg",
+      "explicit": true,
+      "id": "578224789",
+      "kind": "EP",
+      "release_date": "2026-11-20",
+      "title": "Evil",
+      "tracks": 3,
+      "url": "https://tidal.com/album/578224789"
+    },
+    {
+      "artist": "Bodywash",
+      "artist_id": "7540050",
+      "artists": [
+        "Bodywash"
+      ],
+      "cover": "https://resources.tidal.com/images/60456990/d279/4656/9f79/9be0ac246384/320x320.jpg",
+      "explicit": false,
+      "id": "561764146",
+      "kind": "Album",
+      "release_date": "2026-11-20",
+      "title": "Laughing at Noise",
+      "tracks": 10,
+      "url": "https://tidal.com/album/561764146"
+    },
+    {
+      "artist": "AIM",
+      "artist_id": "3518502",
+      "artists": [
+        "NUWEI",
+        "AIM"
+      ],
+      "cover": "https://resources.tidal.com/images/6ec6c4e4/2c54/43b6/9366/ab7ef4a4de1c/320x320.jpg",
+      "explicit": false,
+      "id": "578164894",
+      "kind": "Single",
+      "release_date": "2026-11-20",
+      "title": "i'm lost",
+      "tracks": 1,
+      "url": "https://tidal.com/album/578164894"
+    },
+    {
+      "artist": "Yussef Dayes",
+      "artist_id": "9985670",
+      "artists": [
+        "Stanley Clarke",
+        "Yussef Dayes",
+        "Robert Glasper",
+        "Grand Theft Auto VI"
+      ],
+      "cover": "https://resources.tidal.com/images/66ab86cf/a675/466b/9d04/6af9150d1497/320x320.jpg",
+      "explicit": false,
+      "id": "579693513",
+      "kind": "Single",
+      "release_date": "2026-11-19",
+      "title": "Overtown Lights (from GTAVI: The Album)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/579693513"
+    },
+    {
+      "artist": "Tokischa",
+      "artist_id": "10108090",
+      "artists": [
+        "Tokischa",
+        "La Mas Doll",
+        "l0rna"
+      ],
+      "cover": "https://resources.tidal.com/images/a689a059/a60e/4872/b11d/3c23388f8fe0/320x320.jpg",
+      "explicit": true,
+      "id": "576441323",
+      "kind": "Single",
+      "release_date": "2026-11-19",
+      "title": "Malcria",
+      "tracks": 1,
+      "url": "https://tidal.com/album/576441323"
+    },
+    {
+      "artist": "Pip Millett",
+      "artist_id": "9028244",
+      "artists": [
+        "Pip Millett"
+      ],
+      "cover": "https://resources.tidal.com/images/da1c7771/d422/4680/be4c/c8716e974da1/320x320.jpg",
+      "explicit": false,
+      "id": "575209260",
+      "kind": "Single",
+      "release_date": "2026-11-19",
+      "title": "Tomorrow Will Come",
+      "tracks": 1,
+      "url": "https://tidal.com/album/575209260"
+    },
+    {
+      "artist": "Phoebe Bridgers",
+      "artist_id": "6743691",
+      "artists": [
+        "Phoebe Bridgers"
+      ],
+      "cover": "https://resources.tidal.com/images/ead890d8/d857/4055/9d6f/b757ea5c94f5/320x320.jpg",
+      "explicit": false,
+      "id": "580447620",
+      "kind": "EP",
+      "release_date": "2026-11-19",
+      "title": "Anything",
+      "tracks": 8,
+      "url": "https://tidal.com/album/580447620"
+    },
+    {
+      "artist": "Helado Negro",
+      "artist_id": "4830250",
+      "artists": [
+        "Helado Negro",
+        "Grand Theft Auto VI",
+        "Kali Uchis"
+      ],
+      "cover": "https://resources.tidal.com/images/97c92647/e0c3/4735/aa12/df1c374777f4/320x320.jpg",
+      "explicit": false,
+      "id": "579731201",
+      "kind": "Single",
+      "release_date": "2026-11-19",
+      "title": "Largate (feat. Kali Uchis) [from GTAVI: The Album]",
+      "tracks": 1,
+      "url": "https://tidal.com/album/579731201"
+    },
+    {
+      "artist": "Girl Ultra",
+      "artist_id": "8538031",
+      "artists": [
+        "Tonique & Man",
+        "Girl Ultra",
+        "Jean Tonique",
+        "Mi Man"
+      ],
+      "cover": "https://resources.tidal.com/images/01171a85/701d/4ddf/8bd9/2e85bdc33aec/320x320.jpg",
+      "explicit": false,
+      "id": "553444666",
+      "kind": "Single",
+      "release_date": "2026-11-19",
+      "title": "Sometimes",
+      "tracks": 1,
+      "url": "https://tidal.com/album/553444666"
+    },
+    {
+      "artist": "Dounia",
+      "artist_id": "8434703",
+      "artists": [
+        "Dounia"
+      ],
+      "cover": "https://resources.tidal.com/images/0825dfe6/760d/4810/bc7d/efea9cb74657/320x320.jpg",
+      "explicit": false,
+      "id": "578217695",
+      "kind": "Single",
+      "release_date": "2026-11-19",
+      "title": "Lockenstab",
+      "tracks": 1,
+      "url": "https://tidal.com/album/578217695"
+    },
+    {
+      "artist": "Buscabulla",
+      "artist_id": "5978652",
+      "artists": [
+        "Solo Fernández",
+        "Buscabulla"
+      ],
+      "cover": "https://resources.tidal.com/images/d42cdd77/e388/41c7/8326/96e619ab74a7/320x320.jpg",
+      "explicit": false,
+      "id": "567833061",
+      "kind": "Single",
+      "release_date": "2026-11-19",
+      "title": "Karaoke!",
+      "tracks": 1,
+      "url": "https://tidal.com/album/567833061"
+    },
+    {
+      "artist": "Arca",
+      "artist_id": "5293333",
+      "artists": [
+        "Arca",
+        "Grand Theft Auto VI"
+      ],
+      "cover": "https://resources.tidal.com/images/42d5fcb1/13d5/4a3d/b5fd/f397a43bdb27/320x320.jpg",
+      "explicit": true,
+      "id": "579685075",
+      "kind": "Single",
+      "release_date": "2026-11-19",
+      "title": "Sandunguea (from GTAVI: The Album)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/579685075"
+    },
+    {
+      "artist": "Anderson .Paak",
+      "artist_id": "5866385",
+      "artists": [
+        "MeZ",
+        "J. Cole",
+        "Anderson .Paak"
+      ],
+      "cover": "https://resources.tidal.com/images/26f1c581/5312/44ad/b1b0/0027274c93ea/320x320.jpg",
+      "explicit": true,
+      "id": "553495295",
+      "kind": "Single",
+      "release_date": "2026-11-19",
+      "title": "Hell Nah",
+      "tracks": 1,
+      "url": "https://tidal.com/album/553495295"
+    },
+    {
+      "artist": "Jordan Rakei",
+      "artist_id": "5978731",
+      "artists": [
+        "Jordan Rakei"
+      ],
+      "cover": "https://resources.tidal.com/images/23e7ba56/6766/431d/85fc/e688ebb14aae/320x320.jpg",
+      "explicit": false,
+      "id": "577911770",
+      "kind": "Single",
+      "release_date": "2026-11-18",
+      "title": "Whispers In The Wind",
+      "tracks": 1,
+      "url": "https://tidal.com/album/577911770"
+    },
+    {
+      "artist": "CHIC",
+      "artist_id": "8112",
+      "artists": [
+        "CHIC",
+        "Disco Pirates"
+      ],
+      "cover": "https://resources.tidal.com/images/86c4996d/0fcc/417e/93ad/3ff199cde70f/320x320.jpg",
+      "explicit": false,
+      "id": "574645260",
+      "kind": "Single",
+      "release_date": "2026-11-18",
+      "title": "Good Times",
+      "tracks": 2,
+      "url": "https://tidal.com/album/574645260"
+    },
+    {
+      "artist": "Arka'n Asrafokor",
+      "artist_id": "19632300",
+      "artists": [
+        "Arka'n Asrafokor"
+      ],
+      "cover": "https://resources.tidal.com/images/b0d200e6/2d94/441f/bd78/e2ffed13de50/320x320.jpg",
+      "explicit": false,
+      "id": "577154582",
+      "kind": "Single",
+      "release_date": "2026-11-18",
+      "title": "ZÃ Do",
+      "tracks": 1,
+      "url": "https://tidal.com/album/577154582"
+    },
+    {
+      "artist": "Narrow Head",
+      "artist_id": "7737006",
+      "artists": [
+        "Narrow Head"
+      ],
+      "cover": "https://resources.tidal.com/images/e8e1e489/d292/41d7/a86e/704d6e31d16d/320x320.jpg",
+      "explicit": false,
+      "id": "576013891",
+      "kind": "Single",
+      "release_date": "2026-11-17",
+      "title": "Wheel",
+      "tracks": 1,
+      "url": "https://tidal.com/album/576013891"
+    },
+    {
+      "artist": "Bdrmm",
+      "artist_id": "9012605",
+      "artists": [
+        "Bdrmm"
+      ],
+      "cover": "https://resources.tidal.com/images/10829d30/1b97/463f/a39f/098e74caedc7/320x320.jpg",
+      "explicit": false,
+      "id": "577807661",
+      "kind": "Single",
+      "release_date": "2026-11-16",
+      "title": "AMUSE YOURSELF",
+      "tracks": 1,
+      "url": "https://tidal.com/album/577807661"
+    },
+    {
+      "artist": "Panda Bear",
+      "artist_id": "3609536",
+      "artists": [
+        "Grace Ives",
+        "Panda Bear"
+      ],
+      "cover": "https://resources.tidal.com/images/bfd9bf95/12ef/4a34/98e1/8ad28de7550f/320x320.jpg",
+      "explicit": true,
+      "id": "576486713",
+      "kind": "Single",
+      "release_date": "2026-11-13",
+      "title": "Stupid Bitches (Panda Bear Version)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/576486713"
+    }
+  ],
+  "playlist_url": "https://tidal.com/playlist/7f909003-f4b3-435c-914f-3119365a08ba",
+  "ran_at": "2026-11-20T14:49:26+00:00",
+  "releases_listed": 24715
+}
