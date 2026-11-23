@@ -4,7 +4,7 @@
     "city": "Zürich",
     "kind": "venue",
     "url": "https://www.hallenstadion.ch/events/",
-    "notes": "/events/ shows only ~3 weeks; month filter has no URL params. Use https://app.songkick.com/venues/29550-hallenstadion/calendar for Dec+ (full list, worked 2026-11-09); www.songkick.com and regioactive refuse."
+    "notes": "/events/ shows only ~2 weeks but includes shows songkick misses (Bryan Adams, Papa Roach, Bligg on 2026-11-23); fetch both. Use https://app.songkick.com/venues/29550-hallenstadion/calendar for Dec+ (full list, worked 2026-11-23); www.songkick.com and regioactive refuse."
   },
   {
     "name": "Halle 622",
@@ -18,7 +18,7 @@
     "city": "Zürich",
     "kind": "venue",
     "url": "https://app.songkick.com/venues/49813-xtra/calendar",
-    "notes": "Use app.songkick.com venue calendar (id 49813; full list to May, worked 2026-11-16). Own site https://www.x-tra.ch/en/program/ shows only ~2 weeks incl. Musikcafe shows; fetch it too for Musikcafe/local acts if budget allows."
+    "notes": "Use app.songkick.com venue calendar (id 49813; full list to May, worked 2026-11-23). Own site https://www.x-tra.ch/en/program/ shows only ~1 week (9 items, has 'More' link) incl. Musikcafe shows and Montell Fish (not on songkick); fetch it too."
   },
   {
     "name": "Kaufleuten",
@@ -88,7 +88,7 @@
     "city": "Zürich",
     "kind": "venue",
     "url": "https://www.moods.ch/programm",
-    "notes": "/programm shows only ~30 days (to 2026-12-15 on 2026-11-16 run); ?page=2 returns the same 30 days; 'Ganzes Programm laden' has no URL; programme PDF link fails to fetch. Excludes cancelled shows marked 'Abgesagt'."
+    "notes": "/programm shows only ~30 days (to 2026-12-22 on 2026-11-23 run); ?page=2 returns the same 30 days; 'Ganzes Programm laden' has no URL; programme PDF link fails to fetch. Excludes cancelled shows marked 'Abgesagt'."
   },
   {
     "name": "Stall 6",
@@ -130,7 +130,7 @@
     "city": "Winterthur",
     "kind": "venue",
     "url": "https://www.gaswerk.ch/",
-    "notes": ""
+    "notes": "Programme with full lineups is on the homepage; event links go to petzi. Homepage also lists theatre and Kino Nische films (exclude)."
   },
   {
     "name": "Kaserne Basel",
@@ -171,15 +171,15 @@
     "name": "Sommercasino",
     "city": "Basel",
     "kind": "venue",
-    "url": "https://sommercasino.ch/Programm/",
-    "notes": ""
+    "url": "https://www.petzi.ch/en/organiser/493019/",
+    "notes": "own site sommercasino.ch shows a bot-verification wall; use petzi organiser page"
   },
   {
     "name": "Atlantis",
     "city": "Basel",
     "kind": "venue",
     "url": "https://atlantis-basel.ch/musik-kultur/",
-    "notes": ""
+    "notes": "calendar partly JS-loaded ('Loading...'); list read fine but may be incomplete"
   },
   {
     "name": "Gannet",
@@ -214,7 +214,7 @@
     "city": "Bern",
     "kind": "venue",
     "url": "https://www.dampfzentrale.ch/en/",
-    "notes": "mostly dance/theatre; music = Full Of Lava festival (Nov, link /en/festival/full-of-lava-2026-e/ has full per-day lineup) + occasional concerts (Ensemble Proton Bern residency, Associated Artist evenings) + monthly 'Listening lazy club' Sundays, all on /en/ homepage"
+    "notes": "mostly dance/theatre; music = Full Of Lava festival (Nov, 2026 edition was 19-22 Nov; per-day lineup on /en/festival/full-of-lava-2026-e/) + occasional concerts (Ensemble Proton Bern residency, Associated Artist evenings - genre unclear, check event page) + monthly 'Listening lazy club' Sundays, all on /en/ homepage. EXPOP festival also linked (no dates on homepage)."
   },
   {
     "name": "Gaskessel",
@@ -249,7 +249,7 @@
     "city": "Kriens",
     "kind": "venue",
     "url": "https://www.sudpol.ch/programm",
-    "notes": "full program on one page per year (current year default; 2027 at ?year=2027); no per-event links; category labels (Konzert/Performance/etc.) in listing"
+    "notes": "sudpol.ch now serves a bot-verification page ('Please wait while your request is being verified') to WebFetch, also for ?year=2027. Fallback: stadtkonzerte.ch/locations/sudpol-kriens (concerts only, partial, artist links not event links). Old: full program on one page per year (?year=2027), category labels in listing."
   },
   {
     "name": "KKL Luzern",
@@ -277,7 +277,7 @@
     "city": "St. Gallen",
     "kind": "venue",
     "url": "https://www.grabenhalle.ch/programm/",
-    "notes": "program published ~1 month ahead; on 2026-11-16 listing ended 2026-12-23 (fetched text truncates there; offset read gives nothing more); multi-day 'bis' entries are late shows, use start date"
+    "notes": "program published ~1-2 months ahead; on 2026-11-23 listing ran to 2027-02-05 in one fetch; multi-day 'bis' entries are late shows, use start date"
   },
   {
     "name": "Royal",
@@ -291,14 +291,14 @@
     "city": "Aarau",
     "kind": "venue",
     "url": "https://www.petzi.ch/de/organiser/5/",
-    "notes": "Own site blocks automated reading. Base petzi organiser page caps at ~50 entries incl. past shows; ALSO fetch ?page=2, which lists upcoming-only and showed extra shows (Evergrey, Mother's Cake, Nohr, NIÑO & Valentin Jakob, Futterfabrik finale Jan 7-9 etc.). Still gap 2027-01-10..03-10 and nothing after 2027-04-23 as of 2026-11-16. Ruby Haunt 2027-03-24 not on petzi as of 2026-11-16."
+    "notes": "Own site blocks automated reading. As of 2026-11-23 both the base petzi organiser page and ?page=2 return the same 24 upcoming events (page 2 no longer adds anything). Still gap 2027-01-10..03-10 and nothing after 2027-04-23. Ruby Haunt 2027-03-24 not on petzi as of 2026-11-23."
   },
   {
     "name": "Kulturfabrik Kofmehl",
     "city": "Solothurn",
     "kind": "venue",
     "url": "https://kofmehl.net/programm/",
-    "notes": "/programm/0/ shows Fabrikgeflüster news; /programm/ is the full calendar (no years shown, no event types; lots of comedy - filter by name). Blue Monday entries (bluemonday-N) are concerts."
+    "notes": "/programm/0/ shows Fabrikgeflüster news; /programm/ is the full calendar (no years shown, no event types; lots of comedy - filter by name). Blue Monday entries (bluemonday-N) are concerts. 2026-11-23: WebFetch got only a bot-verification page ('Please wait while your request is being verified'); consider petzi or another source."
   },
   {
     "name": "Kulturhalle Sägegasse",
@@ -319,7 +319,7 @@
     "city": "Zug",
     "kind": "venue",
     "url": "https://galvanik-zug.ch/programm/",
-    "notes": "many comedy/party events, filter to concerts"
+    "notes": "many comedy/party events, filter to concerts. 2026-11-23: WebFetch got only a bot-verification page ('One moment, please...'); find an alternative source (e.g. petzi organiser page)."
   },
   {
     "name": "Mokka",
@@ -347,7 +347,14 @@
     "city": "Biel/Bienne",
     "kind": "venue",
     "url": "https://www.petzi.ch/de/organiser/200/",
-    "notes": "KartellCulturel (Le Singe) petzi organiser page; shows ~54 entries then 'Mehr laden'. Fetch ?page=2 for the rest (gave Traktorkestar 2027-04-30, Lovebugs 2027-11-27). Many comedy/cabaret/readings: filter."
+    "notes": "KartellCulturel (Le Singe) petzi organiser page; base page shows 54 entries ending 2027-02-13 then 'Mehr laden'. As of 2026-11-23 ?page=2 returned only Lovebugs 2027-11-27; Traktorkestar 2027-04-30 (seen earlier) no longer appears, so 2027-02-14..2027-11 is not covered. Many comedy/cabaret/readings: filter (Judith Bach, Jess Jochimsen, Valerio Moser, Simon Chen, Patti Basler, Sven Ivanic, Renato Kaiser)."
+  },
+  {
+    "name": "Neubad Luzern",
+    "city": "Luzern",
+    "kind": "venue",
+    "url": "https://neubad.org/veranstaltungen",
+    "notes": "Own agenda readable (no years shown; infer from weekdays). No petzi organiser id found. Concert category only."
   },
   {
     "name": "Stadtkonzerte (aggregator)",
@@ -431,7 +438,7 @@
     "city": "Zermatt",
     "kind": "openair",
     "url": "https://zermatt-unplugged.ch/en/program/",
-    "notes": "6-10 Apr 2027 confirmed; program page (checked 2026-11-16) says line-up announced on 3 Dec 2026, 48h pre-sale from 14 Dec. Recheck after 3 Dec."
+    "notes": "6-10 Apr 2027 confirmed; program page (checked 2026-11-23) still has no lineup: says line-up announced on 3 Dec, 48h pre-sale from 14 Dec. Recheck after 3 Dec 2026."
   },
   {
     "name": "Heitere Open Air",

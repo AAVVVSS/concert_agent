@@ -1,0 +1,57 @@
+{
+  "kind": "weekly",
+  "ran_at": "2026-11-23T06:58:58+00:00",
+  "findings": 22,
+  "new": [
+    {
+      "id": "41434166|bogen f|2027-03-17",
+      "artist_id": 41434166,
+      "artist_name": "Fat Dog",
+      "date": "2027-03-17",
+      "venue": "Bogen F",
+      "city": "Zürich",
+      "kind": "concert",
+      "url": "https://www.bogenf.ch/konzerte/fat-dog",
+      "status": "confirmed",
+      "notes": "Bogen F program + petzi event page: Fat Dog (UK) & Support",
+      "first_seen": "2026-11-23T06:58:58+00:00",
+      "last_seen": "2026-11-23T06:58:58+00:00",
+      "last_changed": "2026-11-23T06:58:58+00:00",
+      "history": []
+    },
+    {
+      "id": "7598676|werkk kulturlokal|2027-03-12",
+      "artist_id": 7598676,
+      "artist_name": "YONAKA",
+      "date": "2027-03-12",
+      "venue": "Werkk Kulturlokal",
+      "city": "Baden",
+      "kind": "concert",
+      "url": "https://werkk-baden.ch/agenda/programm/2027/03/12/yonaka-uk-1204/",
+      "status": "confirmed",
+      "notes": "Werkk program page (Yonaka (UK), tickets TBA) + stadtkonzerte",
+      "first_seen": "2026-11-23T06:58:58+00:00",
+      "last_seen": "2026-11-23T06:58:58+00:00",
+      "last_changed": "2026-11-23T06:58:58+00:00",
+      "history": []
+    },
+    {
+      "id": "9012605|exil|2027-05-05",
+      "artist_id": 9012605,
+      "artist_name": "Bdrmm",
+      "date": "2027-05-05",
+      "venue": "Exil",
+      "city": "Zürich",
+      "kind": "concert",
+      "url": "https://www.ticketcorner.ch/noapp/event/bdrmm-club-exil-22410961/",
+      "status": "confirmed",
+      "notes": "ticketcorner event page (Club Exil, CHF 39.80) + stadtkonzerte; Exil's own site refuses automated reading",
+      "first_seen": "2026-11-23T06:58:58+00:00",
+      "last_seen": "2026-11-23T06:58:58+00:00",
+      "last_changed": "2026-11-23T06:58:58+00:00",
+      "history": []
+    }
+  ],
+  "changed": [],
+  "message": "3 new, 0 changed: Fat Dog Bogen F Wed 17 Mar; YONAKA Werkk Kulturlokal Fri 12 Mar; Bdrmm Exil Wed 5 May"
+}
