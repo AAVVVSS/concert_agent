@@ -158,24 +158,36 @@ def fetch_all(session) -> tuple[list[dict], int, list[str]]:
     return list(found.values()), len(favorites), failed
 
 
+def playlist_write(session, playlist_id: str, write) -> None:
+    """Run write(playlist) on a freshly loaded playlist, retrying on 412.
+
+    Each change bumps the playlist's ETag and a stale one gets 412 Precondition
+    Failed. Right after a change Tidal can still hand out the old ETag for a
+    few seconds, so reloading alone isn't enough: wait and reload again.
+    """
+    for attempt in range(6):
+        try:
+            return write(session.playlist(playlist_id))
+        except requests.HTTPError as e:
+            if e.response is None or e.response.status_code != 412 or attempt == 5:
+                raise
+            time.sleep(2 ** attempt)
+
+
 def update_playlist(session, tracks_by_release: list[tuple[dict, list]]) -> str | None:
     """Rebuild PLAYLIST_TITLE with this run's new tracks, newest release first."""
     playlist = next((p for p in session.user.playlists() if p.name == PLAYLIST_TITLE), None)
     if playlist is None:
         playlist = session.user.create_playlist(
             PLAYLIST_TITLE, "New albums, EPs and singles by my favorite artists, refreshed every week.")
-    # Each change bumps the playlist's ETag, so reload it before every write
-    # (a stale one gets 412 Precondition Failed). That's why this doesn't use
-    # playlist.clear(), which removes in chunks of 50 without reloading.
-    playlist = session.playlist(playlist.id)
-    while playlist.num_tracks:
-        playlist.remove_by_indices(range(min(playlist.num_tracks, 50)))
-        playlist = session.playlist(playlist.id)
+    # Not playlist.clear(): it removes in chunks of 50 without reloading the ETag.
+    while session.playlist(playlist.id).num_tracks:
+        playlist_write(session, playlist.id, lambda pl: pl.remove_by_indices(range(min(pl.num_tracks, 50))))
     ids = [str(t.id) for _, tracks in tracks_by_release for t in tracks]
     # Tidal adds at most 100 per call.
     for i in range(0, len(ids), 100):
-        playlist = session.playlist(playlist.id)
-        playlist.add(ids[i:i + 100], allow_duplicates=False, limit=100)
+        batch = ids[i:i + 100]
+        playlist_write(session, playlist.id, lambda pl: pl.add(batch, allow_duplicates=False, limit=100))
     return f"https://tidal.com/playlist/{playlist.id}"
 
 
