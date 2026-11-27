@@ -1,0 +1,323 @@
+{
+  "coming": [],
+  "date": "2026-11-27",
+  "failed": [
+    "playlist: 412 on add right after clearing (stale ETag); refilled by hand after the fix, 76 tracks"
+  ],
+  "favorites": 700,
+  "first_run": false,
+  "new": [
+    {
+      "artist": "Tegan and Sara",
+      "artist_id": "3556217",
+      "artists": [
+        "Tegan and Sara",
+        "Felix Cartal",
+        "Lights"
+      ],
+      "cover": "https://resources.tidal.com/images/3ceb8a2a/9265/4c6e/a4ee/42b6ebf0c34a/320x320.jpg",
+      "explicit": false,
+      "id": "579902044",
+      "kind": "Single",
+      "release_date": "2026-11-27",
+      "title": "Our Year (Felix Cartal Club Mix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/579902044"
+    },
+    {
+      "artist": "Soft Kill",
+      "artist_id": "4298868",
+      "artists": [
+        "Soft Kill"
+      ],
+      "cover": "https://resources.tidal.com/images/3dfd0493/1dc9/491e/be25/0f4a990f8ad5/320x320.jpg",
+      "explicit": false,
+      "id": "570681919",
+      "kind": "EP",
+      "release_date": "2026-11-27",
+      "title": "You Were Sent To Me From Heaven",
+      "tracks": 3,
+      "url": "https://tidal.com/album/570681919"
+    },
+    {
+      "artist": "Miles Davis",
+      "artist_id": "55",
+      "artists": [
+        "Miles Davis"
+      ],
+      "cover": "https://resources.tidal.com/images/4193bdf5/c32f/44e2/a9ce/f42182560109/320x320.jpg",
+      "explicit": false,
+      "id": "580795878",
+      "kind": "Album",
+      "release_date": "2026-11-27",
+      "title": "Copenhagen Live 1969",
+      "tracks": 7,
+      "url": "https://tidal.com/album/580795878"
+    },
+    {
+      "artist": "Jorja Smith",
+      "artist_id": "7644395",
+      "artists": [
+        "Jorja Smith"
+      ],
+      "cover": "https://resources.tidal.com/images/f15e6eb4/0861/4d64/b337/95176c68df6e/320x320.jpg",
+      "explicit": true,
+      "id": "581925612",
+      "kind": "Album",
+      "release_date": "2026-11-27",
+      "title": "What Are The Odds (The Afterparty)",
+      "tracks": 16,
+      "url": "https://tidal.com/album/581925612"
+    },
+    {
+      "artist": "Fai Baba",
+      "artist_id": "3819025",
+      "artists": [
+        "Fai Baba"
+      ],
+      "cover": "https://resources.tidal.com/images/0f7b39f4/2b6d/4c59/afb7/6850f78942c6/320x320.jpg",
+      "explicit": false,
+      "id": "550242674",
+      "kind": "Album",
+      "release_date": "2026-11-27",
+      "title": "Sad and Horny (10th Anniversary Edition)",
+      "tracks": 16,
+      "url": "https://tidal.com/album/550242674"
+    },
+    {
+      "artist": "Fai Baba",
+      "artist_id": "3819025",
+      "artists": [
+        "Fai Baba"
+      ],
+      "cover": "https://resources.tidal.com/images/0e5e72b1/259e/4c81/8a8b/6fa5409376d5/320x320.jpg",
+      "explicit": false,
+      "id": "544887345",
+      "kind": "EP",
+      "release_date": "2026-11-27",
+      "title": "Why Do I Feel so Alone (Domi Chansorn Remix)",
+      "tracks": 6,
+      "url": "https://tidal.com/album/544887345"
+    },
+    {
+      "artist": "Deafcult",
+      "artist_id": "7064771",
+      "artists": [
+        "Deafcult"
+      ],
+      "cover": "https://resources.tidal.com/images/ef7a6047/c192/489d/bbbe/95cd8ba6150d/320x320.jpg",
+      "explicit": false,
+      "id": "575262613",
+      "kind": "Album",
+      "release_date": "2026-11-27",
+      "title": "Collapsing Empires",
+      "tracks": 10,
+      "url": "https://tidal.com/album/575262613"
+    },
+    {
+      "artist": "Dark Chisme",
+      "artist_id": "49246712",
+      "artists": [
+        "Owl Vision",
+        "Dark Chisme"
+      ],
+      "cover": "https://resources.tidal.com/images/a079f69d/3071/40c7/8445/dbe78f1fb1cc/320x320.jpg",
+      "explicit": false,
+      "id": "571298613",
+      "kind": "Single",
+      "release_date": "2026-11-27",
+      "title": "Beautiful Obsession Killer (Owl Vision Remix)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/571298613"
+    },
+    {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid",
+        "Will Rees"
+      ],
+      "cover": "https://resources.tidal.com/images/7c15a52d/3087/4823/ae23/9afce579b75a/320x320.jpg",
+      "explicit": false,
+      "id": "581920810",
+      "kind": "Single",
+      "release_date": "2026-11-27",
+      "title": "Feel the Pressure",
+      "tracks": 2,
+      "url": "https://tidal.com/album/581920810"
+    },
+    {
+      "artist": "Snoop Dogg",
+      "artist_id": "8914",
+      "artists": [
+        "Feid",
+        "Snoop Dogg"
+      ],
+      "cover": "https://resources.tidal.com/images/c96e79c3/0753/4844/a9fa/a4d2fc731b4f/320x320.jpg",
+      "explicit": false,
+      "id": "582061446",
+      "kind": "Single",
+      "release_date": "2026-11-26",
+      "title": "GRACIAS X TODO",
+      "tracks": 1,
+      "url": "https://tidal.com/album/582061446"
+    },
+    {
+      "artist": "Double Virgo",
+      "artist_id": "12011437",
+      "artists": [
+        "Double Virgo"
+      ],
+      "cover": "https://resources.tidal.com/images/a8de73a0/b3cf/4f44/8722/fce07079da60/320x320.jpg",
+      "explicit": false,
+      "id": "575303201",
+      "kind": "Single",
+      "release_date": "2026-11-26",
+      "title": "City Zen",
+      "tracks": 1,
+      "url": "https://tidal.com/album/575303201"
+    },
+    {
+      "artist": "Asteroid",
+      "artist_id": "3685562",
+      "artists": [
+        "Asteroid",
+        "Quokka Music"
+      ],
+      "cover": "https://resources.tidal.com/images/839de666/5742/4d1b/bb94/2a6ce75839da/320x320.jpg",
+      "explicit": false,
+      "id": "548654679",
+      "kind": "Single",
+      "release_date": "2026-11-26",
+      "title": "Space and Time",
+      "tracks": 1,
+      "url": "https://tidal.com/album/548654679"
+    },
+    {
+      "artist": "Minks",
+      "artist_id": "3767618",
+      "artists": [
+        "Minks"
+      ],
+      "cover": "https://resources.tidal.com/images/d01d0e54/3c5d/462a/84ba/c96c3856c34f/320x320.jpg",
+      "explicit": false,
+      "id": "582519352",
+      "kind": "Single",
+      "release_date": "2026-11-25",
+      "title": "Devil",
+      "tracks": 1,
+      "url": "https://tidal.com/album/582519352"
+    },
+    {
+      "artist": "Midwife",
+      "artist_id": "10060426",
+      "artists": [
+        "Mia Joy",
+        "Midwife"
+      ],
+      "cover": "https://resources.tidal.com/images/97b88809/f618/4164/b26e/e8fe50b31e10/320x320.jpg",
+      "explicit": false,
+      "id": "558223038",
+      "kind": "Single",
+      "release_date": "2026-11-24",
+      "title": "Circle",
+      "tracks": 2,
+      "url": "https://tidal.com/album/558223038"
+    },
+    {
+      "artist": "Temples",
+      "artist_id": "4927007",
+      "artists": [
+        "Temples"
+      ],
+      "cover": "https://resources.tidal.com/images/bd94e85f/71d7/46f3/955e/9333f137c8b7/320x320.jpg",
+      "explicit": false,
+      "id": "579933929",
+      "kind": "Single",
+      "release_date": "2026-11-23",
+      "title": "Glimmer",
+      "tracks": 2,
+      "url": "https://tidal.com/album/579933929"
+    },
+    {
+      "artist": "Snõõper",
+      "artist_id": "18891802",
+      "artists": [
+        "Snõõper"
+      ],
+      "cover": "https://resources.tidal.com/images/40b4cbfb/cdf4/42cf/9200/e4412477c510/320x320.jpg",
+      "explicit": false,
+      "id": "578798924",
+      "kind": "Single",
+      "release_date": "2026-11-23",
+      "title": "Orange Exposure",
+      "tracks": 2,
+      "url": "https://tidal.com/album/578798924"
+    },
+    {
+      "artist": "Novulent",
+      "artist_id": "36578015",
+      "artists": [
+        "Novulent"
+      ],
+      "cover": "https://resources.tidal.com/images/9a03ce36/31bf/405e/a7ee/69e1ae560fcc/320x320.jpg",
+      "explicit": false,
+      "id": "575223245",
+      "kind": "Single",
+      "release_date": "2026-11-21",
+      "title": "fate",
+      "tracks": 1,
+      "url": "https://tidal.com/album/575223245"
+    },
+    {
+      "artist": "mr. RAY",
+      "artist_id": "4959537",
+      "artists": [
+        "mr. RAY"
+      ],
+      "cover": "https://resources.tidal.com/images/7f6a3c7f/226c/4e1a/ae4d/270afcc12ab0/320x320.jpg",
+      "explicit": false,
+      "id": "582114619",
+      "kind": "Single",
+      "release_date": "2026-11-21",
+      "title": "Are You OK?",
+      "tracks": 1,
+      "url": "https://tidal.com/album/582114619"
+    },
+    {
+      "artist": "HEALTH",
+      "artist_id": "3571162",
+      "artists": [
+        "HEALTH",
+        "Grand Theft Auto VI"
+      ],
+      "cover": "https://resources.tidal.com/images/878bf791/5d07/41b1/9753/fa9ac89180a9/320x320.jpg",
+      "explicit": false,
+      "id": "581033069",
+      "kind": "Single",
+      "release_date": "2026-11-19",
+      "title": "NIGHTMARE (from GTAVI: The Album)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/581033069"
+    },
+    {
+      "artist": "Anitta",
+      "artist_id": "4906194",
+      "artists": [
+        "Anitta",
+        "Grand Theft Auto VI"
+      ],
+      "cover": "https://resources.tidal.com/images/efc2f7b7/5f75/46ac/8666/be58a85f4ed5/320x320.jpg",
+      "explicit": false,
+      "id": "581033039",
+      "kind": "Single",
+      "release_date": "2026-11-19",
+      "title": "Touch & Go (from GTAVI: The Album)",
+      "tracks": 1,
+      "url": "https://tidal.com/album/581033039"
+    }
+  ],
+  "playlist_url": "https://tidal.com/playlist/7f909003-f4b3-435c-914f-3119365a08ba",
+  "ran_at": "2026-11-27T14:49:32+00:00",
+  "releases_listed": 24767
+}
